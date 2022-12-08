@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Git Cheatsheet.md",
+                "file": "Java -lex/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Git Cheatsheet.md",
+                "file": "Java -lex/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,6 +171,7 @@
   },
   "active": "c469d9de86e03ed4",
   "lastOpenFiles": [
+    "DevOps/Git Cheatsheet.md",
     "Java -lex/Untitled.md",
     "Interview questions.md",
     "Interview.md",
@@ -179,7 +180,6 @@
     "en/How to/Format your notes.md",
     "en/How to/Capture information.md",
     "en/How to/Basic note taking.md",
-    "Java/1 - Introduction to Java.md",
-    "Java -lex/1 - Getting Started.md"
+    "Java/1 - Introduction to Java.md"
   ]
 }
