@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d9871ec7d7cf5480",
+        "id": "7c43949cdd4ba5b4",
         "type": "tabs",
         "children": [
           {
-            "id": "b14dfee73bf4f4b5",
+            "id": "ea92be0112879fdd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "en/How to/Format your notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0fe15aac6e9acd8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ziracy/External/PREMIUM LINK GENERATOR.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb1b48a23895a5f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "863eeede8cc4450c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c469d9de86e03ed4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java -lex/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,15 +115,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c469d9de86e03ed4",
+  "active": "ea92be0112879fdd",
   "lastOpenFiles": [
-    "DevOps/Git Cheatsheet.md",
-    "Java -lex/Untitled.md",
-    "Interview questions.md",
-    "Interview.md",
-    "Ziracy/External/Google Dorking Alternative.md",
-    "Ziracy/External/PREMIUM LINK GENERATOR.md",
     "en/How to/Format your notes.md",
+    "Ziracy/External/PREMIUM LINK GENERATOR.md",
+    "Interview.md",
+    "Interview questions.md",
+    "Java -lex/Untitled.md",
+    "DevOps/Git Cheatsheet.md",
+    "Ziracy/External/Google Dorking Alternative.md",
     "en/How to/Capture information.md",
     "en/How to/Basic note taking.md",
     "Java/1 - Introduction to Java.md"
