@@ -1,0 +1,12 @@
+{
+  "savedQueries": [],
+  "savedQViewSide": "right",
+  "lastQ": {
+    "name": "",
+    "query": "\\d",
+    "flags": "",
+    "regexQ": true
+  },
+  "openViewOnload": true,
+  "showFunctionNotifications": true
+}

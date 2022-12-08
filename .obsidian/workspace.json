@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "15190edca26a1c8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9871ec7d7cf5480",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b14dfee73bf4f4b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "en/How to/Format your notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fe15aac6e9acd8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ziracy/External/PREMIUM LINK GENERATOR.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb1b48a23895a5f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "863eeede8cc4450c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c469d9de86e03ed4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Git Cheatsheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d769609a76841d04",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2f325acdf20a56e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71797450e7203770",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a0d0b1c24d0b4a4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.50152587890625
+  },
+  "right": {
+    "id": "bb12994458b6a9be",
+    "type": "split",
+    "children": [
+      {
+        "id": "37721faee2c052d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56b974171027f51c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DevOps/Git Cheatsheet.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0321b89bb441bbed",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c4c3e737d44c8b25",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0ccc99db29e7a9b8",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c469d9de86e03ed4",
+  "lastOpenFiles": [
+    "Java -lex/Untitled.md",
+    "Interview questions.md",
+    "Interview.md",
+    "Ziracy/External/Google Dorking Alternative.md",
+    "Ziracy/External/PREMIUM LINK GENERATOR.md",
+    "en/How to/Format your notes.md",
+    "en/How to/Capture information.md",
+    "en/How to/Basic note taking.md",
+    "Java/1 - Introduction to Java.md",
+    "Java -lex/1 - Getting Started.md"
+  ]
+}

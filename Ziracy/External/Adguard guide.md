@@ -1,0 +1,7 @@
+Best AdBlocking ever
+
+1.  Install Adguard from your browser's extension/plugin store ([https://github.com/AdguardTeam/AdguardBrowserExtension#installation](https://github.com/AdguardTeam/AdguardBrowserExtension#installation))
+2.  Once it installs go to it's settings then on the General tab find and press the "Import settings" button and import these settings made by me (Download this file and choose it after pressing the "Import settings" button): [https://www.mediafire.com/file/e8v0jgjdrkz6qi1/](https://www.mediafire.com/file/e8v0jgjdrkz6qi1/)
+3.  Once it completes importing them and shows you the message "Settings imported successfully" open the Filters tab and on the top right next to the "Filter rules count" press on the refresh icon to make sure that all filters are up-to-date.
+4.  Once all of this is done we are going to install an adblock defender (That blocks those annoying "Turn off your adblocker" warnings/popups), you already have some custom filters (When you imported my settings) which should block them but in my experience some sites still had them when just using these filters so I would recommend you install AdGuard Extra (Made by the same team who made AdGuard): [https://github.com/AdguardTeam/AdGuardExtra#how-to-install-adguard-extra](https://github.com/AdguardTeam/AdGuardExtra#how-to-install-adguard-extra)
+5.  You're done now, enjoy!

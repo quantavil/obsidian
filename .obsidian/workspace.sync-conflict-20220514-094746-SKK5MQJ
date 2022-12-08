@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "15190edca26a1c8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c782618a7d1777d5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Interview.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a750b32199ee5d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "83cf40ce4eba0994",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc499176c15028e4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "94ceb061d4eac999",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "05879f39f7cc8c83",
+    "type": "split",
+    "children": [
+      {
+        "id": "56f398d64eb482ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5caaca2037aded71",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Interview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3353129ca32803b4",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c782618a7d1777d5",
+  "lastOpenFiles": [
+    "Interview.md",
+    "Python Interview.md",
+    "CPP Interview.md",
+    "C++ Interview.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "CPP/Pointers and References.md",
+    "img46.md",
+    "CPP/Index.md",
+    "CPP/References.md"
+  ]
+}

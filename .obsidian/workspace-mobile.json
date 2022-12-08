@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "15190edca26a1c8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "21ef2660ab28d96f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a900e3fcbdec2e00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Free/External/Cemu Piracy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f9c564213bc8cff",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "da379f46a23f6ebf",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "09db30ccb1cd3daf",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "82eeb2316db38b93",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ae0fec1c3c9f43a5",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Free/External/Cemu Piracy.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "ribbon": {
+    "mostRecentAction": "Open command palette"
+  },
+  "active": "da379f46a23f6ebf",
+  "lastOpenFiles": [
+    "Free/External/Mew.md",
+    "Free/External/Adblock Filters.md",
+    "Free/Tools.md",
+    "Free/External/Translate Large Pdf.md",
+    "Translate Large PDFs.md",
+    "Free/Torrenting.md",
+    "Free/Adblock - Privacy - Antivirus.md",
+    "Free/Database.md",
+    "Free/Movies - TV - Anime - Sports.md",
+    "Free/Miscellaneous.md"
+  ]
+}

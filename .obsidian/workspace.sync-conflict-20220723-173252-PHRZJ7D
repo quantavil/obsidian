@@ -1,0 +1,88 @@
+{
+  "main": {
+    "id": "15190edca26a1c8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d163a109f4aca340",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Interview.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0730637821eeb441",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6bed287266651bfa",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "7ddcc5716382792a",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "c88e2de945378820",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "157276b0ebe4cc03",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Interview.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "d163a109f4aca340",
+  "lastOpenFiles": [
+    "Interview.md",
+    "CPP/Pointers and References.md",
+    "DBMS Interview.md",
+    "Python Interview.md",
+    "HTML.md",
+    "Non linear DSA.md",
+    "CPP Interview.md",
+    "Code.md",
+    "Linear DSA.md",
+    "Extra/C++ Interview.md"
+  ]
+}
