@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java -lex/Untitled.md",
+                "file": "Java -lex/2 - What is Java.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/Untitled.md",
+                "file": "Java -lex/2 - What is Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,15 +122,15 @@
   },
   "active": "ea92be0112879fdd",
   "lastOpenFiles": [
+    "Java -lex/1 - Getting Started.md",
+    "Java -lex/Untitled.md",
     "en/How to/Format your notes.md",
     "Ziracy/External/PREMIUM LINK GENERATOR.md",
     "Interview.md",
     "Interview questions.md",
-    "Java -lex/Untitled.md",
     "DevOps/Git Cheatsheet.md",
     "Ziracy/External/Google Dorking Alternative.md",
     "en/How to/Capture information.md",
-    "en/How to/Basic note taking.md",
-    "Java/1 - Introduction to Java.md"
+    "en/How to/Basic note taking.md"
   ]
 }
