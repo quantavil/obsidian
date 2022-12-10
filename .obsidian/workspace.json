@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java -lex/2 - What is Java.md",
+                "file": "Ziracy/Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/2 - What is Java.md",
+                "file": "Ziracy/Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,8 +121,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7a0d0b1c24d0b4a4",
+  "active": "ea92be0112879fdd",
   "lastOpenFiles": [
+    "Java -lex/2 - What is Java.md",
     "Java -lex/1 - Getting Started.md",
     "Java -lex/Untitled.md",
     "en/How to/Format your notes.md",
@@ -131,7 +132,6 @@
     "Interview questions.md",
     "DevOps/Git Cheatsheet.md",
     "Ziracy/External/Google Dorking Alternative.md",
-    "en/How to/Capture information.md",
-    "en/How to/Basic note taking.md"
+    "en/How to/Capture information.md"
   ]
 }
