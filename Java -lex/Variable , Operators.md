@@ -104,94 +104,95 @@ It returns bit by bit AND of the input values. If both the bits are 1, then it
 E.g. - The output of 10 & 5 is 0.
    ![[Pasted image 20221202102944.png]]
 
- - **Left shift operator(<<)** 
-It takes two operators and left shifts the bits of the first operand. The second operand decides the number of places to shift. It fills 0 on voids left as a result. 
+-  **Java Left Shift Operator**
 
-E.g. - The output of 10<<1 is 20 if the numbers are stored in 32 bit system.
+The left shift operator shifts all bits towards the left by a certain number of specified bits. It is denoted by `<<`.
 
--   **Signed Right shift operator(>>)**
-    
-    It takes two operators and right shifts the bits of the first operand. The second operand decides the number of places to shift. It fills 0 on voids left as a result if the first operand is positive else it fills 1.
-    
+![Bits are shifted one position left and 0 is added to the last position](https://cdn.programiz.com/sites/tutorial2program/files/java-left-shift-operator.png "Java Left Shift Operator")
 
-     E.g. -
-
-             **Example of positive number**
-
-             The output of 10>>1 is 5.
-
-              10 is represented as 00000000 00000000 00000000 00001010.
-
-              After right shifting by 1 bit, the result becomes 00000000 00000000 00000000 00000101 which is 5.
-
-             **Example of negative number**
-
-             The output of -10>>1 is -5.
-
-             -10 is represented as 11111111 11111111 11111111 11110110.
-
-             After right shifting by 1 bit, the result becomes 11111111 11111111 11111111 11111011 which is -5.
-
--   **Unsigned Right shift operator(>>>)**
-
-     It takes two operators and right shifts the bits of the first operand. The second operand decides the number of places to shift. It fills       0 on voids left as a result.
-
-     E.g. -
-
-             **Example of positive number**
-
-             The output of 10>>>1 is 5.
-
-              10 is represented as 00000000 00000000 00000000 00001010.
-
-              After right shifting by 1 bit, the result becomes 00000000 00000000 00000000 00000101 which is 5.
-
-             **Example of negative number**
-
-             The output of -10>>>1 is 214783643.
-
-             -10 is represented as 11111111 11111111 11111111 11110110.
-
-             After right shifting by 1 bit, the result becomes 01111111 11111111 11111111 11111011 which is 214783643.
-             
 ```java
-// Java program to illustrate
-// bitwise operators
-
-public class operators {
-	public static void main(String[] args)
-	{
-		// Initial values
-		int a = 5;
-		int b = 7;
-
-		// bitwise and
-		// 0101 & 0111=0101 = 5
-		System.out.println("a&b = " + (a & b));
-
-		// bitwise or
-		// 0101 | 0111=0111 = 7
-		System.out.println("a|b = " + (a | b));
-
-		// bitwise xor
-		// 0101 ^ 0111=0010 = 2
-		System.out.println("a^b = " + (a ^ b));
-
-		// bitwise not
-		// ~00000000 00000000 00000000 00000101=11111111 11111111 11111111 11111010
-		// will give 2's complement (32 bit) of 5 = -6
-		System.out.println("~a = " + ~a);
-
-		// can also be combined with
-		// assignment operator to provide shorthand
-		// assignment
-		// a=a&b
-		a &= b;
-		System.out.println("a= " + a);
-	}
+class Main {
+  public static void main(String[] args) {
+    
+    int number = 2;
+   
+    // 2 bit left shift operation 
+    int result = number << 2;
+    System.out.println(result);    // prints 8
+  }
 }
-
 ```
 
-**[Shift Operator in Java](https://www.geeksforgeeks.org/shift-operator-in-java/?ref=gcse)**
+- **Java Signed Right Shift Operator**
 
+The signed right shift operator shifts all bits towards the right by a certain number of specified bits. It is denoted by `>>`.
+
+When we shift any number to the right, the least significant bits (rightmost) are discarded and the most significant position (leftmost) is filled with the sign bit. For example,
+
+```
+// right shift of 8
+8 = 1000 (In Binary)
+
+// perform 2 bit right shift
+8 >> 2:
+1000 >> 2 = 0010 (equivalent to 2)
+```
+
+
+---
+
+### Example 6: Signed Right Shift Operator
+
+```
+class Main {
+  public static void main(String[] args) {
+    
+    int number1 = 8;
+    int number2 = -8;
+    
+    // 2 bit signed right shift
+    System.out.println(number1 >> 2);    // prints 2
+    System.out.println(number2 >> 2);    // prints -2
+  }
+}
+```
+
+[Run Code](https://www.programiz.com/java-programming/online-compiler)
+
+---
+
+## 7. Java Unsigned Right Shift Operator
+
+Java also provides an unsigned right shift. It is denoted by `>>>`.
+
+Here, the vacant leftmost position is filled with **0** instead of the sign bit. For example,
+
+```
+// unsigned right shift of 8
+8 = 1000
+
+8 >>> 2 = 0010
+
+// unsigned right shift of -8
+-8 = 1000 (see calculation above)
+
+-8 >>> 2 = 0010
+```
+
+---
+
+### Example 7: UnSigned Right Shift
+
+```
+class Main {
+  public static void main(String[] args) {
+    
+    int number1 = 8;
+    int number2 = -8;
+    
+    // 2 bit signed right shift
+    System.out.println(number1 >>> 2);    // prints 2
+    System.out.println(number2 >>> 2);    // prints 1073741822
+  }
+}
+```
