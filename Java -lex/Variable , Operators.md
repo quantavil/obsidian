@@ -138,12 +138,7 @@ When we shift any number to the right, the least significant bits (rightmost) ar
 1000 >> 2 = 0010 (equivalent to 2)
 ```
 
-
----
-
-### Example 6: Signed Right Shift Operator
-
-```
+```java
 class Main {
   public static void main(String[] args) {
     
@@ -157,14 +152,10 @@ class Main {
 }
 ```
 
-[Run Code](https://www.programiz.com/java-programming/online-compiler)
 
----
-
-## 7. Java Unsigned Right Shift Operator
+- **Java Unsigned Right Shift Operator**
 
 Java also provides an unsigned right shift. It is denoted by `>>>`.
-
 Here, the vacant leftmost position is filled with **0** instead of the sign bit. For example,
 
 ```
@@ -179,11 +170,7 @@ Here, the vacant leftmost position is filled with **0** instead of the sign bi
 -8 >>> 2 = 0010
 ```
 
----
-
-### Example 7: UnSigned Right Shift
-
-```
+```java
 class Main {
   public static void main(String[] args) {
     
