@@ -192,3 +192,21 @@ class Main {
     
 -   When two variables of different data types are involved in an expression, the value of smaller range datatype is converted to a value of larger range datatype and then the operation is performed.
 ![[Pasted image 20221214231143.png]]
+
+**Explicit Conversion** is used when you want to assign a value of larger range data type to a smaller range data type. This conversion is not done by the compiler implicitly as there can be loss of data in some cases. Hence, programmer has to be cautious about such conversions. This is also known as **Narrowing** conversion. 
+
+E.g.: 
+
+```ad-error
+```java
+double totalPrice = 200;  
+int newPrice = totalPrice;  
+```
+
+
+This will lead to an error because a value of larger range data type, in this case double, cannot be directly assigned to a smaller range data type, in this case int. Here, you need to explicitly typecast double to int as shown below.
+
+```java
+int newPrice = (int)totalPrice;
+```
+
