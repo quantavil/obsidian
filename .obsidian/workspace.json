@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "summ",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,7 +120,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ea92be0112879fdd",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
     "Java -lex/2 - What is Java.md",
     "Java -lex/1 - Getting Started.md",
