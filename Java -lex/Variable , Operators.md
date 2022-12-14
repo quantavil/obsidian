@@ -183,3 +183,12 @@ class Main {
   }
 }
 ```
+
+# Type Conversion
+
+**Implicit Type Conversion** is also known as **Widening** conversion. It happens in the below scenarios: 
+
+-   When a value of a data type with smaller range is assigned to a variable of a compatible data type with larger range. 
+    
+-   When two variables of different data types are involved in an expression, the value of smaller range datatype is converted to a value of larger range datatype and then the operation is performed.
+![[Pasted image 20221214231143.png]]
