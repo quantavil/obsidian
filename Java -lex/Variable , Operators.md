@@ -109,10 +109,6 @@ It takes two operators and left shifts the bits of the first operand. The second
 
 E.g. - The output of 10<<1 is 20 if the numbers are stored in 32 bit system.
 
-   10 is represented as 00000000 00000000 00000000 00001010.
- After left shifting by 1 bit, the result becomes 00000000 00000000 00000000 00001010**0** which is 20.The 0 that is highlighted is present because of the void.
-Similarly, the output of 10<<2 is 40.
-
 -   **Signed Right shift operator(>>)**
     
     It takes two operators and right shifts the bits of the first operand. The second operand decides the number of places to shift. It fills 0 on voids left as a result if the first operand is positive else it fills 1.
