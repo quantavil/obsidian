@@ -11,14 +11,32 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "Python Interview.md": {
+    "Web dev/Internet.md": {
       "noteCount": 1,
-      "wordCount": 933,
-      "pageCount": 3.11,
-      "characterCount": 5860,
-      "nonWhitespaceCharacterCount": 4690,
-      "createdDate": 1670517002041,
-      "modifiedDate": 1670517002041
+      "wordCount": 43,
+      "pageCount": 0.14333333333333334,
+      "characterCount": 289,
+      "nonWhitespaceCharacterCount": 238,
+      "createdDate": 1670517002079,
+      "modifiedDate": 1670517002079
+    },
+    "Web dev/HTML.md": {
+      "noteCount": 1,
+      "wordCount": 1939,
+      "pageCount": 6.463333333333333,
+      "characterCount": 13821,
+      "nonWhitespaceCharacterCount": 11306,
+      "createdDate": 1670517002071,
+      "modifiedDate": 1670517002071
+    },
+    "Web dev/CSS.md": {
+      "noteCount": 1,
+      "wordCount": 3719,
+      "pageCount": 12.396666666666667,
+      "characterCount": 26884,
+      "nonWhitespaceCharacterCount": 21618,
+      "createdDate": 1670517002071,
+      "modifiedDate": 1670517002071
     },
     "Ziracy/Tools.md": {
       "noteCount": 1,
@@ -47,15 +65,6 @@
       "createdDate": 1670517002328,
       "modifiedDate": 1670517002328
     },
-    "Ziracy/Resources.md": {
-      "noteCount": 1,
-      "wordCount": 2314,
-      "pageCount": 7.713333333333333,
-      "characterCount": 55777,
-      "nonWhitespaceCharacterCount": 50300,
-      "createdDate": 1670517002328,
-      "modifiedDate": 1670517002328
-    },
     "Ziracy/Non English.md": {
       "noteCount": 1,
       "wordCount": 11249,
@@ -65,23 +74,32 @@
       "createdDate": 1670517002319,
       "modifiedDate": 1670517002328
     },
-    "Ziracy/old files/VIDEO.md": {
+    "Ziracy/Music - Podcasts - Radio.md": {
       "noteCount": 1,
-      "wordCount": 6653,
-      "pageCount": 22.176666666666666,
-      "characterCount": 82142,
-      "nonWhitespaceCharacterCount": 74218,
-      "createdDate": 1670517002492,
-      "modifiedDate": 1670517002493
+      "wordCount": 3237,
+      "pageCount": 10.79,
+      "characterCount": 38950,
+      "nonWhitespaceCharacterCount": 34257,
+      "createdDate": 1670517002319,
+      "modifiedDate": 1670517002319
     },
-    "Ziracy/old files/READ.md": {
+    "Ziracy/Resources.md": {
       "noteCount": 1,
-      "wordCount": 6775,
-      "pageCount": 22.583333333333332,
-      "characterCount": 94924,
-      "nonWhitespaceCharacterCount": 86536,
-      "createdDate": 1670517002457,
-      "modifiedDate": 1670517002457
+      "wordCount": 2314,
+      "pageCount": 7.713333333333333,
+      "characterCount": 55777,
+      "nonWhitespaceCharacterCount": 50300,
+      "createdDate": 1670517002328,
+      "modifiedDate": 1670517002328
+    },
+    "Ziracy/Movies - TV - Anime - Sports.md": {
+      "noteCount": 1,
+      "wordCount": 7032,
+      "pageCount": 23.44,
+      "characterCount": 87244,
+      "nonWhitespaceCharacterCount": 76927,
+      "createdDate": 1670517002310,
+      "modifiedDate": 1670517002319
     },
     "Ziracy/old files/TORRENT.md": {
       "noteCount": 1,
@@ -92,6 +110,15 @@
       "createdDate": 1670517002482,
       "modifiedDate": 1670517002482
     },
+    "Ziracy/old files/VIDEO.md": {
+      "noteCount": 1,
+      "wordCount": 6653,
+      "pageCount": 22.176666666666666,
+      "characterCount": 82142,
+      "nonWhitespaceCharacterCount": 74218,
+      "createdDate": 1670517002492,
+      "modifiedDate": 1670517002493
+    },
     "Ziracy/old files/TOOLS.md": {
       "noteCount": 1,
       "wordCount": 17789,
@@ -101,13 +128,13 @@
       "createdDate": 1670517002482,
       "modifiedDate": 1670517002482
     },
-    "Ziracy/old files/NON-ENG.md": {
+    "Ziracy/old files/READ.md": {
       "noteCount": 1,
-      "wordCount": 10664,
-      "pageCount": 35.54666666666667,
-      "characterCount": 112859,
-      "nonWhitespaceCharacterCount": 99514,
-      "createdDate": 1670517002448,
+      "wordCount": 6775,
+      "pageCount": 22.583333333333332,
+      "characterCount": 94924,
+      "nonWhitespaceCharacterCount": 86536,
+      "createdDate": 1670517002457,
       "modifiedDate": 1670517002457
     },
     "Ziracy/old files/STORAGE.md": {
@@ -118,6 +145,15 @@
       "nonWhitespaceCharacterCount": 289677,
       "createdDate": 1670517002465,
       "modifiedDate": 1670517002474
+    },
+    "Ziracy/old files/NON-ENG.md": {
+      "noteCount": 1,
+      "wordCount": 10664,
+      "pageCount": 35.54666666666667,
+      "characterCount": 112859,
+      "nonWhitespaceCharacterCount": 99514,
+      "createdDate": 1670517002448,
+      "modifiedDate": 1670517002457
     },
     "Ziracy/old files/NSFW.md": {
       "noteCount": 1,
@@ -137,14 +173,23 @@
       "createdDate": 1670517002448,
       "modifiedDate": 1670517002448
     },
-    "Ziracy/old files/DOWNLOAD.md": {
+    "Ziracy/old files/LINUX.md": {
       "noteCount": 1,
-      "wordCount": 2439,
-      "pageCount": 8.13,
-      "characterCount": 29829,
-      "nonWhitespaceCharacterCount": 26806,
-      "createdDate": 1670517002365,
-      "modifiedDate": 1670517002365
+      "wordCount": 3637,
+      "pageCount": 12.123333333333333,
+      "characterCount": 50828,
+      "nonWhitespaceCharacterCount": 46563,
+      "createdDate": 1670517002392,
+      "modifiedDate": 1670517002393
+    },
+    "Ziracy/old files/IMG.md": {
+      "noteCount": 1,
+      "wordCount": 3813,
+      "pageCount": 12.71,
+      "characterCount": 55378,
+      "nonWhitespaceCharacterCount": 50881,
+      "createdDate": 1670517002385,
+      "modifiedDate": 1670517002385
     },
     "Ziracy/old files/MISC STUFF/YT-Stream.md": {
       "noteCount": 1,
@@ -155,21 +200,21 @@
       "createdDate": 1670517002425,
       "modifiedDate": 1670517002425
     },
-    "Ziracy/old files/MISC STUFF/Torrent2GdriveTelegramBots.md": {
-      "noteCount": 1,
-      "wordCount": 65,
-      "pageCount": 0.21666666666666667,
-      "characterCount": 1809,
-      "nonWhitespaceCharacterCount": 1674,
-      "createdDate": 1670517002425,
-      "modifiedDate": 1670517002425
-    },
     "Ziracy/old files/MISC STUFF/Udemy Course Drives.md": {
       "noteCount": 1,
       "wordCount": 46,
       "pageCount": 0.15333333333333332,
       "characterCount": 2259,
       "nonWhitespaceCharacterCount": 2173,
+      "createdDate": 1670517002425,
+      "modifiedDate": 1670517002425
+    },
+    "Ziracy/old files/MISC STUFF/Torrent2GdriveTelegramBots.md": {
+      "noteCount": 1,
+      "wordCount": 65,
+      "pageCount": 0.21666666666666667,
+      "characterCount": 1809,
+      "nonWhitespaceCharacterCount": 1674,
       "createdDate": 1670517002425,
       "modifiedDate": 1670517002425
     },
@@ -218,15 +263,6 @@
       "createdDate": 1670517002439,
       "modifiedDate": 1670517002439
     },
-    "Ziracy/old files/MISC STUFF/scanlation.md": {
-      "noteCount": 1,
-      "wordCount": 67,
-      "pageCount": 0.22333333333333333,
-      "characterCount": 1447,
-      "nonWhitespaceCharacterCount": 1336,
-      "createdDate": 1670517002437,
-      "modifiedDate": 1670517002437
-    },
     "Ziracy/old files/MISC STUFF/RentryCommands.md": {
       "noteCount": 1,
       "wordCount": 458,
@@ -235,6 +271,15 @@
       "nonWhitespaceCharacterCount": 7855,
       "createdDate": 1670517002415,
       "modifiedDate": 1670517002415
+    },
+    "Ziracy/old files/MISC STUFF/scanlation.md": {
+      "noteCount": 1,
+      "wordCount": 67,
+      "pageCount": 0.22333333333333333,
+      "characterCount": 1447,
+      "nonWhitespaceCharacterCount": 1336,
+      "createdDate": 1670517002437,
+      "modifiedDate": 1670517002437
     },
     "Ziracy/old files/MISC STUFF/MovieRecs.md": {
       "noteCount": 1,
@@ -290,15 +335,6 @@
       "createdDate": 1670517002401,
       "modifiedDate": 1670517002401
     },
-    "Ziracy/old files/MISC STUFF/FilterStalker.md": {
-      "noteCount": 1,
-      "wordCount": 82,
-      "pageCount": 0.2733333333333333,
-      "characterCount": 1561,
-      "nonWhitespaceCharacterCount": 1446,
-      "createdDate": 1670517002401,
-      "modifiedDate": 1670517002409
-    },
     "Ziracy/old files/MISC STUFF/FIND SITES.md": {
       "noteCount": 1,
       "wordCount": 568,
@@ -308,21 +344,21 @@
       "createdDate": 1670517002401,
       "modifiedDate": 1670517002401
     },
-    "Ziracy/old files/MISC STUFF/Course-Collections.md": {
-      "noteCount": 1,
-      "wordCount": 23,
-      "pageCount": 0.07666666666666666,
-      "characterCount": 601,
-      "nonWhitespaceCharacterCount": 543,
-      "createdDate": 1670517002393,
-      "modifiedDate": 1670517002393
-    },
     "Ziracy/old files/MISC STUFF/FAQ.md": {
       "noteCount": 1,
       "wordCount": 319,
       "pageCount": 1.0633333333333332,
       "characterCount": 2298,
       "nonWhitespaceCharacterCount": 1942,
+      "createdDate": 1670517002393,
+      "modifiedDate": 1670517002393
+    },
+    "Ziracy/old files/MISC STUFF/Course-Collections.md": {
+      "noteCount": 1,
+      "wordCount": 23,
+      "pageCount": 0.07666666666666666,
+      "characterCount": 601,
+      "nonWhitespaceCharacterCount": 543,
       "createdDate": 1670517002393,
       "modifiedDate": 1670517002393
     },
@@ -335,23 +371,14 @@
       "createdDate": 1670517002425,
       "modifiedDate": 1670517002425
     },
-    "Ziracy/old files/LINUX.md": {
+    "Ziracy/old files/MISC STUFF/FilterStalker.md": {
       "noteCount": 1,
-      "wordCount": 3637,
-      "pageCount": 12.123333333333333,
-      "characterCount": 50828,
-      "nonWhitespaceCharacterCount": 46563,
-      "createdDate": 1670517002392,
-      "modifiedDate": 1670517002393
-    },
-    "Ziracy/old files/IMG.md": {
-      "noteCount": 1,
-      "wordCount": 3813,
-      "pageCount": 12.71,
-      "characterCount": 55378,
-      "nonWhitespaceCharacterCount": 50881,
-      "createdDate": 1670517002385,
-      "modifiedDate": 1670517002385
+      "wordCount": 82,
+      "pageCount": 0.2733333333333333,
+      "characterCount": 1561,
+      "nonWhitespaceCharacterCount": 1446,
+      "createdDate": 1670517002401,
+      "modifiedDate": 1670517002409
     },
     "Ziracy/old files/GAMING.md": {
       "noteCount": 1,
@@ -380,6 +407,15 @@
       "createdDate": 1670517002374,
       "modifiedDate": 1670517002374
     },
+    "Ziracy/old files/DOWNLOAD.md": {
+      "noteCount": 1,
+      "wordCount": 2439,
+      "pageCount": 8.13,
+      "characterCount": 29829,
+      "nonWhitespaceCharacterCount": 26806,
+      "createdDate": 1670517002365,
+      "modifiedDate": 1670517002365
+    },
     "Ziracy/old files/DEV.md": {
       "noteCount": 1,
       "wordCount": 8856,
@@ -387,6 +423,15 @@
       "characterCount": 115053,
       "nonWhitespaceCharacterCount": 104839,
       "createdDate": 1670517002365,
+      "modifiedDate": 1670517002365
+    },
+    "Ziracy/old files/BEGINNERS.md": {
+      "noteCount": 1,
+      "wordCount": 1019,
+      "pageCount": 3.3966666666666665,
+      "characterCount": 14814,
+      "nonWhitespaceCharacterCount": 13553,
+      "createdDate": 1670517002364,
       "modifiedDate": 1670517002365
     },
     "Ziracy/old files/ANDROID.md": {
@@ -397,15 +442,6 @@
       "nonWhitespaceCharacterCount": 115252,
       "createdDate": 1670517002356,
       "modifiedDate": 1670517002356
-    },
-    "Ziracy/old files/BEGINNERS.md": {
-      "noteCount": 1,
-      "wordCount": 1019,
-      "pageCount": 3.3966666666666665,
-      "characterCount": 14814,
-      "nonWhitespaceCharacterCount": 13553,
-      "createdDate": 1670517002364,
-      "modifiedDate": 1670517002365
     },
     "Ziracy/old files/AUDIO.md": {
       "noteCount": 1,
@@ -424,24 +460,6 @@
       "nonWhitespaceCharacterCount": 54981,
       "createdDate": 1670517002347,
       "modifiedDate": 1670517002347
-    },
-    "Ziracy/Movies - TV - Anime - Sports.md": {
-      "noteCount": 1,
-      "wordCount": 7032,
-      "pageCount": 23.44,
-      "characterCount": 87244,
-      "nonWhitespaceCharacterCount": 76927,
-      "createdDate": 1670517002310,
-      "modifiedDate": 1670517002319
-    },
-    "Ziracy/Music - Podcasts - Radio.md": {
-      "noteCount": 1,
-      "wordCount": 3237,
-      "pageCount": 10.79,
-      "characterCount": 38950,
-      "nonWhitespaceCharacterCount": 34257,
-      "createdDate": 1670517002319,
-      "modifiedDate": 1670517002319
     },
     "Ziracy/Index.md": {
       "noteCount": 1,
@@ -479,15 +497,6 @@
       "createdDate": 1670517002300,
       "modifiedDate": 1670517002301
     },
-    "Ziracy/Game Tools.md": {
-      "noteCount": 1,
-      "wordCount": 4113,
-      "pageCount": 13.71,
-      "characterCount": 54599,
-      "nonWhitespaceCharacterCount": 48920,
-      "createdDate": 1670517002292,
-      "modifiedDate": 1670517002292
-    },
     "Ziracy/Gaming - Emulation.md": {
       "noteCount": 1,
       "wordCount": 4967,
@@ -497,32 +506,23 @@
       "createdDate": 1670517002292,
       "modifiedDate": 1670517002292
     },
-    "Ziracy/Downloading.md": {
+    "Ziracy/Game Tools.md": {
       "noteCount": 1,
-      "wordCount": 2517,
-      "pageCount": 8.39,
-      "characterCount": 30943,
-      "nonWhitespaceCharacterCount": 27127,
-      "createdDate": 1670517002139,
-      "modifiedDate": 1670517002139
+      "wordCount": 4113,
+      "pageCount": 13.71,
+      "characterCount": 54599,
+      "nonWhitespaceCharacterCount": 48920,
+      "createdDate": 1670517002292,
+      "modifiedDate": 1670517002292
     },
-    "Ziracy/Educational.md": {
+    "Ziracy/External/YouTube Video - Audio Downloaders.md": {
       "noteCount": 1,
-      "wordCount": 8000,
-      "pageCount": 26.666666666666668,
-      "characterCount": 94338,
-      "nonWhitespaceCharacterCount": 82721,
-      "createdDate": 1670517002139,
-      "modifiedDate": 1670517002147
-    },
-    "Ziracy/Dev.md": {
-      "noteCount": 1,
-      "wordCount": 9153,
-      "pageCount": 30.51,
-      "characterCount": 118791,
-      "nonWhitespaceCharacterCount": 106015,
-      "createdDate": 1670517002131,
-      "modifiedDate": 1670517002131
+      "wordCount": 118,
+      "pageCount": 0.3933333333333333,
+      "characterCount": 6648,
+      "nonWhitespaceCharacterCount": 6180,
+      "createdDate": 1670517002281,
+      "modifiedDate": 1670517002281
     },
     "Ziracy/External/YouTube Video Audio Downloaders.md": {
       "noteCount": 1,
@@ -533,13 +533,13 @@
       "createdDate": 1670517002281,
       "modifiedDate": 1670517002281
     },
-    "Ziracy/External/YouTube Video - Audio Downloaders.md": {
+    "Ziracy/External/YTM Upload Delete.md": {
       "noteCount": 1,
-      "wordCount": 118,
-      "pageCount": 0.3933333333333333,
-      "characterCount": 6648,
-      "nonWhitespaceCharacterCount": 6180,
-      "createdDate": 1670517002281,
+      "wordCount": 79,
+      "pageCount": 0.2633333333333333,
+      "characterCount": 1696,
+      "nonWhitespaceCharacterCount": 1221,
+      "createdDate": 1670517002275,
       "modifiedDate": 1670517002281
     },
     "Ziracy/External/Wrap Key gen.md": {
@@ -551,23 +551,14 @@
       "createdDate": 1670517002275,
       "modifiedDate": 1670517002275
     },
-    "Ziracy/External/YTM Upload Delete.md": {
+    "Ziracy/External/Translate Large Pdf.md": {
       "noteCount": 1,
-      "wordCount": 79,
-      "pageCount": 0.2633333333333333,
-      "characterCount": 1696,
-      "nonWhitespaceCharacterCount": 1221,
-      "createdDate": 1670517002275,
-      "modifiedDate": 1670517002281
-    },
-    "Ziracy/External/What Sites Are Safe Not Safe To Download Content.md": {
-      "noteCount": 1,
-      "wordCount": 584,
-      "pageCount": 1.9466666666666668,
-      "characterCount": 4559,
-      "nonWhitespaceCharacterCount": 3907,
-      "createdDate": 1670517002275,
-      "modifiedDate": 1670517002275
+      "wordCount": 74,
+      "pageCount": 0.24666666666666667,
+      "characterCount": 493,
+      "nonWhitespaceCharacterCount": 406,
+      "createdDate": 1670517002264,
+      "modifiedDate": 1670517002264
     },
     "Ziracy/External/VToncolab.md": {
       "noteCount": 1,
@@ -578,14 +569,14 @@
       "createdDate": 1670517002264,
       "modifiedDate": 1670517002264
     },
-    "Ziracy/External/Translate Large Pdf.md": {
+    "Ziracy/External/What Sites Are Safe Not Safe To Download Content.md": {
       "noteCount": 1,
-      "wordCount": 74,
-      "pageCount": 0.24666666666666667,
-      "characterCount": 493,
-      "nonWhitespaceCharacterCount": 406,
-      "createdDate": 1670517002264,
-      "modifiedDate": 1670517002264
+      "wordCount": 584,
+      "pageCount": 1.9466666666666668,
+      "characterCount": 4559,
+      "nonWhitespaceCharacterCount": 3907,
+      "createdDate": 1670517002275,
+      "modifiedDate": 1670517002275
     },
     "Ziracy/External/Voldy Stable Diffusion Guide.md": {
       "noteCount": 1,
@@ -596,14 +587,14 @@
       "createdDate": 1670517002272,
       "modifiedDate": 1670517002273
     },
-    "Ziracy/External/Textard.md": {
+    "Ziracy/External/Torrent to GDrive Colab Script Guide.md": {
       "noteCount": 1,
-      "wordCount": 579,
-      "pageCount": 1.93,
-      "characterCount": 3985,
-      "nonWhitespaceCharacterCount": 3330,
-      "createdDate": 1670517002255,
-      "modifiedDate": 1670517002255
+      "wordCount": 546,
+      "pageCount": 1.82,
+      "characterCount": 3668,
+      "nonWhitespaceCharacterCount": 3036,
+      "createdDate": 1670517002264,
+      "modifiedDate": 1670517002264
     },
     "Ziracy/External/Temp Mail Rentry.md": {
       "noteCount": 1,
@@ -614,15 +605,6 @@
       "createdDate": 1670517002255,
       "modifiedDate": 1670517002255
     },
-    "Ziracy/External/Torrent to GDrive Colab Script Guide.md": {
-      "noteCount": 1,
-      "wordCount": 546,
-      "pageCount": 1.82,
-      "characterCount": 3668,
-      "nonWhitespaceCharacterCount": 3036,
-      "createdDate": 1670517002264,
-      "modifiedDate": 1670517002264
-    },
     "Ziracy/External/SoftwarePiracy APK Index.md": {
       "noteCount": 1,
       "wordCount": 1270,
@@ -632,23 +614,14 @@
       "createdDate": 1670517002255,
       "modifiedDate": 1670517002255
     },
-    "Ziracy/External/Self Hosted VPNs.md": {
+    "Ziracy/External/Textard.md": {
       "noteCount": 1,
-      "wordCount": 212,
-      "pageCount": 0.7066666666666667,
-      "characterCount": 1445,
-      "nonWhitespaceCharacterCount": 1195,
-      "createdDate": 1670517002246,
-      "modifiedDate": 1670517002246
-    },
-    "Ziracy/External/SDUpscale.md": {
-      "noteCount": 1,
-      "wordCount": 1183,
-      "pageCount": 3.9433333333333334,
-      "characterCount": 7687,
-      "nonWhitespaceCharacterCount": 6373,
-      "createdDate": 1670517002246,
-      "modifiedDate": 1670517002246
+      "wordCount": 579,
+      "pageCount": 1.93,
+      "characterCount": 3985,
+      "nonWhitespaceCharacterCount": 3330,
+      "createdDate": 1670517002255,
+      "modifiedDate": 1670517002255
     },
     "Ziracy/External/Scanlation Sites.md": {
       "noteCount": 1,
@@ -656,6 +629,15 @@
       "pageCount": 0.2633333333333333,
       "characterCount": 2998,
       "nonWhitespaceCharacterCount": 2777,
+      "createdDate": 1670517002246,
+      "modifiedDate": 1670517002246
+    },
+    "Ziracy/External/Self Hosted VPNs.md": {
+      "noteCount": 1,
+      "wordCount": 212,
+      "pageCount": 0.7066666666666667,
+      "characterCount": 1445,
+      "nonWhitespaceCharacterCount": 1195,
       "createdDate": 1670517002246,
       "modifiedDate": 1670517002246
     },
@@ -667,6 +649,24 @@
       "nonWhitespaceCharacterCount": 5674,
       "createdDate": 1670517002237,
       "modifiedDate": 1670517002245
+    },
+    "Ziracy/External/SDUpscale.md": {
+      "noteCount": 1,
+      "wordCount": 1183,
+      "pageCount": 3.9433333333333334,
+      "characterCount": 7687,
+      "nonWhitespaceCharacterCount": 6373,
+      "createdDate": 1670517002246,
+      "modifiedDate": 1670517002246
+    },
+    "Ziracy/External/revlt.md": {
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 30,
+      "nonWhitespaceCharacterCount": 25,
+      "createdDate": 1670517002281,
+      "modifiedDate": 1670517002281
     },
     "Ziracy/External/Rekulous' Krunker Settings.md": {
       "noteCount": 1,
@@ -685,15 +685,6 @@
       "nonWhitespaceCharacterCount": 3424,
       "createdDate": 1670517002237,
       "modifiedDate": 1670517002237
-    },
-    "Ziracy/External/revlt.md": {
-      "noteCount": 1,
-      "wordCount": 4,
-      "pageCount": 0.013333333333333334,
-      "characterCount": 30,
-      "nonWhitespaceCharacterCount": 25,
-      "createdDate": 1670517002281,
-      "modifiedDate": 1670517002281
     },
     "Ziracy/External/Private Trackers General.md": {
       "noteCount": 1,
@@ -749,13 +740,13 @@
       "createdDate": 1670517002224,
       "modifiedDate": 1670517002224
     },
-    "Ziracy/External/Manga APIs.md": {
+    "Ziracy/External/Minecraft modding guide.md": {
       "noteCount": 1,
-      "wordCount": 1045,
-      "pageCount": 3.4833333333333334,
-      "characterCount": 17613,
-      "nonWhitespaceCharacterCount": 8656,
-      "createdDate": 1670517002216,
+      "wordCount": 1058,
+      "pageCount": 3.526666666666667,
+      "characterCount": 6884,
+      "nonWhitespaceCharacterCount": 5675,
+      "createdDate": 1670517002217,
       "modifiedDate": 1670517002217
     },
     "Ziracy/External/Method 2 Streaming.md": {
@@ -767,15 +758,6 @@
       "createdDate": 1670517002217,
       "modifiedDate": 1670517002217
     },
-    "Ziracy/External/Minecraft modding guide.md": {
-      "noteCount": 1,
-      "wordCount": 1058,
-      "pageCount": 3.526666666666667,
-      "characterCount": 6884,
-      "nonWhitespaceCharacterCount": 5675,
-      "createdDate": 1670517002217,
-      "modifiedDate": 1670517002217
-    },
     "Ziracy/External/Movie Recs.md": {
       "noteCount": 1,
       "wordCount": 460,
@@ -783,6 +765,15 @@
       "characterCount": 6228,
       "nonWhitespaceCharacterCount": 5537,
       "createdDate": 1670517002217,
+      "modifiedDate": 1670517002217
+    },
+    "Ziracy/External/Manga APIs.md": {
+      "noteCount": 1,
+      "wordCount": 1045,
+      "pageCount": 3.4833333333333334,
+      "characterCount": 17613,
+      "nonWhitespaceCharacterCount": 8656,
+      "createdDate": 1670517002216,
       "modifiedDate": 1670517002217
     },
     "Ziracy/External/Inpainging & Outpainting.md": {
@@ -803,24 +794,6 @@
       "createdDate": 1670517002208,
       "modifiedDate": 1670517002208
     },
-    "Ziracy/External/JDownloder2 Debloat.md": {
-      "noteCount": 1,
-      "wordCount": 223,
-      "pageCount": 0.7433333333333333,
-      "characterCount": 1546,
-      "nonWhitespaceCharacterCount": 1281,
-      "createdDate": 1670517002208,
-      "modifiedDate": 1670517002208
-    },
-    "Ziracy/External/How The Warez Scene Works.md": {
-      "noteCount": 1,
-      "wordCount": 6132,
-      "pageCount": 20.44,
-      "characterCount": 36349,
-      "nonWhitespaceCharacterCount": 29714,
-      "createdDate": 1670517002196,
-      "modifiedDate": 1670517002196
-    },
     "Ziracy/External/How to play flash games after Adobe Killswitch.md": {
       "noteCount": 1,
       "wordCount": 353,
@@ -830,6 +803,15 @@
       "createdDate": 1670517002205,
       "modifiedDate": 1670517002206
     },
+    "Ziracy/External/JDownloder2 Debloat.md": {
+      "noteCount": 1,
+      "wordCount": 223,
+      "pageCount": 0.7433333333333333,
+      "characterCount": 1546,
+      "nonWhitespaceCharacterCount": 1281,
+      "createdDate": 1670517002208,
+      "modifiedDate": 1670517002208
+    },
     "Ziracy/External/HTML5 Temp.md": {
       "noteCount": 1,
       "wordCount": 135,
@@ -837,15 +819,6 @@
       "characterCount": 1349,
       "nonWhitespaceCharacterCount": 1152,
       "createdDate": 1670517002192,
-      "modifiedDate": 1670517002196
-    },
-    "Ziracy/External/Heroku Alt.md": {
-      "noteCount": 1,
-      "wordCount": 35,
-      "pageCount": 0.11666666666666667,
-      "characterCount": 976,
-      "nonWhitespaceCharacterCount": 912,
-      "createdDate": 1670517002196,
       "modifiedDate": 1670517002196
     },
     "Ziracy/External/Guide to Userscripts.md": {
@@ -857,32 +830,23 @@
       "createdDate": 1670517002192,
       "modifiedDate": 1670517002192
     },
-    "Ziracy/External/Design Resources.md": {
+    "Ziracy/External/Heroku Alt.md": {
       "noteCount": 1,
-      "wordCount": 15132,
-      "pageCount": 50.44,
-      "characterCount": 130410,
-      "nonWhitespaceCharacterCount": 111600,
-      "createdDate": 1670517002185,
-      "modifiedDate": 1670517002185
+      "wordCount": 35,
+      "pageCount": 0.11666666666666667,
+      "characterCount": 976,
+      "nonWhitespaceCharacterCount": 912,
+      "createdDate": 1670517002196,
+      "modifiedDate": 1670517002196
     },
-    "Ziracy/External/Google Dorking Alternative.md": {
+    "Ziracy/External/How The Warez Scene Works.md": {
       "noteCount": 1,
-      "wordCount": 19,
-      "pageCount": 0.06333333333333334,
-      "characterCount": 405,
-      "nonWhitespaceCharacterCount": 370,
-      "createdDate": 1670517002185,
-      "modifiedDate": 1670517002185
-    },
-    "Ziracy/External/cracksupport Discord FAQ.md": {
-      "noteCount": 1,
-      "wordCount": 428,
-      "pageCount": 1.4266666666666667,
-      "characterCount": 5378,
-      "nonWhitespaceCharacterCount": 4758,
-      "createdDate": 1670517002281,
-      "modifiedDate": 1670517002281
+      "wordCount": 6132,
+      "pageCount": 20.44,
+      "characterCount": 36349,
+      "nonWhitespaceCharacterCount": 29714,
+      "createdDate": 1670517002196,
+      "modifiedDate": 1670517002196
     },
     "Ziracy/External/Cross-Platform MPV Config Guide.md": {
       "noteCount": 1,
@@ -902,12 +866,57 @@
       "createdDate": 1670517002176,
       "modifiedDate": 1670517002176
     },
+    "Ziracy/External/Google Dorking Alternative.md": {
+      "noteCount": 1,
+      "wordCount": 19,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 405,
+      "nonWhitespaceCharacterCount": 370,
+      "createdDate": 1670517002185,
+      "modifiedDate": 1670517002185
+    },
+    "Ziracy/External/Design Resources.md": {
+      "noteCount": 1,
+      "wordCount": 15132,
+      "pageCount": 50.44,
+      "characterCount": 130410,
+      "nonWhitespaceCharacterCount": 111600,
+      "createdDate": 1670517002185,
+      "modifiedDate": 1670517002185
+    },
+    "Ziracy/External/cracksupport Discord FAQ.md": {
+      "noteCount": 1,
+      "wordCount": 428,
+      "pageCount": 1.4266666666666667,
+      "characterCount": 5378,
+      "nonWhitespaceCharacterCount": 4758,
+      "createdDate": 1670517002281,
+      "modifiedDate": 1670517002281
+    },
+    "Ziracy/External/Cemu Piracy.md": {
+      "noteCount": 1,
+      "wordCount": 1538,
+      "pageCount": 5.126666666666667,
+      "characterCount": 10024,
+      "nonWhitespaceCharacterCount": 7683,
+      "createdDate": 1670517002176,
+      "modifiedDate": 1670517002176
+    },
     "Ziracy/External/Better Windows.md": {
       "noteCount": 1,
       "wordCount": 969,
       "pageCount": 3.23,
       "characterCount": 8611,
       "nonWhitespaceCharacterCount": 7482,
+      "createdDate": 1670517002167,
+      "modifiedDate": 1670517002167
+    },
+    "Ziracy/External/CHAMPAGN WIKI.md": {
+      "noteCount": 1,
+      "wordCount": 1750,
+      "pageCount": 5.833333333333333,
+      "characterCount": 21734,
+      "nonWhitespaceCharacterCount": 19338,
       "createdDate": 1670517002167,
       "modifiedDate": 1670517002167
     },
@@ -920,32 +929,14 @@
       "createdDate": 1670517002176,
       "modifiedDate": 1670517002176
     },
-    "Ziracy/External/Cemu Piracy.md": {
+    "Ziracy/External/AyyMD.md": {
       "noteCount": 1,
-      "wordCount": 1538,
-      "pageCount": 5.126666666666667,
-      "characterCount": 10024,
-      "nonWhitespaceCharacterCount": 7683,
-      "createdDate": 1670517002176,
-      "modifiedDate": 1670517002176
-    },
-    "Ziracy/External/CHAMPAGN WIKI.md": {
-      "noteCount": 1,
-      "wordCount": 1750,
-      "pageCount": 5.833333333333333,
-      "characterCount": 21734,
-      "nonWhitespaceCharacterCount": 19338,
-      "createdDate": 1670517002167,
-      "modifiedDate": 1670517002167
-    },
-    "Ziracy/External/Andy's Steam Crack Guide.md": {
-      "noteCount": 1,
-      "wordCount": 345,
-      "pageCount": 1.15,
-      "characterCount": 2245,
-      "nonWhitespaceCharacterCount": 1831,
+      "wordCount": 375,
+      "pageCount": 1.25,
+      "characterCount": 3108,
+      "nonWhitespaceCharacterCount": 2558,
       "createdDate": 1670517002159,
-      "modifiedDate": 1670517002159
+      "modifiedDate": 1670517002167
     },
     "Ziracy/External/Android Debloat Guide.md": {
       "noteCount": 1,
@@ -953,6 +944,15 @@
       "pageCount": 0.7266666666666667,
       "characterCount": 2889,
       "nonWhitespaceCharacterCount": 2563,
+      "createdDate": 1670517002159,
+      "modifiedDate": 1670517002159
+    },
+    "Ziracy/External/Andy's Steam Crack Guide.md": {
+      "noteCount": 1,
+      "wordCount": 345,
+      "pageCount": 1.15,
+      "characterCount": 2245,
+      "nonWhitespaceCharacterCount": 1831,
       "createdDate": 1670517002159,
       "modifiedDate": 1670517002159
     },
@@ -965,23 +965,14 @@
       "createdDate": 1670517002158,
       "modifiedDate": 1670517002159
     },
-    "Ziracy/External/AyyMD.md": {
+    "Ziracy/External/Adblock Filters.md": {
       "noteCount": 1,
-      "wordCount": 375,
-      "pageCount": 1.25,
-      "characterCount": 3108,
-      "nonWhitespaceCharacterCount": 2558,
-      "createdDate": 1670517002159,
-      "modifiedDate": 1670517002167
-    },
-    "Ziracy/External/AMD Guide.md": {
-      "noteCount": 1,
-      "wordCount": 974,
-      "pageCount": 3.2466666666666666,
-      "characterCount": 6911,
-      "nonWhitespaceCharacterCount": 5777,
-      "createdDate": 1670517002147,
-      "modifiedDate": 1670517002147
+      "wordCount": 144,
+      "pageCount": 0.48,
+      "characterCount": 2909,
+      "nonWhitespaceCharacterCount": 2662,
+      "createdDate": 1670517002156,
+      "modifiedDate": 1670517002156
     },
     "Ziracy/External/AHK-Scripts.md": {
       "noteCount": 1,
@@ -992,14 +983,23 @@
       "createdDate": 1670517002147,
       "modifiedDate": 1670517002147
     },
-    "Ziracy/External/Adblock Filters.md": {
+    "Ziracy/External/AMD Guide.md": {
       "noteCount": 1,
-      "wordCount": 144,
-      "pageCount": 0.48,
-      "characterCount": 2909,
-      "nonWhitespaceCharacterCount": 2662,
-      "createdDate": 1670517002156,
-      "modifiedDate": 1670517002156
+      "wordCount": 974,
+      "pageCount": 3.2466666666666666,
+      "characterCount": 6911,
+      "nonWhitespaceCharacterCount": 5777,
+      "createdDate": 1670517002147,
+      "modifiedDate": 1670517002147
+    },
+    "Ziracy/Educational.md": {
+      "noteCount": 1,
+      "wordCount": 8000,
+      "pageCount": 26.666666666666668,
+      "characterCount": 94338,
+      "nonWhitespaceCharacterCount": 82721,
+      "createdDate": 1670517002139,
+      "modifiedDate": 1670517002147
     },
     "Ziracy/Database.md": {
       "noteCount": 1,
@@ -1010,14 +1010,23 @@
       "createdDate": 1670517002122,
       "modifiedDate": 1671027231866
     },
-    "Ziracy/Backup.md": {
+    "Ziracy/Downloading.md": {
       "noteCount": 1,
-      "wordCount": 70,
-      "pageCount": 0.23333333333333334,
-      "characterCount": 1520,
-      "nonWhitespaceCharacterCount": 1440,
-      "createdDate": 1670517002104,
-      "modifiedDate": 1670517002104
+      "wordCount": 2517,
+      "pageCount": 8.39,
+      "characterCount": 30943,
+      "nonWhitespaceCharacterCount": 27127,
+      "createdDate": 1670517002139,
+      "modifiedDate": 1670517002139
+    },
+    "Ziracy/Dev.md": {
+      "noteCount": 1,
+      "wordCount": 9153,
+      "pageCount": 30.51,
+      "characterCount": 118791,
+      "nonWhitespaceCharacterCount": 106015,
+      "createdDate": 1670517002131,
+      "modifiedDate": 1670517002131
     },
     "Ziracy/Books - Comics - Manga.md": {
       "noteCount": 1,
@@ -1028,15 +1037,6 @@
       "createdDate": 1670517002113,
       "modifiedDate": 1670517002113
     },
-    "Ziracy/Awesome Piracy.md": {
-      "noteCount": 1,
-      "wordCount": 15359,
-      "pageCount": 51.196666666666665,
-      "characterCount": 148420,
-      "nonWhitespaceCharacterCount": 130959,
-      "createdDate": 1670517002104,
-      "modifiedDate": 1670517002104
-    },
     "Ziracy/Beginners Guide.md": {
       "noteCount": 1,
       "wordCount": 1118,
@@ -1046,14 +1046,23 @@
       "createdDate": 1670517002104,
       "modifiedDate": 1670517002104
     },
-    "Ziracy/Adblock - Privacy - Antivirus.md": {
+    "Ziracy/Backup.md": {
       "noteCount": 1,
-      "wordCount": 4290,
-      "pageCount": 14.3,
-      "characterCount": 58064,
-      "nonWhitespaceCharacterCount": 51958,
-      "createdDate": 1670517002092,
-      "modifiedDate": 1670517002092
+      "wordCount": 70,
+      "pageCount": 0.23333333333333334,
+      "characterCount": 1520,
+      "nonWhitespaceCharacterCount": 1440,
+      "createdDate": 1670517002104,
+      "modifiedDate": 1670517002104
+    },
+    "Ziracy/Awesome Piracy.md": {
+      "noteCount": 1,
+      "wordCount": 15359,
+      "pageCount": 51.196666666666665,
+      "characterCount": 148420,
+      "nonWhitespaceCharacterCount": 130959,
+      "createdDate": 1670517002104,
+      "modifiedDate": 1670517002104
     },
     "Ziracy/Android - IOS.md": {
       "noteCount": 1,
@@ -1064,6 +1073,15 @@
       "createdDate": 1670517002092,
       "modifiedDate": 1670517002101
     },
+    "Ziracy/Adblock - Privacy - Antivirus.md": {
+      "noteCount": 1,
+      "wordCount": 4290,
+      "pageCount": 14.3,
+      "characterCount": 58064,
+      "nonWhitespaceCharacterCount": 51958,
+      "createdDate": 1670517002092,
+      "modifiedDate": 1670517002092
+    },
     "Untitled.md": {
       "noteCount": 1,
       "wordCount": 2403,
@@ -1072,33 +1090,6 @@
       "nonWhitespaceCharacterCount": 13096,
       "createdDate": 1670517002068,
       "modifiedDate": 1670517002068
-    },
-    "Web dev/Internet.md": {
-      "noteCount": 1,
-      "wordCount": 43,
-      "pageCount": 0.14333333333333334,
-      "characterCount": 289,
-      "nonWhitespaceCharacterCount": 238,
-      "createdDate": 1670517002079,
-      "modifiedDate": 1670517002079
-    },
-    "Web dev/HTML.md": {
-      "noteCount": 1,
-      "wordCount": 1939,
-      "pageCount": 6.463333333333333,
-      "characterCount": 13821,
-      "nonWhitespaceCharacterCount": 11306,
-      "createdDate": 1670517002071,
-      "modifiedDate": 1670517002071
-    },
-    "Web dev/CSS.md": {
-      "noteCount": 1,
-      "wordCount": 3719,
-      "pageCount": 12.396666666666667,
-      "characterCount": 26884,
-      "nonWhitespaceCharacterCount": 21618,
-      "createdDate": 1670517002071,
-      "modifiedDate": 1670517002071
     },
     "Templates/test.md": {
       "noteCount": 1,
@@ -1118,14 +1109,32 @@
       "createdDate": 1670517003314,
       "modifiedDate": 1670517003314
     },
-    "Non linear DSA.md": {
+    "Python Interview.md": {
       "noteCount": 1,
-      "wordCount": 289,
-      "pageCount": 0.9633333333333334,
-      "characterCount": 1660,
-      "nonWhitespaceCharacterCount": 1325,
-      "createdDate": 1670517002003,
-      "modifiedDate": 1670517002012
+      "wordCount": 933,
+      "pageCount": 3.11,
+      "characterCount": 5860,
+      "nonWhitespaceCharacterCount": 4690,
+      "createdDate": 1670517002041,
+      "modifiedDate": 1670517002041
+    },
+    "Python/Inheritance.md": {
+      "noteCount": 1,
+      "wordCount": 972,
+      "pageCount": 3.24,
+      "characterCount": 7670,
+      "nonWhitespaceCharacterCount": 6108,
+      "createdDate": 1670517002049,
+      "modifiedDate": 1670517002049
+    },
+    "Python/Variable.md": {
+      "noteCount": 1,
+      "wordCount": 849,
+      "pageCount": 2.83,
+      "characterCount": 6370,
+      "nonWhitespaceCharacterCount": 5037,
+      "createdDate": 1670517002057,
+      "modifiedDate": 1670517002057
     },
     "Python/Polymorphism.md": {
       "noteCount": 1,
@@ -1144,24 +1153,6 @@
       "nonWhitespaceCharacterCount": 5684,
       "createdDate": 1670517002049,
       "modifiedDate": 1670517002057
-    },
-    "Python/Variable.md": {
-      "noteCount": 1,
-      "wordCount": 849,
-      "pageCount": 2.83,
-      "characterCount": 6370,
-      "nonWhitespaceCharacterCount": 5037,
-      "createdDate": 1670517002057,
-      "modifiedDate": 1670517002057
-    },
-    "Python/Inheritance.md": {
-      "noteCount": 1,
-      "wordCount": 972,
-      "pageCount": 3.24,
-      "characterCount": 7670,
-      "nonWhitespaceCharacterCount": 6108,
-      "createdDate": 1670517002049,
-      "modifiedDate": 1670517002049
     },
     "Python/Encapsulation.md": {
       "noteCount": 1,
@@ -1199,15 +1190,6 @@
       "createdDate": 1670517001948,
       "modifiedDate": 1670517001948
     },
-    "Linear DSA.md": {
-      "noteCount": 1,
-      "wordCount": 902,
-      "pageCount": 3.006666666666667,
-      "characterCount": 5435,
-      "nonWhitespaceCharacterCount": 4325,
-      "createdDate": 1670517001948,
-      "modifiedDate": 1670517001948
-    },
     "Notes/Untitled.md": {
       "noteCount": 1,
       "wordCount": 0,
@@ -1217,14 +1199,95 @@
       "createdDate": 1670517002019,
       "modifiedDate": 1670517002019
     },
-    "Neetcode 150/Two Pointers.md": {
+    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md": {
       "noteCount": 1,
-      "wordCount": 183,
-      "pageCount": 0.61,
-      "characterCount": 1471,
-      "nonWhitespaceCharacterCount": 851,
-      "createdDate": 1670517001973,
-      "modifiedDate": 1670517001974
+      "wordCount": 1856,
+      "pageCount": 6.1866666666666665,
+      "characterCount": 13579,
+      "nonWhitespaceCharacterCount": 11082,
+      "createdDate": 1670517001948,
+      "modifiedDate": 1670517001948
+    },
+    "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md": {
+      "noteCount": 1,
+      "wordCount": 814,
+      "pageCount": 2.7133333333333334,
+      "characterCount": 5707,
+      "nonWhitespaceCharacterCount": 3977,
+      "createdDate": 1670517001940,
+      "modifiedDate": 1670517001940
+    },
+    "LearnCpp/13 -  Basic OOPs/13.2 - Classes and class members.md": {
+      "noteCount": 1,
+      "wordCount": 2105,
+      "pageCount": 7.016666666666667,
+      "characterCount": 13291,
+      "nonWhitespaceCharacterCount": 10325,
+      "createdDate": 1670517001931,
+      "modifiedDate": 1670517001931
+    },
+    "LearnCpp/13 -  Basic OOPs/13.1 - Welcome to object-oriented programming.md": {
+      "noteCount": 1,
+      "wordCount": 562,
+      "pageCount": 1.8733333333333333,
+      "characterCount": 3653,
+      "nonWhitespaceCharacterCount": 3052,
+      "createdDate": 1670517001931,
+      "modifiedDate": 1670517001931
+    },
+    "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md": {
+      "noteCount": 1,
+      "wordCount": 87,
+      "pageCount": 0.29,
+      "characterCount": 533,
+      "nonWhitespaceCharacterCount": 444,
+      "createdDate": 1670517001931,
+      "modifiedDate": 1670517001931
+    },
+    "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md": {
+      "noteCount": 1,
+      "wordCount": 2,
+      "pageCount": 0.006666666666666667,
+      "characterCount": 9,
+      "nonWhitespaceCharacterCount": 8,
+      "createdDate": 1670517001940,
+      "modifiedDate": 1670517001940
+    },
+    "LearnCpp/1 - C++ Basics/1.3 - Tokens and basic formatting.md": {
+      "noteCount": 1,
+      "wordCount": 944,
+      "pageCount": 3.1466666666666665,
+      "characterCount": 6792,
+      "nonWhitespaceCharacterCount": 5221,
+      "createdDate": 1670517001921,
+      "modifiedDate": 1670517001929
+    },
+    "LearnCpp/1 - C++ Basics/1.2 - iostream , Uninitialized variables , undefined behavior.md": {
+      "noteCount": 1,
+      "wordCount": 895,
+      "pageCount": 2.9833333333333334,
+      "characterCount": 5770,
+      "nonWhitespaceCharacterCount": 4590,
+      "createdDate": 1670517001921,
+      "modifiedDate": 1670517001921
+    },
+    "LearnCpp/1 - C++ Basics/1.1 - Structure of a program , Comment ,Variable.md": {
+      "noteCount": 1,
+      "wordCount": 1219,
+      "pageCount": 4.0633333333333335,
+      "characterCount": 7746,
+      "nonWhitespaceCharacterCount": 6237,
+      "createdDate": 1670517001921,
+      "modifiedDate": 1670517001921
+    },
+    "Non linear DSA.md": {
+      "noteCount": 1,
+      "wordCount": 289,
+      "pageCount": 0.9633333333333334,
+      "characterCount": 1660,
+      "nonWhitespaceCharacterCount": 1325,
+      "createdDate": 1670517002003,
+      "modifiedDate": 1670517002012
     },
     "Neetcode 150/Two Pointers/42. Trapping Rain Water -H.md": {
       "noteCount": 1,
@@ -1235,14 +1298,23 @@
       "createdDate": 1670517001978,
       "modifiedDate": 1670517001978
     },
-    "Neetcode 150/Medium.md": {
+    "Neetcode 150/Easy Problems.md": {
       "noteCount": 1,
-      "wordCount": 165,
-      "pageCount": 0.55,
-      "characterCount": 1442,
-      "nonWhitespaceCharacterCount": 700,
+      "wordCount": 826,
+      "pageCount": 2.7533333333333334,
+      "characterCount": 6565,
+      "nonWhitespaceCharacterCount": 3995,
       "createdDate": 1670517001956,
       "modifiedDate": 1670517001956
+    },
+    "Neetcode 150/Two Pointers.md": {
+      "noteCount": 1,
+      "wordCount": 183,
+      "pageCount": 0.61,
+      "characterCount": 1471,
+      "nonWhitespaceCharacterCount": 851,
+      "createdDate": 1670517001973,
+      "modifiedDate": 1670517001974
     },
     "Neetcode 150/Sliding Window/121. Best Time to Buy and Sell Stock -E.md": {
       "noteCount": 1,
@@ -1271,12 +1343,12 @@
       "createdDate": 1670517001965,
       "modifiedDate": 1670517001965
     },
-    "Neetcode 150/Easy Problems.md": {
+    "Neetcode 150/Medium.md": {
       "noteCount": 1,
-      "wordCount": 826,
-      "pageCount": 2.7533333333333334,
-      "characterCount": 6565,
-      "nonWhitespaceCharacterCount": 3995,
+      "wordCount": 165,
+      "pageCount": 0.55,
+      "characterCount": 1442,
+      "nonWhitespaceCharacterCount": 700,
       "createdDate": 1670517001956,
       "modifiedDate": 1670517001956
     },
@@ -1289,131 +1361,23 @@
       "createdDate": 1670517001956,
       "modifiedDate": 1670517001956
     },
-    "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md": {
+    "Linear DSA.md": {
       "noteCount": 1,
-      "wordCount": 2,
-      "pageCount": 0.006666666666666667,
-      "characterCount": 9,
-      "nonWhitespaceCharacterCount": 8,
-      "createdDate": 1670517001940,
-      "modifiedDate": 1670517001940
-    },
-    "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md": {
-      "noteCount": 1,
-      "wordCount": 87,
-      "pageCount": 0.29,
-      "characterCount": 533,
-      "nonWhitespaceCharacterCount": 444,
-      "createdDate": 1670517001931,
-      "modifiedDate": 1670517001931
-    },
-    "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md": {
-      "noteCount": 1,
-      "wordCount": 814,
-      "pageCount": 2.7133333333333334,
-      "characterCount": 5707,
-      "nonWhitespaceCharacterCount": 3977,
-      "createdDate": 1670517001940,
-      "modifiedDate": 1670517001940
-    },
-    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md": {
-      "noteCount": 1,
-      "wordCount": 1856,
-      "pageCount": 6.1866666666666665,
-      "characterCount": 13579,
-      "nonWhitespaceCharacterCount": 11082,
+      "wordCount": 902,
+      "pageCount": 3.006666666666667,
+      "characterCount": 5435,
+      "nonWhitespaceCharacterCount": 4325,
       "createdDate": 1670517001948,
       "modifiedDate": 1670517001948
     },
-    "LearnCpp/13 -  Basic OOPs/13.2 - Classes and class members.md": {
-      "noteCount": 1,
-      "wordCount": 2105,
-      "pageCount": 7.016666666666667,
-      "characterCount": 13291,
-      "nonWhitespaceCharacterCount": 10325,
-      "createdDate": 1670517001931,
-      "modifiedDate": 1670517001931
-    },
-    "LearnCpp/13 -  Basic OOPs/13.1 - Welcome to object-oriented programming.md": {
-      "noteCount": 1,
-      "wordCount": 562,
-      "pageCount": 1.8733333333333333,
-      "characterCount": 3653,
-      "nonWhitespaceCharacterCount": 3052,
-      "createdDate": 1670517001931,
-      "modifiedDate": 1670517001931
-    },
-    "LearnCpp/1 - C++ Basics/1.2 - iostream , Uninitialized variables , undefined behavior.md": {
-      "noteCount": 1,
-      "wordCount": 895,
-      "pageCount": 2.9833333333333334,
-      "characterCount": 5770,
-      "nonWhitespaceCharacterCount": 4590,
-      "createdDate": 1670517001921,
-      "modifiedDate": 1670517001921
-    },
-    "LearnCpp/1 - C++ Basics/1.3 - Tokens and basic formatting.md": {
-      "noteCount": 1,
-      "wordCount": 944,
-      "pageCount": 3.1466666666666665,
-      "characterCount": 6792,
-      "nonWhitespaceCharacterCount": 5221,
-      "createdDate": 1670517001921,
-      "modifiedDate": 1670517001929
-    },
-    "LearnCpp/1 - C++ Basics/1.1 - Structure of a program , Comment ,Variable.md": {
-      "noteCount": 1,
-      "wordCount": 1219,
-      "pageCount": 4.0633333333333335,
-      "characterCount": 7746,
-      "nonWhitespaceCharacterCount": 6237,
-      "createdDate": 1670517001921,
-      "modifiedDate": 1670517001921
-    },
-    "Interview questions.md": {
-      "noteCount": 1,
-      "wordCount": 1324,
-      "pageCount": 4.413333333333333,
-      "characterCount": 7570,
-      "nonWhitespaceCharacterCount": 6179,
-      "createdDate": 1670517001903,
-      "modifiedDate": 1670517001903
-    },
-    "Interview.md": {
-      "noteCount": 1,
-      "wordCount": 1769,
-      "pageCount": 5.8966666666666665,
-      "characterCount": 10878,
-      "nonWhitespaceCharacterCount": 8733,
-      "createdDate": 1670517001903,
-      "modifiedDate": 1670517001903
-    },
-    "HTML.md": {
-      "noteCount": 1,
-      "wordCount": 1990,
-      "pageCount": 6.633333333333334,
-      "characterCount": 12672,
-      "nonWhitespaceCharacterCount": 10273,
-      "createdDate": 1670517001902,
-      "modifiedDate": 1670517001902
-    },
     "Java -lex/4 - Control Structures.md": {
       "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
+      "wordCount": 39,
+      "pageCount": 0.13,
+      "characterCount": 289,
+      "nonWhitespaceCharacterCount": 198,
       "createdDate": 1671081456288,
-      "modifiedDate": 1671081456288
-    },
-    "Java -lex/3 - Variable , Operators, Types.md": {
-      "noteCount": 1,
-      "wordCount": 1002,
-      "pageCount": 3.34,
-      "characterCount": 6372,
-      "nonWhitespaceCharacterCount": 5064,
-      "createdDate": 1670517001913,
-      "modifiedDate": 1671080470535
+      "modifiedDate": 1671081530156
     },
     "Java -lex/Untitled.md": {
       "noteCount": 1,
@@ -1423,6 +1387,15 @@
       "nonWhitespaceCharacterCount": 209,
       "createdDate": 1670517001912,
       "modifiedDate": 1671027241957
+    },
+    "Java -lex/3 - Variable , Operators, Types.md": {
+      "noteCount": 1,
+      "wordCount": 1002,
+      "pageCount": 3.34,
+      "characterCount": 6372,
+      "nonWhitespaceCharacterCount": 5064,
+      "createdDate": 1670517001913,
+      "modifiedDate": 1671080470535
     },
     "Java -lex/2 - What is Java.md": {
       "noteCount": 1,
@@ -1442,14 +1415,32 @@
       "createdDate": 1670517001903,
       "modifiedDate": 1671027241052
     },
-    "Java/Untitled.md": {
+    "HTML.md": {
       "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "createdDate": 1670517001913,
-      "modifiedDate": 1670517001913
+      "wordCount": 1990,
+      "pageCount": 6.633333333333334,
+      "characterCount": 12672,
+      "nonWhitespaceCharacterCount": 10273,
+      "createdDate": 1670517001902,
+      "modifiedDate": 1670517001902
+    },
+    "Interview questions.md": {
+      "noteCount": 1,
+      "wordCount": 1324,
+      "pageCount": 4.413333333333333,
+      "characterCount": 7570,
+      "nonWhitespaceCharacterCount": 6179,
+      "createdDate": 1670517001903,
+      "modifiedDate": 1670517001903
+    },
+    "Interview.md": {
+      "noteCount": 1,
+      "wordCount": 1769,
+      "pageCount": 5.8966666666666665,
+      "characterCount": 10878,
+      "nonWhitespaceCharacterCount": 8733,
+      "createdDate": 1670517001903,
+      "modifiedDate": 1670517001903
     },
     "Java/1 - Introduction to Java.md": {
       "noteCount": 1,
@@ -1460,32 +1451,149 @@
       "createdDate": 1670517001913,
       "modifiedDate": 1670517001913
     },
-    "en/User interface/Vault switcher.md": {
+    "Java/Untitled.md": {
       "noteCount": 1,
-      "wordCount": 257,
-      "pageCount": 0.8566666666666667,
-      "characterCount": 1448,
-      "nonWhitespaceCharacterCount": 1157,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1670517001913,
+      "modifiedDate": 1670517001913
+    },
+    "DevOps/Git Cheatsheet.md": {
+      "noteCount": 1,
+      "wordCount": 2326,
+      "pageCount": 7.753333333333333,
+      "characterCount": 15368,
+      "nonWhitespaceCharacterCount": 12140,
+      "createdDate": 1670517001872,
+      "modifiedDate": 1670517001875
+    },
+    "DevOps/GIT Commands.md": {
+      "noteCount": 1,
+      "wordCount": 54,
+      "pageCount": 0.18,
+      "characterCount": 316,
+      "nonWhitespaceCharacterCount": 247,
+      "createdDate": 1670517001862,
+      "modifiedDate": 1670517001872
+    },
+    "DevOps/Bash Commands.md": {
+      "noteCount": 1,
+      "wordCount": 3394,
+      "pageCount": 11.313333333333333,
+      "characterCount": 23674,
+      "nonWhitespaceCharacterCount": 16043,
+      "createdDate": 1670517001862,
+      "modifiedDate": 1670517001862
+    },
+    "DSA in Python/Python Primer.md": {
+      "noteCount": 1,
+      "wordCount": 311,
+      "pageCount": 1.0366666666666666,
+      "characterCount": 1866,
+      "nonWhitespaceCharacterCount": 1521,
+      "createdDate": 1670517001862,
+      "modifiedDate": 1670517001862
+    },
+    "Extra/Merge Sorted Array.md": {
+      "noteCount": 1,
+      "wordCount": 187,
+      "pageCount": 0.6233333333333333,
+      "characterCount": 1497,
+      "nonWhitespaceCharacterCount": 861,
+      "createdDate": 1670517001889,
+      "modifiedDate": 1670517001893
+    },
+    "Extra/HR.md": {
+      "noteCount": 1,
+      "wordCount": 144,
+      "pageCount": 0.48,
+      "characterCount": 845,
+      "nonWhitespaceCharacterCount": 675,
+      "createdDate": 1670517001883,
+      "modifiedDate": 1670517001884
+    },
+    "Extra/Untitled.md": {
+      "noteCount": 1,
+      "wordCount": 4786,
+      "pageCount": 15.953333333333333,
+      "characterCount": 25723,
+      "nonWhitespaceCharacterCount": 20080,
+      "createdDate": 1670517001894,
+      "modifiedDate": 1670517001894
+    },
+    "Extra/Untitled 1.md": {
+      "noteCount": 1,
+      "wordCount": 65,
+      "pageCount": 0.21666666666666667,
+      "characterCount": 537,
+      "nonWhitespaceCharacterCount": 401,
+      "createdDate": 1670517001894,
+      "modifiedDate": 1670517001894
+    },
+    "Extra/Handbook Markdown Guide  GitLab.md": {
+      "noteCount": 1,
+      "wordCount": 7184,
+      "pageCount": 23.946666666666665,
+      "characterCount": 60181,
+      "nonWhitespaceCharacterCount": 49971,
+      "createdDate": 1670517001884,
+      "modifiedDate": 1670517001888
+    },
+    "Extra/img46.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1670517001894,
+      "modifiedDate": 1670517001894
+    },
+    "Extra/Git Commands.md": {
+      "noteCount": 1,
+      "wordCount": 2272,
+      "pageCount": 7.573333333333333,
+      "characterCount": 12804,
+      "nonWhitespaceCharacterCount": 10044,
+      "createdDate": 1670517001875,
+      "modifiedDate": 1670517001875
+    },
+    "Extra/Google search operators.md": {
+      "noteCount": 1,
+      "wordCount": 1012,
+      "pageCount": 3.3733333333333335,
+      "characterCount": 7978,
+      "nonWhitespaceCharacterCount": 6849,
+      "createdDate": 1670517001875,
+      "modifiedDate": 1670517001875
+    },
+    "Extra/C++ Interview.md": {
+      "noteCount": 1,
+      "wordCount": 745,
+      "pageCount": 2.4833333333333334,
+      "characterCount": 4735,
+      "nonWhitespaceCharacterCount": 3769,
+      "createdDate": 1670517001875,
+      "modifiedDate": 1670517001875
+    },
+    "en/Start here.md": {
+      "noteCount": 1,
+      "wordCount": 384,
+      "pageCount": 1.28,
+      "characterCount": 2282,
+      "nonWhitespaceCharacterCount": 1837,
+      "createdDate": 1670517003274,
+      "modifiedDate": 1670517003275
+    },
+    "en/User interface/Stacked tabs.md": {
+      "noteCount": 1,
+      "wordCount": 80,
+      "pageCount": 0.26666666666666666,
+      "characterCount": 547,
+      "nonWhitespaceCharacterCount": 456,
       "createdDate": 1670517003275,
-      "modifiedDate": 1670517003283
-    },
-    "en/User interface/Workspace/Workspace.md": {
-      "noteCount": 1,
-      "wordCount": 30,
-      "pageCount": 0.1,
-      "characterCount": 253,
-      "nonWhitespaceCharacterCount": 211,
-      "createdDate": 1670517003295,
-      "modifiedDate": 1670517003295
-    },
-    "en/User interface/Workspace/Title bar.md": {
-      "noteCount": 1,
-      "wordCount": 168,
-      "pageCount": 0.56,
-      "characterCount": 1028,
-      "nonWhitespaceCharacterCount": 827,
-      "createdDate": 1670517003295,
-      "modifiedDate": 1670517003295
+      "modifiedDate": 1670517003275
     },
     "en/User interface/Workspace/Status bar.md": {
       "noteCount": 1,
@@ -1505,6 +1613,15 @@
       "createdDate": 1670517003293,
       "modifiedDate": 1670517003295
     },
+    "en/User interface/Workspace/Workspace.md": {
+      "noteCount": 1,
+      "wordCount": 30,
+      "pageCount": 0.1,
+      "characterCount": 253,
+      "nonWhitespaceCharacterCount": 211,
+      "createdDate": 1670517003295,
+      "modifiedDate": 1670517003295
+    },
     "en/User interface/Workspace/Ribbon.md": {
       "noteCount": 1,
       "wordCount": 111,
@@ -1514,14 +1631,14 @@
       "createdDate": 1670517003291,
       "modifiedDate": 1670517003292
     },
-    "en/User interface/Workspace/Panes/Pane layout.md": {
+    "en/User interface/Workspace/Title bar.md": {
       "noteCount": 1,
-      "wordCount": 521,
-      "pageCount": 1.7366666666666666,
-      "characterCount": 2920,
-      "nonWhitespaceCharacterCount": 2320,
-      "createdDate": 1670517003283,
-      "modifiedDate": 1670517003283
+      "wordCount": 168,
+      "pageCount": 0.56,
+      "characterCount": 1028,
+      "nonWhitespaceCharacterCount": 827,
+      "createdDate": 1670517003295,
+      "modifiedDate": 1670517003295
     },
     "en/User interface/Workspace/Panes/Linked pane.md": {
       "noteCount": 1,
@@ -1532,41 +1649,32 @@
       "createdDate": 1670517003283,
       "modifiedDate": 1670517003283
     },
-    "en/User interface/Stacked tabs.md": {
+    "en/User interface/Workspace/Panes/Pane layout.md": {
       "noteCount": 1,
-      "wordCount": 80,
-      "pageCount": 0.26666666666666666,
-      "characterCount": 547,
-      "nonWhitespaceCharacterCount": 456,
+      "wordCount": 521,
+      "pageCount": 1.7366666666666666,
+      "characterCount": 2920,
+      "nonWhitespaceCharacterCount": 2320,
+      "createdDate": 1670517003283,
+      "modifiedDate": 1670517003283
+    },
+    "en/User interface/Vault switcher.md": {
+      "noteCount": 1,
+      "wordCount": 257,
+      "pageCount": 0.8566666666666667,
+      "characterCount": 1448,
+      "nonWhitespaceCharacterCount": 1157,
       "createdDate": 1670517003275,
-      "modifiedDate": 1670517003275
+      "modifiedDate": 1670517003283
     },
-    "en/Start here.md": {
+    "en/Live preview update.md": {
       "noteCount": 1,
-      "wordCount": 384,
-      "pageCount": 1.28,
-      "characterCount": 2282,
-      "nonWhitespaceCharacterCount": 1837,
-      "createdDate": 1670517003274,
-      "modifiedDate": 1670517003275
-    },
-    "en/Plugins/Unique Note Creator.md": {
-      "noteCount": 1,
-      "wordCount": 123,
-      "pageCount": 0.41,
-      "characterCount": 809,
-      "nonWhitespaceCharacterCount": 664,
-      "createdDate": 1670517003266,
-      "modifiedDate": 1670517003266
-    },
-    "en/Plugins/Templates.md": {
-      "noteCount": 1,
-      "wordCount": 308,
-      "pageCount": 1.0266666666666666,
-      "characterCount": 1970,
-      "nonWhitespaceCharacterCount": 1607,
-      "createdDate": 1670517003266,
-      "modifiedDate": 1670517003266
+      "wordCount": 468,
+      "pageCount": 1.56,
+      "characterCount": 2862,
+      "nonWhitespaceCharacterCount": 2320,
+      "createdDate": 1670517003215,
+      "modifiedDate": 1670517003215
     },
     "en/Plugins/Workspaces.md": {
       "noteCount": 1,
@@ -1586,6 +1694,24 @@
       "createdDate": 1670517003266,
       "modifiedDate": 1670517003266
     },
+    "en/Plugins/Unique Note Creator.md": {
+      "noteCount": 1,
+      "wordCount": 123,
+      "pageCount": 0.41,
+      "characterCount": 809,
+      "nonWhitespaceCharacterCount": 664,
+      "createdDate": 1670517003266,
+      "modifiedDate": 1670517003266
+    },
+    "en/Plugins/Templates.md": {
+      "noteCount": 1,
+      "wordCount": 308,
+      "pageCount": 1.0266666666666666,
+      "characterCount": 1970,
+      "nonWhitespaceCharacterCount": 1607,
+      "createdDate": 1670517003266,
+      "modifiedDate": 1670517003266
+    },
     "en/Plugins/Tag pane.md": {
       "noteCount": 1,
       "wordCount": 129,
@@ -1594,6 +1720,15 @@
       "nonWhitespaceCharacterCount": 583,
       "createdDate": 1670517003261,
       "modifiedDate": 1670517003266
+    },
+    "en/Plugins/Slides.md": {
+      "noteCount": 1,
+      "wordCount": 46,
+      "pageCount": 0.15333333333333332,
+      "characterCount": 305,
+      "nonWhitespaceCharacterCount": 240,
+      "createdDate": 1670517003261,
+      "modifiedDate": 1670517003261
     },
     "en/Plugins/Slash commands.md": {
       "noteCount": 1,
@@ -1622,24 +1757,6 @@
       "createdDate": 1670517003253,
       "modifiedDate": 1670517003253
     },
-    "en/Plugins/Slides.md": {
-      "noteCount": 1,
-      "wordCount": 46,
-      "pageCount": 0.15333333333333332,
-      "characterCount": 305,
-      "nonWhitespaceCharacterCount": 240,
-      "createdDate": 1670517003261,
-      "modifiedDate": 1670517003261
-    },
-    "en/Plugins/Page preview.md": {
-      "noteCount": 1,
-      "wordCount": 93,
-      "pageCount": 0.31,
-      "characterCount": 550,
-      "nonWhitespaceCharacterCount": 446,
-      "createdDate": 1670517003244,
-      "modifiedDate": 1670517003244
-    },
     "en/Plugins/Random note.md": {
       "noteCount": 1,
       "wordCount": 37,
@@ -1648,15 +1765,6 @@
       "nonWhitespaceCharacterCount": 176,
       "createdDate": 1670517003253,
       "modifiedDate": 1670517003253
-    },
-    "en/Plugins/Outline.md": {
-      "noteCount": 1,
-      "wordCount": 39,
-      "pageCount": 0.13,
-      "characterCount": 223,
-      "nonWhitespaceCharacterCount": 179,
-      "createdDate": 1670517003244,
-      "modifiedDate": 1670517003244
     },
     "en/Plugins/Quick switcher.md": {
       "noteCount": 1,
@@ -1667,14 +1775,23 @@
       "createdDate": 1670517003252,
       "modifiedDate": 1670517003253
     },
-    "en/Plugins/Graph view.md": {
+    "en/Plugins/Page preview.md": {
       "noteCount": 1,
-      "wordCount": 539,
-      "pageCount": 1.7966666666666666,
-      "characterCount": 3167,
-      "nonWhitespaceCharacterCount": 2525,
-      "createdDate": 1670517003234,
-      "modifiedDate": 1670517003234
+      "wordCount": 93,
+      "pageCount": 0.31,
+      "characterCount": 550,
+      "nonWhitespaceCharacterCount": 446,
+      "createdDate": 1670517003244,
+      "modifiedDate": 1670517003244
+    },
+    "en/Plugins/Outline.md": {
+      "noteCount": 1,
+      "wordCount": 39,
+      "pageCount": 0.13,
+      "characterCount": 223,
+      "nonWhitespaceCharacterCount": 179,
+      "createdDate": 1670517003244,
+      "modifiedDate": 1670517003244
     },
     "en/Plugins/Outgoing links.md": {
       "noteCount": 1,
@@ -1685,22 +1802,13 @@
       "createdDate": 1670517003244,
       "modifiedDate": 1670517003244
     },
-    "en/Plugins/Note composer.md": {
+    "en/Plugins/Graph view.md": {
       "noteCount": 1,
-      "wordCount": 507,
-      "pageCount": 1.69,
-      "characterCount": 3643,
-      "nonWhitespaceCharacterCount": 2618,
-      "createdDate": 1670517003242,
-      "modifiedDate": 1670517003243
-    },
-    "en/Plugins/File explorer.md": {
-      "noteCount": 1,
-      "wordCount": 460,
-      "pageCount": 1.5333333333333334,
-      "characterCount": 2564,
-      "nonWhitespaceCharacterCount": 2013,
-      "createdDate": 1670517003233,
+      "wordCount": 539,
+      "pageCount": 1.7966666666666666,
+      "characterCount": 3167,
+      "nonWhitespaceCharacterCount": 2525,
+      "createdDate": 1670517003234,
       "modifiedDate": 1670517003234
     },
     "en/Plugins/Format converter.md": {
@@ -1712,6 +1820,15 @@
       "createdDate": 1670517003234,
       "modifiedDate": 1670517003234
     },
+    "en/Plugins/Note composer.md": {
+      "noteCount": 1,
+      "wordCount": 507,
+      "pageCount": 1.69,
+      "characterCount": 3643,
+      "nonWhitespaceCharacterCount": 2618,
+      "createdDate": 1670517003242,
+      "modifiedDate": 1670517003243
+    },
     "en/Plugins/Daily notes.md": {
       "noteCount": 1,
       "wordCount": 225,
@@ -1720,6 +1837,15 @@
       "nonWhitespaceCharacterCount": 1115,
       "createdDate": 1670517003225,
       "modifiedDate": 1670517003225
+    },
+    "en/Plugins/File explorer.md": {
+      "noteCount": 1,
+      "wordCount": 460,
+      "pageCount": 1.5333333333333334,
+      "characterCount": 2564,
+      "nonWhitespaceCharacterCount": 2013,
+      "createdDate": 1670517003233,
+      "modifiedDate": 1670517003234
     },
     "en/Plugins/File recovery.md": {
       "noteCount": 1,
@@ -1736,15 +1862,6 @@
       "pageCount": 0.5266666666666666,
       "characterCount": 1065,
       "nonWhitespaceCharacterCount": 870,
-      "createdDate": 1670517003225,
-      "modifiedDate": 1670517003225
-    },
-    "en/Plugins/Command palette.md": {
-      "noteCount": 1,
-      "wordCount": 238,
-      "pageCount": 0.7933333333333333,
-      "characterCount": 1467,
-      "nonWhitespaceCharacterCount": 1187,
       "createdDate": 1670517003225,
       "modifiedDate": 1670517003225
     },
@@ -1766,23 +1883,23 @@
       "createdDate": 1670517003215,
       "modifiedDate": 1670517003215
     },
-    "en/Live preview update.md": {
+    "en/Plugins/Command palette.md": {
       "noteCount": 1,
-      "wordCount": 468,
-      "pageCount": 1.56,
-      "characterCount": 2862,
-      "nonWhitespaceCharacterCount": 2320,
-      "createdDate": 1670517003215,
-      "modifiedDate": 1670517003215
+      "wordCount": 238,
+      "pageCount": 0.7933333333333333,
+      "characterCount": 1467,
+      "nonWhitespaceCharacterCount": 1187,
+      "createdDate": 1670517003225,
+      "modifiedDate": 1670517003225
     },
-    "en/How to/Working with multiple cursors.md": {
+    "en/How to/Working with multiple vaults.md": {
       "noteCount": 1,
-      "wordCount": 74,
-      "pageCount": 0.24666666666666667,
-      "characterCount": 413,
-      "nonWhitespaceCharacterCount": 335,
-      "createdDate": 1670517003201,
-      "modifiedDate": 1670517003201
+      "wordCount": 314,
+      "pageCount": 1.0466666666666666,
+      "characterCount": 1889,
+      "nonWhitespaceCharacterCount": 1549,
+      "createdDate": 1670517003211,
+      "modifiedDate": 1670517003211
     },
     "en/How to/Working with tags.md": {
       "noteCount": 1,
@@ -1802,14 +1919,14 @@
       "createdDate": 1670517003210,
       "modifiedDate": 1670517003211
     },
-    "en/How to/Working with multiple vaults.md": {
+    "en/How to/Working with multiple cursors.md": {
       "noteCount": 1,
-      "wordCount": 314,
-      "pageCount": 1.0466666666666666,
-      "characterCount": 1889,
-      "nonWhitespaceCharacterCount": 1549,
-      "createdDate": 1670517003211,
-      "modifiedDate": 1670517003211
+      "wordCount": 74,
+      "pageCount": 0.24666666666666667,
+      "characterCount": 413,
+      "nonWhitespaceCharacterCount": 335,
+      "createdDate": 1670517003201,
+      "modifiedDate": 1670517003201
     },
     "en/How to/Working with backlinks.md": {
       "noteCount": 1,
@@ -1817,15 +1934,6 @@
       "pageCount": 0.8566666666666667,
       "characterCount": 1463,
       "nonWhitespaceCharacterCount": 1187,
-      "createdDate": 1670517003201,
-      "modifiedDate": 1670517003201
-    },
-    "en/How to/Use hotkeys.md": {
-      "noteCount": 1,
-      "wordCount": 45,
-      "pageCount": 0.15,
-      "characterCount": 288,
-      "nonWhitespaceCharacterCount": 234,
       "createdDate": 1670517003201,
       "modifiedDate": 1670517003201
     },
@@ -1838,30 +1946,21 @@
       "createdDate": 1670517003201,
       "modifiedDate": 1670517003201
     },
+    "en/How to/Use hotkeys.md": {
+      "noteCount": 1,
+      "wordCount": 45,
+      "pageCount": 0.15,
+      "characterCount": 288,
+      "nonWhitespaceCharacterCount": 234,
+      "createdDate": 1670517003201,
+      "modifiedDate": 1670517003201
+    },
     "en/How to/Update Obsidian.md": {
       "noteCount": 1,
       "wordCount": 207,
       "pageCount": 0.69,
       "characterCount": 1293,
       "nonWhitespaceCharacterCount": 1061,
-      "createdDate": 1670517003193,
-      "modifiedDate": 1670517003193
-    },
-    "en/How to/Rename notes.md": {
-      "noteCount": 1,
-      "wordCount": 72,
-      "pageCount": 0.24,
-      "characterCount": 414,
-      "nonWhitespaceCharacterCount": 329,
-      "createdDate": 1670517003193,
-      "modifiedDate": 1670517003193
-    },
-    "en/How to/Read and edit modes.md": {
-      "noteCount": 1,
-      "wordCount": 153,
-      "pageCount": 0.51,
-      "characterCount": 878,
-      "nonWhitespaceCharacterCount": 718,
       "createdDate": 1670517003193,
       "modifiedDate": 1670517003193
     },
@@ -1874,14 +1973,23 @@
       "createdDate": 1670517003192,
       "modifiedDate": 1670517003193
     },
-    "en/How to/Import data.md": {
+    "en/How to/Read and edit modes.md": {
       "noteCount": 1,
-      "wordCount": 400,
-      "pageCount": 1.3333333333333333,
-      "characterCount": 3140,
-      "nonWhitespaceCharacterCount": 2668,
-      "createdDate": 1670517003183,
-      "modifiedDate": 1670517003183
+      "wordCount": 153,
+      "pageCount": 0.51,
+      "characterCount": 878,
+      "nonWhitespaceCharacterCount": 718,
+      "createdDate": 1670517003193,
+      "modifiedDate": 1670517003193
+    },
+    "en/How to/Rename notes.md": {
+      "noteCount": 1,
+      "wordCount": 72,
+      "pageCount": 0.24,
+      "characterCount": 414,
+      "nonWhitespaceCharacterCount": 329,
+      "createdDate": 1670517003193,
+      "modifiedDate": 1670517003193
     },
     "en/How to/Link to blocks.md": {
       "noteCount": 1,
@@ -1892,6 +2000,15 @@
       "createdDate": 1670517003183,
       "modifiedDate": 1670517003191
     },
+    "en/How to/Format your notes.md": {
+      "noteCount": 1,
+      "wordCount": 1886,
+      "pageCount": 6.286666666666667,
+      "characterCount": 13006,
+      "nonWhitespaceCharacterCount": 10220,
+      "createdDate": 1670517003183,
+      "modifiedDate": 1670517003183
+    },
     "en/How to/Internal link.md": {
       "noteCount": 1,
       "wordCount": 282,
@@ -1901,12 +2018,12 @@
       "createdDate": 1670517003183,
       "modifiedDate": 1670517003183
     },
-    "en/How to/Format your notes.md": {
+    "en/How to/Import data.md": {
       "noteCount": 1,
-      "wordCount": 1886,
-      "pageCount": 6.286666666666667,
-      "characterCount": 13006,
-      "nonWhitespaceCharacterCount": 10220,
+      "wordCount": 400,
+      "pageCount": 1.3333333333333333,
+      "characterCount": 3140,
+      "nonWhitespaceCharacterCount": 2668,
       "createdDate": 1670517003183,
       "modifiedDate": 1670517003183
     },
@@ -1918,6 +2035,15 @@
       "nonWhitespaceCharacterCount": 2331,
       "createdDate": 1670517003174,
       "modifiedDate": 1670517003174
+    },
+    "en/How to/Change settings.md": {
+      "noteCount": 1,
+      "wordCount": 119,
+      "pageCount": 0.39666666666666667,
+      "characterCount": 672,
+      "nonWhitespaceCharacterCount": 548,
+      "createdDate": 1670517003165,
+      "modifiedDate": 1670517003173
     },
     "en/How to/Create notes.md": {
       "noteCount": 1,
@@ -1937,15 +2063,6 @@
       "createdDate": 1670517003174,
       "modifiedDate": 1670517003174
     },
-    "en/How to/Change settings.md": {
-      "noteCount": 1,
-      "wordCount": 119,
-      "pageCount": 0.39666666666666667,
-      "characterCount": 672,
-      "nonWhitespaceCharacterCount": 548,
-      "createdDate": 1670517003165,
-      "modifiedDate": 1670517003173
-    },
     "en/How to/Basic note taking.md": {
       "noteCount": 1,
       "wordCount": 631,
@@ -1955,21 +2072,21 @@
       "createdDate": 1670517003165,
       "modifiedDate": 1670517003165
     },
-    "en/How to/Add custom styles.md": {
-      "noteCount": 1,
-      "wordCount": 265,
-      "pageCount": 0.8833333333333333,
-      "characterCount": 1562,
-      "nonWhitespaceCharacterCount": 1259,
-      "createdDate": 1670517003165,
-      "modifiedDate": 1670517003165
-    },
     "en/How to/Capture information.md": {
       "noteCount": 1,
       "wordCount": 111,
       "pageCount": 0.37,
       "characterCount": 944,
       "nonWhitespaceCharacterCount": 812,
+      "createdDate": 1670517003165,
+      "modifiedDate": 1670517003165
+    },
+    "en/How to/Add custom styles.md": {
+      "noteCount": 1,
+      "wordCount": 265,
+      "pageCount": 0.8833333333333333,
+      "characterCount": 1562,
+      "nonWhitespaceCharacterCount": 1259,
       "createdDate": 1670517003165,
       "modifiedDate": 1670517003165
     },
@@ -1990,15 +2107,6 @@
       "nonWhitespaceCharacterCount": 657,
       "createdDate": 1670517003156,
       "modifiedDate": 1670517003156
-    },
-    "en/Advanced topics/HTML sanitization.md": {
-      "noteCount": 1,
-      "wordCount": 70,
-      "pageCount": 0.23333333333333334,
-      "characterCount": 409,
-      "nonWhitespaceCharacterCount": 338,
-      "createdDate": 1670517003050,
-      "modifiedDate": 1670517003051
     },
     "en/Advanced topics/YAML front matter.md": {
       "noteCount": 1,
@@ -2036,12 +2144,21 @@
       "createdDate": 1670517003051,
       "modifiedDate": 1670517003051
     },
-    "en/Advanced topics/Customizing CSS.md": {
+    "en/Advanced topics/HTML sanitization.md": {
       "noteCount": 1,
-      "wordCount": 106,
-      "pageCount": 0.35333333333333333,
-      "characterCount": 771,
-      "nonWhitespaceCharacterCount": 645,
+      "wordCount": 70,
+      "pageCount": 0.23333333333333334,
+      "characterCount": 409,
+      "nonWhitespaceCharacterCount": 338,
+      "createdDate": 1670517003050,
+      "modifiedDate": 1670517003051
+    },
+    "en/Advanced topics/Community plugins.md": {
+      "noteCount": 1,
+      "wordCount": 445,
+      "pageCount": 1.4833333333333334,
+      "characterCount": 2874,
+      "nonWhitespaceCharacterCount": 2368,
       "createdDate": 1670517003041,
       "modifiedDate": 1670517003041
     },
@@ -2063,12 +2180,12 @@
       "createdDate": 1670517003041,
       "modifiedDate": 1670517003041
     },
-    "en/Advanced topics/Community plugins.md": {
+    "en/Advanced topics/Customizing CSS.md": {
       "noteCount": 1,
-      "wordCount": 445,
-      "pageCount": 1.4833333333333334,
-      "characterCount": 2874,
-      "nonWhitespaceCharacterCount": 2368,
+      "wordCount": 106,
+      "pageCount": 0.35333333333333333,
+      "characterCount": 771,
+      "nonWhitespaceCharacterCount": 645,
       "createdDate": 1670517003041,
       "modifiedDate": 1670517003041
     },
@@ -2081,86 +2198,14 @@
       "createdDate": 1670517003041,
       "modifiedDate": 1670517003041
     },
-    "Extra/Untitled.md": {
+    "DBMS Interview.md": {
       "noteCount": 1,
-      "wordCount": 4786,
-      "pageCount": 15.953333333333333,
-      "characterCount": 25723,
-      "nonWhitespaceCharacterCount": 20080,
-      "createdDate": 1670517001894,
-      "modifiedDate": 1670517001894
-    },
-    "Extra/Untitled 1.md": {
-      "noteCount": 1,
-      "wordCount": 65,
-      "pageCount": 0.21666666666666667,
-      "characterCount": 537,
-      "nonWhitespaceCharacterCount": 401,
-      "createdDate": 1670517001894,
-      "modifiedDate": 1670517001894
-    },
-    "Extra/Merge Sorted Array.md": {
-      "noteCount": 1,
-      "wordCount": 187,
-      "pageCount": 0.6233333333333333,
-      "characterCount": 1497,
-      "nonWhitespaceCharacterCount": 861,
-      "createdDate": 1670517001889,
-      "modifiedDate": 1670517001893
-    },
-    "Extra/img46.md": {
-      "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "createdDate": 1670517001894,
-      "modifiedDate": 1670517001894
-    },
-    "Extra/HR.md": {
-      "noteCount": 1,
-      "wordCount": 144,
-      "pageCount": 0.48,
-      "characterCount": 845,
-      "nonWhitespaceCharacterCount": 675,
-      "createdDate": 1670517001883,
-      "modifiedDate": 1670517001884
-    },
-    "Extra/Git Commands.md": {
-      "noteCount": 1,
-      "wordCount": 2272,
-      "pageCount": 7.573333333333333,
-      "characterCount": 12804,
-      "nonWhitespaceCharacterCount": 10044,
-      "createdDate": 1670517001875,
-      "modifiedDate": 1670517001875
-    },
-    "Extra/Google search operators.md": {
-      "noteCount": 1,
-      "wordCount": 1012,
-      "pageCount": 3.3733333333333335,
-      "characterCount": 7978,
-      "nonWhitespaceCharacterCount": 6849,
-      "createdDate": 1670517001875,
-      "modifiedDate": 1670517001875
-    },
-    "Extra/Handbook Markdown Guide  GitLab.md": {
-      "noteCount": 1,
-      "wordCount": 7184,
-      "pageCount": 23.946666666666665,
-      "characterCount": 60181,
-      "nonWhitespaceCharacterCount": 49971,
-      "createdDate": 1670517001884,
-      "modifiedDate": 1670517001888
-    },
-    "Extra/C++ Interview.md": {
-      "noteCount": 1,
-      "wordCount": 745,
-      "pageCount": 2.4833333333333334,
-      "characterCount": 4735,
-      "nonWhitespaceCharacterCount": 3769,
-      "createdDate": 1670517001875,
-      "modifiedDate": 1670517001875
+      "wordCount": 3783,
+      "pageCount": 12.61,
+      "characterCount": 24208,
+      "nonWhitespaceCharacterCount": 19618,
+      "createdDate": 1670517001825,
+      "modifiedDate": 1670517001825
     },
     "CSS.md": {
       "noteCount": 1,
@@ -2171,60 +2216,6 @@
       "createdDate": 1670517001808,
       "modifiedDate": 1670517001808
     },
-    "DSA in Python/Python Primer.md": {
-      "noteCount": 1,
-      "wordCount": 311,
-      "pageCount": 1.0366666666666666,
-      "characterCount": 1866,
-      "nonWhitespaceCharacterCount": 1521,
-      "createdDate": 1670517001862,
-      "modifiedDate": 1670517001862
-    },
-    "DBMS Interview.md": {
-      "noteCount": 1,
-      "wordCount": 3783,
-      "pageCount": 12.61,
-      "characterCount": 24208,
-      "nonWhitespaceCharacterCount": 19618,
-      "createdDate": 1670517001825,
-      "modifiedDate": 1670517001825
-    },
-    "DevOps/GIT Commands.md": {
-      "noteCount": 1,
-      "wordCount": 54,
-      "pageCount": 0.18,
-      "characterCount": 316,
-      "nonWhitespaceCharacterCount": 247,
-      "createdDate": 1670517001862,
-      "modifiedDate": 1670517001872
-    },
-    "DevOps/Git Cheatsheet.md": {
-      "noteCount": 1,
-      "wordCount": 2326,
-      "pageCount": 7.753333333333333,
-      "characterCount": 15368,
-      "nonWhitespaceCharacterCount": 12140,
-      "createdDate": 1670517001872,
-      "modifiedDate": 1670517001875
-    },
-    "DevOps/Bash Commands.md": {
-      "noteCount": 1,
-      "wordCount": 3394,
-      "pageCount": 11.313333333333333,
-      "characterCount": 23674,
-      "nonWhitespaceCharacterCount": 16043,
-      "createdDate": 1670517001862,
-      "modifiedDate": 1670517001862
-    },
-    "CPP Interview.md": {
-      "noteCount": 1,
-      "wordCount": 3669,
-      "pageCount": 12.23,
-      "characterCount": 22775,
-      "nonWhitespaceCharacterCount": 18344,
-      "createdDate": 1670517000810,
-      "modifiedDate": 1670517000818
-    },
     "DBMS/Stored Object/Triggers.md": {
       "noteCount": 1,
       "wordCount": 230,
@@ -2233,24 +2224,6 @@
       "nonWhitespaceCharacterCount": 1682,
       "createdDate": 1670517001859,
       "modifiedDate": 1670517001859
-    },
-    "DBMS/RDBMS.md": {
-      "noteCount": 1,
-      "wordCount": 846,
-      "pageCount": 2.82,
-      "characterCount": 5440,
-      "nonWhitespaceCharacterCount": 4467,
-      "createdDate": 1670517001834,
-      "modifiedDate": 1670517001834
-    },
-    "DBMS/MISC.md": {
-      "noteCount": 1,
-      "wordCount": 183,
-      "pageCount": 0.61,
-      "characterCount": 1173,
-      "nonWhitespaceCharacterCount": 922,
-      "createdDate": 1670517001834,
-      "modifiedDate": 1670517001834
     },
     "DBMS/SQL Satements/Data Manipulation Statements.md": {
       "noteCount": 1,
@@ -2270,12 +2243,39 @@
       "createdDate": 1670517001842,
       "modifiedDate": 1670517001842
     },
+    "DBMS/RDBMS.md": {
+      "noteCount": 1,
+      "wordCount": 846,
+      "pageCount": 2.82,
+      "characterCount": 5440,
+      "nonWhitespaceCharacterCount": 4467,
+      "createdDate": 1670517001834,
+      "modifiedDate": 1670517001834
+    },
+    "DBMS/MISC.md": {
+      "noteCount": 1,
+      "wordCount": 183,
+      "pageCount": 0.61,
+      "characterCount": 1173,
+      "nonWhitespaceCharacterCount": 922,
+      "createdDate": 1670517001834,
+      "modifiedDate": 1670517001834
+    },
     "DBMS/Functions & Operators.md": {
       "noteCount": 1,
       "wordCount": 2520,
       "pageCount": 8.4,
       "characterCount": 22923,
       "nonWhitespaceCharacterCount": 19356,
+      "createdDate": 1670517001834,
+      "modifiedDate": 1670517001834
+    },
+    "DBMS/Data Types.md": {
+      "noteCount": 1,
+      "wordCount": 807,
+      "pageCount": 2.69,
+      "characterCount": 4764,
+      "nonWhitespaceCharacterCount": 3901,
       "createdDate": 1670517001834,
       "modifiedDate": 1670517001834
     },
@@ -2288,15 +2288,6 @@
       "createdDate": 1670517001862,
       "modifiedDate": 1670517001862
     },
-    "DBMS/Data Types.md": {
-      "noteCount": 1,
-      "wordCount": 807,
-      "pageCount": 2.69,
-      "characterCount": 4764,
-      "nonWhitespaceCharacterCount": 3901,
-      "createdDate": 1670517001834,
-      "modifiedDate": 1670517001834
-    },
     "DBMS/DBA Statements/SHOW Statements.md": {
       "noteCount": 1,
       "wordCount": 523,
@@ -2305,6 +2296,24 @@
       "nonWhitespaceCharacterCount": 4426,
       "createdDate": 1670517001825,
       "modifiedDate": 1670517001825
+    },
+    "Code.md": {
+      "noteCount": 1,
+      "wordCount": 210,
+      "pageCount": 0.7,
+      "characterCount": 1468,
+      "nonWhitespaceCharacterCount": 901,
+      "createdDate": 1670517001808,
+      "modifiedDate": 1670517001808
+    },
+    "CPP Interview.md": {
+      "noteCount": 1,
+      "wordCount": 3669,
+      "pageCount": 12.23,
+      "characterCount": 22775,
+      "nonWhitespaceCharacterCount": 18344,
+      "createdDate": 1670517000810,
+      "modifiedDate": 1670517000818
     },
     "cpp-cheat-sheet-master/README.md": {
       "noteCount": 1,
@@ -2333,6 +2342,15 @@
       "createdDate": 1670517002593,
       "modifiedDate": 1670517002593
     },
+    "Coding Questions/Most frequent element in an array.md": {
+      "noteCount": 1,
+      "wordCount": 233,
+      "pageCount": 0.7766666666666666,
+      "characterCount": 1823,
+      "nonWhitespaceCharacterCount": 1219,
+      "createdDate": 1670517001817,
+      "modifiedDate": 1670517001825
+    },
     "Coding Questions/Untitled.md": {
       "noteCount": 1,
       "wordCount": 159,
@@ -2351,15 +2369,6 @@
       "createdDate": 1670517001817,
       "modifiedDate": 1670517001817
     },
-    "Coding Questions/Most frequent element in an array.md": {
-      "noteCount": 1,
-      "wordCount": 233,
-      "pageCount": 0.7766666666666666,
-      "characterCount": 1823,
-      "nonWhitespaceCharacterCount": 1219,
-      "createdDate": 1670517001817,
-      "modifiedDate": 1670517001825
-    },
     "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md": {
       "noteCount": 1,
       "wordCount": 353,
@@ -2368,6 +2377,24 @@
       "nonWhitespaceCharacterCount": 1513,
       "createdDate": 1670517001817,
       "modifiedDate": 1670517001817
+    },
+    "CPP/References.md": {
+      "noteCount": 1,
+      "wordCount": 965,
+      "pageCount": 3.216666666666667,
+      "characterCount": 7012,
+      "nonWhitespaceCharacterCount": 5366,
+      "createdDate": 1670517001800,
+      "modifiedDate": 1670517001804
+    },
+    "CPP/run cpp program.md": {
+      "noteCount": 1,
+      "wordCount": 184,
+      "pageCount": 0.6133333333333333,
+      "characterCount": 1124,
+      "nonWhitespaceCharacterCount": 887,
+      "createdDate": 1670517001808,
+      "modifiedDate": 1670517001808
     },
     "CPP/Variable And Constant.md": {
       "noteCount": 1,
@@ -2387,30 +2414,12 @@
       "createdDate": 1670517001804,
       "modifiedDate": 1670517001804
     },
-    "CPP/run cpp program.md": {
+    "CPP/Index.md": {
       "noteCount": 1,
-      "wordCount": 184,
-      "pageCount": 0.6133333333333333,
-      "characterCount": 1124,
-      "nonWhitespaceCharacterCount": 887,
-      "createdDate": 1670517001808,
-      "modifiedDate": 1670517001808
-    },
-    "CPP/References.md": {
-      "noteCount": 1,
-      "wordCount": 965,
-      "pageCount": 3.216666666666667,
-      "characterCount": 7012,
-      "nonWhitespaceCharacterCount": 5366,
-      "createdDate": 1670517001800,
-      "modifiedDate": 1670517001804
-    },
-    "CPP/OOP - Class And Object.md": {
-      "noteCount": 1,
-      "wordCount": 933,
-      "pageCount": 3.11,
-      "characterCount": 6018,
-      "nonWhitespaceCharacterCount": 4598,
+      "wordCount": 71,
+      "pageCount": 0.23666666666666666,
+      "characterCount": 642,
+      "nonWhitespaceCharacterCount": 532,
       "createdDate": 1670517001791,
       "modifiedDate": 1670517001791
     },
@@ -2423,14 +2432,23 @@
       "createdDate": 1670517001800,
       "modifiedDate": 1670517001800
     },
-    "CPP/Index.md": {
+    "CPP/OOP - Class And Object.md": {
       "noteCount": 1,
-      "wordCount": 71,
-      "pageCount": 0.23666666666666666,
-      "characterCount": 642,
-      "nonWhitespaceCharacterCount": 532,
+      "wordCount": 933,
+      "pageCount": 3.11,
+      "characterCount": 6018,
+      "nonWhitespaceCharacterCount": 4598,
       "createdDate": 1670517001791,
       "modifiedDate": 1670517001791
+    },
+    "CPP/Characters and String.md": {
+      "noteCount": 1,
+      "wordCount": 1995,
+      "pageCount": 6.65,
+      "characterCount": 12874,
+      "nonWhitespaceCharacterCount": 9874,
+      "createdDate": 1670517000843,
+      "modifiedDate": 1670517000843
     },
     "CPP/Control Flow.md": {
       "noteCount": 1,
@@ -2450,15 +2468,6 @@
       "createdDate": 1670517000851,
       "modifiedDate": 1670517000851
     },
-    "CPP/Characters and String.md": {
-      "noteCount": 1,
-      "wordCount": 1995,
-      "pageCount": 6.65,
-      "characterCount": 12874,
-      "nonWhitespaceCharacterCount": 9874,
-      "createdDate": 1670517000843,
-      "modifiedDate": 1670517000843
-    },
     "CPP/CPP STL/Vector.md": {
       "noteCount": 1,
       "wordCount": 2526,
@@ -2474,15 +2483,6 @@
       "pageCount": 3.02,
       "characterCount": 6706,
       "nonWhitespaceCharacterCount": 5555,
-      "createdDate": 1670517000834,
-      "modifiedDate": 1670517000834
-    },
-    "CPP/CPP STL/Pair.md": {
-      "noteCount": 1,
-      "wordCount": 494,
-      "pageCount": 1.6466666666666667,
-      "characterCount": 2913,
-      "nonWhitespaceCharacterCount": 2250,
       "createdDate": 1670517000834,
       "modifiedDate": 1670517000834
     },
@@ -2504,6 +2504,15 @@
       "createdDate": 1670517000834,
       "modifiedDate": 1670517000834
     },
+    "CPP/CPP STL/Pair.md": {
+      "noteCount": 1,
+      "wordCount": 494,
+      "pageCount": 1.6466666666666667,
+      "characterCount": 2913,
+      "nonWhitespaceCharacterCount": 2250,
+      "createdDate": 1670517000834,
+      "modifiedDate": 1670517000834
+    },
     "CPP/CPP STL/Algorithm.md": {
       "noteCount": 1,
       "wordCount": 641,
@@ -2511,6 +2520,15 @@
       "characterCount": 4474,
       "nonWhitespaceCharacterCount": 3491,
       "createdDate": 1670517000826,
+      "modifiedDate": 1670517000826
+    },
+    "CPP/C Functions/cstring.md": {
+      "noteCount": 1,
+      "wordCount": 2,
+      "pageCount": 0.006666666666666667,
+      "characterCount": 11,
+      "nonWhitespaceCharacterCount": 7,
+      "createdDate": 1670517000818,
       "modifiedDate": 1670517000826
     },
     "CPP/Arrays and Vectors.md": {
@@ -2522,24 +2540,6 @@
       "createdDate": 1670517000818,
       "modifiedDate": 1670517000818
     },
-    "CPP/C Functions/cstring.md": {
-      "noteCount": 1,
-      "wordCount": 2,
-      "pageCount": 0.006666666666666667,
-      "characterCount": 11,
-      "nonWhitespaceCharacterCount": 7,
-      "createdDate": 1670517000818,
-      "modifiedDate": 1670517000826
-    },
-    "Code.md": {
-      "noteCount": 1,
-      "wordCount": 210,
-      "pageCount": 0.7,
-      "characterCount": 1468,
-      "nonWhitespaceCharacterCount": 901,
-      "createdDate": 1670517001808,
-      "modifiedDate": 1670517001808
-    },
     "coding-interview-university-main/Resources.md": {
       "noteCount": 1,
       "wordCount": 3005,
@@ -2548,15 +2548,6 @@
       "nonWhitespaceCharacterCount": 20237,
       "createdDate": 1670517002501,
       "modifiedDate": 1670517002501
-    },
-    "coding-interview-university-main/programming-language-resources.md": {
-      "noteCount": 1,
-      "wordCount": 495,
-      "pageCount": 1.65,
-      "characterCount": 8236,
-      "nonWhitespaceCharacterCount": 7434,
-      "createdDate": 1670517002580,
-      "modifiedDate": 1670517002580
     },
     "coding-interview-university-main/README.md": {
       "noteCount": 1,
@@ -2575,6 +2566,15 @@
       "nonWhitespaceCharacterCount": 43964,
       "createdDate": 1670517002493,
       "modifiedDate": 1670517002493
+    },
+    "coding-interview-university-main/programming-language-resources.md": {
+      "noteCount": 1,
+      "wordCount": 495,
+      "pageCount": 1.65,
+      "characterCount": 8236,
+      "nonWhitespaceCharacterCount": 7434,
+      "createdDate": 1670517002580,
+      "modifiedDate": 1670517002580
     }
   }
 }
