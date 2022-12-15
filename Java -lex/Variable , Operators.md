@@ -25,7 +25,7 @@ In Java, following rules apply to the identifier name: 
 **Data type** defines the type of data that can be stored in the variable and the memory required by
 
 ![[Pasted image 20221201214336.png]]
-
+![[Pasted image 20221215103108.png]]
 ![[Pasted image 20221201214449.png]]
 
 ## [Operators](https://www.geeksforgeeks.org/operators-in-java)
