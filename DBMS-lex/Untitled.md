@@ -24,3 +24,10 @@ An **Application Program** communicates with a database by issuing an appropri
 Database systems are categorized into four types based upon the underlying structure used to store data. These database systems in chronological order of their evolution are Hierarchical, Network, Relational and NoSql. We will now get a brief overview of these database management systems.
 
 ![[Pasted image 20221217193541.png]]
+
+-  Relational Databases store data in relations i.e. tables. Each relation must have a name.
+![[Pasted image 20221217194826.png]]
+![[Pasted image 20221217194846.png]]
+Cardinality of relation is the number of rows it contains. e.g. Cardinality of relation below is 4.
+Degree of relation is the number of attributes it contains. e.g. Degree of relation below is 5.
+![[Pasted image 20221217194938.png]]

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "326d32600c799cc0",
+        "id": "747de4f2f3263410",
         "type": "tabs",
         "children": [
           {
-            "id": "61d12d898f1d9321",
+            "id": "7ab131cba2383977",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java -lex/3 - Variable , Operators, Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f51549b75f77c7d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java -lex/4 - Control Structures.md",
+                "file": "DBMS-lex/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/4 - Control Structures.md",
+                "file": "DBMS-lex/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f51549b75f77c7d6",
+  "active": "7ab131cba2383977",
   "lastOpenFiles": [
-    "Java -lex/Untitled.md",
+    "conflict-files-obsidian-git.md",
+    "DBMS-lex/Untitled.md",
     "Java -lex/4 - Control Structures.md",
     "Java -lex/3 - Variable , Operators, Types.md",
+    "Java -lex/Untitled.md",
     "Java -lex/2 - What is Java.md",
     "Java -lex/1 - Getting Started.md",
     "Ziracy/Database.md",
     "en/How to/Format your notes.md",
-    "Ziracy/External/PREMIUM LINK GENERATOR.md",
-    "Interview.md",
-    "Interview questions.md"
+    "Ziracy/External/PREMIUM LINK GENERATOR.md"
   ]
 }
