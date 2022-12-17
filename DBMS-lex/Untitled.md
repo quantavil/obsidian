@@ -100,3 +100,4 @@ A **Primary** **Key** is the candidate key that is chosen to uniquely identif
 A **Foreign Key** is a set of one or more columns in the child table whose values are required to match with corresponding columns in the parent table. Foreign key establishes a relationship between these two tables. Foreign key columns identified in child tables must refer to the primary key or unique key of the parent table. The child table can contain NULL values. Let us take an example of Employee and Computer tables as given below:
 
 ![[Pasted image 20221217210237.png]]
+
