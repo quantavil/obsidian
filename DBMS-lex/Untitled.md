@@ -82,3 +82,23 @@ An example of a relation schema for a relation degree seven, which describes uni
 STUDENT (Name, RollNo, HomePhone, Address, OfficePhone, Age, GPA)  
 Using the data type of each attribute, the definition is sometimes written as:  
 STUDENT (Name: string, RollNo: string, HomePhone: string, Address: string, OfficePhone: string, Age: number, GPA: real)
+
+
+## Data Integrity 
+
+Data integrity refers to maintaining and assuring the accuracy and consistency of data over its entire life-cycle. Database Systems ensure data integrity through constraints which are used to restrict data that can be entered or modified in the database. Database Systems offer three types of integrity constraints:
+
+![[Pasted image 20221217205839.png]]
+
+![[Pasted image 20221217210034.png]]
+
+A **Candidate Key** is a minimal set of columns/attributes that can be used to uniquely identify a single row/tuple in a relation. Candidate Keys are identified during database design, considering the basic business rules of the database. Consider the following relation with regards to a business firm:
+
+![[Pasted image 20221217210115.png]]
+A **Primary** **Key** is the candidate key that is chosen to uniquely identify a row in a relation. The mandatory and desired attributes for a primary key are:
+
+![[Pasted image 20221217210149.png]]
+
+A **Foreign Key** is a set of one or more columns in the child table whose values are required to match with corresponding columns in the parent table. Foreign key establishes a relationship between these two tables. Foreign key columns identified in child tables must refer to the primary key or unique key of the parent table. The child table can contain NULL values. Let us take an example of Employee and Computer tables as given below:
+
+![[Pasted image 20221217210237.png]]
