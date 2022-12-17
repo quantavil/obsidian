@@ -90,8 +90,6 @@ Data integrity refers to maintaining and assuring the accuracy and consistency o
 
 ![[Pasted image 20221217205839.png]]
 
-![[Pasted image 20221217210034.png]]
-
 A **Candidate Key** is a minimal set of columns/attributes that can be used to uniquely identify a single row/tuple in a relation. Candidate Keys are identified during database design, considering the basic business rules of the database. Consider the following relation with regards to a business firm:
 
 ![[Pasted image 20221217210115.png]]
