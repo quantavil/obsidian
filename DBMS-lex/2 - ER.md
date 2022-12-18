@@ -24,3 +24,8 @@ Cardinality of relationships are of three types: 1:1, 1:N and M:N.
 Let us say the relationship between employee and computer is such that a computer must be allocated to one and only one employee but an employee can be allocated with zero or any number of computers. Such a relationship is represented by the diagram below:
 
 ![[Pasted image 20221218111708.png]]
+
+Foreign keys has to be created in tables in order to establish the relationship between entities.
+![[Pasted image 20221218111753.png]]
+![[Pasted image 20221218111803.png]]
+![[Pasted image 20221218111811.png]]
