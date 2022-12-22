@@ -64,6 +64,36 @@ The operators are categorized as: 
 
 ![[Pasted image 20221201232251.png]]
 
+```ad-note
+- `&&` operator: It only evaluates the next condition, if the condition before it is true. If anyone condition is false, it does not evaluate the statement any further.
+
+- `&` operator: It evaluates all conditions even if they are false. Thus, any change in the data values due to the conditions will only be reflected in this case.
+```java
+
+import java.io.*;
+  
+class GFG {
+    public static void main(String[] args)
+    {
+  
+        int x = 5, y = 7, z = 9;
+  
+        System.out.println("Demonstrating && operator");
+        if ((x > y) && (x++ > z))
+            ;
+        else
+            System.out.println("Value of x: " + x);
+  
+        System.out.println("\nDemonstrating & operator");
+        if ((x > y) & (x++ > z))
+            ;
+        else
+            System.out.println("Value of x: " + x);
+    }
+}
+```
+
+
 **Ternary operator** is used as a single line replacement for if-then-else statements and acts upon three operands. 
 
 **Syntax:** 
