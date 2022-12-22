@@ -13,3 +13,5 @@
     -   continue statement
 
 ![[Pasted image 20221222160110.png]]
+
+**break** statement is used to terminate a loop. After terminating the loop, the next statement following the loop gets executed. In case of break statement written in nested loops, the inner most loop gets terminated and the flow of control continues with the statements of outer loop.
