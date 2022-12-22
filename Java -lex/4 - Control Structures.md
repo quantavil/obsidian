@@ -17,3 +17,22 @@
 **break** statement is used to terminate a loop. After terminating the loop, the next statement following the loop gets executed. In case of break statement written in nested loops, the inner most loop gets terminated and the flow of control continues with the statements of outer loop.
 
 **continue** statement is used to skip the current iteration of a loop and continue with the next iteration. In case of while and do-while loops, continue statement skips the remaining code of the loop and passes the control to check the loop condition. Whereas in case of for loop, the control goes to the increment section and then the condition is checked.
+
+ **Labels** too can be considered as the control statement, but there is one mandatory condition, that within the loop, the label can only be used with break and continue keyword.
+```java
+public class Demo {
+
+	public static void main(String[] args) {
+		first:
+			for (int i = 0 ; i < 3 ; i++) {
+				second: 
+					for (int j = 0 ; j < 3 ; j++) {
+						if (j==1 || i==1) {
+							continue first ;
+						}
+						System.out.println(i + " " +j);
+					}
+			}
+	}
+}
+```
