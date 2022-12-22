@@ -20,11 +20,14 @@
 
 **Difference between break and continue:**
 
-| **Break** | **Continue**
-
- |
+| **Break** | **Continue**|
 | --- | --- |
-| The break statement is used to terminate the loop immediately |The continue statement is used to skip the current iteration of the loop |break keyword is used to indicate break statements in java programming |continue keyword is used to indicate continue statement in java programming |We can use a break with the switch statement |We can not use a continue with the switch statement |The break statement terminates the whole loop early |The continue statement brings the next iteration early |It stops the execution of the loop |It does not stop the execution of the loop |
+| The break statement is used to terminate the loop immediately |The continue statement is used to skip the current iteration of the loop |
+| break keyword is used to indicate break statements in java programming |continue keyword is used to indicate continue statement in java programming |
+| We can use a break with the switch statement |We can not use a continue with the switch statement |
+| The break statement terminates the whole loop early |The continue statement brings the next iteration early |
+| It stops the execution of the loop |It does not stop the execution of the loop |
+
  **Labels** too can be considered as the control statement, but there is one mandatory condition, that within the loop, the label can only be used with break and continue keyword.
 ```java
 public class Demo {
