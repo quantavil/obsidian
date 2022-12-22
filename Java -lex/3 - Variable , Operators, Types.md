@@ -92,6 +92,11 @@ class GFG {
     }
 }
 ```
+> [!Output]
+Demonstrating && operator
+Value of x: 5
+Demonstrating & operator
+Value of x: 6
 
 
 **Ternary operator** is used as a single line replacement for if-then-else statements and acts upon three operands. 
