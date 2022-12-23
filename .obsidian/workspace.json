@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eafaaea61ef95050",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +143,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "75e04c602b3daac1",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "eafaaea61ef95050",
   "lastOpenFiles": [
     "Java -lex/3 - Variable , Operators, Types.md",
     "Java -lex/4 - Control Structures.md",
