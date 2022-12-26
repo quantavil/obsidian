@@ -47,9 +47,11 @@
             "id": "d79afadcd7678355",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.9"
+                "file": "DBMS-lex/2 - ER.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -112,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/2 - What is Java.md",
+                "file": "DBMS-lex/2 - ER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,10 +169,10 @@
   },
   "active": "d79afadcd7678355",
   "lastOpenFiles": [
+    "DBMS-lex/Untitled.md",
+    "DBMS-lex/2 - ER.md",
     "Java -lex/3 - Variable , Operators, Types.md",
     "Java -lex/4 - Control Structures.md",
-    "DBMS-lex/2 - ER.md",
-    "DBMS-lex/Untitled.md",
     "conflict-files-obsidian-git.md",
     "Java -lex/Untitled.md",
     "Java -lex/2 - What is Java.md",
