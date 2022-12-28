@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f4a3a7da35e263e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBMS-lex/Oracle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBMS-lex/DDL Statement.md",
+                "file": "DBMS-lex/Oracle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,8 +155,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "13d3c0476bb3f8a9",
+  "active": "f4a3a7da35e263e1",
   "lastOpenFiles": [
+    "DBMS-lex/DDL Statement.md",
     "DBMS-lex/Untitled.md",
     "Java -lex/4 - Control Structures.md",
     "Java -lex/2 - What is Java.md",
@@ -153,7 +166,6 @@
     "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md",
     "Coding Questions/Minimum number of swap to sort Binary array.md",
     "coding-interview-university-main/Optional.md",
-    "Attachments/Pasted image 20221201161216.png",
-    "Attachments/Pasted image 20221201161423.png"
+    "Attachments/Pasted image 20221201161216.png"
   ]
 }
