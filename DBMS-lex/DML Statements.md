@@ -26,3 +26,14 @@ SELECT expression1, expression2, ... expression_n
 FROM source_table  
 WHERE conditions;  
 ```
+
+```sql
+INSERT INTO suppliers  
+(supplier_id, supplier_name)  
+SELECT age, address  
+FROM customers  
+WHERE age > 20;  
+```
+
+## Select Statement
+
