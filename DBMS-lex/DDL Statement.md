@@ -1,6 +1,14 @@
 
 # Create Table
-
+```sql
+CREATE TABLE table_name  
+(   
+  column1 datatype [ NULL | NOT NULL ],  
+  column2 datatype [ NULL | NOT NULL ],  
+  ...  
+  column_n datatype [ NULL | NOT NULL ]  
+);  
+```
 
 # Alter Table
 

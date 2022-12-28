@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBMS-lex/Oracle.md",
+                "file": "DBMS-lex/DDL Statement.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBMS-lex/Oracle.md",
+                "file": "DBMS-lex/DDL Statement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +157,7 @@
   },
   "active": "f4a3a7da35e263e1",
   "lastOpenFiles": [
+    "DBMS-lex/Oracle.md",
     "DBMS-lex/DDL Statement.md",
     "DBMS-lex/Untitled.md",
     "Java -lex/4 - Control Structures.md",
@@ -165,7 +166,6 @@
     "Coding Questions/Most frequent element in an array.md",
     "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md",
     "Coding Questions/Minimum number of swap to sort Binary array.md",
-    "coding-interview-university-main/Optional.md",
-    "Attachments/Pasted image 20221201161216.png"
+    "coding-interview-university-main/Optional.md"
   ]
 }
