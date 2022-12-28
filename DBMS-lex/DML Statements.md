@@ -37,3 +37,6 @@ WHERE age > 20;
 
 ## Select Statement
 
+With the SELECT clause of a SELECT command statement, we specify the columns that we want to be displayed in the query result and, optionally, which column headings we prefer to see above the result table.
+
+![[Pasted image 20221228150435.png]]
