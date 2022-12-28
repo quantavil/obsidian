@@ -11,11 +11,28 @@
             "id": "f427bdcc5a1d23cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DBMS-lex/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13d3c0476bb3f8a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBMS-lex/DDL Statement.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DBMS-lex/DDL Statement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +143,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f427bdcc5a1d23cf",
+  "active": "13d3c0476bb3f8a9",
   "lastOpenFiles": [
     "DBMS-lex/Untitled.md",
     "Java -lex/4 - Control Structures.md",
