@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBMS-lex/DML Statements.md",
+                "file": "DBMS/SQL Satements/Data Manipulation Statements.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBMS-lex/DML Statements.md",
+                "file": "DBMS/SQL Satements/Data Manipulation Statements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,8 +133,8 @@
   "active": "4651ba43833fdbb2",
   "lastOpenFiles": [
     "DBMS/SQL Satements/Data Definition Statements.md",
-    "DBMS/SQL Satements/Data Manipulation Statements.md",
     "DBMS-lex/DML Statements.md",
+    "DBMS/SQL Satements/Data Manipulation Statements.md",
     "DBMS-lex/DDL Statement.md",
     "DBMS-lex/Untitled.md",
     "DBMS-lex/Oracle.md",
