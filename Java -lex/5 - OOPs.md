@@ -25,3 +25,26 @@ class Main {
 }
 ```
 
+## Pass by reference
+
+When an *object ( including non-primitive data types)* is passed as a parameter, the formal and the actual parameters both refer to the same object and hence the same memory location. 
+Therefore, the changes made inside the method to the formal parameters are reflected in the actual parameters also. This kind of parameter passing is known as **pass by reference**.
+
+```java
+class Main {
+    public static void main(String[] args) {
+
+        int[] values = { 23, 37, 29 };
+        System.out.println(" Before displayAray Method , first element  = " + values[0]);
+        displayArray(values);
+        System.out.println(" After displayAray Method , first element  = " + values[0]);
+
+    }
+
+    public static void displayArray(int[] values) {
+        System.out.println("Inside displayArray method , first element = " + values[0]);
+        values[0] = 100;
+    }
+}
+```
+
