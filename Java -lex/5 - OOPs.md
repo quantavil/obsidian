@@ -25,6 +25,11 @@ class Main {
 }
 ```
 
+> [!Output]
+> Before calling display method = 25
+Inside display method = 100
+After calling display method = 25
+
 ## Pass by reference
 
 When an *object ( including non-primitive data types)* is passed as a parameter, the formal and the actual parameters both refer to the same object and hence the same memory location. 
@@ -48,3 +53,7 @@ class Main {
 }
 ```
 
+> [! Output]
+ Before displayAray Method , first element  = 23
+Inside displayArray method , first element = 23
+ After displayAray Method , first element  = 100
