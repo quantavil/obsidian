@@ -326,3 +326,16 @@ So assuming your code is placed in `StaticDemoShow.java` file you have two opt
               }
           }
         ```
+
+## Memory Management
+
+When a new Customer object referenced by customerObj will be created in the memory.
+
+But how does it happen? 
+
+The memory is logically divided into two primary sections - **Stack** and **Heap**.
+
+-   All local variables and method invocations are stored in the stack
+    
+-   All objects along with their instance variables are stored in the heap
+![[Pasted image 20230103204341.png]]
