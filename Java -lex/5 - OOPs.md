@@ -57,3 +57,25 @@ class Main {
  Before displayAray Method , first element  = 23
 Inside displayArray method , first element = 23
  After displayAray Method , first element  = 100
+
+## Constructor
+
+A **constructor** in Java is a special method that is used to initialize class variables at the time of object creation. 
+
+Each time an object is created using the new() keyword, a constructor is called. A constructor can be created by the programmer. If the developer does not create any constructor, then, Java provides a default constructor.
+
+```java
+class Test {
+  Test() {
+    // constructor body
+  }
+}
+```
+
+### Types of Constructor
+
+In Java, constructors can be divided into 3 types:
+
+1.  No-Arg Constructor
+2.  Parameterized Constructor
+3.  Default Constructor
