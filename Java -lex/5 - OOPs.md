@@ -338,4 +338,69 @@ The memory is logically divided into two primary sections - **Stack** and **H
 -   All local variables and method invocations are stored in the stack
     
 -   All objects along with their instance variables are stored in the heap
+
+
 ![[Pasted image 20230103204341.png]]
+```ad-note
+Please note that reference variables are also local variables. Reference variables are local variables which stores the address of another memory location.
+```
+
+**Step 1:** The reference variable is created in the stack.
+![[Pasted image 20230103204514.png]]
+
+**Step 2:** The object is created in the heap.
+![[Pasted image 20230103204527.png]]
+
+**Step 3:** The reference variable in the stack refers to the object in the heap.
+![[Pasted image 20230103204545.png]]
+
+```ad-note
+-   One reference variable can point to one and only one object at a time.
+    
+-   One object can be referenced by multiple reference variables at any given point of time.
+```
+
+
+Sometimes, even though a resource in a program is unreachable or not in use, the memory used by that resource is not deallocated. This is called **Memory leak** and is undesirable.
+Java, on the other hand, has a **garbage collector** which automatically deallocates the memory used by such resources. This prevents memory leak.
+
+### When an object does not have any reference, it becomes eligible for garbage collection.
+
+**Case 1** - **Objects eligible for garbage collection**
+
+-   When the reference variable pointing to the object is initialized to null, the object will not have any reference.
+![[Pasted image 20230103204740.png]]
+
+```java
+public class Tester {
+	public static void main(String[] args) {
+		// Object creation
+		Customer customerObj = new Customer("C101", "Stephen Abram",
+				7856341287L, "D089, St. Louis Street, Springfield, 62729");
+		// Reference variable initialized to null
+		customerObj = null;
+	}
+}
+
+```
+
+**Case 2 - Objects eligible for garbage collection**
+
+-   When the reference variable is initialized to a new object and there is no reference to the previous object
+
+![[Pasted image 20230103204836.png]]
+
+```java
+public class Tester {
+	public static void main(String[] args) {
+		// Object creation
+		Customer customerObj = new Customer("C101", "Stephen Abram",
+				7856341287L, "D089, St. Louis Street, Springfield, 62729");
+		// New object is set to the same reference
+		customerObj = new Customer("C102", "James", 7898766723L,
+				"D199, St. Louis Street, Springfield, 62729");
+	}
+}
+```
+
+
