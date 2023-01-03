@@ -209,5 +209,31 @@ this keyword refers to the same class
 The this keyword can be used to refer current class instance variable. If there is ambiguity between the instance variables and parameters, this keyword resolves the problem of ambiguity.
 
 ```java
+class Tester {
+	int a;
+	Tester(int a) {
+		a = a;
+	}
 
+	public static void main(String[] args) {
+		Tester r = new Tester(100);
+		System.out.println(r.a);
+	}
+}
+```
+
+In the above example, parameters (formal arguments) and instance variables are same. So, we are using this keyword to distinguish local variable and instance variable.
+
+```java
+class Tester {
+	int a;
+	Tester(int a) {
+		this.a = a;
+	}
+
+	public static void main(String[] args) {
+		Tester r = new Tester(100);
+		System.out.println(r.a);
+	}
+}
 ```
