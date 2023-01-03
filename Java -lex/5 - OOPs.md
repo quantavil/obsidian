@@ -261,4 +261,68 @@ class Tester {
 ```
 > [!Output]
 > This is default Constructor
-100
+
+
+If `.java` file contains top level (not nested) `public` class, it has to have the same name as that public class. So if you have class like `public class A{...}` it needs to be placed in `A.java` file. Because of that **we can't have two public classes in one `.java` file**.
+
+If having two public classes would be allowed then, and lets say aside from public `A` class file would also contain `public class B{}` it would require from `A.java` file to be _also_ named as `B.java` but files can't have two (or more) names (at least in all systems on which Java can be run).
+
+So assuming your code is placed in `StaticDemoShow.java` file you have two options:
+
+1.  If you want to have other class in same file make them non-public (lack of visibility modifier will represent _default/package-private_ visibility)
+    
+    ```java
+     class StaticDemo { // It can no longer public
+    
+         static int a = 3;
+         static int b = 4;
+    
+         static {
+             System.out.println("Voila! Static block put into action");
+         }
+    
+         static void show() {
+             System.out.println("a= " + a);
+             System.out.println("b= " + b);
+         }
+    
+     }
+    
+     public class StaticDemoShow { // Only one top level public class in same .java file
+         public static void main() {
+             StaticDemo.show();
+         }
+     }
+    ```
+    
+2.  Move all public classes to their own `.java` files. So in your case you would need to split it into two files:
+    
+    -   StaticDemo.java
+        
+        ```java
+          public class StaticDemo { // Note: same name as name of file
+        
+              static int a = 3;
+              static int b = 4;
+        
+              static {
+                  System.out.println("Voila! Static block put into action");
+              }
+        
+              static void show() {
+                  System.out.println("a= " + a);
+                  System.out.println("b= " + b);
+              }
+        
+          }
+        ```
+        
+    -   StaticDemoShow.java
+        
+        ```java
+          public class StaticDemoShow { 
+              public static void main() {
+                  StaticDemo.show();
+              }
+          }
+        ```
