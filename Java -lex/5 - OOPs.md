@@ -203,7 +203,7 @@ b = false
 
 ## this Keyword
 
-this keyword refers to the same class 
+The `this` keyword refers to the current object in a method or constructor.
 ### 1) this: to refer current class instance variable
 
 The this keyword can be used to refer current class instance variable. If there is ambiguity between the instance variables and parameters, this keyword resolves the problem of ambiguity.
