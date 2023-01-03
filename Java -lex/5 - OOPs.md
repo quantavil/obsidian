@@ -104,6 +104,7 @@ class Main {
 }
 ```
 
+
 #### Parametrized Constructor
 
 A Java constructor can also accept one or more parameters. Such constructors are known as parameterized constructors (constructor with parameters).
@@ -134,7 +135,10 @@ class Main {
 Python Programming Language
 C Programming Language
 
+
 #### Multiple constructors in a class
+
+A class can have multiple constructors to initialize different members. Based on the arguments passed, the respective constructor is called.
 
 ```java
 class Customer {
@@ -166,5 +170,32 @@ public class Tester {
 }
 ```
 
-> 
+> [!Output]
+> Parameterized constructor called
+Parameterless constructor called
+
+
 #### Default Constructor
+
+```java
+class Main {
+
+  int a;
+  boolean b;
+
+  public static void main(String[] args) {
+
+    // A default constructor is called
+    Main obj = new Main();
+
+    System.out.println("Default Value:");
+    System.out.println("a = " + obj.a);
+    System.out.println("b = " + obj.b);
+  }
+}
+```
+
+> [!Output]
+> Default Value:
+a = 0
+b = false
