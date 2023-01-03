@@ -410,3 +410,49 @@ public class Tester {
 
 ![[Pasted image 20230103204916.png]]
 
+## Encapsulation
+
+```java
+class Customer {
+	public String customerId;
+	public String customerName;
+	public long contactNumber;
+	public String address;
+    
+    public void displayCustomerDetails() {
+		System.out.println("Displaying customer details \n***********");
+		System.out.println("Customer Id : " + customerId);
+		System.out.println("Customer Name : " + customerName);
+		System.out.println("Contact Number : " + contactNumber);
+		System.out.println("Address : " + address);
+		System.out.println();
+	}
+}
+public class Tester {
+	public static void main(String args[]) {
+		Customer customer = new Customer();
+		customer.customerId = "C101";
+		customer.customerName = "Stephen Abram";
+		customer.contactNumber = 7856341287L;
+		customer.address = "D089, St. Louis Street, Springfield, 62729";
+		customer.displayCustomerDetails();
+	}
+}
+
+```
+
+Ideally, the data should not be allowed to be changed directly by any external class as the data can be changed without any validation.
+
+We can put a lock on the customer data so that it is not changed by any other class by:
+
+1.  declaring the variables of a class as **private**
+    -   **Private** variables are those which are accessible only inside the class
+2.  using public **setter** and **getter** methods within the class to set and get the values of the fields
+    -   The methods that are used to set values to private variables are called **setter** methods.The methods that are used to fetch the values of private variables are called **getter** methods.
+    -   Getter methods are also known as **accessor** methods and setter methods are also known as **mutator** methods.
+
+This way of restricting access to data is called **encapsulation**.
+
+**Encapsulation is one of the basic principles of OOP.**
+
+Here, the variables of a particular class are hidden from other classes. We can access these variables only through the methods of the class. Hence, it is also referred as **data hiding**.
