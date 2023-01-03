@@ -404,3 +404,9 @@ public class Tester {
 ```
 
 
+**Case 3 - Objects eligible for garbage collection**
+
+-   When a reference variable is local to some method, it will be removed from the stack as soon as the method finishes execution. The object pointed by the reference variable then becomes eligible for garbage collection.
+
+![[Pasted image 20230103204916.png]]
+
