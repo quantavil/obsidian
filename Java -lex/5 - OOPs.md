@@ -76,6 +76,29 @@ class Test {
 
 In Java, constructors can be divided into 3 types:
 
-1.  No-Arg Constructor
+1.  No-Arg Constructor / Parameterless Constructor
 2.  Parameterized Constructor
 3.  Default Constructor
+
+#### Parameterless  Constructor
+A constructor with no arguments is known as a **parameterless constructor**. If you don’t define a constructor in a class, then Java creates a default parameterless constructor and initializes the default values to the class variables based on the data type.
+
+```java
+class Main {
+
+  int i;
+
+  // constructor with no parameter
+  private Main() {
+    i = 5;
+    System.out.println("Constructor is called");
+  }
+
+  public static void main(String[] args) {
+
+    // calling the constructor without any parameter
+    Main obj = new Main();
+    System.out.println("Value of i: " + obj.i);
+  }
+}
+```
