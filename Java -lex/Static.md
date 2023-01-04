@@ -3,4 +3,8 @@ When a variable is declared as **Static**, then a single copy of the variable i
 Since static variables and instance variables are both members of the class, they are often referred to as **member variables**.
 
 
-We can't access non static variable in static method (Cannot make a satic referenc eto  the non-static field name)
+We can't access non static variable in static method (Cannot make a static reference to  the non-static field name)
+
+The Static method cant refer to this or super keyword. i.e. we can't use this or super keyword inside static method
+
+We can access static method inside normal methods
