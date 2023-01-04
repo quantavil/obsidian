@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "366693d5da081988",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java -lex/5 - OOPs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "282986ce1b28fb41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java -lex/5 - OOPs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dbed5d5a90651e23",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"

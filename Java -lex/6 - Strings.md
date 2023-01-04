@@ -92,3 +92,28 @@ public class Tester {
 	}
 }
 ```
+
+### Multi-Dimensional Array
+
+```java
+dataType[][] arrayVarName = new dataType[rowsize][columnsize];
+```
+
+```java
+//Here, the row size is 7, and the column size is 2
+//The 0th index stores the Max temperature and 1st index stores the Min temperature
+int[][] dayWiseTemperature = new int[7][2];    
+dayWiseTemperature[0][0]=29; // Initialization 
+dayWiseTemperature[0][1]=21;
+//and so on
+//Another way of creating and initializing 2D array 
+int[][] dayWiseTemperature = new int[][]  {{29,21},
+		{24,23},
+		{26,22},
+		{28,23},
+		{29,24},
+		{23,20},
+		{29,21}};
+
+```
+
