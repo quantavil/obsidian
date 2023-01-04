@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java -lex/6 - Strings.md",
+                "file": "Java -lex/5 - OOPs.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/6 - Strings.md",
+                "file": "Java -lex/5 - OOPs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +157,7 @@
   },
   "active": "dbed5d5a90651e23",
   "lastOpenFiles": [
+    "Java -lex/6 - Strings.md",
     "Java -lex/5 - OOPs.md",
     "Java -lex/Untitled.md",
     "Java -lex/4 - Control Structures.md",
@@ -165,7 +166,6 @@
     "DBMS-lex/Untitled 1.md",
     "Java/1 - Introduction to Java.md",
     "DBMS/SQL Satements/Data Manipulation Statements.md",
-    "DBMS/SQL Satements/Data Definition Statements.md",
-    "DBMS-lex/DML Statements.md"
+    "DBMS/SQL Satements/Data Definition Statements.md"
   ]
 }
