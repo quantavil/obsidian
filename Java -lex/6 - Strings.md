@@ -43,3 +43,52 @@ restaurantContacts [2] = 9992346727L;
 
 Syntax:
 
+```java
+dataType [] arrayVarName;
+arrayVarName = new dataType[size];
+arrayVarName[index] = element;
+
+```
+
+```java
+long[] restaurantContacts;
+restaurantContacts = new long[3];
+restaurantContacts[0] = 9992346725L;
+restaurantContacts[1] = 9992346726L;
+restaurantContacts[2] = 9992346727L;
+
+```
+### Accessing array using loop
+
+- **Using For Loop**
+```java
+public class Tester {
+	public static void main(String[] args) {
+		long[] restaurantContacts = { 9992346725L, 9992346726L, 9992346727L };
+		for (int index = 0; index < restaurantContacts.length; index++) {
+			// Accessing element at position index
+			System.out.println(restaurantContacts[index]);
+		}
+	}
+}
+
+```
+
+- **Using For Each loop**
+
+```java
+for (dataType variable: array) { 
+	//body of the loop 
+} 
+```
+
+```java
+public class Tester {
+	public static void main(String[] args) {
+		long[] restaurantContacts = { 9992346725L, 9992346726L, 9992346727L };
+		for (long contactNumber : restaurantContacts) {
+			System.out.println(contactNumber);
+		}
+	}
+}
+```
