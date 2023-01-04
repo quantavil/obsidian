@@ -535,3 +535,18 @@ class Tester {
 -   Protected: Accessible inside the same package and to the sub-classes in different packages. This will be discussed in detail later in the course.
     
 -   Default: Accessible inside the same package. Members created without any access modifier will have this access.
+
+
+## Class Diagram
+
+A **class diagram** is a diagram that is used to visualize the different aspects of a class. It can be used to define the structure of the classes and the relationship among them. Class diagram is the only UML (Unified Modeling Language) diagram which can be directly mapped to object oriented languages and therefore, is one of the most widely used UML diagrams.
+
+![[Pasted image 20230104092106.png]]
+
+![[Pasted image 20230104092113.png]]
+
+The symbols denote the accessibility of the members: 
+
+-   - denotes private members
+-   + denotes public members
+-   # denotes protected members
