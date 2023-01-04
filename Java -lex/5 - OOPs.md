@@ -525,3 +525,13 @@ class Tester {
 
 
 ## Abstraction
+
+## Access Modifer
+
+-   Public: Accessible from any other class
+    
+-   Private: Accessible only inside its own class
+    
+-   Protected: Accessible inside the same package and to the sub-classes in different packages. This will be discussed in detail later in the course.
+    
+-   Default: Accessible inside the same package. Members created without any access modifier will have this access.
