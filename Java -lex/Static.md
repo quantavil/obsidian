@@ -3,8 +3,30 @@ When a variable is declared as **Static**, then a single copy of the variable i
 Since static variables and instance variables are both members of the class, they are often referred to as **member variables**.
 
 
-We can't access non static variable in static method (Cannot make a static reference to  the non-static field name)
+- We can't access non static variable in static method (Cannot make a static reference to  the non-static field name)
 
-The Static method cant refer to this or super keyword. i.e. we can't use this or super keyword inside static method
+- The Static method cant refer to this or super keyword. i.e. we can't use this or super keyword inside static method
 
-We can access static method inside normal methods
+- We can access static method inside normal methods
+
+
+**Syntax**
+
+```java
+private static float deliveryCharge; //Declaration of static variable 
+```
+
+```java
+private static float deliveryCharge = 1.5f; 
+
+```
+
+### **Static blocks** 
+
+**Static blocks** are used to initialize static variables when it cannot be done in a single line. They can also be used to add preprocessing if required.
+
+```java
+static {
+    deliveryCharge = 1.5f; // initialize the static variable
+    }
+```
