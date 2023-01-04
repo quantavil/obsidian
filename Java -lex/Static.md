@@ -1,3 +1,6 @@
 When a variable is declared as **Static**, then a single copy of the variable is created and shared among all objects at the class level. Memory allocation for such variables happen only once when the class is loaded in the memory. These variables are also known as class-level variables.
 
 Since static variables and instance variables are both members of the class, they are often referred to as **member variables**.
+
+
+We can't access non static variable in static method (Cannot make a satic referenc eto  the non-static field name)
