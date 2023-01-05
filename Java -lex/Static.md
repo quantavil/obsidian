@@ -169,6 +169,7 @@ class Guest extends Customer {                  // Guest is a Customer
 	//Child/Sub/Derived class
 }
 ```
+
 ### Terms used in Inheritance
 
 -   **Class:** A class is a group of objects which have common properties. It is a template or blueprint from which objects are created.
