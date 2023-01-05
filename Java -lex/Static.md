@@ -209,12 +209,17 @@ Consider a scenario where A, B, and C are three classes. The C class inherits A 
 class Person {
     int id;
     String name;
-    String color = "white"; 
+    String color = "white";
+
+	
 
     Person(int id, String name) {
         this.id = id;
         this.name = name;
     }
+	void eat(){
+	System.out.println("eating...");
+	}
 }
 
 class Emp extends Person {
@@ -227,7 +232,10 @@ class Emp extends Person {
 
     void display() {
         System.out.println(id + " " + name + " " + salary);
+        System.out.println(super.color);//refering to parent instance variable
     }
+    
+    super.eat(); // invoke parent class method
 }
 
 class TestSuper5 {
