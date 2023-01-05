@@ -192,3 +192,49 @@ Multiple inheritance is not supported in Java through class.
 Consider a scenario where A, B, and C are three classes. The C class inherits A and B classes. If A and B classes have the same method and you call it from child class object, there will be ambiguity to call the method of A or B class.
 ```
 
+
+```java
+
+```
+
+
+## Super Keyword
+
+- super is used to refer immediate parent class instance variable.
+- super can be used to invoke parent class method.
+- super is used to invoke parent class constructor.
+
+
+```java
+class Person {
+    int id;
+    String name;
+    String color = "white"; 
+
+    Person(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+}
+
+class Emp extends Person {
+    float salary;
+
+    Emp(int id, String name, float salary) {
+        super(id, name);// reusing parent constructor
+        this.salary = salary;
+    }
+
+    void display() {
+        System.out.println(id + " " + name + " " + salary);
+    }
+}
+
+class TestSuper5 {
+    public static void main(String[] args) {
+        Emp e1 = new Emp(1, "ankit", 45000f);
+        e1.display();
+    }
+}
+
+```
