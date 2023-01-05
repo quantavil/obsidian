@@ -7,7 +7,7 @@ Polymorphism is of two types:
 -   Dynamic polymorphism
 
 Polymorphism that gets resolved during compile time is known as **static polymorphism** or **compile time polymorphism**. This polymorphism is achieved using overloading of the methods in the same class, called as **Method overloading**.
-\
+
 Method overloading allows the programmer to have multiple methods with the same name in the same class, but differing in their signature.
 
 Signature can differ by
