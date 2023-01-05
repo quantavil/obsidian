@@ -211,21 +211,30 @@ class Person {
     String name;
     String color = "white";
 
-	
+    Person() {
+        System.out.println("Parameterless Constructor of Parent Class");
+    }
 
     Person(int id, String name) {
         this.id = id;
         this.name = name;
     }
-	void eat(){
-	System.out.println("eating...");
-	}
+
+    void eat() {
+        System.out.println("eating...");
+    }
 }
 
 class Emp extends Person {
     float salary;
 
+    Emp() {
+        super();
+        super.eat(); // invoke parent class method.
+    }
+
     Emp(int id, String name, float salary) {
+
         super(id, name);// reusing parent constructor
         this.salary = salary;
     }
@@ -234,15 +243,16 @@ class Emp extends Person {
         System.out.println(id + " " + name + " " + salary);
         System.out.println(super.color);//refering to parent instance variable
     }
-    
-    super.eat(); // invoke parent class method
+
 }
 
-class TestSuper5 {
+class Tester {
     public static void main(String[] args) {
         Emp e1 = new Emp(1, "ankit", 45000f);
         e1.display();
+        Emp e2 = new Emp();
+        e2.display();
     }
 }
-
 ```
+
