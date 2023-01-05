@@ -181,3 +181,9 @@ class Guest extends Customer {                  // Guest is a Customer
 - Method Overriding is only possible through Inheritance.
 
 
+![[Pasted image 20230105142136.png]]
+![[Pasted image 20230105142206.png]]
+
+```ad-note
+Multiple inheritance is not supported in Java through class.
+```
