@@ -197,6 +197,16 @@ Consider a scenario where A, B, and C are three classes. The C class inherits A 
 
 ```
 
+The main advantages of inheritance are:
+
+-   Code reusability - The codes are defined only once and can be used multiple times. We define the functionalities in the parent class and any number of child classes can use the functionalities at any time.
+    
+-   Saves time and effort due to reusability of code.
+    
+-   Inheritance makes the application code more flexible to changes
+    
+-   Inheritance results in better organization of codes into smaller and simpler compilation units which makes the code more readable and easy to debug
+
 
 ## Super Keyword
 
