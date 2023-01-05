@@ -152,3 +152,27 @@ class Test
 
 Association is a relation between two separate classes which establishes through their Objects. Association can be one-to-one, one-to-many, many-to-one, many-to-many. In Object-Oriented programming, an Object communicates to another object to use functionality and services provided by that object. **Composition** and **Aggregation** are the two forms of association.
 
+
+## Inheritance
+
+**Inheritance in Java** is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+In terms of OOP, a child class inherits all the non-private attributes and methods.
+
+```java
+class Customer {
+	//Parent/Super/Base class
+}
+class RegularCustomer extends Customer {        // RegularCustomer is a Customer
+	//Child/Sub/Derived class
+}
+class Guest extends Customer {                  // Guest is a Customer
+	//Child/Sub/Derived class
+}
+```
+### Terms used in Inheritance
+
+-   **Class:** A class is a group of objects which have common properties. It is a template or blueprint from which objects are created.
+-   **Sub Class/Child Class:** Subclass is a class which inherits the other class. It is also called a derived class, extended class, or child class.
+-   **Super Class/Parent Class:** Superclass is the class from where a subclass inherits the features. It is also called a base class or a parent class.
+-   **Reusability:** As the name specifies, reusability is a mechanism which facilitates you to reuse the fields and methods of the existing class when you create a new class. You can use the same fields and methods already defined in the previous class.
+
