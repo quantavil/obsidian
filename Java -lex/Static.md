@@ -177,3 +177,5 @@ class Guest extends Customer {                  // Guest is a Customer
 -   **Super Class/Parent Class:** Superclass is the class from where a subclass inherits the features. It is also called a base class or a parent class.
 -   **Reusability:** As the name specifies, reusability is a mechanism which facilitates you to reuse the fields and methods of the existing class when you create a new class. You can use the same fields and methods already defined in the previous class.
 
+-  We can't access private members of class through inheritance.
+- Method Overriding is only possible through Inheritance.
