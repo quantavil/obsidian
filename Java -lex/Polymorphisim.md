@@ -1,0 +1,1 @@
+Polymorphism is the ability of an object to take different forms, i.e., a single action that can be performed in different ways. So, polymorphism means many forms.
