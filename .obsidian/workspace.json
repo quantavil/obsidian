@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java -lex/Static.md",
+                "file": "Java -lex/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a6799d81916df63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java -lex/Object and Wrapper Class.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "super",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +82,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/Static.md",
+                "file": "Java -lex/Object and Wrapper Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,17 +155,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "38ea7827c1b41481",
+  "active": "6a6799d81916df63",
   "lastOpenFiles": [
-    "Java -lex/6 - Strings.md",
-    "Java -lex/5 - OOPs.md",
-    "Java -lex/Static.md",
+    "Java -lex/Untitled.md",
+    "Untitled 1.md",
     "Java -lex/Polymorphisim.md",
+    "Java -lex/Static.md",
+    "Java -lex/6 - Strings.md",
+    "Untitled.canvas",
+    "Java -lex/5 - OOPs.md",
     "regex.md",
     "Java -lex/4 - Control Structures.md",
-    "Java -lex/Untitled.md",
-    "Java/Untitled.md",
-    "DBMS-lex/Untitled.md",
-    "DBMS-lex/Untitled 1.md"
+    "Java/Untitled.md"
   ]
 }
