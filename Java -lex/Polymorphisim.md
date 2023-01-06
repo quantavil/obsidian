@@ -12,6 +12,8 @@ Polymorphism is of two types:
 
 Polymorphism that gets resolved during compile time is known as **static polymorphism** or **compile time polymorphism**. This polymorphism is achieved using overloading of the methods in the same class, called as **Method overloading**.
 
+### Method Overloading
+
 Method overloading allows the programmer to have multiple methods with the same name in the same class, but differing in their signature.
 
 Signature can differ by
@@ -33,4 +35,38 @@ Note: We cannot overload methods by their return type, i.e., two or more meth
 ### Method Overriding
 
 It provides a specific implementation to a method that is already present in the parent class. it is used to achieve run-time polymorphism. Remember that, it is not possible to override the **static** method. Hence, we cannot override the main() method also because it is a static method.
+
+-   The name of the method must be the same as the name of the parent class method.
+-   The number of parameters and the types of parameters must be the same as in the parent class.
+-   There must exist an IS-A relationship (inheritance).
+
+```java
+public class Demo {
+	public static void main(String args[]) {
+		// assigning a child class object to a parent class reference
+		Fruits fruits = new Mango();
+		// invoking the method
+		fruits.color();
+	}
+}
+
+// parent class
+class Fruits {
+	public void color() {
+		System.out.println("Parent class method is invoked.");
+	}
+}
+
+// derived or child class that extends the parent class
+class Mango extends Fruits {
+	// overrides the color() method of the parent class
+	@Override
+	public void color() {
+		System.out.println("The child class method is invoked.");
+	}
+}
+```
+
+> [!Output]
+> The child class method is invoked.
 
