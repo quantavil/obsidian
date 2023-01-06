@@ -98,3 +98,12 @@ class Mango extends Fruits {
 > [!Output]
 > The child class method is invoked.
 
+## Comparison of Method Overloading and Method Overriding
+
+-   Method overloading is a feature through which a class can have multiple methods with the same name but different signature.
+    
+-   Method overriding is a feature that allows a subclass or child class to have a method with the same name and signature as that of the parent class.
+- Overloading is an example of compile-time polymorphism as the decision about which method has to be invoked is taken during compilation time.
+    
+-   Overriding is an example of runtime polymorphism as the decision about which method has to be invoked is taken during runtime.
+![[Pasted image 20230106101527.png]]
