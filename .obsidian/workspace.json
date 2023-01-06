@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java -lex/Polymorphisim.md",
+                "file": "Java -lex/Static.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "super",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/Polymorphisim.md",
+                "file": "Java -lex/Static.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,12 +146,12 @@
   },
   "active": "38ea7827c1b41481",
   "lastOpenFiles": [
+    "Java -lex/6 - Strings.md",
+    "Java -lex/5 - OOPs.md",
     "Java -lex/Static.md",
     "Java -lex/Polymorphisim.md",
     "regex.md",
     "Java -lex/4 - Control Structures.md",
-    "Java -lex/6 - Strings.md",
-    "Java -lex/5 - OOPs.md",
     "Java -lex/Untitled.md",
     "Java/Untitled.md",
     "DBMS-lex/Untitled.md",
