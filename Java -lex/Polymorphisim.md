@@ -20,3 +20,5 @@ Signature can differ by
     
 
 Note: We cannot overload methods by their return type, i.e., two or more methods are not overloaded if they differ only in their return type.
+
+Similar to static polymorphism or compile time polymorphism, polymorphism can also be achieved at runtime. Such type of polymorphism is known as **dynamic polymorphism**. This type of polymorphism is achieved using overriding the parent method in the child class, called as **Method Overriding**.
