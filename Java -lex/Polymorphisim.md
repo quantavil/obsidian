@@ -6,6 +6,8 @@ Polymorphism is of two types:
     
 -   Dynamic polymorphism
 
+## Static Polymorphism 
+
 Polymorphism that gets resolved during compile time is known as **static polymorphism** or **compile time polymorphism**. This polymorphism is achieved using overloading of the methods in the same class, called as **Method overloading**.
 
 Method overloading allows the programmer to have multiple methods with the same name in the same class, but differing in their signature.
@@ -21,4 +23,11 @@ Signature can differ by
 
 Note: We cannot overload methods by their return type, i.e., two or more methods are not overloaded if they differ only in their return type.
 
-Similar to static polymorphism or compile time polymorphism, polymorphism can also be achieved at runtime. Such type of polymorphism is known as **dynamic polymorphism**. This type of polymorphism is achieved using overriding the parent method in the child class, called as **Method Overriding**.
+
+## Dynamic Polymorphism
+
+**Dynamic polymorphism** is a process or mechanism in which a call to an overridden method is to resolve at runtime rather than compile-time. It is also known as [**runtime polymorphism**](https://www.javatpoint.com/runtime-polymorphism-in-java) or **dynamic method dispatch**. We can achieve dynamic polymorphism by using the [**method overriding**](https://www.javatpoint.com/method-overriding-in-java).
+
+### Method Overriding
+
+It provides a specific implementation to a method that is already present in the parent class. it is used to achieve run-time polymorphism. Remember that, it is not possible to override the **static** method. Hence, we cannot override the main() method also because it is a static method.
