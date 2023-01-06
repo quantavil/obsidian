@@ -6,6 +6,8 @@ Polymorphism is of two types:
     
 -   Dynamic polymorphism
 
+![[Pasted image 20230106094658.png]]
+
 ## Static Polymorphism 
 
 Polymorphism that gets resolved during compile time is known as **static polymorphism** or **compile time polymorphism**. This polymorphism is achieved using overloading of the methods in the same class, called as **Method overloading**.
@@ -31,3 +33,4 @@ Note: We cannot overload methods by their return type, i.e., two or more meth
 ### Method Overriding
 
 It provides a specific implementation to a method that is already present in the parent class. it is used to achieve run-time polymorphism. Remember that, it is not possible to override the **static** method. Hence, we cannot override the main() method also because it is a static method.
+
