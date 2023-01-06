@@ -27,6 +27,34 @@ Signature can differ by
 
 Note: We cannot overload methods by their return type, i.e., two or more methods are not overloaded if they differ only in their return type.
 
+```java
+class Demo {
+
+	// Method 1
+	// Multiplication of 2 numbers
+	static int Multiply(int a, int b) {
+
+		// Return product
+		return a * b;
+	}
+
+	// Method 2
+	static int Multiply(int a, int b, int c) {
+
+		// Return product
+		return a * b * c;
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+
+		System.out.println(Demo.Multiply(2, 4));
+		System.out.println(Demo.Multiply(2, 7, 3));
+	}
+}
+
+```
 
 ## Dynamic Polymorphism
 
