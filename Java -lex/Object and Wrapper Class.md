@@ -17,4 +17,5 @@
     
 -   Any formula can be used for generating the hash code as long as it generates the same value for same objects
 
-##
+## Abstraction
+
