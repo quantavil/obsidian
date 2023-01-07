@@ -205,12 +205,64 @@ Which of the following are invalid variable declarations?
 
   
 - [ ] double salary = 123467;
-- [ ] int 1value = 2147483648;
-- [ ] 
-- [ ] char gender = "M";
-- [ ] 
+- [x] int 1value = 2147483648;
+- [x] char gender = "M";
 - [ ] long bonus = 35000L;
-- [ ] 
-- [ ] boolean flag = False
-- [ ] 
-- [ ] String name = 'Alex'
+- [x] boolean flag = False
+- [x] String name = 'Alex'
+
+---
+
+How many instance variables, reference variables and objects are there in the code given below?
+
+```java
+class Student {
+	public int studentId;
+	public String name;
+}
+
+public class Tester {
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		Student s2 = new Student();
+		Student s3 = s1;
+	}
+}
+```
+
+```ad-success
+instance variables : 2, reference variables : 3, objects: 2
+
+```
+
+---
+
+```java
+public class Tester {
+	public static void main(String[] args) {
+		System.out.println(demo(5, 1));
+	}
+
+	public static int demo(int x, int y) {
+		if (x == 0)
+			return 1;
+		else if (y > x)
+			return 0;
+		else
+			return (y + demo(x - 1, y + 1));
+	}
+}
+```
+
+```ad-success
+6
+```
+
+---
+
+Which of the following statements is/are false?
+
+- [x] A class can extend only one class or implement only one interface.
+- [x] Methods declared in an interface are implicitly public and abstract.
+- [x] Data fields declared in an interface are implicitly public, static and final.
+- [ ] A class can implement an interface using extends keyword.
