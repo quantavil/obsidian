@@ -136,3 +136,81 @@ Sum = 18
 
 ---
 
+```java
+class Validator{
+	public int[] studentId = { 101, 102, 103 };
+
+	public void validateStudent(int id) {
+		try {
+			for (int index = 0; index <= studentId.length; index++) {
+				if (id == studentId[index])
+					System.out.println("P");
+			}
+		} finally {
+			System.out.println("Q");
+		}
+	}
+}
+
+public class Tester {
+	public static void main(String[] args) {
+		Validator validator = new Validator();
+		try {
+			validator.validateStudent(101);
+			System.out.print("R");
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("S");
+		} finally {
+			System.out.println("T");
+		}
+	}
+}
+```
+
+```ad-success
+PQST
+```
+
+---
+
+```java
+class Parent{
+    public final void displayMessage() {
+        System.out.println("displayMessage() method of Parent invoked");
+    }
+}
+
+class Child extends Parent{
+    public void displayMessage() {  
+        System.out.println("displayMessage() method of Child invoked");
+    }
+}
+
+public class Tester{
+    public static void main(String[] args) {
+        Parent parent = new Child();
+        parent.displayMessage();
+    }
+}
+```
+
+
+```ad-failure
+displayMessage() method of Parent invoked displayMessage() method of Child invoked
+```
+
+---
+
+Which of the following are invalid variable declarations?
+
+  
+- [ ] double salary = 123467;
+- [ ] int 1value = 2147483648;
+- [ ] 
+- [ ] char gender = "M";
+- [ ] 
+- [ ] long bonus = 35000L;
+- [ ] 
+- [ ] boolean flag = False
+- [ ] 
+- [ ] String name = 'Alex'
