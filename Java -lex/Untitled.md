@@ -22,3 +22,4 @@ what u
 | It is not compulsory to initialize instance variables before use. &nbsp;                                                              | It is important to initialize local variables before use.                                                                                                      |
 | It includes access modifiers such as private, public, protected, etc. &nbsp;                                                          | It does not include any access modifiers such as private, public, protected, etc.                                                                              |
 
+![[Pasted image 20230107175248.png]]
