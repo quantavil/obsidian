@@ -511,4 +511,126 @@ public class Tester {
 
 
 ```ad-success
+1351 6755 1201 1364 1363 
+```
+
+---
+
+```java
+public class Tester {
+	public static void main(String args[]) {
+		String input1 = "warner";
+		String input2 = new String("WARNER");
+		input2.toLowerCase();
+		if (input1 == input2) {
+			System.out.println(" Welcome " + input1);
+		} else if (input1.equals(input2)) {
+			System.out.println(" Welcome " + input2);
+		} else {
+			System.out.println("Welcome");
+		}
+	}
+}
+```
+
+
+```ad-success
+Welcome
+```
+
+
+----
+
+```java
+class Employee{
+	public int employeeId;
+	private double basicSalary;
+	private double totalSalary;
+	public Employee(double basicSalary) {
+		this.basicSalary = basicSalary;
+	}
+
+	public double getBasicSalary() {
+		return basicSalary;
+	}
+
+	public double getTotalSalary() {
+		return totalSalary;
+	}
+
+	public int getEmployeeId() {
+		return employeeId;
+	}
+
+	public double calculateTotalSalary(int bonusPercent) {
+		//line 22
+		return totalSalary;
+	}
+}
+
+public class Tester {
+	public static void main(String[] args) {
+		Employee employee = new Employee(2150);
+		employee.employeeId = 101;
+		employee.calculateTotalSalary(8);
+		// line 32
+	}
+}
+```
+
+You need to help the developer to display the following output by choosing the appropriate code to be implemented in Line 21 and Line 32.
+
+Employee Id: 101, Total salary: 2322.0
+
+Line 21 - this.totalSalary = this.basicSalary * (1 + bonusPercent / 100);
+
+Line 32 - System.out.println("Employee Id: " + employee.employeeId + ", Total salary: " + employee.totalSalary);
+
+- [x] Line 21 - this.totalSalary = this.basicSalary * (1 + (double) bonusPercent / 100);
+
+- [x] Line 32 - System.out.println("Employee Id: " + employee.getEmployeeId()+ ", Total salary: " + employee.getTotalSalary());
+
+---
+
+```java
+public class Tester {
+	public static void main(String[] args) {
+		int num1 = 2, num2 = 20;
+		do {
+			num2 = num2 / num1;
+			if (num1 > num2) {
+				break;
+			}
+			num2--;
+
+		} while (++num1 < 5);
+
+		System.out.println("num1 = " + num1 + " and num2 = " + num2);
+	}
+}
+```
+
+```ad-success
+num1 = 4 and num2 = 0
+```
+
+---
+
+```java
+public class Tester {
+	public static void main(String[] args) {
+		short discountPercentage = 7;
+		int noOfItems = 10;
+		float pricePerItem = 255.6f;
+		float taxAmount = 135.50f;
+		int discountedAmount = (noOfItems * (int) pricePerItem)
+				* (1 - discountPercentage / 100);
+		double totalAmount = discountedAmount + taxAmount;
+		System.out.println("Total amount to be paid is " + totalAmount);
+	}
+}
+```
+
+```ad-success
+
 ```
