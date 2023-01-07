@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java -lex/Static.md",
+                "file": "Java -lex/Object and Wrapper Class.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/Static.md",
+                "file": "Java -lex/Object and Wrapper Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,8 +157,8 @@
   },
   "active": "6a6799d81916df63",
   "lastOpenFiles": [
-    "Java -lex/Untitled.md",
     "Java -lex/Static.md",
+    "Java -lex/Untitled.md",
     "Java -lex/5 - OOPs.md",
     "Java -lex/Object and Wrapper Class.md",
     "Java -lex/Polymorphisim.md",

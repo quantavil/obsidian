@@ -46,3 +46,12 @@ Some points that you should be knowing about abstract class are:
 - Thus, **abstract classes** enforce **inheritance** (since they can’t be instantiated)
 
 - **abstract methods** enforce **overriding** (since they are incomplete with no implementation)
+
+
+## 
+
+An **interface in Java** is a blueprint of a class. It has static constants and abstract methods.
+
+The interface in Java is _a mechanism to achieve [abstraction](https://www.javatpoint.com/abstract-class-in-java)_. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple [inheritance in Java](https://www.javatpoint.com/inheritance-in-java).
+
+In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body.
