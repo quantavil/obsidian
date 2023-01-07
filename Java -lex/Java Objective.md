@@ -195,9 +195,11 @@ public class Tester{
 ```
 
 
-```ad-failure
-displayMessage() method of Parent invoked displayMessage() method of Child invoked
-```
+- [ ] displayMessage() method of Parent invoked
+- [ ] displayMessage() method of Child invoked
+- [x] Compilation error as final method cannot be overridden
+- [ ] displayMessage() method of Parent invoked displayMessage() method of Child invoked
+
 
 ---
 
@@ -632,5 +634,90 @@ public class Tester {
 ```
 
 ```ad-success
+Total amount to be paid is 2685.5
+```
 
+---
+
+```java
+class A {
+	public int var1;
+	public int var2;
+
+	public A(int value) {
+		this.var1 = value;
+	}
+
+	public int method1() {
+		return this.var2;
+	}
+}
+
+class B extends A {
+	public B() {
+		super(10);
+	}
+
+	public int method1(int value1) {
+		return this.var1;
+	}
+}
+
+class C extends B {
+
+	public C(int value1, int value2) {
+		super();
+		this.var2 = value2;
+	}
+
+	public void method1(int value1, int value2) {
+		this.var2 = super.method1(value1);
+
+	}
+}
+
+public class Tester {
+	public static void main(String args[]) {
+		C obj= new C(5, 20);
+		System.out.println(obj.method1(5) + obj.method1());
+
+	}
+}
+```
+
+```ad-success
+30
+```
+
+---
+
+```java
+class Employee {
+	public String name;
+	public char gender;
+	public double salary;
+
+	public Employee(String name, char gender) {
+		this.name = name;
+		this.gender = gender;
+	}
+
+	public Employee(String name) {
+		this.name = name;
+	}
+
+}
+
+public class Tester {
+	public static void main(String[] args) {
+		Employee emp1 = new Employee("Robert", 'M');
+		Employee emp2 = new Employee("Alex");
+		System.out.println(emp2.name + ',' + emp2.gender + ',' + emp1.name);
+	}
+
+}
+```
+
+```ad-success
+Alex,,Robert
 ```
