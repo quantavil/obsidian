@@ -265,4 +265,110 @@ Which of the following statements is/are false?
 - [x] A class can extend only one class or implement only one interface.
 - [x] Methods declared in an interface are implicitly public and abstract.
 - [x] Data fields declared in an interface are implicitly public, static and final.
-- [ ] A class can implement an interface using extends keyword.
+- [x] A class can implement an interface using extends keyword.
+
+---
+Which of the following are valid identifiers? 
+
+- [ ] break$
+- [ ] _9Number
+- [x] middle_Name
+- [ ] default
+- [ ] Class
+- [ ] $ dept
+
+---
+
+```java
+class Calculator {
+	public int num1 = 10;
+	public float num2 = 20;
+	public double sum;
+	public double product;
+
+	public double add(int num1, int num2) {
+		double sum = this.num1 + this.num2;
+		return sum;
+	}
+
+	public double multiply(int num1, int num2) {
+		double sum = this.add(num1, num2);
+		double product = this.sum * this.num1;
+		return (int) product;
+	}
+}
+
+public class Tester {
+	public static void main(String[] args) {
+		Calculator c = new Calculator();
+		System.out.println(c.multiply(10, 5));
+	}
+
+}
+```
+
+```ad-success
+0.0
+```
+
+---
+
+```java
+public class Tester {
+	public static void main(String[] args) {
+		int num1 = 28;
+		int num2 = 36;
+		int num3 = 0;
+		if (~(num2 / num1) < 0 && (num1 + num2) % 4 == 0) {
+			num1 = num1 + --num3;
+		}
+		if ((num2 / num1) > 1 || num3 == 0) {
+			num1 = num1 + num3++;
+		    System.out.println(num1 + --num3);
+		} else {
+			System.out.println(num1 + --num3);
+		}
+	}
+}
+```
+
+```ad-success
+25
+```
+
+---
+
+```java
+public class Tester {
+	public static void main(String[] args) {
+		int num1 = -20;
+		int num2 = -30;
+		int num3 = 10;
+		int num4 = -40;
+		if (num1 + num2 >= num4) {
+			if (num4 < num3) {
+				if (num4 % num3 != 0) {
+					System.out.println(1);
+				} else {
+					System.out.println(2);
+				}
+			}
+		} else {
+			if (num2 / num1 > 0) {
+				if (num1 < num2 || num4 % num3 == 0) {
+					System.out.println(3);
+				} else {
+					System.out.println(4);
+				}
+			}
+		}
+	}
+}
+```
+
+```ad-success
+3
+```
+
+---
+
