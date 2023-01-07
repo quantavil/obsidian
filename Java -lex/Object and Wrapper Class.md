@@ -42,3 +42,7 @@ Some points that you should be knowing about abstract class are:
 -   If a class contains at least one abstract method, the class should be abstract.
     
 -   A class can be made abstract even without any abstract methods.
+
+- Thus, **abstract classes** enforce **inheritance** (since they can’t be instantiated)
+
+- **abstract methods** enforce **overriding** (since they are incomplete with no implementation)
