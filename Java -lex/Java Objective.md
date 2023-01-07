@@ -98,10 +98,41 @@ public class Student{
 }
 ```
 
-assertEquals(student1,student2);
+- [x] assertEquals(student1,student2);
+- [x] assertEquals(student1,student3);
+- [x] assertSame(student1,student3);
+- [ ] assertSame(student1,student2);
 
-assertEquals(student1,student3);
 
-assertSame(student1,student3);
+```ad-note
+assertEquals() Asserts that two objects are equal.
 
-assertSame(student1,student2);
+assertSame() Asserts that two objects refer to the same object.
+```
+
+---
+```java
+public class Tester {
+	public static void main(String[] args) {
+		int sum = 0;
+		for (int i = 2; i < 8; i += 2) {
+			for (int j = 8; j > i; j -= 2) {
+				if (i >= j / 2) {
+					continue;
+				} else {
+					sum += i + j;
+
+				}
+			}
+		}
+		System.out.println("Sum = " + sum);
+	}
+}
+```
+
+```ad-success
+Sum = 18
+```
+
+---
+
