@@ -435,4 +435,80 @@ public class Tester {
 
 ---
 
+Which of the following will match the below regular expression?
 
+`String regex = "[A-Z][a-z0-9@$%&]{0,}([ ][A-Za-z]{1,})*";`
+
+```ad-success
+alex1
+```
+
+---
+
+```java
+class Address {
+	private int zipCode;
+
+    public Address(int zipCode) {
+		this.zipCode= zipCode;
+	}
+
+	public int getZipCode() {
+		return zipCode;
+	}
+}
+
+public class Customer {
+	public Address address;
+	public String name;
+
+	public Customer(String name, int zipCode) {
+		this.name = name;
+		address = new Address(zipCode);
+	}
+}
+
+public class Tester{
+
+	public static void main(String args[]) {
+		Customer customer = new Customer("Sam",100001);
+		// Line 27
+	}
+}
+```
+
+
+- [ ] System.out.println(this.address.getZipCode());
+- [ ] System.out.println(customer.address.zipCode);
+- [ ] System.out.println(customer.address.getZipCode());
+- [x] Compilation error - not possible to access the zipCode of Address class
+
+---
+
+```java
+public class Tester {
+	public static void main(String s[]) {
+		int[] employeesSalary = { 1350, 2342, 6754, 1200, 1363 };
+		int count = 0;
+		for (int salary : employeesSalary) {
+			switch (salary % 2) {
+			default:
+				employeesSalary[count] = salary + 1;
+			case 0:
+				employeesSalary[count] = salary + 1;
+				count++;
+			case 1:
+				employeesSalary[count] = salary + 1;
+				break;
+			}
+		}
+		for (int i = 0; i < employeesSalary.length; i++) {
+			System.out.print(employeesSalary[i] + " ");
+		}
+	}
+}
+```
+
+
+```ad-success
+```
