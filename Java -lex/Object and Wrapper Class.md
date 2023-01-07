@@ -16,3 +16,5 @@
 -   hashCode() uses a formula to generate an integer based on the same attribute
     
 -   Any formula can be used for generating the hash code as long as it generates the same value for same objects
+
+##
