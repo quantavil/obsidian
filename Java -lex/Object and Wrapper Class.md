@@ -55,3 +55,73 @@ An **interface in Java** is a blueprint of a class. It has static constants an
 The interface in Java is _a mechanism to achieve [abstraction](https://www.javatpoint.com/abstract-class-in-java)_. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple [inheritance in Java](https://www.javatpoint.com/inheritance-in-java).
 
 In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body.
+
+An interface is used to define a generic template which can be implemented by various classes.
+
+-   It contains method signatures and constant declarations
+    
+-   The methods declared in an interface are implicitly public and abstract and the data fields are implicitly public, static and final, i.e., constants
+    
+-   An interface can extend more than one interface and a class can implement more than one interface. This can be used to simulate multiple inheritance in Java
+    
+-   A class can extend from only one class but can implement any number of interfaces
+    
+-   The implements keyword is used to implement an interface. The classes implementing an interface must implement all the specified methods. Otherwise, they should be made abstract
+    
+-   An interface creates a type. Hence, its reference can be used to refer to the objects of the classes which implement that interface. This leads to dynamic binding
+    
+
+```java
+interface Bank {
+    float rateOfInterest();
+}
+
+class SBI implements Bank {
+    public float rateOfInterest() {
+        return 9.15f;
+    }
+}
+
+class PNB implements Bank {
+    public float rateOfInterest() {
+        return 9.7f;
+    }
+}
+
+class TestInterface2 {
+    public static void main(String[] args) {
+        Bank b = new SBI();
+        System.out.println("ROI: " + b.rateOfInterest());
+    }
+}
+
+```
+
+
+If a class implements multiple interfaces, or an interface extends multiple interfaces, it is known as multiple inheritance.
+
+```java
+interface Printable {
+    void print();
+}
+
+interface Showable {
+    void show();
+}
+
+class A7 implements Printable, Showable {
+    public void print() {
+        System.out.println("Hello");
+    }
+
+    public void show() {
+        System.out.println("Welcome");
+    }
+
+    public static void main(String args[]) {
+        A7 obj = new A7();
+        obj.print();
+        obj.show();
+    }
+}
+```
