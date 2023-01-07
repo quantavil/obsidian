@@ -372,3 +372,67 @@ public class Tester {
 
 ---
 
+  
+```java
+public class Calculator{
+    private int add(int num1, int num2){
+        return num1+num2;
+    }   
+}
+
+public class Tester{
+    public static void main(String args[]) {
+		Calculator calculator = new Calculator();
+		System.out.println(calculator.add(1,2));
+	}
+}
+```
+
+- [ ] 3
+- [x] The code will result in a compilation error as the method add cannot be accessed outside the class.
+- [ ] The code will not result in a compilation error but will not display any output.
+- [ ] The code will result in a compilation error as a non-static method cannot be invoked from a static method.
+
+---
+```java
+class Employee{
+	private int employeeId;
+	private static int counter = 1000;
+     
+
+	public Employee() {
+		employeeId = ++counter;
+	}
+
+	public int getEmployeeId() {
+		return employeeId;
+	}
+
+    public static int getCounter(){
+        return counter;
+    }
+}
+
+public class Tester {
+	public static void main(String[] args) {
+		Employee employee1= new Employee();
+		Employee employee2= new Employee();
+		Employee employee3= new Employee();	
+        displayEmployeeDetails(employee1);	
+        displayEmployeeDetails(employee2);	
+        displayEmployeeDetails(employee3);	
+	}
+
+    public static void displayEmployeeDetails(Employee employee){
+        System.out.println(employee.getEmployeeId() + " " + Employee.getCounter());
+    }
+}
+```
+
+```ad-success
+1001 1003 1002 1003 1003 1003
+```
+
+---
+
+
