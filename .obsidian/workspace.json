@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java -lex/Polymorphisim.md",
+                "file": "Java -lex/Static.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java -lex/Polymorphisim.md",
+                "file": "Java -lex/Static.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,12 +169,12 @@
   },
   "active": "08bfc87f35f96e03",
   "lastOpenFiles": [
+    "Java -lex/Polymorphisim.md",
     "Java -lex/Object and Wrapper Class.md",
     "Java -lex/Java Objective.md",
     "Java -lex/Static.md",
     "Java -lex/Untitled.md",
     "Java -lex/5 - OOPs.md",
-    "Java -lex/Polymorphisim.md",
     "Untitled 1.md",
     "Java -lex/6 - Strings.md",
     "Untitled.canvas",
