@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 219.5,
+    "collapsed": true
   },
   "right": {
     "id": "bb12994458b6a9be",
@@ -130,7 +131,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "25c61bfeba9afcae",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
     "DBMS/SQL Satements/Data Manipulation Statements.md",
     "DBMS/SQL Satements/Data Definition Statements.md",
