@@ -265,7 +265,7 @@ public class Tester {
 Which of the following statements is/are false?
 
 - [x] A class can extend only one class or implement only one interface.
-- [x] Methods declared in an interface are implicitly public and abstract.
+- [ ] Methods declared in an interface are implicitly public and abstract.
 - [x] Data fields declared in an interface are implicitly public, static and final.
 - [x] A class can implement an interface using extends keyword.
 
