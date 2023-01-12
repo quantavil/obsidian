@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pdf editor",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "71797450e7203770",
+  "active": "7a0d0b1c24d0b4a4",
   "lastOpenFiles": [
     "DBMS/SQL Satements/Data Manipulation Statements.md",
     "DBMS/SQL Satements/Data Definition Statements.md",
