@@ -52,3 +52,32 @@ The V-Model is an extension of the Waterfall Model of software development with 
 
 ![[Pasted image 20230113113613.png]]
 
+### Unit Testing (UT)
+
+**Entity Tested** : Individual units (modules or functions or libraries) of code
+
+**Objective** : To validate whether the individual units of code return the right outputs for given inputs as specified in the design and whether they conform to coding standards. It uses white box testing techniques.
+
+**Performed by** : Development Team
+
+### Integration Testing (IT)
+
+**Entity Tested** : Groups of individual units of code that are supposed to work together
+
+**Objective** : To validate whether all the individual units of code pass the right information to each other to achieve the objective of the software (or its component) as specified in the design. It uses white box testing techniques.
+
+**Performed by** : Development team
+
+### System Testing (ST)
+
+**Entity Tested** : Software and its components
+
+**Objective** : To validate whether the software and its components are working as stated in the software requirement specification. It uses black box testing techniques.
+
+**Performed by** : Testing team
+
+### User Acceptance Testing (UAT)
+
+**Entity Tested** : Software and its components
+
+**Objective** : To validate whether the software and its components are working as stated in the business requirement specification and are good enough to be deployed for real-time usage. It uses black box testing techniques
