@@ -42,3 +42,10 @@ At a very high level tests are categorized as
 
 ![[Pasted image 20230113104117.png]]
 
+## The V-Model
+
+The V-Model is an extension of the Waterfall Model of software development with time represented along the X-axis. It is called so for 2 reasons.
+
+-   The sequence in which the project definition, project implementation and project completion stages are presented, resembles the letter 'V'.
+    
+-   It represents 'Validation Model' since it elaborates the testing (validation) stage of  Waterfall Model in relation to the other stages in it.
