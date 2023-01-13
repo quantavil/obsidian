@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "coding-interview-university-main/programming-language-resources.md",
+                "file": "Testing/Basic Concept and Terminologies.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding-interview-university-main/programming-language-resources.md",
+                "file": "Testing/Basic Concept and Terminologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,11 +130,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "232b4346f47ace37",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
+    "coding-interview-university-main/programming-language-resources.md",
     "coding-interview-university-main/Resources.md",
     "coding-interview-university-main/README.md",
-    "coding-interview-university-main/programming-language-resources.md",
     "Testing/Basic Concept and Terminologies.md",
     "Java -lex/Java Objective.md",
     "DBMS/SQL Satements/Data Manipulation Statements.md",
