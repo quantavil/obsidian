@@ -31,3 +31,5 @@ At a very high level tests are categorized as
     
 -   **Informal tests** : Tests that are not documented completely.
 ![[Pasted image 20230113101944.png]]
+
+![[Pasted image 20230113102043.png]]
