@@ -22,3 +22,12 @@ The other terms used to refer to a defect are bug, error, anomaly, etc.
 1.  Preventing defects from entering the software
     
 2.  Identifying and reporting the defects existing in the software
+
+## Catgeorization
+
+At a very high level tests are categorized as
+
+-   **Formal tests** : Tests that document their expected results, actual results and defects found.
+    
+-   **Informal tests** : Tests that are not documented completely.
+![[Pasted image 20230113101944.png]]
