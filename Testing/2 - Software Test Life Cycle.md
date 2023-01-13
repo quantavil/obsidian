@@ -54,8 +54,6 @@ An SRS document is considered to be complete if 
     
 -   Definition of all business-specific/software-specific abbreviations in its full form and their meanings.
     
--   There are no parts/sections in the SRS document marked as To Be Determined (TBD). If any part is marked so, it should also contain information on cause of unavailability of information, expected timeline for availability of the required information and the person responsible for making the information available in the SRS document.
-    
 
 **Example:** The requirement statement "_Allow the user to login to the system only if the user id and password combination is authenticated by the security module._" is an incomplete requirement because it does not tell what the system is supposed to do if either the user id or password is invalid.
 
@@ -104,3 +102,4 @@ Also as a general thumb rule,
 -   All ambiguous requirements are not testable as there is no single outcome that can be called completely correct or completely wrong.
     
 -   All inconsistent requirements are not testable as it is impossible to prove that the system is either working or not working as per the requirement.
+

@@ -160,4 +160,5 @@ Python also supports a *continue* statement that causes the current iteration of
 
 ## Functions
 
-In General term function to describe a traditional, stateless function that is invoked without the context of a particular class or an instance of that class, such as sorted(data). We use the more specific term method to describe a member function that is invoked upon a specific object using an object-oriented message passing syntax, such as data.sort( ).
+In General term function to describe a traditional, stateless function that is invoked without the context of a particular class or an instance of that class, such as sorted(data). 
+We use the more specific term method to describe a member function that is invoked upon a specific object using an object-oriented message passing syntax, such as data.sort( ).

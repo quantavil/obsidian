@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA in Python/Python Primer.md",
+                "file": "Testing/2 - Software Test Life Cycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA in Python/Python Primer.md",
+                "file": "Testing/2 - Software Test Life Cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,6 +145,7 @@
   },
   "active": "d6a050ec8e0676cc",
   "lastOpenFiles": [
+    "DSA in Python/Python Primer.md",
     "Testing/2 - Software Test Life Cycle.md",
     "Testing/1 - Basic Concept and Terminologies.md",
     "coding-interview-university-main/programming-language-resources.md",
@@ -153,7 +154,6 @@
     "Java -lex/Java Objective.md",
     "DBMS/SQL Satements/Data Manipulation Statements.md",
     "DBMS/SQL Satements/Data Definition Statements.md",
-    "Java -lex/4 - Control Structures.md",
-    "Java -lex/Untitled.md"
+    "Java -lex/4 - Control Structures.md"
   ]
 }
