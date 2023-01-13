@@ -29,5 +29,13 @@ You can express an integral value using binary, octal, or hexadecimal. That can 
 0o52 --> 0o is octal
 0x7f --> 0x is Hexadecimal
 
-The integer construc
+The integer constructor int() returns
+```python
+default --> 0
+int(3.14) --> 3
+int(-3.9) --> 3
+int('137') --> 137
+int('hello') --> Error: ValueError
+```
+
 
