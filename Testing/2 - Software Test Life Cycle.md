@@ -6,12 +6,7 @@ The development team works based on the SDLC to build a software. Similarly, the
 
 Requirements for the software to be built, are collected from the end users/clients by analysts and are documented in the form of Software Requirements Specifications (SRS).
 
-A Software Requirements Specification is a documented definition of a condition or ability that needs to be possessed by a system or its component to attain an objective of the user.
-
 ### Significance
-
-Requirement analysis is the first and the most significant stage in the SDLC as well as STLC because:
-
 -   Requirements are the basis to develop and validate a software. 
     
 -   It provides the basis for planning the project, estimating the cost and predicting risks, if any. 
