@@ -118,5 +118,5 @@ Python’s dict class represents a dictionary, or mapping, from a set of distinc
 
 # Alternatively, the constructor accepts a sequence of key-value pairs as a parameter, as in dict(pairs)
 pairs = [( 'ga' , 'Irish' ), ( 'de' , 'German' )]
-dict(pairs) = 
+dict(pairs) --> { 'ga' : 'Irish' , 'de' : 'German' }
 ```
