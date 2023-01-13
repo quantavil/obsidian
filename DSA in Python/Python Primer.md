@@ -16,3 +16,18 @@ Python supports traditional functions (see Section 1.5) that are invoked with a 
 When using a method of a class, it is important to understand its behavior. Some methods return information about the state of an object, but do not change that state. These are known as accessors. Other methods, such as the sort method of the list class, do change the state of an object. These methods are known as mutators or update methods
 
 ![[Pasted image 20221016215821.png]]
+
+### The bool Class
+
+The bool class is used to manipulate logical (Boolean) values, and the only two instances of that class are expressed as the literals True and False.
+
+### The int Class
+
+Typical literals for integers include 0, 137, and −23. 
+You can express an integral value using binary, octal, or hexadecimal. That can be done by using a prefix of the number .
+0b1011 --> 0b is binary
+0o52 --> 0o is octal
+0x7f --> 0x is Hexadecimal
+
+The integer construc
+
