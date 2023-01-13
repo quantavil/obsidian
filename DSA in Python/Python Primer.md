@@ -170,6 +170,8 @@ A return statement is used within the body of a function to indicate that the fu
 
 In the context of a function signature, the identifiers used to describe the expected parameters are known as formal parameters, and the objects sent by the caller when invoking the function are the actual parameters.
 
+### Mutable Parameters 
+Python’s parameter passing model has additional implications when a parameter is a mutable object. Because the formal parameter is an alias for the actual parameter, the body of the function may interact with the object in ways that change its state
 ```python
 def scale(data, factor):
     for j in range(len(data)):
@@ -179,3 +181,13 @@ print(scale([9,2,3,4,5],3))
 # Output : [27, 6, 9, 12, 15]
 ```
 
+### Default Parameter Values 
+
+Python provides means for functions to support more than one possible calling signature. Such a function is said to be polymorphic. 
+Most notably, functions can declare one or more default values for parameters, thereby allowing the caller to invoke a function with varying numbers of actual parameters.
+```python
+def range(start, stop=None, step=1):
+	if stop is None: 
+	stop = start 
+	start = 0
+```
