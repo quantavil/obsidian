@@ -49,3 +49,6 @@ The V-Model is an extension of the Waterfall Model of software development with 
 -   The sequence in which the project definition, project implementation and project completion stages are presented, resembles the letter 'V'.
     
 -   It represents 'Validation Model' since it elaborates the testing (validation) stage of  Waterfall Model in relation to the other stages in it.
+
+![[Pasted image 20230113113613.png]]
+
