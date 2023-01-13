@@ -97,3 +97,9 @@ Welcome to the GPA calculator.
 Please enter all your letter grades', one       per line.
 Enter a blank line to designate the end.
 ```
+
+#### The set and frozenset Classes
+
+This is based on a data structure known as a hash table 
+The first is that the set does not maintain the elements in any particular order. The second is that only instances of immutable types can be added to a Python set.
+Therefore, objects such as integers, floating-point numbers, and character strings are eligible to be elements of a set. It is possible to maintain a set of tuples, but not a set of lists or a set of sets, as lists and sets are mutable. The frozenset class is an immutable form of the set type, so it is legal to have a set of frozensets.
