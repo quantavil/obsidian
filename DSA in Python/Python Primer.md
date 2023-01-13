@@ -120,3 +120,24 @@ Python’s dict class represents a dictionary, or mapping, from a set of distinc
 pairs = [( 'ga' , 'Irish' ), ( 'de' , 'German' )]
 dict(pairs) --> { 'ga' : 'Irish' , 'de' : 'German' }
 ```
+
+# Control Flow
+
+## Conditionals
+
+```python
+if first condition: 
+	first body 
+elif second condition:
+	second body 
+elif third condition: 
+	third body 
+else: 
+	fourth body
+```
+
+## Loops
+
+```python
+
+```
