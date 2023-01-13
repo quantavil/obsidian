@@ -176,4 +176,6 @@ def scale(data, factor):
         data[j] *= factor
     return data
 print(scale([9,2,3,4,5],3))
+# Output : [27, 6, 9, 12, 15]
 ```
+
