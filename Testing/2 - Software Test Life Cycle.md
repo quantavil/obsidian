@@ -59,7 +59,7 @@ An SRS document is considered to be complete if 
 
 **Example:** The requirement statement "_Allow the user to login to the system only if the user id and password combination is authenticated by the security module._" is an incomplete requirement because it does not tell what the system is supposed to do if either the user id or password is invalid.
 
-# Unambiguity
+**Unambiguity**
 
 A requirement specification said to be unambiguous if each stated requirement has only one possible interpretation to all the project stakeholders- users, developers and testers.
 
@@ -76,7 +76,7 @@ Whenever a word used in a specific context might have several meanings, it must 
 
 **Example:** The terms like '_Acceptable Response Time_' must be made more specific in terms of measurable units like 3 seconds.
 
-# Consistency
+**Consistency**
 
 A software requirement is said to inconsistent if it does not agree with or conflicts with
 
@@ -93,7 +93,7 @@ A software requirement is said to inconsistent if it does not agree with or conf
 
 "_If an error message is displayed in page 4, the user should not be allowed to navigate to any page until all the errors for the corresponding page are fixed_"
 
-# Testability
+**Testability**
 
 A requirement specification is testable if and only if there exists some finite cost-effective process with which a tester can check that the software product meets that requirement.
 
