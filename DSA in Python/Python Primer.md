@@ -200,3 +200,5 @@ Python supports an alternate mechanism for sending a parameter to a function kno
 
 ### Python’s Built-In Functions
 
+![[Pasted image 20230113173059.png]]
+
