@@ -139,5 +139,25 @@ else:
 ## Loops
 
 ```python
+# While loop
+while condition:
+	body
 
+# For loop
+for element in iterable: 
+	body 
+
+# Index Based loop
+for j in range(len(data)):
+	body
 ```
+
+## Break and Continue Statements
+
+Python supports a *break* statement that immediately terminate a while or for loop when executed within its body. More formally, if applied within nested control structures, it causes the termination of the most immediately enclosing loop.
+
+Python also supports a *continue* statement that causes the current iteration of a loop body to stop, but with subsequent passes of the loop proceeding as expected.
+
+## Functions
+
+In General term function to describe a traditional, stateless function that is invoked without the context of a particular class or an instance of that class, such as sorted(data). We use the more specific term method to describe a member function that is invoked upon a specific object using an object-oriented message passing syntax, such as data.sort( ).
