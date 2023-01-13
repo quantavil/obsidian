@@ -70,3 +70,16 @@ The tuple class provides an immutable version of a sequence, and therefore its i
 
 #### The str Class 
 Python’s str class is specifically designed to efficiently represent an immutable sequence of characters, based upon the Unicode international character set.
+
+```python
+# Syntax
+print("hello") --> hello
+print('hello') --> hello
+print('Don\'t worry') --> Don't worry # \ is escape character
+print('C:\\Python\\') --> C:\Python\
+
+\n --> newline
+\t --> newtab
+
+
+```
