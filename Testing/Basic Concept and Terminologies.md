@@ -38,3 +38,7 @@ At a very high level tests are categorized as
 ### Dynamic Test
 ![[Pasted image 20230113103214.png]]
 
+## Quality Assurance and Quality Control
+
+![[Pasted image 20230113104117.png]]
+
