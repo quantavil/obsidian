@@ -81,3 +81,5 @@ The V-Model is an extension of the Waterfall Model of software development with 
 **Entity Tested** : Software and its components
 
 **Objective** : To validate whether the software and its components are working as stated in the business requirement specification and are good enough to be deployed for real-time usage. It uses black box testing techniques
+
+![[Pasted image 20230113120219.png]]
