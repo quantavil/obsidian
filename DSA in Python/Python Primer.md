@@ -191,3 +191,11 @@ def range(start, stop=None, step=1):
 	stop = start 
 	start = 0
 ```
+
+### Keyword Parameters 
+
+The traditional mechanism for matching the actual parameters sent by a caller, to the formal parameters declared by the function signature is based on the concept of positional arguments.
+
+Python supports an alternate mechanism for sending a parameter to a function known as a keyword argument. A keyword argument is specified by explicitly assigning an actual parameter to a formal parameter by name. For example, with the above definition of function foo, a call foo(c=5) will invoke the function with parameters a=10, b=20, c=5
+
+Python’s Built-In Functions
