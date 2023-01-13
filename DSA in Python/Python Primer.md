@@ -165,3 +165,15 @@ We use the more specific term method to describe a member function that is invok
 
 ## Return
 A return statement is used within the body of a function to indicate that the function should immediately cease execution, and that an expressed value should be returned to the caller. 
+
+## Informal Passing
+
+In the context of a function signature, the identifiers used to describe the expected parameters are known as formal parameters, and the objects sent by the caller when invoking the function are the actual parameters.
+
+```python
+def scale(data, factor):
+    for j in range(len(data)):
+        data[j] *= factor
+    return data
+print(scale([9,2,3,4,5],3))
+```
