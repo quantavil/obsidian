@@ -38,4 +38,17 @@ int('137') --> 137
 int('hello') --> Error: ValueError
 ```
 
+### The float Class
 
+The float class is the sole floating-point type in Python, using a fixed-precision representation
+
+```python
+float(2) --> 2.0
+float('3.14') --> Error: ValueError
+```
+
+### Sequence Types: The list, tuple, and str Classes
+
+#### The list Class
+
+A list instance stores a sequence of objects. A list is a referential structure, as it technically stores a sequence of references to its element. Elements of a list may be arbitrary objects (including the None object). Lists are array-based sequences and are zero-indexed, thus a list of length n has elements indexed from 0 to n−1 inclusive.
