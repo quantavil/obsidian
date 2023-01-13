@@ -162,3 +162,6 @@ Python also supports a *continue* statement that causes the current iteration of
 
 In General term function to describe a traditional, stateless function that is invoked without the context of a particular class or an instance of that class, such as sorted(data). 
 We use the more specific term method to describe a member function that is invoked upon a specific object using an object-oriented message passing syntax, such as data.sort( ).
+
+## Return
+A return statement is used within the body of a function to indicate that the function should immediately cease execution, and that an expressed value should be returned to the caller. 
