@@ -81,5 +81,19 @@ print('C:\\Python\\') --> C:\Python\
 \n --> newline
 \t --> newtab
 
+```
 
+
+```python
+# ''' or """ is Delimiter The advantage of such triple-quoted strings is that newline characters can be embedded naturally (rather than escaped as \n). or for multiline String
+
+print('''Welcome to the GPA calculator.
+Please enter all your letter grades', one \tper line.
+Enter a blank line to designate the end.''')
+```
+
+```output
+Welcome to the GPA calculator.
+Please enter all your letter grades', one       per line.
+Enter a blank line to designate the end.
 ```
