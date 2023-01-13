@@ -50,5 +50,23 @@ float('3.14') --> Error: ValueError
 ### Sequence Types: The list, tuple, and str Classes
 
 #### The list Class
-
 A list instance stores a sequence of objects. A list is a referential structure, as it technically stores a sequence of references to its element. Elements of a list may be arbitrary objects (including the None object). Lists are array-based sequences and are zero-indexed, thus a list of length n has elements indexed from 0 to n−1 inclusive.
+
+Python uses the characters [ ] as delimiters for a list literal, with [ ] itself being an empty list
+
+```python
+list( 'hello' ) --> ['h' , 'e' , 'l' , 'l' , 'o' ]
+```
+
+#### The tuple Class
+The tuple class provides an immutable version of a sequence, and therefore its instances have an internal representation that may be more streamlined than that of a list. 
+
+```python
+# Syntax
+()
+(14,)
+(14)
+```
+
+#### The str Class 
+Python’s str class is specifically designed to efficiently represent an immutable sequence of characters, based upon the Unicode international character set.
