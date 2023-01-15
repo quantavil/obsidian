@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/2 - Software Test Life Cycle.md",
+                "file": "DSA in Python/Python Primer.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/2 - Software Test Life Cycle.md",
+                "file": "DSA in Python/Python Primer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,9 +132,9 @@
   },
   "active": "d6a050ec8e0676cc",
   "lastOpenFiles": [
-    "DSA in Python/Python Primer.md",
     "Testing/2 - Software Test Life Cycle.md",
     "Testing/1 - Basic Concept and Terminologies.md",
+    "DSA in Python/Python Primer.md",
     "coding-interview-university-main/programming-language-resources.md",
     "coding-interview-university-main/Resources.md",
     "coding-interview-university-main/README.md",

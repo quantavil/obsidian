@@ -202,3 +202,11 @@ Python supports an alternate mechanism for sending a parameter to a function kno
 
 ![[Pasted image 20230113173059.png]]
 
+### Python Print 
+
+```python
+print("maroon",5) --> maroon 5
+print("marron", "cameron" , "ariana" , sep='?') --> marron?cameron?ariana
+
+print("")
+```
