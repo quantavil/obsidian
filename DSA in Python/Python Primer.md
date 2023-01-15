@@ -212,5 +212,8 @@ print("marron", "cameron" , "ariana" , sep='?') --> marron?cameron?ariana
 yr = int(input('Enter the number : '))
 ```
 
-### Files
+### Exceptions
 
+Python, exceptions (also known as errors) are objects that are raised (or thrown) by code that encounters an unexpected circumstance.
+
+![[Pasted image 20230115180534.png]]
