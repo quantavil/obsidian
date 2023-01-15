@@ -198,11 +198,11 @@ The traditional mechanism for matching the actual parameters sent by a caller, t
 
 Python supports an alternate mechanism for sending a parameter to a function known as a keyword argument. A keyword argument is specified by explicitly assigning an actual parameter to a formal parameter by name. For example, with the above definition of function foo, a call foo(c=5) will invoke the function with parameters a=10, b=20, c=5
 
-### Python’s Built-In Functions
+## Python’s Built-In Functions
 
 ![[Pasted image 20230113173059.png]]
 
-### Python Print  & Input
+## Python Print  & Input
 
 ```python
 print("maroon",5) --> maroon 5
@@ -212,7 +212,7 @@ print("marron", "cameron" , "ariana" , sep='?') --> marron?cameron?ariana
 yr = int(input('Enter the number : '))
 ```
 
-### Exceptions
+## Exceptions
 
 Python, exceptions (also known as errors) are objects that are raised (or thrown) by code that encounters an unexpected circumstance.
 
@@ -247,3 +247,24 @@ def div(x,y):
     return ratio
 ```
 
+
+## Iterators and Generators
+
+```python
+for element in iterable:
+```
+
+```python
+def factors(n):  # generator that computes factor
+
+    for k in range(1, n+1):
+        if n % k == 0:  # divides evenly, thus k is a factor
+            yield k # yield this factor as next result
+
+f = factors(100)
+print(next(f))
+print(next(f))
+print(next(f))
+
+print(*f)
+```
