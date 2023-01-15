@@ -230,4 +230,20 @@ def sqrt(x):
 ```
 
 
+#### Try, Catch and Finally
+
+```python
+def div(x,y):
+    ratio = 0
+    try:
+        ratio = x/y
+    except ZeroDivisionError:
+        print("Unable to divide by zero")
+    except TypeError:
+        print("Inappropriate argument")
+    finally:
+        print("Print everytime")
+    
+    return ratio
+```
 
