@@ -217,3 +217,17 @@ yr = int(input('Enter the number : '))
 Python, exceptions (also known as errors) are objects that are raised (or thrown) by code that encounters an unexpected circumstance.
 
 ![[Pasted image 20230115180534.png]]
+#### Raising an Exception
+
+```python
+def sqrt(x):
+    if not isinstance(x, (int,float)):
+        raise TypeError("x must be numeric")
+    elif x < 0:
+        raise ValueError("x cannot be negative")
+    else:
+        return pow(x,1/2)
+```
+
+
+
