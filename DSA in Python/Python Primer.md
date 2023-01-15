@@ -285,4 +285,21 @@ print(*f)
 
 ## Python Convenience
 
-Comprehension Syntax
+### Conditional Expressions
+```python
+expr1 if condition else expr2
+```
+
+### Comprehension Syntax
+
+```python
+[expression for value in iterable if condition ]
+```
+
+```python
+[ k k for k in range(1, n+1) ] list comprehension
+{ k k for k in range(1, n+1) } set comprehension
+( k k for k in range(1, n+1) ) generator comprehension
+{ k:k*k for k in range(1, n+1) } dictionary comprehension
+```
+
