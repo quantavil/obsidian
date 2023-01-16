@@ -17,8 +17,8 @@ Requirements for the software to be built, are collected from the end users/cli
 A functional requirement defines the function(s) of a software system or its component. A function is defined in terms of the required output data/behavior of a software (or its component) for a specific combination of input data and/or actions.
 
 In general, functional requirements state WHAT the system should do.
-
 Functional requirements are generally the first to be validated.
+
 
 ### 2. Non-Functional Requirements
 
@@ -28,15 +28,11 @@ In general, non-functional requirements state HOW the system should be.
 
 Some of the major types of non-functional requirements are:
 
-1.  **Hardware constraints**: Minimum hardware, database, connectivity configurations under which the software should be able to function. This will give insights into the required configuration for the test environments.
-    
-2.  **Performance**: Acceptable response times of each component in different possible situations. These requirements should be tested in an environment (hardware configuration) as close as possible to the real-time environment and will require specialized technical knowledge on hardware configurations and performance testing software.
-    
-3.  **Usability**: UI characteristics, ease of use for a specific user group (E.g., accessibility characteristics for differently-abled users), etc. Testing these requirements requires testers with specialized skill-sets on design.
-    
-4.  **Security**: These requirements define the access levels to different categories of information present in the system; authentication methodologies, encryption standards for personal data, payment information, etc. Testing these requirements requires specialized skill set in terms of knowledge of security protocols and hacking methods.
-    
-5.  **Compliance**: Compliance to internal design standards(E.g., branding), government and legal standards(disclaimers, warnings, informational elements, information collected, etc.), accessibility standards for use by differently abled users. These requirements might be tested and certified by third party organizations or independent test groups.
+1.  **Hardware constraints**: Minimum hardware, database, connectivity configurations under which the software should be able to function.  
+2.  **Performance**: Acceptable response times of each component in different possible situations. 
+3.  **Usability**: UI characteristics, ease of use for a specific user group.
+4.  **Security**: These requirements define the access levels to different categories of information present in the system; authentication methodologies, encryption standards 
+5.  **Compliance**: Compliance to internal design standards(E.g., branding), government and legal standards(disclaimers, warnings, informational elements, information collected, etc.), 
 
 ### Characteristics of Good requirement
 
@@ -48,12 +44,8 @@ An SRS document is considered to be complete if 
     
 -   All significant aspects, both functional and non-functional, of each requirement specification has been addressed. 
     
--   It states the expected responses of the software (and its components) to all possible classes of input data, both valid and invalid, in all possible situations. 
-    
--   Definition of all business-specific/software-specific abbreviations in its full form and their meanings.
-    
 
-**Example:** The requirement statement "_Allow the user to login to the system only if the user id and password combination is authenticated by the security module._" is an incomplete requirement because it does not tell what the system is supposed to do if either the user id or password is invalid.
+*Example:* The requirement statement "_Allow the user to login to the system only if the user id and password combination is authenticated by the security module._" is an incomplete requirement because it does not tell what the system is supposed to do if either the user id or password is invalid.
 
 **Unambiguity**
 
