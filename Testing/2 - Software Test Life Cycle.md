@@ -26,13 +26,13 @@ Non-functional requirements define the constraints under which functional requ
 
 In general, non-functional requirements state HOW the system should be.
 
-Some of the major types of non-functional requirements are:
+Some of the major types of non-functional requirements are
 
-1.  **Hardware constraints**: Minimum hardware, database, connectivity configurations under which the software should be able to function.  
-2.  **Performance**: Acceptable response times of each component in different possible situations. 
-3.  **Usability**: UI characteristics, ease of use for a specific user group.
-4.  **Security**: These requirements define the access levels to different categories of information present in the system; authentication methodologies, encryption standards 
-5.  **Compliance**: Compliance to internal design standards(E.g., branding), government and legal standards(disclaimers, warnings, informational elements, information collected, etc.), 
+1.  **Hardware constraints** Minimum hardware, database, connectivity configurations under which the software should be able to function.  
+2.  **Performance** Acceptable response times of each component in different possible situations. 
+3.  **Usability** UI characteristics, ease of use for a specific user group.
+4.  **Security** These requirements define the access levels to different categories of information present in the system; authentication methodologies, encryption standards 
+5.  **Compliance** Compliance to internal design standards(E.g., branding), government and legal standards(disclaimers, warnings, informational elements, information collected, etc.), 
 
 ### Characteristics of Good requirement
 
@@ -100,27 +100,28 @@ Once the requirements are finalized, the testing team enters the test planning a
 
 As per IEEE 829-2008, also known as the 829 Standard for Software Test Documentation, a Test Plan Document needs to possess the following information.
 
-**Test Plan Identifier:** 
+**Test Plan Identifier** 
+**Introduction :** A high-level outline of the AUT and necessity for the present testing activity. 
+**Test Items :** The software and/or its specific components which have to be tested.
+**Features to be tested**
+**Features not to be tested** 
+**Approach** 
+**Item Pass/Fail Criteria**
+**Suspension criteria and resumption criteria** 
+**Test deliverables** 
+**Test tasks** 
+**Environmental needs** 
+**Staffing and training needs** 
+**Responsibilities** 
+**Schedule** 
+**Planning risks and contingencies**
+**Approvals** 
 
-**Introduction:** A high-level outline of the AUT and necessity for the present testing activity. 
+### Designing Test Cases
 
-**Test Items:** The software and/or its specific components which have to be tested.
+Test designing is the act of creating and documenting the set of test cases (test suite) to be used for testing the software.
 
-**Features to be tested:**
-**Features not to be tested:** 
-**Approach:** 
-**Item Pass/Fail Criteria:**
-**Suspension criteria and resumption criteria:** 
+A well designed test suite, upon execution, would be able to objectively state the quality of the software in terms of 
 
-**Test deliverables:** 
-**Test tasks:** 
-**Environmental needs:** 
-**Staffing and training needs:** The number of testers needed to perform all the testing tasks based on the estimated testing effort, the skills that they require, their current skill levels and training plans to cover the skill gaps, if any.
-
-**Responsibilities:** Specific responsibilities of different project team members and stake holders.
-
-**Schedule:** The planned start and end dates of different testing tasks in the STLC with defined milestones at different points in time.
-
-**Planning risks and contingencies:** List of possible risks during the STLC, their probability of occurrence, their impact and the contingency plan to reduce or eliminate their impact, if they occur.
-
-**Approvals:** This section is used to record the approvals given for the test plan by different stakeholders of the project along with the dates and versions that were approved.
+-   Test coverage
+-   Number of defects found
