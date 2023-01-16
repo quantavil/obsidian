@@ -36,42 +36,39 @@ Some of the major types of non-functional requirements are:
 
 ### Characteristics of Good requirement
 
-**Completeness**
+1. **Completeness**
 
 An SRS document is considered to be complete if 
 
 -   All the user's/customer's expectations documented in higher level requirements, like Business Requirement Specification (BRS) document, have been addressed in the SRS document and nothing has been missed out.
     
 -   All significant aspects, both functional and non-functional, of each requirement specification has been addressed. 
-    
 
-*Example:* The requirement statement "_Allow the user to login to the system only if the user id and password combination is authenticated by the security module._" is an incomplete requirement because it does not tell what the system is supposed to do if either the user id or password is invalid.
+```ad-example
+The requirement statement "_Allow the user to login to the system only if the user id and password combination is authenticated by the security module._" is an incomplete requirement because it does not tell what the system is supposed to do if either the user id or password is invalid.
+```
 
-**Unambiguity**
+
+2. **Unambiguity**
 
 A requirement specification said to be unambiguous if each stated requirement has only one possible interpretation to all the project stakeholders- users, developers and testers.
 
-**Example:** The requirement statement "_The User_ID field shall not accept input longer than 25 characters_" is ambiguous because it can be interpreted in any of the following possible ways
+```ad-example
+The requirement statement "_The User_ID field shall not accept input longer than 25 characters_" is ambiguous because it can be interpreted in any of the following possible ways
 
 -   Throw an error message whenever the user enters more than 25 characters in the User_ID field.
     
 -   Do not respond for any inputs from the keyboard after the user has typed 25 characters in the User_ID field.
-    
--   Truncate the contents of the User_ID field to 25 characters once the user moves the cursor out of that field.
-    
 
-Whenever a word used in a specific context might have several meanings, it must be included in a glossary where its meaning is more precise.
+```
 
-**Example:** The terms like '_Acceptable Response Time_' must be made more specific in terms of measurable units like 3 seconds.
 
-**Consistency**
+3. **Consistency**
 
 A software requirement is said to inconsistent if it does not agree with or conflicts with
 
 -   Any higher level requirements like the BRS document.
-    
 -   Another software requirement in the same SRS document.
-    
 -   Inputs and outputs of existing software and their interfaces with which the new software or it's components need to communicate.
     
 
