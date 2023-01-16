@@ -95,3 +95,32 @@ Once the requirements are finalized, the testing team enters the test planning a
 -   Staying within the specified timelines
     
 -   Keeping the predictable risks under control
+
+### Contents of a Test Plan Document
+
+As per IEEE 829-2008, also known as the 829 Standard for Software Test Documentation, a Test Plan Document needs to possess the following information.
+
+**Test Plan Identifier:** 
+
+**Introduction:** A high-level outline of the AUT and necessity for the present testing activity. 
+
+**Test Items:** The software and/or its specific components which have to be tested.
+
+**Features to be tested:**
+**Features not to be tested:** 
+**Approach:** 
+**Item Pass/Fail Criteria:**
+**Suspension criteria and resumption criteria:** 
+
+**Test deliverables:** 
+**Test tasks:** 
+**Environmental needs:** 
+**Staffing and training needs:** The number of testers needed to perform all the testing tasks based on the estimated testing effort, the skills that they require, their current skill levels and training plans to cover the skill gaps, if any.
+
+**Responsibilities:** Specific responsibilities of different project team members and stake holders.
+
+**Schedule:** The planned start and end dates of different testing tasks in the STLC with defined milestones at different points in time.
+
+**Planning risks and contingencies:** List of possible risks during the STLC, their probability of occurrence, their impact and the contingency plan to reduce or eliminate their impact, if they occur.
+
+**Approvals:** This section is used to record the approvals given for the test plan by different stakeholders of the project along with the dates and versions that were approved.
