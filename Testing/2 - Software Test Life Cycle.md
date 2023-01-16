@@ -148,7 +148,7 @@ A well designed test suite, upon execution, would be able to objectively state t
 #### Coverage Efficiency
 
 -   If you take exit criteria (when the testing should stop) from the test plan document into account, then you will understand that you have to achieve 100% test coverage with as less number test cases as possible.
-    
+
 **Test case optimization** is the process limiting the number of test cases, on the basis of sound principles and scientific assumptions, required to achieve maximum test coverage.
 
 The techniques that testers use to optimize their test cases can be classified into three groups, as shown below:
@@ -158,3 +158,14 @@ The techniques that testers use to optimize their test cases can be classified i
 -   Specification based techniques
     
 -   Experience techniques
+
+##### When and by whom are structure based tests done?
+
+Developers, who have coding skills and code visibility, perform structure based tests during the Component Testing level to make sure that 100% of the application is covered in terms of source code structure.
+
+
+1.  Statement coverage
+2.  Decision coverage
+3.  Path coverage
+4.  Condition coverage
+
