@@ -79,15 +79,8 @@ The following requirement statements are in conflict with each other.
 "If an error message is displayed in page 4, the user should not be allowed to navigate to any page until all the errors for the corresponding page are fixed"
 ```
 
-**Testability**
+4. **Testability**
 
 A requirement specification is testable if and only if there exists some finite cost-effective process with which a tester can check that the software product meets that requirement.
 
-A requirement cannot be tested by the tester if he/she does not have access to the required hardware configuration or software configuration due to cost and time factors.
-
-Also as a general thumb rule,
-
--   All ambiguous requirements are not testable as there is no single outcome that can be called completely correct or completely wrong.
-    
--   All inconsistent requirements are not testable as it is impossible to prove that the system is either working or not working as per the requirement.
 
