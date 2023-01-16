@@ -84,3 +84,14 @@ The following requirement statements are in conflict with each other.
 A requirement specification is testable if and only if there exists some finite cost-effective process with which a tester can check that the software product meets that requirement.
 
 
+## Testing Planning and design
+
+Once the requirements are finalized, the testing team enters the test planning and design phase where it needs to plan System Testing(ST) activities in such a way so that the quality objectives of the software are accomplished by
+
+-   Ensuring optimum test coverage
+    
+-   Using available resources
+    
+-   Staying within the specified timelines
+    
+-   Keeping the predictable risks under control
