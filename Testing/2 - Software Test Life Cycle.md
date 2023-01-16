@@ -125,3 +125,36 @@ A well designed test suite, upon execution, would be able to objectively state t
 
 -   Test coverage
 -   Number of defects found
+
+#### Test coverage
+
+-   Test coverage is a measure of the size or amount of software that has been validated using the test suite.
+    
+-   Based on the measuring unit used, test coverage can be stated in two ways.
+
+**Code coverage**
+
+-   Test coverage is expressed in terms of number of program statements tested. ~ done by  white box testser
+
+**Specification coverage**
+
+-   Test coverage is expressed in terms of number of requirements in the SRS that have been tested. ~ done by black box tester
+
+#### Coverage Effectiveness
+
+-   A test suite design is said to **effective** if 100% test coverage is achieved by its test cases.
+-   Exhaustive testing may / may not be possible
+
+#### Coverage Efficiency
+
+-   If you take exit criteria (when the testing should stop) from the test plan document into account, then you will understand that you have to achieve 100% test coverage with as less number test cases as possible.
+    
+**Test case optimization** is the process limiting the number of test cases, on the basis of sound principles and scientific assumptions, required to achieve maximum test coverage.
+
+The techniques that testers use to optimize their test cases can be classified into three groups, as shown below:
+
+-   Structure based techniques
+    
+-   Specification based techniques
+    
+-   Experience techniques
