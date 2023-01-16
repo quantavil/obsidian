@@ -71,12 +71,13 @@ A software requirement is said to inconsistent if it does not agree with or conf
 -   Another software requirement in the same SRS document.
 -   Inputs and outputs of existing software and their interfaces with which the new software or it's components need to communicate.
     
+```ad-example
+The following requirement statements are in conflict with each other.
 
-**Example:** The following requirement statements are in conflict with each other.
+"Every page in the software application must have a 'Home' link at the bottom of the page and anytime the user clicks it, immaterial of the page or the state of activity in that page, the software should navigate to the home page"
 
-"_Every page in the software application must have a 'Home' link at the bottom of the page and anytime the user clicks it, immaterial of the page or the state of activity in that page, the software should navigate to the home page_"
-
-"_If an error message is displayed in page 4, the user should not be allowed to navigate to any page until all the errors for the corresponding page are fixed_"
+"If an error message is displayed in page 4, the user should not be allowed to navigate to any page until all the errors for the corresponding page are fixed"
+```
 
 **Testability**
 
