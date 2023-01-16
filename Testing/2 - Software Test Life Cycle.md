@@ -4,13 +4,11 @@ The development team works based on the SDLC to build a software. Similarly, the
 
 ## Requirements Analysis
 
-Requirements for the software to be built, are collected from the end users/clients by analysts and are documented in the form of Software Requirements Specifications (SRS).
+Requirements for the software to be built, are collected from the end users/clients by analysts and are documented in the form of **Software Requirements Specifications (SRS)**.
 
 ### Significance
 -   Requirements are the basis to develop and validate a software. 
-    
 -   It provides the basis for planning the project, estimating the cost and predicting risks, if any. 
-    
 -   An incorrect or missing requirement will result in a bad or unusable software, no matter how perfectly all the other stages of the SDLC and STLC are executed.
 
 

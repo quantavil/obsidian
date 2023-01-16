@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/1 - Basic Concept and Terminologies.md",
-                "mode": "preview",
+                "file": "Testing/2 - Software Test Life Cycle.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/1 - Basic Concept and Terminologies.md",
+                "file": "Testing/2 - Software Test Life Cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,8 +132,8 @@
   },
   "active": "d6a050ec8e0676cc",
   "lastOpenFiles": [
-    "Testing/2 - Software Test Life Cycle.md",
     "Testing/1 - Basic Concept and Terminologies.md",
+    "Testing/2 - Software Test Life Cycle.md",
     "DSA in Python/Python Primer.md",
     "DSA in Python/Untitled.md",
     "coding-interview-university-main/programming-language-resources.md",
