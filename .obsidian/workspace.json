@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "15e9e61e5783dd3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testing/Agile Methodology/Untitled 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Agile Methodology/Untitled.md",
+                "file": "Testing/Agile Methodology/Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,8 +155,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8f3b017856e22139",
+  "active": "15e9e61e5783dd3d",
   "lastOpenFiles": [
+    "Testing/Agile Methodology/Untitled.md",
     "Testing/2 - Software Test Life Cycle.md",
     "Testing/1 - Basic Concept and Terminologies.md",
     "DSA in Python/Python Primer.md",
@@ -153,7 +166,6 @@
     "coding-interview-university-main/Resources.md",
     "coding-interview-university-main/README.md",
     "Java -lex/Java Objective.md",
-    "DBMS/SQL Satements/Data Manipulation Statements.md",
-    "DBMS/SQL Satements/Data Definition Statements.md"
+    "DBMS/SQL Satements/Data Manipulation Statements.md"
   ]
 }
