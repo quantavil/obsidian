@@ -17,6 +17,11 @@ DevOps can be any initiative which is focused on enabling business agility by:
 -   Moving deliverables through all phases development life cycle faster
 -   Ensuring, always there is no compromise on deliverable quality.
 
+While in traditional Team work due to this isolation, there are following barriers that exist:
+- Process barriers 
+- Co-ordination and communication barriers
+- Cultural barriers
+
 ## The Team Structure in DevOps
 
 ### Traditional (waterfall) Team work
@@ -31,4 +36,14 @@ DevOps can be any initiative which is focused on enabling business agility by:
     
 -   **Turnaround time**: Since there are two levels of inter-team handovers involved, there is additional time consumed at each level for documentation, reviews and sign-offs.
 
+
+### Agile Team Work
 ![[Pasted image 20230118095501.png]]
+
+**Characteristics**
+
+-   **Resource utilization**: The developers and testers work in parallel and are always engaged. However the operations team needs to wait for the agile team until they come up with the working build. 
+    
+-   **Inter-team relationship**: Since the developers and testers are cross skilled in each other's tasks and share same goals and deadlines, there is very less chance of conflicts between them. Instead they work together and stand-in for each other whenever the need arises. However the conflicts with the operations team are bound to happen as earlier.
+    
+-   **Turnaround time**: Since a lot of time and effort spent on communication and handover processes is eliminated, agile teams can deliver faster than traditional teams. However, there is still additional effort that goes into communication and handover processes with the operations team
