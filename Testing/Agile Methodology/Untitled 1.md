@@ -48,11 +48,10 @@ Agile is the software development process, which we have to follow when there is
 |  Traditional | Agile |
 | --- | --- |
 | developer and tester are from different team	| developer and tester are consider as same team |
-| Test planning a month  before   | test plan will carried out during testing day or a day before                             
-	
-* there is no transparency           * there is transparency between the team
-  between developer and               like about the bug they rised etc..
-  tester
+| Test planning a month  before   | test plan will carried out during testing day or a day before |                        
+| there is no transparency between developer and   tester  | there is transparency between the team  like about the bug they raised etc. |
+       
+
 
 * manual testing skill is            * Automation testing skill is required
  sufficient to test the               to complete the project on time, because
