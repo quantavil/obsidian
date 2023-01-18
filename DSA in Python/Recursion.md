@@ -12,8 +12,9 @@ Recursion is a technique by which a function makes one or more calls to itself d
 $$
 n! =
 \begin{cases}
-1
-
+1, &\text{if $n$ = 0 } \\
+n.(n-1)! , &\text{if $n$ >0}\\
+\end{cases}
 $$
 ```python
 def factorial(n):
@@ -22,3 +23,4 @@ def factorial(n):
     else:
         return n*factorial(n-1)
 ```
+![[Pasted image 20230118143624.png]]
