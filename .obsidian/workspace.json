@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/Introduction to Continuous Testing in DevOps/DevOps.md",
+                "file": "Testing/Agile Methodology/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6be84f8dbd6ae527",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testing/Agile Methodology/Untitled 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Introduction to Continuous Testing in DevOps/DevOps.md",
+                "file": "Testing/Agile Methodology/Untitled 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,17 +179,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9d303f56993a35ed",
+  "active": "6be84f8dbd6ae527",
   "lastOpenFiles": [
-    "Testing/Agile Methodology/Untitled 1.md",
     "Testing/Agile Methodology/Untitled.md",
+    "Testing/Agile Methodology/Untitled 1.md",
+    "Testing/Introduction to Continuous Testing in DevOps/DevOps.md",
     "Testing/2 - Software Test Life Cycle.md",
     "Testing/1 - Basic Concept and Terminologies.md",
     "DSA in Python/Python Primer.md",
     "DSA in Python/Untitled.md",
     "coding-interview-university-main/programming-language-resources.md",
     "coding-interview-university-main/Resources.md",
-    "coding-interview-university-main/README.md",
-    "Java -lex/Java Objective.md"
+    "coding-interview-university-main/README.md"
   ]
 }

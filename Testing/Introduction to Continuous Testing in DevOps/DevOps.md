@@ -97,3 +97,4 @@ DevOps uses **Continuous Delivery Pipeline** strategy, enables a constant fl
 ### Continuous Monitoring
 
 -   Continuously keep collecting information that needs the team's attention, from the domain of every aspect, for all the builds and trigger **automated intimation** to the concerned team.
+
