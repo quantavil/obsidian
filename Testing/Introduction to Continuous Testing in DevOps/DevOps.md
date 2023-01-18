@@ -47,3 +47,15 @@ While in traditional Team work due to this isolation, there are following barrie
 -   **Inter-team relationship**: Since the developers and testers are cross skilled in each other's tasks and share same goals and deadlines, there is very less chance of conflicts between them. Instead they work together and stand-in for each other whenever the need arises. However the conflicts with the operations team are bound to happen as earlier.
     
 -   **Turnaround time**: Since a lot of time and effort spent on communication and handover processes is eliminated, agile teams can deliver faster than traditional teams. However, there is still additional effort that goes into communication and handover processes with the operations team
+
+### DevOps teams work
+
+![[Pasted image 20230118100216.png]]
+
+**Characteristics**
+
+-   **Resource utilization**: Since there is no skill-wise separation of developers, testers and operations, there are no idle resources. The team size is usually very small in which anyone can do any development, quality assurance or operations tasks.
+    
+-   **Inter-team relationship**: The DevOps team works as a single unit, with the same goals and deadlines. Hence work conflicts between team members are non-existent.
+    
+-   **Turnaround time**: DevOps teams can deliver builds a lot faster than traditional or agile teams.
