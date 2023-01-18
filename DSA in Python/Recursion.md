@@ -78,5 +78,8 @@ draw_ruler(3,3)
 
 ## Binary Search
 
+
 We consider three cases: 
-- If the target equals data[mid], then we have found the item we are looking for, and the search terminates successfully. • If target < data[mid], then we recur on the first half of the sequence, that is, on the interval of indices from low to mid−1. • If target > data[mid], then we recur on the second half of the sequence, that is, on the interval of indices from mid+1 to high.
+- If the target equals data[mid], then we have found the item we are looking for, and the search terminates successfully. 
+- If target < data[mid], then we recur on the first half of the sequence, that is, on the interval of indices from low to mid−1. 
+- If target > data[mid], then we recur on the second half of the sequence, that is, on the interval of indices from mid+1 to high.
