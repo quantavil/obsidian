@@ -6,4 +6,10 @@ Recursion is a technique by which a function makes one or more calls to itself d
 - *Binary search* is among the most important computer algorithms. It allows us to efficiently locate a desired value in a data set with upwards of billions of entries. 
 - The *file system* for a computer has a recursive structure in which directories can be nested arbitrarily deeply within other directories. Recursive algorithms are widely used to explore and manage these file systems.
 
-
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*factorial(n-1)
+```
