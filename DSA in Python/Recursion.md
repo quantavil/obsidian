@@ -73,3 +73,5 @@ draw_ruler(3,3)
 -
 --- 3
 ```
+
+![[Pasted image 20230118152711.png]]
