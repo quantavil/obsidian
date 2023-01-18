@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA in Python/Python Primer.md",
+                "file": "DSA in Python/Recursion.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA in Python/Python Primer.md",
+                "file": "DSA in Python/Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,14 +132,14 @@
   },
   "active": "b6460d5d1158aeb1",
   "lastOpenFiles": [
+    "DSA in Python/Python Primer.md",
+    "DSA in Python/Recursion.md",
     "Testing/Introduction to Continuous Testing in DevOps/DevOps.md",
     "Testing/2 - Software Test Life Cycle.md",
     "Testing/Agile Methodology/Introduction to Agile.md",
     "Testing/Agile Methodology/Untitled 1.md",
     "Testing/Agile Methodology/Untitled.md",
     "Testing/1 - Basic Concept and Terminologies.md",
-    "DSA in Python/Python Primer.md",
-    "DSA in Python/Untitled.md",
     "coding-interview-university-main/programming-language-resources.md",
     "coding-interview-university-main/Resources.md"
   ]
