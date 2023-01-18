@@ -21,14 +21,12 @@ Requirement analysis
 				deployment
 					maintainance
 
-When to use?
-------------
+**When to use?**
 * clear requirement from client
 * enough time to develop the project
 * already known or experienced project
 
-Disadvantage:
--------------
+**Disadvantage:**
 1. customer unsatisfaction
 2. we loss our reputation
 3. loss of money
@@ -47,13 +45,10 @@ Agile is the software development process, which we have to follow when there is
 
 
 
-    Traditional                                     Agile
-
-* developer and tester are				* developer and tester are 									           
-from different team					  consider as same team 
-
-* Test planning a month              * test plan will carried out during
-  before                             testing day or a day before 
+|  Traditional | Agile |
+| --- | --- |
+| developer and tester are from different team	| developer and tester are consider as same team |
+| Test planning a month  before   | test plan will carried out during testing day or a day before                             
 	
 * there is no transparency           * there is transparency between the team
   between developer and               like about the bug they rised etc..
