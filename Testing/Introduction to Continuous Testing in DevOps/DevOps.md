@@ -59,3 +59,41 @@ While in traditional Team work due to this isolation, there are following barrie
 -   **Inter-team relationship**: The DevOps team works as a single unit, with the same goals and deadlines. Hence work conflicts between team members are non-existent.
     
 -   **Turnaround time**: DevOps teams can deliver builds a lot faster than traditional or agile teams.
+
+## The aspects of DevOps
+
+DevOps uses **Continuous Delivery Pipeline** strategy, enables a constant flow of code changes into production.
+
+![[Pasted image 20230118100750.png]]
+
+### Agile Development
+
+-   Create code to add new features, fix defects, enhance features or to act on the feedback received from other aspects.
+    
+-   Once the developers from each module/service team checks in their code, trigger **automated compiling and build creation**.
+    
+
+### Continuous Integration
+
+-   Once a build is ready and available in the pipeline, trigger **automated integration** with the overall application code base.
+    
+
+### Continuous Testing
+
+-   Once the code is ready, trigger **automated unit tests**, static code analysis and report the results.
+    
+-   Before the code in integrated, trigger **automated integration tests** and report the results.
+    
+-   Once the code is integrated, trigger **automated functional and non-functional system tests** and report the results.
+    
+
+### Continuous Deployment
+
+-   Once a build in the pipeline has successfully passed all the tests, trigger its **automated deployment** into production. 
+    
+-   Keep deploying all the tested builds in the sequence they were pushed into the pipeline.
+    
+
+### Continuous Monitoring
+
+-   Continuously keep collecting information that needs the team's attention, from the domain of every aspect, for all the builds and trigger **automated intimation** to the concerned team.
