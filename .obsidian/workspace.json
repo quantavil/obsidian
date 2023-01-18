@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4c97014cfb2ff160",
+        "id": "56d8feb4e46abf79",
         "type": "tabs",
         "children": [
           {
-            "id": "6be84f8dbd6ae527",
+            "id": "b6460d5d1158aeb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/Agile Methodology/Introduction to Agile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "12b7618e6acf2185",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "15e9e61e5783dd3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Testing/Agile Methodology/Untitled 1.md",
+                "file": "DSA in Python/Python Primer.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Agile Methodology/Untitled 1.md",
+                "file": "DSA in Python/Python Primer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,13 +130,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "15e9e61e5783dd3d",
+  "active": "b6460d5d1158aeb1",
   "lastOpenFiles": [
+    "Testing/Introduction to Continuous Testing in DevOps/DevOps.md",
+    "Testing/2 - Software Test Life Cycle.md",
     "Testing/Agile Methodology/Introduction to Agile.md",
     "Testing/Agile Methodology/Untitled 1.md",
     "Testing/Agile Methodology/Untitled.md",
-    "Testing/Introduction to Continuous Testing in DevOps/DevOps.md",
-    "Testing/2 - Software Test Life Cycle.md",
     "Testing/1 - Basic Concept and Terminologies.md",
     "DSA in Python/Python Primer.md",
     "DSA in Python/Untitled.md",
