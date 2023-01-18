@@ -8,29 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6a050ec8e0676cc",
+            "id": "6be84f8dbd6ae527",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/2 - Software Test Life Cycle.md",
+                "file": "Testing/Agile Methodology/Introduction to Agile.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "8f3b017856e22139",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Testing/Agile Methodology/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
+          }
+        ]
+      },
+      {
+        "id": "12b7618e6acf2185",
+        "type": "tabs",
+        "children": [
           {
             "id": "15e9e61e5783dd3d",
             "type": "leaf",
@@ -42,33 +36,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9d303f56993a35ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Testing/Agile Methodology/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6be84f8dbd6ae527",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Testing/Agile Methodology/Untitled 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Agile Methodology/Untitled 2.md",
+                "file": "Testing/Agile Methodology/Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,17 +148,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6be84f8dbd6ae527",
+  "active": "15e9e61e5783dd3d",
   "lastOpenFiles": [
-    "Testing/Agile Methodology/Untitled.md",
+    "Testing/Agile Methodology/Introduction to Agile.md",
     "Testing/Agile Methodology/Untitled 1.md",
+    "Testing/Agile Methodology/Untitled.md",
     "Testing/Introduction to Continuous Testing in DevOps/DevOps.md",
     "Testing/2 - Software Test Life Cycle.md",
     "Testing/1 - Basic Concept and Terminologies.md",
     "DSA in Python/Python Primer.md",
     "DSA in Python/Untitled.md",
     "coding-interview-university-main/programming-language-resources.md",
-    "coding-interview-university-main/Resources.md",
-    "coding-interview-university-main/README.md"
+    "coding-interview-university-main/Resources.md"
   ]
 }

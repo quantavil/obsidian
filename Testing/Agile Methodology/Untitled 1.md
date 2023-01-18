@@ -1,45 +1,8 @@
-Agile is a software development process framework which defines a set of principles under which requirements and solutions evolve through the collective effort of self-organizing cross-functional teams.
 
-### When to use Agile?
-
-Agile is preferred over traditional models of software development, like waterfall, if the project has any of the following characteristics: 
-
-- Lack of clearly defined requirements due to
--   Aggressive deadlines
-    
 
 Introduction to Agile:
 ----------------------
 
-Traditional Software development process:
------------------------------------------
-
-Requirement analysis
-   Design (make a plan)
-   	development ( coding)
- 			Testing       
-				deployment
-					maintainance
-
-**When to use?**
-* clear requirement from client
-* enough time to develop the project
-* already known or experienced project
-
-**Disadvantage:**
-1. customer unsatisfaction
-2. we loss our reputation
-3. loss of money
-4. waste of time.
-
-
-When to use Agile:
--------------
-Agile is the software development process, which we have to follow when there is 
-* no clear requirement from client
-* Complexity of the software is high
-* project is entirely new to the IT Field.
-* short period of time to deliver the project (Aggressive deadlines)
 
 
 
