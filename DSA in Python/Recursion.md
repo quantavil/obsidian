@@ -124,3 +124,9 @@ In terms of efficiency, the difference between the bad recursion and the good re
 - If a recursive call starts at most one other, we call this a linear recursion. 
 - If a recursive call may start two others, we call this a binary recursion. 
 - If a recursive call may start three or more others, this is multiple recursion.
+
+### Linear Recursion
+
+If a recursive function is designed so that each invocation of the body makes at most one new recursive call, this is know as **linear recursion.**
+
+#### Summing the Elements of a Sequence Recursively
