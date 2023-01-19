@@ -181,3 +181,16 @@ def power(x,n):
 
 When a function makes two recursive calls, we say that it uses *binary recursion.*
 
+```python
+def binary_sum(S,start,stop):
+    if start >= stop:
+        return 0
+    elif start == stop-1:
+        return S[start]
+    else:
+        mid =  (start+stop)//2
+        return binary_sum(S,start,mid) + binary_sum(S,mid,stop)
+```
+
+![[Pasted image 20230119164626.png]]
+
