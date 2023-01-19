@@ -162,3 +162,22 @@ def power(x,n):
 
 ```
 
+
+```python
+def power(x,n):
+    if n==0:
+        return 1
+    else:
+        partial = power(x,n//2)
+        res = partial*partial
+        if n%2 == 1:
+            res *= x
+    return res
+```
+
+![[Pasted image 20230119153549.png]]
+
+### Binary Recursion
+
+When a function makes two recursive calls, we say that it uses *binary recursion.*
+
