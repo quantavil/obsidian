@@ -101,3 +101,5 @@ def bad_fibonacci(n):
     else :
         return bad_fibonacci(n-1)+bad_fibonacci(n-2)
 ```
+
+Unfortunately, such a direct implementation of the Fibonacci formula results in a terribly inefficient function. Computing the nth Fibonacci number in this way requires an exponential number of calls to the function.
