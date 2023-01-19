@@ -104,3 +104,17 @@ def bad_fibonacci(n):
 
 Unfortunately, such a direct implementation of the Fibonacci formula results in a terribly inefficient function. Computing the nth Fibonacci number in this way requires an exponential number of calls to the function.
 
+
+```python
+def good_fibonacci(n):
+    """”Return pair of Fibonacci numbers, F(n) and F(n-1)"""
+    if n <=1:
+        return (n,0)
+    else:
+        (a,b) = good_fibonacci(n-1)
+        print(a,b)
+        return (a+b,a)
+
+```
+
+In terms of efficiency, the difference between the bad recursion and the good recursion for this problem is like night and day. The bad fibonacci function uses exponential time. We claim that the execution of function good fibonacci(n) takes O(n) time.
