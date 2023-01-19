@@ -85,3 +85,19 @@ We consider three cases:
 - If target < data[mid], then we recur on the first half of the sequence, that is, on the interval of indices from low to mid−1. 
 - If target > data[mid], then we recur on the second half of the sequence, that is, on the interval of indices from mid+1 to high.
 
+## Fibonacci
+
+$$
+\begin{cases}
+F0 = 0 \\
+F1 = 1 \\
+Fn = Fn−2 +Fn−1 ,for n > 1.
+\end{cases}
+$$
+```python
+def bad_fibonacci(n):
+    if n <= 1:
+        return n
+    else :
+        return bad_fibonacci(n-1)+bad_fibonacci(n-2)
+```
