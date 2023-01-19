@@ -141,3 +141,12 @@ def linear_sum(S, n):
 ![[Pasted image 20230119122604.png]]
 
 #### Reversing a Sequence with Recursion
+
+```python
+def reverse(S,start,stop):
+    if start < stop-1:
+        S[start], S[stop-1] = S[stop-1], S[start]
+        reverse(S,start+1,stop-1)
+    return S
+
+```
