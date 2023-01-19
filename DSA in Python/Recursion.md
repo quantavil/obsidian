@@ -118,3 +118,9 @@ def good_fibonacci(n):
 ```
 
 In terms of efficiency, the difference between the bad recursion and the good recursion for this problem is like night and day. The bad fibonacci function uses exponential time. We claim that the execution of function good fibonacci(n) takes O(n) time.
+
+## Types Of Recursion
+
+- If a recursive call starts at most one other, we call this a linear recursion. 
+- If a recursive call may start two others, we call this a binary recursion. 
+- If a recursive call may start three or more others, this is multiple recursion.
