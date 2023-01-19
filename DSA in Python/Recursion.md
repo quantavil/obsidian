@@ -129,7 +129,7 @@ In terms of efficiency, the difference between the bad recursion and the good re
 
 If a recursive function is designed so that each invocation of the body makes at most one new recursive call, this is know as **linear recursion.**
 
-#### Summing the Elements of a Sequence Recursively
+- **Summing the Elements of a Sequence Recursively**
 ```python
 def linear_sum(S, n):
     """Return the sum of the first n numbers of sequence S."""
@@ -140,7 +140,7 @@ def linear_sum(S, n):
 ```
 ![[Pasted image 20230119122604.png]]
 
-#### Reversing a Sequence with Recursion
+- **Reversing a Sequence with Recursion**
 
 ```python
 def reverse(S,start,stop):
@@ -150,3 +150,4 @@ def reverse(S,start,stop):
     return S
 
 ```
+
