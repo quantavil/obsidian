@@ -1,0 +1,1 @@
+Python represents a list or tuple instance using an internal storage mechanism of an array of object references.

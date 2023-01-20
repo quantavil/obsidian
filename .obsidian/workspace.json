@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5b2df1fffa6f0de3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA in Python/Array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA in Python/Recursion.md",
+                "file": "DSA in Python/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,10 +143,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b6460d5d1158aeb1",
+  "active": "5b2df1fffa6f0de3",
   "lastOpenFiles": [
-    "Testing/Agile Methodology/Introduction to Agile.md",
     "DSA in Python/Recursion.md",
+    "Testing/Agile Methodology/Introduction to Agile.md",
     "en/How to/Format your notes.md",
     "en/How to/Create notes.md",
     "DSA in Python/Python Primer.md",
