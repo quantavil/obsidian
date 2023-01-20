@@ -1,3 +1,11 @@
+- [[#Factorial|Factorial]]
+- [[#Drawing an English Ruler|Drawing an English Ruler]]
+- [[#Binary Search|Binary Search]]
+- [[#Fibonacci|Fibonacci]]
+- [[#Types Of Recursion|Types Of Recursion]]
+	- [[#Types Of Recursion#Linear Recursion|Linear Recursion]]
+	- [[#Types Of Recursion#Binary Recursion|Binary Recursion]]
+- [[#Designing Recursive Algorithms|Designing Recursive Algorithms]]
 
 Recursion is a technique by which a function makes one or more calls to itself during execution, or by which a data structure relies upon smaller instances of the very same type of structure in its representation.
 
