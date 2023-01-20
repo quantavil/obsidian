@@ -22,6 +22,13 @@ from array import array
 
 a =  array('I',[2,3,5,7,11,13,17,19,2,3,5,7,11,13,17,19])
 b = [2,3,5,7,11,13,17,19,2,3,5,7,11,13,17,19]
-print(sys.getsizeof(a))
-print(sys.getsizeof(b))
+print(" Size Of a : {0}".format(sys.getsizeof(a)))
+print(" Size Of b : {0}".format(sys.getsizeof(b)))
+
 ```
+
+> [!Output]
+>  Size Of a : 144
+ > Size Of b : 184
+ 
+ 
