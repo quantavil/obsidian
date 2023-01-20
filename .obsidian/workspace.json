@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA in Python/Complexity of Python Operations.md",
+                "file": "coding-interview-university-main/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA in Python/Complexity of Python Operations.md",
+                "file": "coding-interview-university-main/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +157,8 @@
   },
   "active": "7b922336dc55f190",
   "lastOpenFiles": [
+    "coding-interview-university-main/programming-language-resources.md",
+    "DSA in Python/Complexity of Python Operations.md",
     "DSA in Python/Array.md",
     "DSA in Python/Recursion.md",
     "DSA in Python/Python Primer.md",
@@ -164,8 +166,6 @@
     "en/How to/Format your notes.md",
     "en/How to/Create notes.md",
     "Testing/Introduction to Continuous Testing in DevOps/DevOps.md",
-    "Testing/2 - Software Test Life Cycle.md",
-    "Testing/Agile Methodology/Untitled 1.md",
-    "Testing/Agile Methodology/Untitled.md"
+    "Testing/2 - Software Test Life Cycle.md"
   ]
 }
