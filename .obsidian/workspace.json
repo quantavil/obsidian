@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA in Python/Stacks.md",
+                "file": "coding-interview-university-main/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA in Python/Stacks.md",
+                "file": "coding-interview-university-main/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,15 +169,15 @@
   },
   "active": "e99b3063110b954b",
   "lastOpenFiles": [
-    "coding-interview-university-main/README.md",
     "coding-interview-university-main/programming-language-resources.md",
+    "DSA in Python/Stacks.md",
+    "coding-interview-university-main/README.md",
     "DSA in Python/Complexity of Python Operations.md",
     "DSA in Python/Array.md",
     "DSA in Python/Recursion.md",
     "DSA in Python/Python Primer.md",
     "Testing/Agile Methodology/Introduction to Agile.md",
     "en/How to/Format your notes.md",
-    "en/How to/Create notes.md",
-    "Testing/Introduction to Continuous Testing in DevOps/DevOps.md"
+    "en/How to/Create notes.md"
   ]
 }
