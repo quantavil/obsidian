@@ -48,3 +48,22 @@ Space Complexity is the total memory space required by any program for the execu
 -   In a Non-Stable sorting algorithm the ordering of the same values is not necessarily preserved/maintained after sorting.
 -   Whenever there are no duplicates in our data set, then non-stable or stable sorting elements do not make any difference. This is because the stability of the sorting algorithm is dependent upon the factor that **whether the relative positions of the same elements are maintained or not after sorting.** So, if there are no duplicate elements at all, then, there is no need of comparing the relative positions themselves.
 -   Selection sort, Shell sort, Quicksort, and Heapsort may be considered an example of Non-Stable sorting algorithms.
+
+## Sorting Categories
+
+**Internal Sorting:**
+
+-   If the data sorting process takes place entirely within the RAM of a computer, it is called **internal sorting**.
+
+**External Sorting:**
+
+-   Eternal sorting is used, whenever we need to sort **very large datasets**, which may not be stored in the memory as a whole at once.
+
+### Other Characteristics of Sorting algorithms
+
+1.  **Comparison Sort:** Comparison sorting algorithms are those which work by comparing each pair of adjacent elements of an iterable(such as list, array, etc.) using any comparison operator(suppose > or < or =). Some sorting algorithms are comparison sort while others are not.
+
+For example, heap sort is a comparison sort, whereas counting sort isn’t. Bubble sort, Insertion sort, Merge sort, heap sort etc. are comparison-based sorting algorithms. Whereas, count sort, radix sort, and bucket sort are not comparison-based.
+
+2.  **Parallelism:** Sorting algorithms are either serial or parallel. A parallel algorithm can do multiple operations at a time, whereas the serial sorting algorithms work on one operation at a time. The serial sorting algorithms work like, one operation is executed only after the previous operation is completed. We can consider the example of merge sort where two sequences say �X and �Y can only be merged once they are sorted. This is a kind of serial algorithm implementation. An example of a parallel algorithm is, that we can easily implement bucket sort to sort buckets in parallel. Bucket sort is a parallel sorting algorithm because we can sort the buckets parallelly.
+3.  **Recursive:** Some algorithms are recursive by nature, for example, the merge sort or quick sort, use the divide and conquer technique to solve the problem. This makes them more of a recursive sorting algorithm. It allows for the sorting of �n elements in �(�����)O(NlogN) time compared with the �(�2)O(n2) efficiency of bubble sort. Hence, recursive techniques can be utilized in sorting algorithms.
