@@ -1,3 +1,11 @@
+- [[#Example|Example]]
+- [[#Time and Space complexity|Time and Space complexity]]
+	- [[#Time and Space complexity#Time Complexity|Time Complexity]]
+	- [[#Time and Space complexity#Space Complexity:|Space Complexity:]]
+- [[#In-Place and Out-of-place Sorting:|In-Place and Out-of-place Sorting:]]
+- [[#Stable and Non-Stable Sorting|Stable and Non-Stable Sorting]]
+	- [[#Stable and Non-Stable Sorting#Other Characteristics of Sorting algorithms|Other Characteristics of Sorting algorithms]]
+
 ## Example
 
 -   **Dictionary:** The dictionary stores words in alphabetical order so that searching for any word becomes easy.
