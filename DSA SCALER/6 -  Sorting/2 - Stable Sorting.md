@@ -135,3 +135,19 @@ def selectionSort(arr):
 -   Good to use when memory space is limited.
 
 ## Insertion Sort
+
+An insertion sort compares values in turn, starting with the second value in the list. If this value is greater than the value to the left of it, no changes are made. Otherwise, this value is repeatedly moved left until it meets a value that is less than it.
+
+![[Pasted image 20230124162005.png]]
+
+```python
+insertionSort(array)
+  mark First element as sorted
+  for each unsorted element E
+    ‘extract’ the element E
+    for j <- lastSortedIndex down to 0
+      if current element j > E
+        move sorted element to the right by 1
+    break loop and insert E here
+end InsertionSort
+```
