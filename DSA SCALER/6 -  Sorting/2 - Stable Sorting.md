@@ -44,3 +44,50 @@ def bubbleSort(arr):
         arr[j] = arr[j+1]
         arr[j+1] = temp
 ```
+
+### Optimized Bubble Sort Algorithm
+
+Imagine the case where the list is already sorted. For example, our input list contains 2, 3, 4, 5 instead of 5, 3, 4, 2.
+To tackle this, we can do the following:
+
+-   Create a flag variable, called swapped.
+-   The value of swapped is set to true if, during any iteration, swapping was done.
+-   Else, the value of swapped is set to false.
+-   After an iteration, if the value of swapped is found to be false, it means the array is sorted, and no more comparisons are required.
+
+```python
+# Optimized Bubble sort in Python
+ 
+def bubbleSort(arr):
+    
+  # loop over array elements
+  for i in range(len(arr)):
+        
+    # swapped variable initially set to false
+    swapped = False
+    
+    for j in range(0, len(arr) - i - 1):
+ 
+      # compare adjacent elements
+      if arr[j] > arr[j + 1]:
+ 
+        # swap if out-of-order
+        temp = arr[j]
+        arr[j] = arr[j+1]
+        arr[j+1] = temp
+  
+     # set swap to true after swapping is performed
+        swapped = True
+          
+    # array is already sorted, not need to compare further
+    if not swapped:
+      break
+```
+
+**Time Complexity :** O(n^2)
+**Space Complexity :** O(1)
+
+### Conclusion
+
+-   Bubble sort is a good and simple algorithm to sort a list.
+-   Good to use when memory space is limited.
