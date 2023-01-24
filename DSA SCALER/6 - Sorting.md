@@ -10,9 +10,23 @@ Also, the sorting algorithm's real-life usage is just miraculous! For example --
 -   **Bubble sort** is used in TV to sort the channels based on audience viewing timings.
 -   **Merge Sort** is very popularly used by databases to load a huge amount of data.
 
+## Time and Space complexity
+
+### Time Complexity
+
+Time complexity in the programming world measures the approximate time taken by a piece of code, or algorithm to execute(or run) based on the size of input passed to it.
+
+Time complexity does not give us the exact measure of time, but it gives us an overall estimation of the time taken.
+
+The time taken mainly depends upon the number of times lines of code will iterate.
 
 **Time complexity Notations:** These are the asymptotic notations that are used for calculating the time complexity of the sorting algorithms:
 
 1.  **Big oh Notation, O:** It measures the upper limit of an algorithm's running time or the worst-case time complexity. It is known by *O(n)* for input size 'n'.
 2.  **Omega Notation, Ω:** It measures the minimum time taken by algorithms to execute, and calculates the best case time complexity in sorting. It is known by *Ω(n)* for input size 'n'.
 3.  **Theta Notation, θ:** It measures the average time taken by an algorithm to execute. Or, the lower bound and upper bound of an algorithm's running time. It is known by *θ(n)* for input size 'n'.
+
+### Space Complexity:
+
+Space Complexity is the total memory space required by any program for the execution of its code. It depends on the size of the data structure we are using to do our code. The sorting algorithms which take constant space are also known as the in-place sorting algorithms. If we do not use any data structure(eg. array, list etc.) then our code uses constant space. *O(1)* specifies constant space complexity. Other parameters like linear, quadratic, or exponential space complexity are similar like what we defined for our time complexity.
+
