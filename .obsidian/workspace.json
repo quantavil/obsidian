@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA SCALER/6 - Sorting.md",
+                "file": "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7302858af980bc8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA SCALER/6 - Sorting.md",
+                "file": "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,8 +155,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9d8a0ebb612f758d",
+  "active": "7302858af980bc8e",
   "lastOpenFiles": [
+    "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
+    "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
     "DSA in Python/Recursion.md",
     "DSA in Python/Array.md",
     "Testing/Selenium/wdf.md",
@@ -152,8 +166,6 @@
     "coding-interview-university-main/programming-language-resources.md",
     "DSA in Python/Stacks.md",
     "DSA in Python/Complexity of Python Operations.md",
-    "DSA in Python/Python Primer.md",
-    "Testing/Agile Methodology/Introduction to Agile.md",
-    "en/How to/Format your notes.md"
+    "DSA in Python/Python Primer.md"
   ]
 }

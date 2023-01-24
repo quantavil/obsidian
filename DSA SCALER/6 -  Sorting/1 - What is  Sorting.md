@@ -1,4 +1,4 @@
-### Example
+## Example
 
 -   **Dictionary:** The dictionary stores words in alphabetical order so that searching for any word becomes easy.
 -   **Telephone Book:** The telephone book stores the telephone numbers of people sorted by their names in alphabetical order, so that the names can be searched easily.
