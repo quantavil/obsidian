@@ -33,3 +33,18 @@ Space Complexity is the total memory space required by any program for the execu
 ## In-Place and Out-of-place Sorting:
 -   An **In-place algorithm** modifies the inputs, which can be a list or an array, without using any additional memory. As the algorithm runs, the input is usually overwritten by the output, so no additional space is required. Space Complexity : O(1).
 - An algorithm that is not in place is called a not-in-place or out-of-place algorithm. The **Out-of-place** sorting algorithm uses extra space for sorting, which depends upon the size of the input. Space Complexity : O(n).
+
+## Stable and Non-Stable Sorting 
+**1. Stable Sorting:**
+
+-   The Stable sorting algorithms preserve the relative order of equal elements. In other words, they maintain the relative position of similar elements after sorting.
+-   If we have a key-value pair in our list, then in the case of stable sort original order of equal keys is maintained.
+-   Several common sorting algorithms are stable by nature, such as Merge Sort, Timsort, Counting Sort, Insertion Sort, and Bubble Sort. We will read about them further in this tutorial.
+
+![[Pasted image 20230124111336.png]]
+
+**2. Non-Stable Sorting:**
+
+-   In a Non-Stable sorting algorithm the ordering of the same values is not necessarily preserved/maintained after sorting.
+-   Whenever there are no duplicates in our data set, then non-stable or stable sorting elements do not make any difference. This is because the stability of the sorting algorithm is dependent upon the factor that **whether the relative positions of the same elements are maintained or not after sorting.** So, if there are no duplicate elements at all, then, there is no need of comparing the relative positions themselves.
+-   Selection sort, Shell sort, Quicksort, and Heapsort may be considered an example of Non-Stable sorting algorithms.
