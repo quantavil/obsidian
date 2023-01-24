@@ -65,17 +65,3 @@ For example, heap sort is a comparison sort, whereas counting sort isn’t.�
 4. **Sorting Categories**: Internal sorting takes place when we sort data in our RAM itself, whereas in external sorting, the data consumes extra memory to be sorted.
 
 
-## Bubble Sort
-
-Bubble sort is one of the simplest and most straightforward sorting algorithms that work by comparing elements in a list, which are adjacent (next to each other) and then swapping them, until the largest(or smallest) of them reaches its correct order.
-
-**Working :**
-1.  Begin with the first element.
-2.  Compare the current element with the next element.
-3.  If the current element is greater than the next element, then swap both the elements. If not, move to the next element.
-4.  Repeat steps 1 – 3 until we get the sorted list.
-
-![[Pasted image 20230124121633.png]]
-
-- In bubble sort, to sort a list of length n, we need to perform n – 1 iterations.
-- After each iteration, the largest among the unsorted elements was placed at its position.
