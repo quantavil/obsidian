@@ -63,3 +63,18 @@ For example, heap sort is a comparison sort, whereas counting sort isn’t.�
 2.  **Parallelism:** Sorting algorithms are either serial or parallel. A parallel algorithm can do multiple operations at a time, whereas the serial sorting algorithms work on one operation at a time. The serial sorting algorithms work like, one operation is executed only after the previous operation is completed. We can consider the example of merge sort where two sequences say X and Y can only be merged once they are sorted. This is a kind of serial algorithm implementation. e.g. Bucket Sort
 3.  **Recursive:** Some algorithms are recursive by nature, for example, the merge sort or quick sort, use the divide and conquer technique to solve the problem. This makes them more of a recursive sorting algorithm. It allows for the sorting of n elements in O(NlogN) time compared with the O(n2) efficiency of bubble sort. Hence, recursive techniques can be utilized in sorting algorithms.
 4. **Sorting Categories**: Internal sorting takes place when we sort data in our RAM itself, whereas in external sorting, the data consumes extra memory to be sorted.
+
+
+## Bubble Sort
+
+Bubble sort is one of the simplest and most straightforward sorting algorithms that work by comparing elements in a list, which are adjacent (next to each other) and then swapping them, until the largest(or smallest) of them reaches its correct order.
+
+**Working :**
+1.  Begin with the first element.
+2.  Compare the current element with the next element.
+3.  If the current element is greater than the next element, then swap both the elements. If not, move to the next element.
+4.  Repeat steps 1 – 3 until we get the sorted list.
+
+![[Pasted image 20230124121633.png]]
+
+In bubble sort, **to sort a list of length n, we need to perform n – 1 iterations**.
