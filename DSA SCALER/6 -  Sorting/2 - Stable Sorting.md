@@ -138,6 +138,7 @@ def selectionSort(arr):
 
 An insertion sort compares values in turn, starting with the second value in the list. If this value is greater than the value to the left of it, no changes are made. Otherwise, this value is repeatedly moved left until it meets a value that is less than it.
 
+### Algorithm
 ![[Pasted image 20230124162005.png]]
 
 ```python
@@ -150,4 +151,35 @@ insertionSort(array)
         move sorted element to the right by 1
     break loop and insert E here
 end InsertionSort
+```
+
+**Explanation:**
+
+Line 2: We don’t process the first element, as it has nothing to compare against.  
+Line 3: Loop from i=1 till the end, to process each element.  
+Line 4: Extract the element at position i i.e. array[i]. Let it be called E.  
+Line 5: To compare E with its left elements, loop j from i-1 to 0  
+Line 6, 7: Compare E with the left element, if E is lesser, then move array[j] to right by 1.  
+Line 8: Once we have found the position for E, place it there.
+
+
+```python
+#  *** PYTHON IMPLEMENTATION ***
+def insertionSort(arr):
+  # Start from 1 as arr[0] is always sorted
+  for i in range(1, len(arr)): 
+    currentElement = arr[i]
+    # Move elements of arr[0..i-1], that are greater than key, 
+    # to one position ahead of their current position
+    j = i-1
+    while j >= 0 and arr[j] > currentElement :
+        arr[j + 1] = arr[j]
+        j -= 1
+     # Finally place the Current element at its correct position.
+    arr[j + 1] = currentElement
+# Driver code to test above
+arr = [9, 6, 7, 2, 5, 8]
+insertionSort(arr)
+for i in range(len(arr)):
+  print ("% d" % arr[i])
 ```
