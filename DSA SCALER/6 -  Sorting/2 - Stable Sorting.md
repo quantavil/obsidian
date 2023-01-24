@@ -97,5 +97,6 @@ def bubbleSort(arr):
 -   Selection sort, also known as in-place comparison sort, is a simple sorting algorithm.
 -   It works on the idea of repeatedly finding the **smallest element** and placing it at its correct sorted position. It basically selects the smallest element from an unsorted array in each iteration and places that element at the beginning of the unsorted array.
 -   At any point in time, it maintains two sub-arrays for a given array :
- -   **Sorted Subarray :** The subarray that is already sorted.
- -   **Unsorted Subarray :** The remaining subarray that is unsorted.
+	-   **Sorted Subarray :** The subarray that is already sorted.
+	-   **Unsorted Subarray :** The remaining subarray that is unsorted.
+
