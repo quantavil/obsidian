@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "5b2df1fffa6f0de3",
+            "id": "9d8a0ebb612f758d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA in Python/Array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f1e24c7ce452896",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Testing/Selenium/wdf.md",
+                "file": "DSA SCALER/6 - Sorting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Selenium/wdf.md",
+                "file": "DSA SCALER/6 - Sorting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,15 +143,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7f1e24c7ce452896",
+  "active": "9d8a0ebb612f758d",
   "lastOpenFiles": [
+    "DSA in Python/Recursion.md",
     "DSA in Python/Array.md",
-    "coding-interview-university-main/README.md",
     "Testing/Selenium/wdf.md",
+    "coding-interview-university-main/README.md",
     "coding-interview-university-main/programming-language-resources.md",
     "DSA in Python/Stacks.md",
     "DSA in Python/Complexity of Python Operations.md",
-    "DSA in Python/Recursion.md",
     "DSA in Python/Python Primer.md",
     "Testing/Agile Methodology/Introduction to Agile.md",
     "en/How to/Format your notes.md"
