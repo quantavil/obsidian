@@ -77,4 +77,5 @@ Bubble sort is one of the simplest and most straightforward sorting algorithms 
 
 ![[Pasted image 20230124121633.png]]
 
-In bubble sort, **to sort a list of length n, we need to perform n – 1 iterations**.
+- In bubble sort, to sort a list of length n, we need to perform n – 1 iterations.
+- After each iteration, the largest among the unsorted elements was placed at its position.
