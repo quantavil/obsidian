@@ -30,3 +30,6 @@ The time taken mainly depends upon the number of times lines of code will iterat
 
 Space Complexity is the total memory space required by any program for the execution of its code. It depends on the size of the data structure we are using to do our code. The sorting algorithms which take constant space are also known as the in-place sorting algorithms. If we do not use any data structure(eg. array, list etc.) then our code uses constant space. *O(1)* specifies constant space complexity. Other parameters like linear, quadratic, or exponential space complexity are similar like what we defined for our time complexity.
 
+## In-Place and Out-of-place Sorting:
+-   An **In-place algorithm** modifies the inputs, which can be a list or an array, without using any additional memory. As the algorithm runs, the input is usually overwritten by the output, so no additional space is required. Space Complexity : O(1).
+- An algorithm that is not in place is called a not-in-place or out-of-place algorithm. The **Out-of-place** sorting algorithm uses extra space for sorting, which depends upon the size of the input. Space Complexity : O(n).
