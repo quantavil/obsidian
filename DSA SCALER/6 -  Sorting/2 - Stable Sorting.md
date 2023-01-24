@@ -133,3 +133,5 @@ def selectionSort(arr):
 
 -   Selection sort can be good at checking if everything is already sorted.
 -   Good to use when memory space is limited.
+
+## Insertion Sort

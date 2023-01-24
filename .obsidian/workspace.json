@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
+                "file": "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
+                "file": "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,8 +157,8 @@
   },
   "active": "9d8a0ebb612f758d",
   "lastOpenFiles": [
-    "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
     "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
+    "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
     "DSA in Python/Recursion.md",
     "DSA in Python/Array.md",
     "Testing/Selenium/wdf.md",
