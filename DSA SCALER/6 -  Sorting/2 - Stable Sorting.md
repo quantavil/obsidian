@@ -2,19 +2,13 @@
 
 Bubble sort algorithm repeatedly compares the adjacent elements and swaps them if not in order.
 
-**Working :**
-1.  Begin with the first element.
-2.  Compare the current element with the next element.
-3.  If the current element is greater than the next element, then swap both the elements. If not, move to the next element.
-4.  Repeat steps 1 – 3 until we get the sorted list.
-
-![[Pasted image 20230124121633.png]]
-
 - In bubble sort, to sort a list of length n, we need to perform n – 1 iterations.
 - After each iteration, the largest among the unsorted elements was placed at its position.
 
 ### Algorithm
 
+
+![[Pasted image 20230124121633.png]]
 We just saw that to sort a list of n elements using bubble sort, we need to perform n – 1 iteration. And for each iteration, we need to :
 
 1.  Run a loop over the entire list or array.
@@ -100,3 +94,33 @@ def bubbleSort(arr):
 	-   **Sorted Subarray :** The subarray that is already sorted.
 	-   **Unsorted Subarray :** The remaining subarray that is unsorted.
 
+### Algorithm
+
+![[Pasted image 20230124152700.png]]
+1.  Start with the _first_ element. At this point, the entire list is unsorted. And the sorted sublist is empty.
+2.  Iterate over the list to search for the smallest element in it.
+3.  Add this element to the sorted sublist, and remove it from the unsorted sublist. In other words, swap the smallest element in the unsorted sublist with the element that is present at its correct sorted position.
+4.  Repeat the above steps until all the elements from the unsorted sublist are transferred to the sorted sublist.
+
+```python
+# Selection sort in Python
+ 
+def selectionSort(arr):
+ 
+   # loop to iterate over the array elements
+   for i in range(len(arr)):
+   
+       # set min_index equal to the first unsorted element
+       min_index = i
+ 
+       # iterate over unsorted sublist
+       for j in range(i+1, len(arr)):
+ 
+    #helps in finding the minimum element
+           if arr[min_index] > arr[j]:
+               min_index = j
+           
+       # swapping the minimum element with the element at min_index to place it at its correct position
+     
+       arr[i], arr[min_index] = arr[min_index], arr[i]
+```
