@@ -15,6 +15,12 @@ Selenium is a suite of tools which can automate actions on web browsers. Each to
     -   Customized results reporting
     -   Portability across browsers and operating systems.
 - Selenium WebDriver tests can be integrated with tools like Cucumber , JIRA, Jenkins
+
+```ad-info
+Selenium IDE is User Interface (UI) based solution for recording and playing back tests on web pages. Whereas Selenium WebDriver is an Application Programming Interface (API) based solution for programming and executing tests on web pages.
+```
+
+
 **Selenium Grid**
 -   Multiple tests have to be run in parallel on multiple machines to reduce overall execution time.
 -   Tests need to be distributed across multiple machines to check for application compatibility with different OS-Browser combinations.
