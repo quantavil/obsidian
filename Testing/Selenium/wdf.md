@@ -92,3 +92,8 @@ It is present in the `org.openqa.selenium.WebDriver` package.
 
 
 
+### Getting a handle on HTML elements
+
+You can locate HTML elements by using the `findElement(By.locator())` method of the WebDriver interface. You can use all the locator strategies that we have already seen.
+
+![[Pasted image 20230125113147.png]]
