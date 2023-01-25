@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
+                "file": "Ziracy/Awesome Piracy.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "anime",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
+                "file": "Ziracy/Awesome Piracy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,8 +158,8 @@
   },
   "active": "7302858af980bc8e",
   "lastOpenFiles": [
-    "Testing/Selenium/wdf.md",
     "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
+    "Testing/Selenium/wdf.md",
     "Ziracy/Database.md",
     "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
     "DSA in Python/Recursion.md",
