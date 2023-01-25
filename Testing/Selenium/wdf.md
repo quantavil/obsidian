@@ -47,17 +47,6 @@ This annotation tells the JUnit framework that the method attached to it must be
 It is used to close or release resources that were allocated by the @BeforeClass method.
 
 
-## Selenium 
-The **WebDriver API** is the main interface used for writing a test script. It represents the web browser.
-
-It is present in the `org.openqa.selenium.WebDriver` package.
-![[Pasted image 20230125102814.png]]
-
-## Creating a Simple Automation Script
-
-![[Pasted image 20230125102626.png]]
-
-
 ```java
  package com.test;
     
@@ -94,3 +83,12 @@ It is present in the `org.openqa.selenium.WebDriver` package.
         }
     }
 ```
+
+## Selenium 
+The **WebDriver API** is the main interface used for writing a test script. It represents the web browser.
+
+It is present in the `org.openqa.selenium.WebDriver` package.
+![[Pasted image 20230125102814.png]]
+
+
+
