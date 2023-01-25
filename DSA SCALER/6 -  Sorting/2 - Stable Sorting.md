@@ -183,3 +183,6 @@ insertionSort(arr)
 for i in range(len(arr)):
   print ("% d" % arr[i])
 ```
+
+**Time Complexity :** O(n^2)
+**Space Complexity :** O(n)
