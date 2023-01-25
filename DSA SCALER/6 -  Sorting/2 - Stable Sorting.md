@@ -173,7 +173,7 @@ def insertionSort(arr):
     # to one position ahead of their current position
     j = i-1
     while j >= 0 and arr[j] > currentElement :
-        arr[j + 1] = arr[j]
+        arr[j + 1] = arr[j] 
         j -= 1
      # Finally place the Current element at its correct position.
     arr[j + 1] = currentElement
