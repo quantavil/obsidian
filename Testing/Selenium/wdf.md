@@ -34,19 +34,14 @@ This annotation tells the JUnit framework that the method attached to it can be 
 This annotation tells the JUnit framework that the method attached to it must be run once before executing every @test method that is there in the class. It is used to allocate resources that are needed by all the test methods in the class.  
 Some of the tasks that are done in @Before method include create temporary variables, setting default values, invoking the test environment, etc.
 
-@After
-
+**@After**
 This annotation tells the JUnit framework that the method attached to it must be run once after executing every @test method that is there in the class.  
 It is used to release all the resources allocated by the @Before method.
 
-@BeforeClass
-
+**@BeforeClass**
 This annotation tells the JUnit framework that the method attached to it must be run only once before any other method in the class is executed.  
 It is used to execute resource intensive computational tasks that need to be done only once for all tests such as connecting and opening a database, etc.
 
-@AfterClass
-
+**@AfterClass**
 This annotation tells the JUnit framework that the method attached to it must be run only once after all other methods in the class have been executed.  
 It is used to close or release resources that were allocated by the @BeforeClass method.
-
-How to use the annotations and create first test cl
