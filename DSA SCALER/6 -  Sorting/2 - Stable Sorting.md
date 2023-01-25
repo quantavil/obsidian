@@ -186,3 +186,15 @@ for i in range(len(arr)):
 
 **Time Complexity :** O(n^2)
 **Space Complexity :** O(n)
+
+
+## Quick Sort
+
+-   Quicksort, also known as partition-exchange sort, is an in-place sorting algorithm.
+-   It is a divide-and-conquer algorithm that works on the idea of selecting a pivot element and dividing the array into two subarrays around that pivot.
+
+![quick_sort](https://scaler.com/topics/images/quick_sort.webp)
+
+-   The array is split into two subarrays. One subarray contains the elements smaller than the pivot element, and another contains the elements greater than it.
+-   At every iteration, the pivot element is placed at its correct position that it should have in the sorted array.
+-   This process of selecting the pivot element and dividing the array into subarrays is carried out recursively until all the elements in the array are sorted
