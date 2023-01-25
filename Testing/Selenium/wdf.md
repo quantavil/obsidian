@@ -45,3 +45,44 @@ It is used to execute resource intensive computational tasks that need to be don
 **@AfterClass**
 This annotation tells the JUnit framework that the method attached to it must be run only once after all other methods in the class have been executed.  
 It is used to close or release resources that were allocated by the @BeforeClass method.
+
+
+## Creating a Simple Automation Script
+
+![[Pasted image 20230125102626.png]]
+```java
+ package com.test;
+    
+    import org.junit.After;
+    import org.junit.AfterClass;
+    import org.junit.Before;
+    import org.junit.BeforeClass;
+    import org.junit.Test;
+    
+    public class Demo01_JUnitAnnotaions {
+        **@BeforeClass**
+        public static void beforeClass() {
+            System.out.println("Inside before class method.");
+        }
+    
+        **@Before**
+        public void before() {
+            System.out.println("Inside before method.");
+        }
+    
+        **@Test**
+        public void test() {
+            System.out.println("Inside test method.");
+        }
+    
+        **@After**
+        public void after() {
+            System.out.println("Inside after method.");
+        }
+    
+        **@AfterClass**
+        public static void afterClass() {
+            System.out.println("Inside after class method.");
+        }
+    }
+```
