@@ -82,8 +82,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,7 +155,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7302858af980bc8e",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
     "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
     "Testing/Selenium/wdf.md",
