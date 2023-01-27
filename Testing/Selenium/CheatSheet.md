@@ -122,11 +122,54 @@ By.xpath("//*[@id='tve_editor']/div[2]/div[2]/div/div")));
 
 ## Wait 
 
-**Implicit Wait**—used to wait for a certain amount of time before throwing an exception
-```java
-// Explicit Wait 
+- **Implicit Wait**—used to wait for a certain amount of time before throwing an exception
 
+```java
+driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 ```
+
+-  **Explicit Wait** — used to wait until a certain condition occurs before executing the code
+
+```java
+WebDriverWait wait = new WebDriverWait(driver,30);
+wait.until(ExpectedConditions.presenceOfElementLocated(By.name("login")));
+
+// List of explicit Wait
+alertIsPresent()
+elementSelectionStateToBe()
+elementToBeClickable()
+elementToBeSelected()
+frameToBeAvaliableAndSwitchToIt()
+invisibilityOfTheElementLocated()
+invisibilityOfElementWithText()
+presenceOfAllElementsLocatedBy()
+presenceOfElementLocated()
+textToBePresentInElement()
+textToBePresentInElementLocated()
+textToBePresentInElementValue()
+titleIs()
+titleContains()
+visibilityOf()
+visibilityOfAllElements()
+visibilityOfAllElementsLocatedBy()
+visibilityOfElementLocated()
+```
+
+- **Fluent Wait** — defines the maximum amount of time to wait for a certain condition to appear
+
+```java
+Wait wait = new FluentWait(WebDriver reference)
+.withTimeout(Duration.ofSeconds(SECONDS))
+.pollingEvery(Duration.ofSeconds(SECONDS))
+.ignoring(Exception.class);
+
+WebElement foo=wait.until(new Function<WebDriver, WebElement>() {
+public WebElement apply(WebDriver driver) {
+return driver.findElement(By.id("foo"));
+}
+});
+
+``
 
 ## Basic browser Operation
 

@@ -494,47 +494,16 @@ wait.until(ExpectedConditions.presenceOfElementLocated(By.name("login")));
 
 ```
 
-alertIsPresent()
-elementSelectionStateToBe()
-elementToBeClickable()
-elementToBeSelected()
-frameToBeAvaliableAndSwitchToIt()
-invisibilityOfTheElementLocated()
-invisibilityOfElementWithText()
-presenceOfAllElementsLocatedBy()
-presenceOfElementLocated()
-textToBePresentInElement()
-textToBePresentInElementLocated()
-textToBePresentInElementValue()
-titleIs()
-titleContains()
-visibilityOf()
-visibilityOfAllElements()
-visibilityOfAllElementsLocatedBy()
-visibilityOfElementLocated()
+
 
 ```
 
   
 
-- **Fluent Wait** — defines the maximum amount of time to wait for a certain condition to appear
 
   
 
-```
-
-Wait wait = new FluentWait(WebDriver reference)
-.withTimeout(Duration.ofSeconds(SECONDS))
-.pollingEvery(Duration.ofSeconds(SECONDS))
-.ignoring(Exception.class);
-
-WebElement foo=wait.until(new Function<WebDriver, WebElement>() {
-public WebElement apply(WebDriver driver) {
-return driver.findElement(By.id("foo"));
-}
-});
-
-```
+`
 
   
 
