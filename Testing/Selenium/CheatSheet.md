@@ -194,13 +194,12 @@ driver.getText();
 driver.getAttribute();
 ```
 
-**Single-Page Applications** are an exception to this.
 
-The difference between these two methods comes not from their behavior, but from the behavior in the way the application works and how browser deal with it.
+```ad-info
+**`driver.get()` :** It's used to go to the particular website , But it doesn't maintain the browser History and cookies so , we can't use forward and backward button , if we click on that , page will not get schedule
 
-`navigate().to()` navigates to the page by changing the URL like doing forward/backward navigation.
-
-Whereas, `get()` refreshes the page to changing the URL.
+**`driver.navigate()` :** it's used to go to the particular website , but it maintains the browser history and cookies, so we can use forward and backward button to navigate between the pages during the coding of Testcase
+```
 
 
 ## Advance browser Operation
