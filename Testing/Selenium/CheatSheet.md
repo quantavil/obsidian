@@ -49,10 +49,13 @@ element.sendKeys("someText"); // method is used to send data
 element.clear(); //method is used to clear text from text area
 element.submit();
 String innerText = element.getText();
+WebElement element = driver.findElement(By.id("id"));
+
+// Element validation
 boolean isEnabled = element.isEnabled();
 boolean isDisplayed = element.isDisplayed();
 boolean isSelected = element.isSelected();
-WebElement element = driver.findElement(By.id("id"));
+
 
 
 //## Selecting Single Option from Drop Down
@@ -156,7 +159,6 @@ visibilityOfElementLocated()
 ```
 
 - **Fluent Wait** — defines the maximum amount of time to wait for a certain condition to appear
-
 ```java
 Wait wait = new FluentWait(WebDriver reference)
 .withTimeout(Duration.ofSeconds(SECONDS))
@@ -169,7 +171,8 @@ return driver.findElement(By.id("foo"));
 }
 });
 
-``
+```
+
 
 ## Basic browser Operation
 
