@@ -79,9 +79,11 @@ WebElement element = driver.FindElement(
 By.xpath("//*[@id='project']/p[1]/div/div[2]"));
 Actions move = new Actions(driver);
 move.dragAndDropBy(element, 30, 0).build().perform();
+
 // How to check if an element is visible
 Assert.assertTrue(driver.findElement(
 By.xpath("//*[@id='tve_editor']/div")).isDisplayed());
+
 // Upload a file
 WebElement element = driver.findElement(By.id("RadUpload1file0"));
 String filePath = "D:WebDriver.Series.TestsWebDriver.xml";
