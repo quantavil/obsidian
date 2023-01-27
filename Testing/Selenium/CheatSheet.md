@@ -175,6 +175,13 @@ return driver.findElement(By.id("foo"));
 ```java
 // Navigate to a page
 driver.navigate().to("http://google.com");
+
+// Navigation history
+driver.navigate().back();
+driver.navigate().refresh();
+driver.navigate().forward();
+
+
 // Get the title of the page
 String title = driver.getTitle();
 // Get the current URL
@@ -186,6 +193,14 @@ driver.getText();
 // method is declared in the WebElement interface, and it returns the value of the web element’s attribute as a string
 driver.getAttribute();
 ```
+
+**Single-Page Applications** are an exception to this.
+
+The difference between these two methods comes not from their behavior, but from the behavior in the way the application works and how browser deal with it.
+
+`navigate().to()` navigates to the page by changing the URL like doing forward/backward navigation.
+
+Whereas, `get()` refreshes the page to changing the URL.
 
 
 ## Advance browser Operation
@@ -216,11 +231,6 @@ driver.switchTo().frame("frameName");
 WebElement element = driver.findElement(By.id("id"));
 driver.switchTo().frame(element);
 driver.switchTo().defaultContent();  //# Switching to default content
-
-// Navigation history
-driver.navigate().back();
-driver.navigate().refresh();
-driver.navigate().forward();
 
 // Add a new cookie
 Cookie newCookie = new Cookie("customName", "customValue");
