@@ -68,3 +68,66 @@ List<WebElement> allSelected = select.getAllSelectedOptions();
 boolean isMultipleSelect = select.isMultiple();
 ```
 
+## Advance Elements Operations
+
+```java
+// Drag and Drop
+WebElement element = driver.FindElement(
+By.xpath("//*[@id='project']/p[1]/div/div[2]"));
+Actions move = new Actions(driver);
+move.dragAndDropBy(element, 30, 0).build().perform();
+// How to check if an element is visible
+Assert.assertTrue(driver.findElement(
+By.xpath("//*[@id='tve_editor']/div")).isDisplayed());
+// Upload a file
+WebElement element = driver.findElement(By.id("RadUpload1file0"));
+String filePath = "D:WebDriver.Series.TestsWebDriver.xml";
+element.sendKeys(filePath);
+// Scroll focus to control
+WebElement link =
+driver.findElement(By.partialLinkText("Previous post"));
+String js = String.format("window.scroll(0, %d);",
+link.getLocation().getY());
+((JavascriptExecutor)driver).executeScript(js);
+link.click();
+// Taking an element screenshot
+WebElement element =
+driver.findElement(By.xpath("//*[@id='tve_editor']/div"));
+File screenshotFile =
+((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+BufferedImage fullImg = ImageIO.read(screenshotFile);
+Point point = element.getLocation();
+int elementWidth = element.getSize().getWidth();
+int elementHeight = element.getSize().getHeight();
+BufferedImage eleScreenshot = fullImg.getSubimage(point.getX(), point.getY(), elementWidth, elementHeight);
+ImageIO.write(eleScreenshot, "png", screenshotFile);
+String tempDir = getProperty("java.io.tmpdir");
+File destFile = new File(Paths.get(tempDir, fileName + ".png").toString());
+FileUtils.getFileUtils().copyFile(screenshotFile, destFile);
+// Focus on a control
+WebElement link =
+driver.findElement(By.partialLinkText("Previous post"));
+Actions action = new Actions(driver);
+action.moveToElement(link).build().perform();
+// Wait for visibility of an element
+WebDriverWait wait = new WebDriverWait(driver, 30);
+wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(
+By.xpath("//*[@id='tve_editor']/div[2]/div[2]/div/div")));
+```
+
+
+## Basic browser Operation
+
+```java
+// Navigate to a page
+driver.navigate().to("http://google.com");
+// Get the title of the page
+String title = driver.getTitle();
+// Get the current URL
+String url = driver.getCurrentUrl();
+// Get the current page HTML source
+String html = driver.getPageSource();
+// Used to retrieve the text of the specified web element
+driver.getText()
+```
+
