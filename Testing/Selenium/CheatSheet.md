@@ -128,7 +128,9 @@ String url = driver.getCurrentUrl();
 // Get the current page HTML source
 String html = driver.getPageSource();
 // Used to retrieve the text of the specified web element
-driver.getText()
+driver.getText();
+// method is declared in the WebElement interface, and it returns the value of the web element’s attribute as a string
+driver.getAttribute();
 ```
 
 
