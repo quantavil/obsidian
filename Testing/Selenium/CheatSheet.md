@@ -131,3 +131,127 @@ String html = driver.getPageSource();
 driver.getText()
 ```
 
+
+## Advance browser Operation
+
+```java
+// Handle JavaScript pop-ups
+Alert alert = driver.switchTo().alert();
+alert.accept();
+alert.dismiss();
+// Switch between browser windows or tabs
+Set<String> windowHandles = driver.getWindowHandles();
+String firstTab = (String)windowHandles.toArray()[1];
+String lastTab = (String)windowHandles.toArray()[2];
+driver.switchTo().window(lastTab);
+// Navigation history
+driver.navigate().back();
+driver.navigate().refresh();
+driver.navigate().forward();
+// Maximize window
+driver.manage().window().maximize();
+// Add a new cookie
+Cookie newCookie = new Cookie("customName", "customValue");
+driver.manage().addCookie(newCookie);
+// Get all cookies
+Set<Cookie> cookies = driver.manage().getCookies();
+// Delete a cookie by name
+driver.manage().deleteCookieNamed("CookieName");
+// Delete all cookies
+driver.manage().deleteAllCookies();
+//Taking a full-screen screenshot
+File srceenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+String tempDir = getProperty("java.io.tmpdir");
+File destFile = new File(Paths.get(tempDir, fileName + ".png").toString());
+FileUtils.getFileUtils().copyFile(srceenshotFile, destFile);
+// Wait until a page is fully loaded via JavaScript
+WebDriverWait wait = new WebDriverWait(driver, 30);
+wait.until(x -> {
+ ((String)((JavascriptExecutor)driver).executeScript(
+ "return document.readyState")).equals("complete");
+});
+// Switch to frames
+driver.switchTo().frame(1);
+driver.switchTo().frame("frameName");
+WebElement element = driver.findElement(By.id("id"));
+driver.switchTo().frame(element);
+// Switch to the default document
+driver.switchTo().defaultContent();
+```
+
+
+## Advance Browser Configuration
+
+```java
+// Use a specific Firefox profile
+ProfilesIni profile = new ProfilesIni();
+FirefoxProfile firefoxProfile = profile.getProfile("ProfileName");
+FirefoxOptions firefoxOptions = new FirefoxOptions();
+firefoxOptions.setProfile(firefoxProfile);
+driver = new FirefoxDriver(firefoxOptions);
+// Set a HTTP proxy Firefox
+ProfilesIni profile = new ProfilesIni();
+FirefoxProfile firefoxProfile = new FirefoxProfile();
+firefoxProfile.setPreference("network.proxy.type", 1);
+firefoxProfile.setPreference("network.proxy.http", "myproxy.com");
+firefoxProfile.setPreference("network.proxy.http_port", 3239);
+FirefoxOptions firefoxOptions = new FirefoxOptions();
+firefoxOptions.setProfile(firefoxProfile);
+driver = new FirefoxDriver(firefoxOptions);
+// Set a HTTP proxy Chrome
+var proxy = new Proxy();
+proxy.setProxyType(Proxy.ProxyType.MANUAL);
+proxy.setAutodetect(false);
+proxy.setSslProxy("127.0.0.1:3239");
+ChromeOptions chromeOptions = new ChromeOptions();
+chromeOptions.setProxy(proxy);
+driver = new ChromeDriver(chromeOptions);
+// Accept all certificates Firefox
+FirefoxProfile firefoxProfile = new FirefoxProfile();
+firefoxProfile.setAcceptUntrustedCertificates(true);
+firefoxProfile.setAssumeUntrustedCertificateIssuer(false);
+FirefoxOptions firefoxOptions = new FirefoxOptions();
+firefoxOptions.setProfile(firefoxProfile);
+driver = new FirefoxDriver(firefoxOptions);
+// Accept all certificates Chrome
+ChromeOptions chromeOptions = new ChromeOptions();
+chromeOptions.addArguments("--ignore-certificate-errors");
+driver = new ChromeDriver(chromeOptions);
+// Set Chrome options
+ChromeOptions chromeOptions = new ChromeOptions();
+chromeOptions.addArguments("user-data-dir=C:PathToUser Data");
+driver = new ChromeDriver(chromeOptions);
+// Turn off the JavaScript Firefox
+ProfilesIni profile = new ProfilesIni();
+FirefoxProfile firefoxProfile = profile.getProfile("ProfileName");
+firefoxProfile.setPreference("javascript.enabled", false);
+FirefoxOptions firefoxOptions = new FirefoxOptions();
+firefoxOptions.setProfile(firefoxProfile);
+driver = new FirefoxDriver(firefoxOptions);
+// Set the default page load timeout
+driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+// Start Firefox with plugins
+FirefoxProfile profile = new FirefoxProfile();
+firefoxProfile.addExtension(new File("C:extensionsLocationextension.xpi"));
+FirefoxOptions firefoxOptions = new FirefoxOptions();
+firefoxOptions.setProfile(firefoxProfile);
+driver = new FirefoxDriver(firefoxOptions);
+// Start Chrome with an unpacked extension
+ChromeOptions chromeOptions = new ChromeOptions();
+chromeOptions.addArguments("load-extension=/path/to/extension");
+driver = new ChromeDriver(chromeOptions);
+// Start Chrome with a packed extension
+ChromeOptions chromeOptions = new ChromeOptions();
+chromeOptions.addExtensions(new File("local/path/to/extension.crx"));
+driver = new ChromeDriver(chromeOptions);
+// Change the default files’ save location
+FirefoxProfile firefoxProfile = new FirefoxProfile();
+String downloadFilepath = "c:temp";
+firefoxProfile.setPreference("browser.download.folderList", 2);
+firefoxProfile.setPreference("browser.download.dir", downloadFilepath);
+firefoxProfile.setPreference("browser.download.manager.alertOnEXEOpen", false);
+firefoxProfile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/msword, application/binary, application/ris, text/csv, image/png, application/pdf, text/html, text/plain, application/zip, application/x-zip, application/x-zip-compressed, application/download, application/octet-stream"));
+FirefoxOptions firefoxOptions = new FirefoxOptions();
+firefoxOptions.setProfile(firefoxProfile);
+driver = new FirefoxDriver(firefoxOptions);
+```
