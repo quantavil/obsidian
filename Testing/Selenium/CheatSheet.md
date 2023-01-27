@@ -196,6 +196,7 @@ Alert alert = driver.switchTo().alert();
 alert.accept();
 alert.dismiss();
 driver.switchTO().alert.getText()
+driver.switchTO().alert.sendKeys(“Text”)
 
 // Maximize window
 driver.manage().window().maximize();
