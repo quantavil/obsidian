@@ -109,16 +109,12 @@ ImageIO.write(eleScreenshot, "png", screenshotFile);
 String tempDir = getProperty("java.io.tmpdir");
 File destFile = new File(Paths.get(tempDir, fileName + ".png").toString());
 FileUtils.getFileUtils().copyFile(screenshotFile, destFile);
+
 // Focus on a control
 WebElement link =
 driver.findElement(By.partialLinkText("Previous post"));
 Actions action = new Actions(driver);
 action.moveToElement(link).build().perform();
-// Wait for visibility of an element
-WebDriverWait wait = new WebDriverWait(driver, 30);
-wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(
-By.xpath("//*[@id='tve_editor']/div[2]/div[2]/div/div")));
-
 
 ```
 
