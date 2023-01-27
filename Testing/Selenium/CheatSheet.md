@@ -141,26 +141,45 @@ driver.getAttribute();
 Alert alert = driver.switchTo().alert();
 alert.accept();
 alert.dismiss();
+driver.switchTO().alert.getText()
+
+// Maximize window
+driver.manage().window().maximize();
+
 // Switch between browser windows or tabs
 Set<String> windowHandles = driver.getWindowHandles();
 String firstTab = (String)windowHandles.toArray()[1];
 String lastTab = (String)windowHandles.toArray()[2];
 driver.switchTo().window(lastTab);
+
+//  closes the current browser window
+driver.close()
+
+// Switch to frames
+driver.switchTo().frame(1);
+driver.switchTo().frame("frameName");
+WebElement element = driver.findElement(By.id("id"));
+driver.switchTo().frame(element);
+driver.switchTo().defaultContent();  //# Switching to default content
+
 // Navigation history
 driver.navigate().back();
 driver.navigate().refresh();
 driver.navigate().forward();
-// Maximize window
-driver.manage().window().maximize();
+
 // Add a new cookie
 Cookie newCookie = new Cookie("customName", "customValue");
 driver.manage().addCookie(newCookie);
+
 // Get all cookies
 Set<Cookie> cookies = driver.manage().getCookies();
+
 // Delete a cookie by name
 driver.manage().deleteCookieNamed("CookieName");
+
 // Delete all cookies
 driver.manage().deleteAllCookies();
+
 //Taking a full-screen screenshot
 File srceenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 String tempDir = getProperty("java.io.tmpdir");
@@ -172,13 +191,9 @@ wait.until(x -> {
  ((String)((JavascriptExecutor)driver).executeScript(
  "return document.readyState")).equals("complete");
 });
-// Switch to frames
-driver.switchTo().frame(1);
-driver.switchTo().frame("frameName");
-WebElement element = driver.findElement(By.id("id"));
-driver.switchTo().frame(element);
-// Switch to the default document
-driver.switchTo().defaultContent();
+
+
+
 ```
 
 

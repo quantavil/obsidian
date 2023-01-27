@@ -411,25 +411,7 @@ of the webpage
 
 - **getAttribute()** —used to retrieve the value specified in the attribute
 
-  
 
-## 13. Handle alerts: (Web based alert pop-ups)
-
-  
-
--  **driver.switchTO().alert.getText()** — to retrieve the alert message
-
-  
-
--  **driver.switchTO().alert.accept()** — to accept the alert box
-
-  
-
--  **driver.switchTO().alert.dismiss()** — to cancel the alert box
-
-  
-
--  **driver.switchTO().alert.sendKeys(“Text”)** — to send data to the alert box
 
   
 
