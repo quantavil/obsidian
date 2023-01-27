@@ -78,6 +78,7 @@ boolean isMultipleSelect = select.isMultiple();
 WebElement element = driver.FindElement(
 By.xpath("//*[@id='project']/p[1]/div/div[2]"));
 Actions move = new Actions(driver);
+action.dragAndDrop(Sourcelocator, Destinationlocator).build().perform();
 move.dragAndDropBy(element, 30, 0).build().perform();
 
 // How to check if an element is visible
