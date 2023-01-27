@@ -6,25 +6,19 @@
 -  **Chrome**:
 
 ```
-
-System.se­tPr­ope­rty­(“we­bdr­ive­r.chrome.d­riv­er”, “/path/to/chromedrive­r”);
-
+System.se­tPr­ope­rty­(“we­bdr­ive­r.chrome.d­riv­er”,“/path/to/chromedrive­r”);
 ```
 
 -  **Firefox:**
 
 ```
-
 System.se­tPr­ope­rty­(“we­bdr­ive­r.g­eck­o.d­riv­er”, “­/path/to/geckodriver”);
-
 ```
 
 -  **Edge:**
 
 ```
-
 System.se­tPr­ope­rty­(“we­bdr­ive­r.edge.d­riv­er”, “/path/to/MicrosoftWebDriver”);
-
 ```
 
   
@@ -57,47 +51,6 @@ System.se­tPr­ope­rty­(“we­bdr­ive­r.edge.d­riv­er”, “/path/to/Mi
 
   
 
-## 3. Desired capabilities
-
-  
-
-> ([**Doc link**](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/remote/DesiredCapabilities.html))
-
-  
-
--  **Chrome:**
-
-  
-
-```
-
-DesiredCapabilities caps = new DesiredCapabilities();
-caps.setCapability(“browserName”, “chrome”);
-caps.setCapability(“browserVersion”, “80.0””);
-caps.setCapability(“platformName”, “win10”);  
-
-WebDriver driver = new ChromeDriver(caps); // Pass the capabilities as an argument to the driver object
-
-```
-
-  
-
--  **Firefox:**
-
-  
-
-```
-
-DesiredCapabilities caps = new DesiredCapabilities();
-caps.setCapability(“browserName”, “firefox”);
-caps.setCapability(“browserVersion”, “81.0””);
-caps.setCapability(“platformName”, “win10”);
-
-WebDriver driver = new FirefoxDriver(caps); // Pass the capabilities as an argument to the driver object
-
-```
-
-  
 
 ## 4. Browser options
 
@@ -113,11 +66,7 @@ WebDriver driver = new ChromeDriver(chromeOptions); // Pass the capabilities as 
 
 ```
 
-  
-
 -  **Firefox: ([Doc link](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/firefox/FirefoxOptions.html))**
-
-  
 
 ```
 
@@ -128,8 +77,6 @@ firefoxOptions.setHeadless(true);
 WebDriver driver = new FirefoxDriver(caps); // Pass the capabilities as an argument to the driver object
 
 ```
-<br>
-
 
 >  **Options VS Desired capabilities**:
 > There are two ways to specify [capabilities](https://sites.google.com/a/chromium.org/chromedriver/capabilities).
@@ -142,8 +89,6 @@ WebDriver driver = new FirefoxDriver(caps); // Pass the capabilities as an argum
 
 -  **Navigate to URL — (doc [link1](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.Navigation.html) [link2](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.html#get-java.lang.String-))**
 
-  
-
 ```
 
 driver.get(“http://google.com”)
@@ -151,19 +96,11 @@ driver.navigate().to(“http://google.com”)
 
 ```
 
-  
-
 >  **Myth** — get() method waits till the page is loaded while navigate() does not.
-
-  
 
 Referring to the selenium [official doc](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html#get-java.lang.String-), get() method is a synonym for to() method. Both do the same thing.
 
-  
-
 >  **Myth _— _**get() does not store history while navigate() does.
-
-  
 
 All the URL loaded in browser will be stored in history and navigate method allows us to access it. Try executing the below code
 
@@ -181,8 +118,6 @@ driver.navigate().back();
 
 -  **Refresh page**
 
-  
-
 ```
 
 driver.navigate().refresh()
@@ -192,8 +127,6 @@ driver.navigate().refresh()
   
 
 -  **Navigate forwards in browser history**
-
-  
 
 ```
 
@@ -205,15 +138,12 @@ driver.navigate().forward()
 
 -  **Navigate backwards in browser history**
 
-  
-
 ```
 
 driver.navigate().back()
 
 ```
 
-  
 
 ## 6. Find element VS Find elements
 
@@ -224,8 +154,6 @@ driver.navigate().back()
   
 
 -  **driver.findElement()**
-
-  
 
 ```
 
