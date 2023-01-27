@@ -39,3 +39,32 @@ List<WebElement> anchors = driver.findElements(By.tagName("a"));
 WebElement div = driver.findElement(By.tagName("div"))
  .findElement(By.tagName("a"));
 ```
+
+## Basic Elements Operations
+```java
+
+WebElement element = driver.findElement(By.id("id"));
+element.click(); // method is used to click on en element
+element.sendKeys("someText"); // method is used to send data
+element.clear(); //method is used to clear text from text area
+element.submit();
+String innerText = element.getText();
+boolean isEnabled = element.isEnabled();
+boolean isDisplayed = element.isDisplayed();
+boolean isSelected = element.isSelected();
+WebElement element = driver.findElement(By.id("id"));
+
+
+//## Selecting Single Option from Drop Down
+Select select = new Select(element);
+select.selectByIndex(1);
+select.selectByVisibleText("Ford");
+select.selectByValue("ford");
+select.deselectAll();
+select.deselectByIndex(1);
+select.deselectByVisibleText("Ford");
+select.deselectByValue("ford");
+List<WebElement> allSelected = select.getAllSelectedOptions();
+boolean isMultipleSelect = select.isMultiple();
+```
+

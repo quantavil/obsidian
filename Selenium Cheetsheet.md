@@ -300,7 +300,7 @@ Password: <input type=”password” />
 
   
 
--  **sendKeys()** — method is used to send data
+-  **sendKeys()** — 
 
   
 
