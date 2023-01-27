@@ -83,6 +83,7 @@ By.xpath("//*[@id='tve_editor']/div")).isDisplayed());
 WebElement element = driver.findElement(By.id("RadUpload1file0"));
 String filePath = "D:WebDriver.Series.TestsWebDriver.xml";
 element.sendKeys(filePath);
+
 // Scroll focus to control
 WebElement link =
 driver.findElement(By.partialLinkText("Previous post"));
@@ -90,6 +91,7 @@ String js = String.format("window.scroll(0, %d);",
 link.getLocation().getY());
 ((JavascriptExecutor)driver).executeScript(js);
 link.click();
+
 // Taking an element screenshot
 WebElement element =
 driver.findElement(By.xpath("//*[@id='tve_editor']/div"));
@@ -113,8 +115,18 @@ action.moveToElement(link).build().perform();
 WebDriverWait wait = new WebDriverWait(driver, 30);
 wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(
 By.xpath("//*[@id='tve_editor']/div[2]/div[2]/div/div")));
+
+
 ```
 
+
+## Wait 
+
+**Implicit Wait**—used to wait for a certain amount of time before throwing an exception
+```java
+// Explicit Wait 
+
+```
 
 ## Basic browser Operation
 
