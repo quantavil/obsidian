@@ -23,31 +23,6 @@ System.se­tPr­ope­rty­(“we­bdr­ive­r.edge.d­riv­er”, “/path/to/Mi
 
   
 
-## **2. Browser Initialization**
-
-  
-
--  **Firefox**
-
-`WebDriver driver = new FirefoxDriver();`
-
-  
-
--  **Chrome**
-
-`WebDriver driver = new ChromeDriver();`
-
-  
-
-- **Internet Explorer**
-
-`WebDriver driver = new InternetExplorerDriver();`
-
-  
-
-- **Safari Driver**
-
-`WebDriver driver = new SafariDriver();`
 
   
 
