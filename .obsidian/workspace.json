@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
+                "file": "CPP/C Functions/cstring.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
+                "file": "CPP/C Functions/cstring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,15 +132,15 @@
   },
   "active": "b6460d5d1158aeb1",
   "lastOpenFiles": [
+    "CPP/CPP STL/Algorithm.md",
+    "CPP/CPP STL/Container.md",
+    "CPP/CPP STL/Pair.md",
+    "CPP/CPP STL/Map.md",
+    "CPP/CPP STL/Set.md",
+    "CPP/CPP STL/Vector.md",
+    "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
     "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
     "DSA in Python/Array.md",
-    "Coding Questions/Untitled.md",
-    "Coding Questions/Minimum number of swap to sort Binary array.md",
-    "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md",
-    "Templates/test.md",
-    "Code.md",
-    "Untitled.md",
-    "Untitled.canvas",
-    "Selenium Cheetsheet.md"
+    "Coding Questions/Untitled.md"
   ]
 }
