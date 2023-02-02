@@ -339,3 +339,7 @@ FirefoxOptions firefoxOptions = new FirefoxOptions();
 firefoxOptions.setProfile(firefoxProfile);
 driver = new FirefoxDriver(firefoxOptions);
 ```
+
+## Appendix
+
+![[Pasted image 20230202142710.png]]
