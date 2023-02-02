@@ -153,3 +153,18 @@ public class App9 {
 }
 
 ```
+
+## JUnit test suite
+
+JUnit framework allows you to easily create automated test suites with the help of the following two annotations.
+
+![[Pasted image 20230202142243.png]]
+
+```java
+@RunWith (Suite.class)
+
+//@SuiteClass with the .class file name which needs to run as a suite
+@SuiteClasses({Ans2.class,Ans4.class,Ans5.class})
+
+public class App5 {}
+```
