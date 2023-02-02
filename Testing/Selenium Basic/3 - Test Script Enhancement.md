@@ -108,9 +108,14 @@ public class Demo14 {
 During script execution, your test methods (a block of statements within the @test annotation) may encounter unexpected Java exceptions like
 
 -   ArrayOutOfBoundsException
-    
 -   NullPointerException
-    
 -   ArithmeticException
-    
 -   NoSuchElementException
+
+
+We handle exceptions in Java using try, throw and catch methods.
+1.  Try block contains the statements to be monitored for exceptions.
+2.  Throw keyword is used to pass the exception caught in the Try block to the catch block.
+3.  Throws keyword is used to pass the exception to a catch block outside the current method.
+4.  Catch block contains the statements to handle the exception.
+5.  Finally block contains statements that will be executed immaterial of whether an exception was caught or not.
