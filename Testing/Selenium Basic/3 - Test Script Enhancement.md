@@ -82,6 +82,7 @@ public class Demo14 {
         row2.createCell(4).setCellValue("8786823923432");
         row2.createCell(5).setCellValue("Park9 Lane, Flat C2 , New Jersey");
 
+	//Create an output stream with the location where the file has to be created
 		FileOutputStream fos = new FileOutputStream("C:\\Users\\karan.rawat01\\Documents\\Java\\Liquid\\dat1.xlsx");
 		workbook.write(fos);
 		workbook.close();
@@ -102,3 +103,14 @@ public class Demo14 {
           FileUtils.copyFile(scrFile, new File("C:\\Users\\some_user\\Desktop\\Image.png"));
 ```
 
+## Exception Handling
+
+During script execution, your test methods (a block of statements within the @test annotation) may encounter unexpected Java exceptions like
+
+-   ArrayOutOfBoundsException
+    
+-   NullPointerException
+    
+-   ArithmeticException
+    
+-   NoSuchElementException
