@@ -26,11 +26,79 @@ _Apache POI_ provides various interfaces and classes that help us to work with�
 -   **XSSFCell**: Is a class representing a cell in a row of XLSX file.
 -   **HSSFCell:** Is a class representing a cell in a row of XLS file.
 
+
+```java
+public class Demo14 {
+
+	@Test
+	public void test() throws Exception {
+
+		// Path from where the excel file has to be read
+		// ? String filePath = System.getProperty("user.dir") + "\\Cred.xlsx";
+
+		FileInputStream fis = new FileInputStream("C:\\Users\\karan.rawat01\\Documents\\Java\\Liquid\\dat1.xlsx");
+
+		// Workbook reference of the excel file
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+		// Sheet which needs to be accessed from within the workbook
+		// ?XSSFSheet sheet = workbook.getSheetAt(0);
+		XSSFSheet sheet = workbook.getSheet("Rock");
+
+		// Count the number of rows
+		int noOfRows = sheet.getLastRowNum() - sheet.getFirstRowNum();
+
+		// int cellsCount = sheet.getRow(1).getLastCellNum();
+		// System.out.println(cellsCount);
+
+		System.out.println(noOfRows);
+		System.out.println(sheet.getRow(1).getCell(0).getNumericCellValue());
+		System.out.println(sheet.getRow(1).getCell(1).getStringCellValue());
+		System.out.println(sheet.getRow(1).getCell(2).getRawValue());
+		System.out.println(sheet.getRow(1).getCell(3).getStringCellValue());
+		System.out.println(sheet.getRow(1).getCell(4).getDateCellValue());
+
+		// iterating through whole Table
+		for (int i = 0; i < noOfRows; i++) {
+			int cellsCount = sheet.getRow(i).getLastCellNum();
+			System.out.println("Row " + i + " data is : ");
+			for (int j = 0; j < cellsCount; j++) {
+				System.out.print(sheet.getRow(i).getCell(j) + " ");
+			}
+			System.out.println();
+		}
+
+		sheet.getRow(1).createCell(5).setCellValue("Pune");// updating cell value
+		sheet.createRow(2).createCell(5).setCellValue("Banglore");// create new cell value
+		System.out.println(sheet.getRow(1).getCell(5).getStringCellValue());
+
+		XSSFRow row2=sheet.createRow(4);
+        
+        //create a cell object to enter value in it using cell Index
+        row2.createCell(0).setCellValue("mary");
+        row2.createCell(1).setCellValue("Jane");
+        row2.createCell(2).setCellValue("janes@gmail.com");
+        row2.createCell(3).setCellValue("male");
+        row2.createCell(4).setCellValue("8786823923432");
+        row2.createCell(5).setCellValue("Park9 Lane, Flat C2 , New Jersey");
+
+		FileOutputStream fos = new FileOutputStream("C:\\Users\\karan.rawat01\\Documents\\Java\\Liquid\\dat1.xlsx");
+		workbook.write(fos);
+		workbook.close();
+		fos.close();
+
+	}
+}
+
+```
 ## Taking Screenshot
 
 ```java
         //Typecast the driver reference variable with TakesScreenshot for access the methods from TakesScreenshot interface
           //getScreenshotAs method will take arguement for the output type of the file
           File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+
+        //Using the FileUtils class copy the generated screenshot file to any location
+          FileUtils.copyFile(scrFile, new File("C:\\Users\\some_user\\Desktop\\Image.png"));
 ```
 
