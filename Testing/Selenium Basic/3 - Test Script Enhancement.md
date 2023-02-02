@@ -119,3 +119,37 @@ We handle exceptions in Java using try, throw and catch methods.
 3.  Throws keyword is used to pass the exception to a catch block outside the current method.
 4.  Catch block contains the statements to handle the exception.
 5.  Finally block contains statements that will be executed immaterial of whether an exception was caught or not.
+
+```java
+package Liquid;
+
+public class App9 {
+    public static void main(String[] args) {
+        try {
+            int a =  100 /0;
+        }
+        catch (ArithmeticException e1) {
+            System.out.println(e1);
+        }
+
+        try {
+            String name =null;
+            name.length();
+        } catch (NullPointerException n1) {
+            System.out.println(n1);
+        }
+
+        try {
+            int a[] = new int[5];
+            a[7] = 6;
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println(e);
+        }
+
+        finally {
+            System.out.println("this is my");
+        }
+    }
+}
+
+```
