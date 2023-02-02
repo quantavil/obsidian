@@ -12,6 +12,17 @@ The key point to remember is apart from _@BeforeMethod_ and _@AfterMethod_, a
 ```
 
 
+## Advantage of TestNG over JUnit
+
+1.  TestNG Annotations are easy to understand over JUnit.
+2.  No constraints like declaring @BeforeClass and @AfterClass in TestNG, which are present in JUnit.
+3.  As method name constraint is present in JUnit, such method name constraint is not present in TestNG and you can specify any test method names.
+4.  TestNG enables you to group test cases easily which is not possible in JUnit.
+5.  TestNG supports following three 3 additional setUp/tearDown level: @Before/AfterSuite, @Before/AfterTest and @Before/AfterGroup.
+6.  TestNG do not require extend any class. 
+7.  TestNG allows to execute test cases based on group which isn't possible in JUnit.
+8.  Parallel execution of Selenium test cases is possible in TestNG.
+
 ## **TestNG Assertions**
 
 Like JUnit, TestNG provides multiple level assertions to validate your actual results against your expected results. Few of the commonly used assertions are:
