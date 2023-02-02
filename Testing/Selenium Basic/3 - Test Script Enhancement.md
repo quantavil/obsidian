@@ -25,3 +25,12 @@ _Apache POI_ provides various interfaces and classes that help us to work with�
 -   **Cell**: XSSFCell and HSSFCell classes implement this interface.
 -   **XSSFCell**: Is a class representing a cell in a row of XLSX file.
 -   **HSSFCell:** Is a class representing a cell in a row of XLS file.
+
+## Taking Screenshot
+
+```java
+        //Typecast the driver reference variable with TakesScreenshot for access the methods from TakesScreenshot interface
+          //getScreenshotAs method will take arguement for the output type of the file
+          File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+```
+
