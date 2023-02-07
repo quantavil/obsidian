@@ -51,9 +51,8 @@ This difference brings in the need to have a language that can define, in an und
 1.  _Shifting from thinking in "**tests**" to thinking in "**behavior**"_
 2.  _Collaboration between Business stakeholders, Business Analysts, QA Team and developers_
 3.  _Ubiquitous language, it is easy to describe_
-4.  _Driven by Business Value_
-5.  _Extends Test-Driven Development (TDD) by utilizing natural language that non-technical stakeholders can understand_
-6.  _BDD frameworks such as Cucumber or JBehave are an enabler, acting a "**bridge**" between Business & Technical Language_
+4.  _Allowing direct interaction with the developer’s code, but we write BDD tests in a language that can also be made out by business stakeholders._
+5.   _Last but not least, acceptance tests can execute automatically, while business stakeholders manually perform it._
 
 
 
@@ -71,3 +70,13 @@ In software engineering, behavior-driven development is an Agile software develo
 
 _**Cucumber**_ is a testing framework which supports _**Behavior Driven Development (BDD)**_. It lets us define application behavior in plain meaningful English text using a simple grammar defined by a language called _**Gherkin**_. Cucumber itself is written in _**Ruby**_, but it can be used to “_**test**_” code written in _Ruby_ or other languages including but not limited to _Java_, _C#_ and _Python_.
 
+```Gherkin
+Feature: Update password
+
+ Scenario: Admin user can update the user password
+
+Given I am in the HR system with an Admin account
+When I update password of another user
+Then I receive a message for updating password successfully
+And user password is updated to the new password
+```
