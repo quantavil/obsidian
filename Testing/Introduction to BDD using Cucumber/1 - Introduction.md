@@ -22,7 +22,7 @@ _**TDD**_ is an iterative development process. Each iteration starts with a set
 
 
 ## ATDD
-Acceptance Test-Driven Development (ATDD) methodology was a result of the natural evolution of TDD.It involves driving the entire application development by acceptance tests rather than requirement specifications to bring in the business analysts/customer perspective too.
+Acceptance Test-Driven Development (ATDD) methodology was a result of the natural evolution of TDD. It involves driving the entire application development by acceptance tests rather than requirement specifications to bring in the business analysts/customer perspective too.
 
 ![[Pasted image 20230207112704.png]]
 
@@ -35,3 +35,40 @@ Acceptance Test-Driven Development (ATDD) methodology was a result of the natura
 3.  **Better confidence:** The business analyst is assured at each stage that the application is built as per their specifications.
     
 4.  **Lesser documentation:** The acceptance tests and unit tests themselves serve as the specification documents. Also, there are no separate handover documents to be passed between business analysts and developers.
+
+## Behavior Driven Development
+
+Behavior Driven testing is an extension of TDD. Like in TDD in BDD also we write tests first and the add application code. The major difference that we get to see here are
+
+-   _Tests are written in plain descriptive English type grammar_
+-   _Tests are explained as behavior of application and are more user-focused_
+-   _Using examples to clarify requirements_
+
+This difference brings in the need to have a language that can define, in an understandable format.
+
+## Features of BDD
+
+1.  _Shifting from thinking in "**tests**" to thinking in "**behavior**"_
+2.  _Collaboration between Business stakeholders, Business Analysts, QA Team and developers_
+3.  _Ubiquitous language, it is easy to describe_
+4.  _Driven by Business Value_
+5.  _Extends Test-Driven Development (TDD) by utilizing natural language that non-technical stakeholders can understand_
+6.  _BDD frameworks such as Cucumber or JBehave are an enabler, acting a "**bridge**" between Business & Technical Language_
+
+  
+Behavior Driven Development is
+
+A Quality Assurance technique
+
+An Agile application development methodology check
+
+An industry-standard testing practice
+
+A Development framework
+
+Explanation :
+
+In software engineering, behavior-driven development is an Agile software development process that encourages collaboration among developers, QA and non-technical or business participants in a software project
+### _**What is Cucumber?**_
+
+_**Cucumber**_ is a testing framework which supports _**Behavior Driven Development (BDD)**_. It lets us define application behavior in plain meaningful English text using a simple grammar defined by a language called _**Gherkin**_. Cucumber itself is written in _**Ruby**_, but it can be used to “_**test**_” code written in _Ruby_ or other languages including but not limited to _Java_, _C#_ and _Python_.
