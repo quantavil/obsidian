@@ -33,3 +33,28 @@ The mismatches are:
 -   **Associations:** In object oriented programming, association is represented using reference variables, whereas, in relational model foreign keys are used for associating two tables. 
 -   **Identity:** In Java, object equality is determined by "=="  operator or "equals()" method, whereas, in RDBMS primary key is used to uniquely identify the records.
 -   **Data Navigation:** In Java, dot(.) operator is used to travel through object network, whereas, in RDBMS join operation is used to navigate between related records.
+
+To Solve Object-Relational Impedance Mismatch we use ORM **Object Relational Mapping**:
+
+-   The lower level interaction with database is handled by the ORM. Framing and executing the database dependent queries is taken care by the ORM framework.
+-  No need of SQL
+-   ORM allows the developer to concentrate on the business logic and work with the object model.
+-   ORM is database independent.(Portable)
+
+Object Relational Mapping (ORM) is a programming technique for mapping Java Entity class to a relational database table, where
+
+-   **Java Entity class** is mapped to a **table**
+-   **Data members** of a class are mapped to **table columns**
+-   **Instance** of a Java Entity class is mapped to a **record** in a table
+
+```ad-example
+![[Pasted image 20230208121051.png]]
+
+In this example,
+
+-   Java **Entity class Account** is mapped to a **table Account**
+    
+-   **Data members id and balance** of Account class are mapped to the **table columns Id and Balance**
+    
+-   **Instance of Account** class with values 1001(id) and 50000(balance) is a **record(row) in a table**
+```
