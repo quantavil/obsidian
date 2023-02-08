@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a9e15882743bc35e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testing/Selenium Basic/Chs2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -126,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Developing Persistent Tier Using Java Hibernate and Maven/Untitled.md",
+                "file": "Testing/Selenium Basic/Chs2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,8 +191,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "72c7b386ff7e00cf",
+  "active": "a9e15882743bc35e",
   "lastOpenFiles": [
+    "Testing/Developing Persistent Tier Using Java Hibernate and Maven/Untitled.md",
     "Testing/Introduction to BDD using Cucumber/1 - Introduction.md",
     "Testing/Untitled.md",
     "Testing/Selenium Basic/CheatSheet.md",
@@ -189,7 +202,6 @@
     "Testing/Selenium Advanced/TestNG.md",
     "Testing/Selenium Basic/Assertion.md",
     "Testing/Selenium Basic/3 - Test Script Enhancement.md",
-    "CPP/C Functions/cstring.md",
-    "CPP/CPP STL/Algorithm.md"
+    "CPP/C Functions/cstring.md"
   ]
 }
