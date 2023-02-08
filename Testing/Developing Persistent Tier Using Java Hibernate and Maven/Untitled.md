@@ -58,3 +58,5 @@ In this example,
     
 -   **Instance of Account** class with values 1001(id) and 50000(balance) is a **record(row) in a table**
 ```
+
+**Java Persistence API (JPA)** was released by Java Community Process, to standardize the persistence process. JPA became the standard specification for ORM in Java. e.g. EclipseLink, OpenJPA and Hibernate.
