@@ -80,3 +80,4 @@ When I update password of another user
 Then I receive a message for updating password successfully
 And user password is updated to the new password
 ```
+
