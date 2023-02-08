@@ -1,6 +1,6 @@
 ## TDD
 
-_**TDD**_ is an iterative development process. Each iteration starts with a set of tests written for a new piece of functionality. These tests are supposed to fail during the start of iteration as there will be no application code corresponding to the tests. In the next phase of the iteration, Application code is written with an intention to pass all the tests written earlier in the iteration. Once the application code is ready tests are run.
+_`TDD`_ is an iterative development process. Each iteration starts with a set of tests written for a new piece of functionality. These tests are supposed to fail during the start of iteration as there will be no application code corresponding to the tests. In the next phase of the iteration, Application code is written with an intention to pass all the tests written earlier in the iteration. Once the application code is ready tests are run.
 
 ![[Pasted image 20230207112025.png]]
 
@@ -28,13 +28,13 @@ Acceptance Test-Driven Development (ATDD) methodology was a result of the natura
 
 ### Benefits:
 
-1.  **Better quality:** There is a reduction in the acceptance of test defects.
+1.  `Better quality:` There is a reduction in the acceptance of test defects.
     
-2.  **Better efficiency:** There is no code wastage in terms of excess modules.
+2.  `Better efficiency:` There is no code wastage in terms of excess modules.
     
-3.  **Better confidence:** The business analyst is assured at each stage that the application is built as per their specifications.
+3.  `Better confidence:` The business analyst is assured at each stage that the application is built as per their specifications.
     
-4.  **Lesser documentation:** The acceptance tests and unit tests themselves serve as the specification documents. Also, there are no separate handover documents to be passed between business analysts and developers.
+4.  `Lesser documentation:` The acceptance tests and unit tests themselves serve as the specification documents. Also, there are no separate handover documents to be passed between business analysts and developers.
 
 ## Behavior Driven Development
 
@@ -48,7 +48,7 @@ This difference brings in the need to have a language that can define, in an und
 
 ## Features of BDD
 
-1.  _Shifting from thinking in "**tests**" to thinking in "**behavior**"_
+1.  _Shifting from thinking in "`tests`" to thinking in "`behavior`"_
 2.  _Collaboration between Business stakeholders, Business Analysts, QA Team and developers_
 3.  _Ubiquitous language, it is easy to describe_
 4.  _Allowing direct interaction with the developer’s code, but we write BDD tests in a language that can also be made out by business stakeholders._
@@ -57,7 +57,7 @@ This difference brings in the need to have a language that can define, in an und
 
 
 ```ad-question
-**Q: Behavior Driven Development is :**
+`Q: Behavior Driven Development is :`
 *An Agile application development methodology* 
 
 
@@ -66,9 +66,9 @@ In software engineering, behavior-driven development is an Agile software develo
 ```
 
 
-### _**What is Cucumber?**_
+### _`What is Cucumber?`_
 
-_**Cucumber**_ is a testing framework which supports _**Behavior Driven Development (BDD)**_. It lets us define application behavior in plain meaningful English text using a simple grammar defined by a language called _**Gherkin**_. Cucumber itself is written in _**Ruby**_, but it can be used to “_**test**_” code written in _Ruby_ or other languages including but not limited to _Java_, _C#_ and _Python_.
+_`Cucumber`_ is a testing framework which supports _`Behavior Driven Development (BDD)`_. It lets us define application behavior in plain meaningful English text using a simple grammar defined by a language called _`Gherkin`_. Cucumber itself is written in _`Ruby`_, but it can be used to “_`test`_” code written in _Ruby_ or other languages including but not limited to _Java_, _C#_ and _Python_.
 
 ```Gherkin
 Feature: Update password
@@ -81,3 +81,21 @@ Then I receive a message for updating password successfully
 And user password is updated to the new password
 ```
 
+## Gherkin Keywords:
+
+Gherkin is a line-oriented language in which every line has to start with a Gherkin keyword. They are:
+
+- `Feature:` It is a list of scenarios
+- `Scenario:` Business rule through a list of steps with arguments
+- `Given:` Some precondition step
+- `When:` Some key actions
+- `Then:` To observe outcomes or validation
+- `And,But:` To enumerate more Given, When, Then steps
+- `Scenario Outline:` List of steps for data-driven as an Examples and `<placeholder>`
+- `Examples`:  Container for table
+- `Background:` List of steps run before each of the scenarios
+- `""" (Doc Strings)`: This is used for representing strings
+- `| (Data Tables):` This is used to present the data values in table form
+- `@(Tags/Labels):`To group Scenarios 
+- `<>` (placeholder)
+- `#` For comments in Feature File
