@@ -60,3 +60,31 @@ In this example,
 ```
 
 **Java Persistence API (JPA)** was released by Java Community Process, to standardize the persistence process. JPA became the standard specification for ORM in Java. e.g. EclipseLink, OpenJPA and Hibernate.
+
+## Advantages of Hibernate Framework
+
+Following are the advantages of hibernate framework:
+
+### 1) Open Source and Lightweight
+
+Hibernate framework is open source under the LGPL license and lightweight.
+
+### 2) Fast Performance
+
+The performance of hibernate framework is fast because cache is internally used in hibernate framework. There are two types of cache in hibernate framework first level cache and second level cache. First level cache is enabled by default.
+
+### 3) Database Independent Query
+
+HQL (Hibernate Query Language) is the object-oriented version of SQL. It generates the database independent queries. So you don't need to write database specific queries. Before Hibernate, if database is changed for the project, we need to change the SQL query as well that leads to the maintenance problem.
+
+### 4) Automatic Table Creation
+
+Hibernate framework provides the facility to create the tables of the database automatically. So there is no need to create tables in the database manually.
+
+### 5) Simplifies Complex Join
+
+Fetching data from multiple tables is easy in hibernate framework.
+
+### 6) Provides Query Statistics and Database Status
+
+Hibernate supports Query cache and provide statistics about query and database status.
