@@ -11,8 +11,12 @@
             "id": "0848571d7bb00717",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Testing/Developing Persistent Tier Using Java Hibernate and Maven/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Testing/Developing Persistent Tier Using Java Hibernate and Maven/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
