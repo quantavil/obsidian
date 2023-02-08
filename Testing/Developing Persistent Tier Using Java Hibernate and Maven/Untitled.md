@@ -35,14 +35,12 @@ The mismatches are:
 -   **Data Navigation:** In Java, dot(.) operator is used to travel through object network, whereas, in RDBMS join operation is used to navigate between related records.
 
 To Solve Object-Relational Impedance Mismatch we use ORM **Object Relational Mapping**:
-
 -   The lower level interaction with database is handled by the ORM. Framing and executing the database dependent queries is taken care by the ORM framework.
 -  No need of SQL
 -   ORM allows the developer to concentrate on the business logic and work with the object model.
 -   ORM is database independent.(Portable)
 
 Object Relational Mapping (ORM) is a programming technique for mapping Java Entity class to a relational database table, where
-
 -   **Java Entity class** is mapped to a **table**
 -   **Data members** of a class are mapped to **table columns**
 -   **Instance** of a Java Entity class is mapped to a **record** in a table
@@ -59,32 +57,14 @@ In this example,
 -   **Instance of Account** class with values 1001(id) and 50000(balance) is a **record(row) in a table**
 ```
 
-**Java Persistence API (JPA)** was released by Java Community Process, to standardize the persistence process. JPA became the standard specification for ORM in Java. e.g. EclipseLink, OpenJPA and Hibernate.
+**Java Persistence API (JPA)** was released by Java Community Process, to standardize the persistence process. It provides certain functionality and standard to ORM tools. e.g. EclipseLink, OpenJPA and Hibernate.
 
-## Advantages of Hibernate Framework
+**Advantages of Hibernate Framework :**
 
-Following are the advantages of hibernate framework:
-
-### 1) Open Source and Lightweight
-
-Hibernate framework is open source under the LGPL license and lightweight.
-
-### 2) Fast Performance
-
-The performance of hibernate framework is fast because cache is internally used in hibernate framework. There are two types of cache in hibernate framework first level cache and second level cache. First level cache is enabled by default.
-
-### 3) Database Independent Query
-
-HQL (Hibernate Query Language) is the object-oriented version of SQL. It generates the database independent queries. So you don't need to write database specific queries. Before Hibernate, if database is changed for the project, we need to change the SQL query as well that leads to the maintenance problem.
-
-### 4) Automatic Table Creation
-
-Hibernate framework provides the facility to create the tables of the database automatically. So there is no need to create tables in the database manually.
-
-### 5) Simplifies Complex Join
-
-Fetching data from multiple tables is easy in hibernate framework.
-
-### 6) Provides Query Statistics and Database Status
-
-Hibernate supports Query cache and provide statistics about query and database status.
+-  1) Open Source and Lightweight
+-  2) Fast Performance 
+-  3) Database Independent Query
+	HQL (Hibernate Query Language) is the object-oriented version of SQL. It generates the database independent queries. So you don't need to write database specific queries. 
+-  4) Automatic Table Creation
+-  5) Simplifies Complex Join
+	Fetching data from multiple tables is easy in hibernate framework.
