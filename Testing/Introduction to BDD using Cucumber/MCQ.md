@@ -1,0 +1,3 @@
+1. In software engineering, behavior-driven development is an Agile software development process that encourages collaboration among developers, QA and non-technical or business participants in a software project.
+2. Feature file is written in : *Gherkin* is the format for cucumber specifications. It is a domain specific language which helps you to describe business requirements.
+3. A Feature File is an entry point to the Cucumber tests. This is a file where you will describe your tests in Descriptive language. The feature file is the essential segment of cucumber tool, which is used to write acceptance steps for automation testing
