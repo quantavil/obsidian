@@ -8,3 +8,13 @@
 	- [ ] Cucumber throws error if the step definition doesn't match with the Gherkin step
 	- [x] Step definitions aren’t linked to a particular feature file or scenario 
 	*Explanation* : On the execution of feature file, you will be able to generate step definition statements.
+
+5. What is a runner class?
+
+	- [ ] Runner class contains the main method to execute the test.
+	- [x] In a runner class you can specify feature files to be picked up plus the steps definitions location,using some annotations. 
+	- [ ] Runner class describes the test scenarios.
+	- [x] Cucumber Uses Runner class of JUnit framework 
+	Explanation : By the usage of tags, we can execute specified scenarios. we can also generate different type of reports
+
+	Explanation : Runner class will use the Junit annotation @RunWith(), which tells JUnit what is the test runner class
