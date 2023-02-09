@@ -75,6 +75,55 @@ A standalone unit or a single functionality (such as a login) for a project can 
 
 Cucumber tests are written in these Feature Files that are stored with the extension – **“.feature”**. A Feature File can be given a description to make the documentation more legible.
 
+```Gherkin
+GIVEN user navigates to login page by opening Firefox
+WHEN user enters correct <username> AND <password> values
+THEN user is directed to the homepage
+```
+
+### **2. Step Definitions**
+
+A Steps Definitions file stores the mapping data between each step of a scenario defined in the feature file and the code to be executed
+
+```java
+package StepDefinition;
+
+public class Steps
+{
+
+@Given("^user navigates to the login page by opening Firefox$")
+//Code to Open Firefox Browser and launch the login page of application to define the GIVEN step of the feature
+
+@When("^user enters correct username and password values$")
+//take inputs for username and password fields using find element by xpath. Put the correct username and password values as inputs to define the WHEN step of the feature
+
+@Then (“^user gets directed to homepage$”)
+
+//Direct to the Homepage of the application as a result of correct username and password inputs in the WHEN step. This would define the THEN step of the feature
+```
+
+### **3. Test Runner File**
+
+To run the test, one needs a **Test Runner File**, which is a JUnit Test Runner Class containing the Step Definition location and the other primary metadata required to run the test.
+
+The Test Runner File uses the **@RunWith()** Annotation from JUnit for executing tests. It also uses the **@CucumberOptions** Annotation to define the location of feature files, step definitions, reporting integrations, etc.
+
+```java
+package cucumberTest;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+features = "src/test/Feature"
+,glue={"src/main/stepDefinition"}
+)
+
+public class TestRunner {
+}
+```
 
 ### _`What is Cucumber?`_
 
