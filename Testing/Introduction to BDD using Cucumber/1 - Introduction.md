@@ -65,6 +65,16 @@ Explanation :
 In software engineering, behavior-driven development is an Agile software development process that encourages collaboration among developers, QA and non-technical or business participants in a software project
 ```
 
+## **The Cucumber Framework: BDD Framework for Selenium**
+
+Cucumber BDD framework mainly consists of three major parts – **Feature File, Step Definitions**, and the **Test Runner File**.
+
+### **1. Feature File**
+
+A standalone unit or a single functionality (such as a login) for a project can be called a Feature. Each of these features will have scenarios that must be tested using Selenium integrated with Cucumber. A file that stores data about features, their descriptions, and the scenarios to be tested is called a **Feature File.**
+
+Cucumber tests are written in these Feature Files that are stored with the extension – **“.feature”**. A Feature File can be given a description to make the documentation more legible.
+
 
 ### _`What is Cucumber?`_
 
