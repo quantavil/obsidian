@@ -18,3 +18,5 @@
 	Explanation : By the usage of tags, we can execute specified scenarios. we can also generate different type of reports
 
 	Explanation : Runner class will use the Junit annotation @RunWith(), which tells JUnit what is the test runner class
+
+
