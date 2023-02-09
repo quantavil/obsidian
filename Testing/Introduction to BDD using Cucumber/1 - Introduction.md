@@ -119,6 +119,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "src/test/Feature"
 ,glue={"src/main/stepDefinition"}
+,plugin={"html:src\\reports\\rep.html","junit:src\\reports\\rep1.xml","json:\\src\\reports\\rep2.json"
 )
 
 public class TestRunner {
