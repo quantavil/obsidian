@@ -68,3 +68,4 @@ In this example,
 -  4) Automatic Table Creation
 -  5) Simplifies Complex Join
 	Fetching data from multiple tables is easy in hibernate framework.
+
