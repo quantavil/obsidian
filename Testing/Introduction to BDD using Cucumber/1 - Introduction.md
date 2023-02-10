@@ -182,3 +182,50 @@ Examples:
     | name1 |  5   | success|
     | name2 |  7   | Fail   |
 ```
+
+## Parameterizing using Cucumber
+
+1. Parameterization using simple data values
+In this technique, you type the data value directly in the scenario. 
+
+```Gherkin
+Feature: Testing simple parameterization
+Scenario: Login functionality
+Given open the browser and url for parameterization
+When enter username "donhere" and password "don@123"
+Then click on login
+```
+2. Parameterization using scenario outline 
+Scenario Outline technique is used to run the same scenario for two or more sets of test data. 
+
+```Gherkin
+Feature: Testing Scenario Outline
+
+  Scenario Outline: Testing login behaviour
+    Given open the browser enter the url so
+    When enter user "<username>" and pass "<password>"
+    Then click on login in
+
+    Examples: 
+      | username | password |
+      | donhere  | don@123  |
+      | user1    | pass1    |
+      | user2    | pass2    |
+```
+
+3. Parameterization using data table
+In this technique, we will declare the data under the step only. In other words, we are using Tables as arguments to the Steps
+
+```Gherkin 
+Feature: Login Action
+
+  Scenario: Successful Login with valid credentials
+    Given user is on homepage
+    When user navigate to login page Enter
+    And user enter the login credentials
+      | Username  | Password  |
+      | pgAlmacho | freezeray |
+      | pgGru     | freezeray |
+    Then Message displayed DASHBOARD
+
+```
