@@ -69,3 +69,18 @@ In this example,
 -  5) Simplifies Complex Join
 	Fetching data from multiple tables is easy in hibernate framework.
 
+
+---
+
+- Which of the following is FALSE about Session in hibernate
+
+- [ ] Session is a lightweight non-threadsafe object
+- [x] session can be shared between threads
+- [ ] Session represents a single unit-of-work with the database
+- [ ] Session is the primary interface for the persistence service
+
+Which of the following aspects are being managed by Maven?
+- [ ] Build 
+- [   ] Dependencies 
+- [   ] Releases 
+- [   ] All of the above
