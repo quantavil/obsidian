@@ -81,6 +81,6 @@ In this example,
 
 Which of the following aspects are being managed by Maven?
 - [ ] Build 
-- [   ] Dependencies 
-- [   ] Releases 
-- [   ] All of the above
+- [ ] Dependencies 
+- [ ] Releases 
+- [x] All of the above
