@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "bb12994458b6a9be",
@@ -130,7 +131,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "97d268910fd55804",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
     "regex.md",
     "Untitled 1.md",
