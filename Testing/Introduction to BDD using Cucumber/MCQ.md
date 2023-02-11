@@ -92,6 +92,36 @@ It selects all the matches
 
 It selects only the last matches.
 
-It selects the first match
+It selects the first match !!
 
 It will generate an error.
+
+8. Assume that there are 2 identical  link objects on a web page. Which of the link is selected when link-text or partial text is used?
+
+Throws error as 2 similar objects are there
+
+clicks on last match
+
+clicks on first match !!
+
+clicks on both the links simultaneously
+
+9. Choose the incorrect option on difference between final and finally key word in Java? 
+
+Final class can't be inherited, final method can't be overridden and final variable value can't be changed
+
+You can use finally without a try block but catch block is a must !!
+
+Finally keyword is used to execute a block of code compulsorily whether an exception is handled or not.
+
+Finally block follows a try or catch block
+
+10. What functionality does WebDriver support on browser cookies?
+
+A. add and delete an individual cookie
+
+B. delete all cookies
+
+Both A & B !!
+
+none of the above
