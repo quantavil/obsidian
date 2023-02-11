@@ -125,3 +125,56 @@ B. delete all cookies
 Both A & B !!
 
 none of the above
+
+11. The below is the html source code for a textbox object on a webapplication  
+    Choose the CSS selector to identify the object uniquely.  
+  <input name="search" title="Search" class="txtbox" id="q" onkeyup="return autoComplete(event);"  
+   onclick="clearSearchText('q')" type="text" value="Search"/>
+
+input.txtbox[value="Search"]
+
+input.txtbox[type="Search"]
+
+input.q[value="Search"]
+
+input.q[type="Search"]
+
+12. If you happen to click on a link that launches a separate window in an application,and in webdriver during reply which of the below commands helps to work with window of your choice before locating elements within it.
+
+driver.switchto().window(windowname)  !!
+
+driver.switchto(windowname)
+
+driver.getwindowhandles(windowname) 
+
+driver.moveto(windowname)
+
+12. Multiple inheritance in Java is achieved through
+
+By using the extend keyword in the child class
+
+By using Abstract class
+
+By using Interfaces
+
+By using polymorphism concept of object oriented programming language
+
+13. What is the output of the below code. The textbox webelement is created with name as txt1
+
+driver = new InternetExplorerDriver();  
+        driver.get(url);  
+        WebElement objUName=driver.findElement(By.name("txt"));  
+        try {  
+            if (objUName.isEnabled())  
+                objUName.sendKeys("Welcome");  
+        }catch(NoSuchElementException e){  
+            System.out.println(e.toString());  
+        }
+
+You cannot use WebElement in webdriver.
+
+The code will execute successfully and it enters the value into the textbox.
+
+The code will execute successfully but the textbox will not have any value.
+
+The code will generate the error “No such Element present”
