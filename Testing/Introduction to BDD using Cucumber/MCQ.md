@@ -25,10 +25,31 @@
 1. If you are using multiple @Test annotations in a single JUnit file, and the methods c_test, a_test, and b_test are there which not arranged alphabetically in the code. Then in which sequence they will be executed?
   
 
-The testrunner runs the methods in alphabetical order 
+The testrunner runs the methods in alphabetical order !!
 
 Depends as testrunner treats all methods to be independent of each other
 
 Runs the methods in random order during each test run
 
 All of the above
+
+2. What is the difference between WebDriver close and quit methods?
+
+Nothing, these methods are interchangeable.
+
+close method clears the browser memory and the quit method closes the browser window.
+
+close method closes the browser but the quit method additionally removes the connection to the server.
+
+close method closes the main browser window but the quit method closes all the browser windows including popups.!!
+
+3. Which of the below Annotation runs once after all methods in the class?
+
+
+@Test
+
+@BeforeTest
+
+@AfterClass
+
+@BeforeClass
