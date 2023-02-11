@@ -53,3 +53,45 @@ close method closes the main browser window but the quit method closes all the b
 @AfterClass
 
 @BeforeClass
+
+4. Pick the odd one out for getWindowHandles() or getWindowHandle() methods of webdriver?
+
+
+getWindowHandle gets the address for the browser that has the current focus
+
+getWindowHandles gets the address of all open browsers
+
+The return type for both the methods is a list object
+
+5. Select the correct selenium webdriver statement to work with Iframes?
+
+
+driver.switchTo().frame(ID of the frame);
+
+driver.switchTo().frame(name of the frame);
+
+driver.switchTo().frame(0); // where 0 is the index of the frame
+
+All of the above !!
+
+6. The ___ collection object is used to store unique values of strings in a variable
+
+
+List
+
+Iterator
+ 
+Set !!
+
+Collection
+
+7. Assume that you created a HTML page with hyperlinks and later noticed that there are multiple matches.  What will be the result if you have used either linkText or PartiallinkText?
+
+
+It selects all the matches
+
+It selects only the last matches.
+
+It selects the first match
+
+It will generate an error.
