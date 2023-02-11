@@ -20,3 +20,15 @@
 	Explanation : Runner class will use the Junit annotation @RunWith(), which tells JUnit what is the test runner class
 
 
+---
+
+1. If you are using multiple @Test annotations in a single JUnit file, and the methods c_test, a_test, and b_test are there which not arranged alphabetically in the code. Then in which sequence they will be executed?
+  
+
+The testrunner runs the methods in alphabetical order 
+
+Depends as testrunner treats all methods to be independent of each other
+
+Runs the methods in random order during each test run
+
+All of the above
