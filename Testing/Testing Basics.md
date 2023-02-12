@@ -9,8 +9,8 @@ Software Quality: is the degree to which a process, component or system conforms
 - **Reliability**: How capable to maintain the required level of performance over period of time
 - **Usability**: How simple it is for the users to understand, learn and operate the software.
 - **Efficiency**: economically does it consume available hw resources to maintain the required level of performance of its function
-Maintainability:  How simple it is to analyze the sw, make changes and test those changes whenever modification became necessary
-Portability: How simple it is to install, remove or replace sw and how easy it is for other sw to integrate with it.
+- **Maintainability**:  How simple it is to analyze the software/sw, make changes and test those changes whenever modification became necessary
+- **Portability**: How simple it is to install, remove or replace sw and how easy it is for other sw to integrate with it.
 
 
 ## Software Testing
@@ -20,14 +20,11 @@ Software testing is an activity (or set of activities) performed to compare the�
 ## Defect
 
 A defect is a fault in the system, component or process due to which the expected outcome and the actual outcome of a test activity do not match.  
-The other terms used to refer to a defect are bug, error, anomaly, etc.
 
 **Software Testing** is the generic term applied to all the activities that are performed to ensure that the quality characteristics of the software meet the required/expected standards. 
 
 **The objective of software testing is to eliminate defects in a software by**
-
 1.  Preventing defects from entering the software
-    
 2.  Identifying and reporting the defects existing in the software
 
 ## Categorization
