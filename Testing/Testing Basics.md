@@ -55,16 +55,17 @@ The V Model emphasizes the importance of testing at every stage of the software 
 
 #### Levels of Testing :
 
-1.  Requirements Gathering and Analysis: In this phase, the requirements of the software are gathered and analyzed to ensure that they are complete, accurate, and feasible.
+1.  **Requirements Gathering and Analysis:** In this phase, the requirements of the software are gathered and analyzed to ensure that they are complete, accurate, and feasible.
     
-2.  Design: In this phase, the software design is created, which includes the architecture and the detailed design of the software.
+2.  **Design:** In this phase, the software design is created, which includes the architecture and the detailed design of the software.
     
-3.  Unit Testing: In this phase, individual units or components of the software are tested to verify that they are functioning correctly.
+3.  **Unit Testing (UT):** In this phase, individual units or components of the software are tested to verify that they are functioning correctly.
     
-4.  Integration Testing: In this phase, the integrated software components are tested to ensure that they work together as expected.
+4.  **Integration Testing (IT):** In this phase, the integrated software components are tested to ensure that they work together as expected.
     
-5.  System Testing: In this phase, the complete software system is tested to ensure that it meets the specified requirements and is ready for release.
+5.  **System Testing (ST):** In this phase, the complete software system is tested to ensure that it meets the specified requirements and is ready for release.
     
-6. User Acceptance Testing: In this phase, the software is tested by the end-users or the customer to ensure that it meets their needs and expectations.
-
-![[Pasted image 20230113120219.png]]
+6. **User Acceptance Testing (UAT):** In this phase, the software is tested by the end-users or the customer to ensure that it meets their needs and expectations.
+	Types of UAT :
+	- Alpha Testing : performed by dev team, on project site.
+	- Beta Testing : performed by actual user, in real time.
