@@ -1,7 +1,7 @@
 {
-  "findText": "\\w",
-  "replaceText": "$",
-  "useRegEx": true,
+  "findText": "###",
+  "replaceText": "####",
+  "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,
   "processLineBreak": false,

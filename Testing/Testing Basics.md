@@ -32,10 +32,10 @@ At a very high level tests are categorized as
 -   **Informal tests** : Tests that are not documented completely.
 ![[Pasted image 20230113101944.png]]
 
-### Static Test
+#### Static Test
 ![[Pasted image 20230113102043.png]]
 
-### Dynamic Test
+#### Dynamic Test
 ![[Pasted image 20230113103214.png]]
 
 ## Quality Assurance and Quality Control
@@ -53,34 +53,18 @@ In this model, each testing phase is initiated as soon as the corresponding deve
 
 The V Model emphasizes the importance of testing at every stage of the software development process, from the early stages of requirements gathering to the final stages of acceptance testing. This helps to ensure that the software meets the requirements, is of high quality, and is ready for release.
 
-### Unit Testing (UT)
+#### Levels of Testing :
 
-**Entity Tested** : Individual units (modules or functions or libraries) of code
-
-**Objective** : To validate whether the individual units of code return the right outputs for given inputs as specified in the design and whether they conform to coding standards. It uses white box testing techniques.
-
-**Performed by** : Development Team
-
-### Integration Testing (IT)
-
-**Entity Tested** : Groups of individual units of code that are supposed to work together
-
-**Objective** : To validate whether all the individual units of code pass the right information to each other to achieve the objective of the software (or its component) as specified in the design. It uses white box testing techniques.
-
-**Performed by** : Development team
-
-### System Testing (ST)
-
-**Entity Tested** : Software and its components
-
-**Objective** : To validate whether the software and its components are working as stated in the software requirement specification. It uses black box testing techniques.
-
-**Performed by** : Testing team
-
-### User Acceptance Testing (UAT)
-
-**Entity Tested** : Software and its components
-
-**Objective** : To validate whether the software and its components are working as stated in the business requirement specification and are good enough to be deployed for real-time usage. It uses black box testing techniques
+1.  Requirements Gathering and Analysis: In this phase, the requirements of the software are gathered and analyzed to ensure that they are complete, accurate, and feasible.
+    
+2.  Design: In this phase, the software design is created, which includes the architecture and the detailed design of the software.
+    
+3.  Unit Testing: In this phase, individual units or components of the software are tested to verify that they are functioning correctly.
+    
+4.  Integration Testing: In this phase, the integrated software components are tested to ensure that they work together as expected.
+    
+5.  System Testing: In this phase, the complete software system is tested to ensure that it meets the specified requirements and is ready for release.
+    
+6. User Acceptance Testing: In this phase, the software is tested by the end-users or the customer to ensure that it meets their needs and expectations.
 
 ![[Pasted image 20230113120219.png]]
