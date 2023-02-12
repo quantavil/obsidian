@@ -40,6 +40,7 @@ At a very high level tests are categorized as
 
 ## Quality Assurance and Quality Control
 
+The main difference between SQA and SQC is that SQA focuses on the process of software development and testing, while SQC focuses on the actual testing of the software.
 ![[Pasted image 20230113104117.png]]
 
 ## The V-Model
