@@ -17,63 +17,12 @@
 6. Which level of testing has the objective of verifying if software components are operating correctly and finding defects?
 	Unit testing check
 
-Q7 of 9outlined_flag
 
-Which of these is not a method of dynamic testing?
+7. Which of these is not a method of dynamic testing?
+	Inspection, Walk through, Technical review are methods of dynamic testing.
 
-1.  System testing
-    
-2.  User Acceptance Testing
-    
-3.  Inspection
-    
-4.  Unit Testing
-    
-5.  Walk through
-    
-6.  Technical review
-    
+8. System testing is a type of .
+	System Testing uses black box testing techniques to validate, whether the software and its components are working as per software requirement .
 
-1,2,4
-
-3,5,6 check
-
-2,3,5,6
-
-All of these.
-
-Explanation :
-
-Yes!! Your answer is correct. Inspection,Walk through,Technical review are methods of dynamic testing.
-
-Q8 of 9outlined_flag
-
-System testing is a type of __________.
-
-Grey box testing
-
-White box testing
-
-Black box testing check
-
-Both black box and white box
-
-Explanation :
-
-System Testing uses black box testing techniques to validate, whether the software and its components are working as per software requirement .
-
-Q9 of 9outlined_flag
-
-Which testing is concerned with whether the behavior of the whole product is as per the specified requirements?
-
-Acceptance testing
-
-Smoke testing
-
-System testing check
-
-Integration testing
-
-Explanation :
-
-System testing tests the design and behavior of the system and also the expectations of the customer.
+9. Which testing is concerned with whether the behavior of the whole product is as per the specified requirements?
+	System testing tests the design and behavior of the system and also the expectations of the customer.
