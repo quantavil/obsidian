@@ -101,22 +101,22 @@ The V Model emphasizes the importance of testing at every stage of the software 
 
 ### Requirement Analysis Phase
 
-**Software Requirement Specification (SRS) :** Document definition of a condition or ability that needs to be possessed by a system or its component to attain an objective of the user
+1. **Software Requirement Specification (SRS) :** Document definition of a condition or ability that needs to be possessed by a system or its component to attain an objective of the user
 
-**Functional and Non Functional Requirements:**
-Functional - state what the system should do
-eg: gender field by default <blank>, drop-down - male or female
+2. **Functional and Non Functional Requirements:**
+- Functional - state what the system should do
+eg: gender field by default `<blank>`, drop-down - male or female
 if the field is blank and click submit button - shall display an error message.
 
-Non Functional requirements: How the system should be
-Hardware Constraint: min hardware, database, connectivity configuration under which sw should be able to function
-Performance: Acceptable response times of each component in different possible situations
-Usability: ease of use for specific group user.
-Security: define the access level to different categories of information present in the system.
-Compliance: internal design standard, government and leagal standards, accessibility standards.
-
-Characteristics of Good Requirements:
-1) Completeness - nothing is missed out, fun and nonfunctional should be addressed, all expected responses should be aaddressed abbreviation full form 
+- Non Functional requirements: How the system should be
+	Hardware Constraint: min hardware, database, connectivity configuration under which sw should be able to function
+	Performance: Acceptable response times of each component in different possible situations
+	Usability: ease of use for specific group user.
+	Security: define the access level to different categories of information present in the system.
+	Compliance: internal design standard, government and legal standards, accessibility standards.
+	
+3. **Characteristics of Good Requirements:**
+1) Completeness - nothing is missed out, fun and nonfunctional should be addressed, all expected responses should be addressed abbreviation full form 
 2) Unambiguity: each requirement has only one possible interpretation.
 3) Consistency: Any higher level requirement like the BRS or SRS should be consistent 
 Ex: BRS - Navigate to home page (every page link should be there)
