@@ -100,10 +100,10 @@ The V Model emphasizes the importance of testing at every stage of the software 
 4. Test Closure phase
 
 ### Requirement Analysis Phase
-Software Requirement Specification (SRS)
-Document definition of a condition or ability that needs to be possessed by a system or its component to attain an objective of the user
 
-Functional and Non Functional Requirements:
+**Software Requirement Specification (SRS) :** Document definition of a condition or ability that needs to be possessed by a system or its component to attain an objective of the user
+
+**Functional and Non Functional Requirements:**
 Functional - state what the system should do
 eg: gender field by default <blank>, drop-down - male or female
 if the field is blank and click submit button - shall display an error message.
