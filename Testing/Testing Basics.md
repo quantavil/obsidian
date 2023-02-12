@@ -32,6 +32,14 @@ At a very high level tests are categorized as
 ![[Pasted image 20230113101944.png]]
 
 #### Static Test
+
+1.  **Walkthrough:** A walkthrough is a type of static testing where the author of the software artifact leads a group of peers through the artifact to identify any potential issues, such as design flaws, coding errors, or incomplete documentation. The purpose of a walkthrough is to get feedback from others and to ensure that the artifact is of high quality.
+    
+2.  **Technical Review:** A technical review is a type of static testing where a group of peers, including developers and testers, review the software artifact to identify any potential issues, such as design flaws, coding errors, or incomplete documentation. The purpose of a technical review is to get feedback from others and to ensure that the artifact is of high quality.
+    
+3.  **Inspection:** An inspection is a formal, structured type of static testing where a trained team of peers performs a detailed examination of the software artifact to identify any potential issues, such as design flaws, coding errors, or incomplete documentation. Inspections follow a formal process and involve a specific set of tasks and roles, such as the inspector, the author, and the reader.
+    
+4.  **Static Analysis:** Static analysis is a type of static testing that involves using automated tools to examine the software artifact to identify any potential issues, such as coding errors, security vulnerabilities, or coding standard violations. Static analysis can be performed on code, design, or documentation and can help to identify issues early in the development process, before they become more serious problems.
 ![[Pasted image 20230113102043.png]]
 
 #### Dynamic Test
