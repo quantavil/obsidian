@@ -109,14 +109,14 @@ eg: gender field by default `<blank>`, drop-down - male or female
 if the field is blank and click submit button - shall display an error message.
 
 - Non Functional requirements: How the system should be
-	Hardware Constraint: min hardware, database, connectivity configuration under which sw should be able to function
+	Hardware Constraint: min hardware, database, connectivity configuration under which software should be able to function
 	Performance: Acceptable response times of each component in different possible situations
 	Usability: ease of use for specific group user.
 	Security: define the access level to different categories of information present in the system.
 	Compliance: internal design standard, government and legal standards, accessibility standards.
 	
 3. **Characteristics of Good Requirements:**
-- Completeness - nothing is missed out, fun and non functional should be addressed, all expected responses should be addressed abbreviation full form 
+- Completeness - nothing is missed out, functional and non functional should be addressed, all expected responses should be addressed abbreviation full form 
 - Unambiguity: each requirement has only one possible interpretation.
 - Consistency: Any higher level requirement like the BRS or SRS should be consistent 
 	Ex: BRS - Navigate to home page (every page link should be there)
