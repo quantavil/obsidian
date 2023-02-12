@@ -44,13 +44,14 @@ At a very high level tests are categorized as
 
 ## The V-Model
 
-The V-Model is an extension of the Waterfall Model of software development with time represented along the X-axis. It is called so for 2 reasons.
-
--   The sequence in which the project definition, project implementation and project completion stages are presented, resembles the letter 'V'.
-    
--   It represents 'Validation Model' since it elaborates the testing (validation) stage of  Waterfall Model in relation to the other stages in it.
-
 ![[Pasted image 20230113113613.png]]
+The V Model in software testing is a graphical representation of the software development life cycle (SDLC) that integrates the testing process into each phase of the software development process. The V-shape of the model represents the linear flow of the process, where each phase of the development process has a corresponding testing phase that verifies the results of the development phase.
+
+The V Model is divided into two main sections: the left side represents the development process, and the right side represents the testing process. The development phases include requirements gathering and analysis, design, implementation, and testing. The testing phases include unit testing, integration testing, system testing, and acceptance testing.
+
+In this model, each testing phase is initiated as soon as the corresponding development phase is completed. For example, unit testing begins as soon as the code has been written, and acceptance testing begins as soon as the system has been integrated and tested.
+
+The V Model emphasizes the importance of testing at every stage of the software development process, from the early stages of requirements gathering to the final stages of acceptance testing. This helps to ensure that the software meets the requirements, is of high quality, and is ready for release.
 
 ### Unit Testing (UT)
 
