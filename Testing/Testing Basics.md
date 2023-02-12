@@ -1,10 +1,17 @@
-Software quality is the degree to which a process, component or system conforms to the specified requirements and user expectations.
+
+The need for Software Testing: loss of money, time, reputation, and life
+
+Software Quality: is the degree to which a process, component or system conforms to the specified requirements and user expectations
 
 ## Characteristics of Software Quality
 
-As per ISO standard model (ISO/IEC 9126), the quality of a software can be evaluated based on its following characteristics.
+- **Functionality**: how accurately does it perform the task stated in the requirements?
+- **Reliability**: How capable to maintain the required level of performance over period of time
+- **Usability**: How simple it is for the users to understand, learn and operate the software.
+- **Efficiency**: economically does it consume available hw resources to maintain the required level of performance of its function
+Maintainability:  How simple it is to analyze the sw, make changes and test those changes whenever modification became necessary
+Portability: How simple it is to install, remove or replace sw and how easy it is for other sw to integrate with it.
 
-![[Pasted image 20230113095550.png]]
 
 ## Software Testing
 
