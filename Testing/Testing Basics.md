@@ -3,6 +3,7 @@ The need for Software Testing: loss of money, time, reputation, and life
 
 Software Quality: is the degree to which a process, component or system conforms to the specified requirements and user expectations
 
+
 ## Characteristics of Software Quality
 
 - **Functionality**: how accurately does it perform the task stated in the requirements?
@@ -17,8 +18,8 @@ Software Quality: is the degree to which a process, component or system conforms
 
 Software testing is an activity (or set of activities) performed to compare the expected outcome with the actual outcome of one specific task in the system, component or process and report the defects found in the system.
 
-## Defect
 
+## Defect
 A defect is a fault in the system, component or process due to which the expected outcome and the actual outcome of a test activity do not match.  
 
 **Software Testing** is the generic term applied to all the activities that are performed to ensure that the quality characteristics of the software meet the required/expected standards. 
@@ -27,8 +28,8 @@ A defect is a fault in the system, component or process due to which the expecte
 1.  Preventing defects from entering the software
 2.  Identifying and reporting the defects existing in the software
 
-## Categorization
 
+## Categorization
 At a very high level tests are categorized as
 
 -   **Formal tests** : Tests that document their expected results, actual results and defects found.
@@ -37,26 +38,29 @@ At a very high level tests are categorized as
 
 #### Static Test
 
-1.  **Walkthrough:** A walkthrough is a type of static testing where the author of the software artifact leads a group of peers through the artifact to identify any potential issues, such as design flaws, coding errors, or incomplete documentation. The purpose of a walkthrough is to get feedback from others and to ensure that the artifact is of high quality.
-    
-2.  **Technical Review:** A technical review is a type of static testing where a group of peers, including developers and testers, review the software artifact to identify any potential issues, such as design flaws, coding errors, or incomplete documentation. The purpose of a technical review is to get feedback from others and to ensure that the artifact is of high quality.
-    
-3.  **Inspection:** An inspection is a formal, structured type of static testing where a trained team of peers performs a detailed examination of the software artifact to identify any potential issues, such as design flaws, coding errors, or incomplete documentation. Inspections follow a formal process and involve a specific set of tasks and roles, such as the inspector, the author, and the reader.
-    
-4.  **Static Analysis:** Static analysis is a type of static testing that involves using automated tools to examine the software artifact to identify any potential issues, such as coding errors, security vulnerabilities, or coding standard violations. Static analysis can be performed on code, design, or documentation and can help to identify issues early in the development process, before they become more serious problems.
+1.  **Walkthrough:** *Informal Process* the artifact is prepared by one team and reviewed by another team. The meeting led by the author. We don't have to submit any documents after the meeting. But if there are any chances of defect, we will communicate it in the meeting
+2.  **Technical Review:** *Semi-formal* artifact is prepared by ne newbie(novice) of one team and it will be reviewed an expert of the same team. The expert will lead the meeting. It is your call, the errors can be documented/ communicated orally.     
+3.  **Inspection:** *Formal Process* It's already prepared, we are waiting for the approval to proceed to the next stage. For that, the higher authorities have to sign off the artifacts. Moderator will lead the meeting. The creator and higher authorities will be participants of the meeting. We have to document the errors and track it periodically.
+4.  **Static Analysis:** to analyze and predict the dynamic behavior (after execution of code) *Informal* - if the team is going to review it. *Formal* - if one among the team member other than the Author analyze it. The meeting is not mandatory. It might be documented if its formal, if not it can be avoided.
 ![[Pasted image 20230113102043.png]]
 
 #### Dynamic Test
-Black box testing provides a high-level view of the functionality of the software, while white box testing provides a more detailed view of the internal workings of the system.
-![[Pasted image 20230113103214.png]]
+Testing will be done with execution of code.(application, GUI, Code).
+Black Box and White box-
+1. Black box:-
+ We don't have visibility of code. You can see the application, so you are check the users perspective checking the presentation layer/GUI(Graphical user Interface- User interface) It is done is user’s perspective. in order to find if any bugs/ defect is present.
+   
+2. White box:-
+ Visibility of codes and application. We will match the code and application. and if there are any defect present, we can locate it in the code. It is done in the Programmers perspective.
+
 
 ## Quality Assurance and Quality Control
 
 The main difference between SQA and SQC is that SQA focuses on the process of software development and testing, while SQC focuses on the actual testing of the software.
 ![[Pasted image 20230113104117.png]]
 
-## The V-Model
 
+## The V-Model
 ![[Pasted image 20230113113613.png]]
 The V Model in software testing is a graphical representation of the software development life cycle (SDLC) that integrates the testing process into each phase of the software development process. The V-shape of the model represents the linear flow of the process, where each phase of the development process has a corresponding testing phase that verifies the results of the development phase.
 
