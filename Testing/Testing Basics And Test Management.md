@@ -87,3 +87,14 @@ The V Model emphasizes the importance of testing at every stage of the software 
 	- Alpha Testing : performed by dev team, on project site.
 	- Beta Testing : performed by actual user, in real time.
 
+
+**SDLC :-** Software Development Life cycle.
+**STLC :-** Software Test Life Cycle.
+
+**SRS -** Software  Requirement specification, It is the document which has the Requirements specified.
+
+How S/W testing is done:
+1. Requirement Analysis
+2. Test Planning and Design
+3. Test Execution Phase
+4. Test Closure phase
