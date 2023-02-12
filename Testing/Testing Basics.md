@@ -28,7 +28,6 @@ The other terms used to refer to a defect are bug, error, anomaly, etc.
 At a very high level tests are categorized as
 
 -   **Formal tests** : Tests that document their expected results, actual results and defects found.
-    
 -   **Informal tests** : Tests that are not documented completely.
 ![[Pasted image 20230113101944.png]]
 
@@ -36,6 +35,7 @@ At a very high level tests are categorized as
 ![[Pasted image 20230113102043.png]]
 
 #### Dynamic Test
+Black box testing provides a high-level view of the functionality of the software, while white box testing provides a more detailed view of the internal workings of the system.
 ![[Pasted image 20230113103214.png]]
 
 ## Quality Assurance and Quality Control
