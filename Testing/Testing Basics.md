@@ -23,7 +23,7 @@ The other terms used to refer to a defect are bug, error, anomaly, etc.
     
 2.  Identifying and reporting the defects existing in the software
 
-## Catgeorization
+## Categorization
 
 At a very high level tests are categorized as
 
