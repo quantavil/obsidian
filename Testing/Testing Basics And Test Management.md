@@ -116,7 +116,7 @@ if the field is blank and click submit button - shall display an error message.
 	Compliance: internal design standard, government and legal standards, accessibility standards.
 	
 3. **Characteristics of Good Requirements:**
-- Completeness - nothing is missed out, fun and nonfunctional should be addressed, all expected responses should be addressed abbreviation full form 
+- Completeness - nothing is missed out, fun and non functional should be addressed, all expected responses should be addressed abbreviation full form 
 - Unambiguity: each requirement has only one possible interpretation.
 - Consistency: Any higher level requirement like the BRS or SRS should be consistent 
 	Ex: BRS - Navigate to home page (every page link should be there)
