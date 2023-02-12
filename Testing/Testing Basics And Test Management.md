@@ -86,3 +86,4 @@ The V Model emphasizes the importance of testing at every stage of the software 
 	Types of UAT :
 	- Alpha Testing : performed by dev team, on project site.
 	- Beta Testing : performed by actual user, in real time.
+
