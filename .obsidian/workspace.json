@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/Testing Basics And Test Management.md",
-                "mode": "source",
+                "file": "Testing/Selenium Basic/CheatSheet.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Testing Basics And Test Management.md",
+                "file": "Testing/Selenium Basic/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,15 +132,15 @@
   },
   "active": "97d268910fd55804",
   "lastOpenFiles": [
+    "Testing/Selenium Basic/Assertion.md",
+    "Testing/Selenium Advanced/TestNG.md",
+    "Testing/Testing Basics And Test Management.md",
     "Testing/Introduction to BDD using Cucumber/1 - Introduction.md",
     "Testing/Developing Persistent Tier Using Java Hibernate and Maven/Untitled.md",
     "Testing/Agile Methodology/Untitled 1.md",
     "Testing/Agile Methodology/Introduction to Agile.md",
     "Testing/Agile Methodology/Untitled.md",
-    "Testing/Testing Basics And Test Management.md",
     "Testing/Untitled.md",
-    "Testing/pom.md",
-    "Testing/2 - Software Test Life Cycle.md",
-    "Testing/Selenium Basic/wdf.md"
+    "Testing/pom.md"
   ]
 }
