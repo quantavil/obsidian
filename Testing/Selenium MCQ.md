@@ -61,3 +61,19 @@ Clicks on the first match as per the HTML source code and ignores the next.
 Clicks on both the matching links one after another, in the order they occur in the HTML source code.
 
 Clicks on the final match as per the HTML source code and ignores the next.
+
+11. Which of the following exceptions is not ideal to be handled(ignore) via FluentWait?
+
+NoSuchElementException
+
+TimeoutException
+
+ElementNotVisibleException
+
+NoAlertPresentException
+
+12. In your WebDriver script, If you happen to click on a link that launches a separate window, which of the below statements will help you to work with window of your choice before locating elements within it?
+
+
+
+driver.getwindowhandles(windowname)
