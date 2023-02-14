@@ -35,13 +35,13 @@ set<String>
 
 
 12. In your WebDriver script, If you happen to click on a link that launches a separate window, which of the below statements will help you to work with window of your choice before locating elements within it?
-	*driver.getwindowhandles(windowname)*
+	*driver.switchTo().window(windowname)*
 
 
 14. The ___ regular expression is used to match any single character except new line character?
 	*Dot (.)*
 15. Which of the following is **NOT** a valid exception that you would come across in Selenium WebDriver?
-	*StaleElementReferenceException*
+	*NoSuchElement*
 
 16. When there are 2 identical  link objects on the webpage, which one of them is clicked and returned when link-text or partial text is used to locate them?
 	*Clicks on the first match as per the HTML source code and ignores the next.*
