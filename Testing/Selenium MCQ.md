@@ -44,13 +44,11 @@ Throughout all the test scripts in that test suite
 
 9. The ___ collection object is used to store unique values of strings in a variable
 
-list<String>
 
-list<WebElements>
-
+```html
 set<String>
+```
 
-set<WebElements>
 
 10. When there are 2 identical  link objects on the webpage, which one of them is clicked and returned when link-text or partial text is used to locate them?
 
@@ -68,3 +66,23 @@ Clicks on the final match as per the HTML source code and ignores the next.
 
 12. In your WebDriver script, If you happen to click on a link that launches a separate window, which of the below statements will help you to work with window of your choice before locating elements within it?
 	driver.getwindowhandles(windowname)
+
+13. Using the given HTML source code, identify all the correct xpath expressions to identify the Radiobutton named 'Business'.
+
+```html
+<form id="fromRegisterPopUP"" name="fromRegisterPopUP"">
+    <div style="text-align:left;">
+    <div style="margin-top:10px;">
+        <label style="float:left;">
+        <div class="register_row">
+            <input class="post_ad_field_r" type="radio" value="Individual"/>
+            <input class="post_ad_field_r" type="radio" checked="checked" value="Business"/>
+```
+
+//form/div[2]/div/input[2]
+
+//form[@id='fromRegisterPopUP']
+
+//form[@value="Business"]
+
+//*[@id='fromRegisterPopUP']/div[2]/div[1]/input[2]
