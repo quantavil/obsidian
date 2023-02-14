@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/Selenium MCQ.md",
+                "file": "Testing/Selenium Basic/Chs2.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Selenium MCQ.md",
+                "file": "Testing/Selenium Basic/Chs2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +146,7 @@
   "active": "66b057b129442f2c",
   "lastOpenFiles": [
     "Testing/Selenium Basic/CheatSheet.md",
+    "Testing/Selenium MCQ.md",
     "Testing/Selenium Basic/Assertion.md",
     "Testing/Selenium Advanced/TestNG.md",
     "Testing/Testing Basics And Test Management.md",
@@ -153,7 +154,6 @@
     "Testing/Developing Persistent Tier Using Java Hibernate and Maven/Untitled.md",
     "Testing/Agile Methodology/Untitled 1.md",
     "Testing/Agile Methodology/Introduction to Agile.md",
-    "Testing/Agile Methodology/Untitled.md",
-    "Testing/Untitled.md"
+    "Testing/Agile Methodology/Untitled.md"
   ]
 }
