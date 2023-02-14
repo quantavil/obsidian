@@ -85,11 +85,4 @@ set<String>
 1, 5, 2, 3, 4
 
 2. In an agile project, what would you call a chart that contains the progress of stories done over time and is used to track the project progress?
-
-Burn-up Chart
-
-Burn-down chart
-
-Burn-progress chart
-
-Burn-stories chart
+	*Burn-up Chart*
