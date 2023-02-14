@@ -2,7 +2,7 @@
 @AfterTest
 
 2. Rina used findElements method to identify the elements,what type of the exception will be thrown when the element is not found ?
-	NoSuchElementException
+	*NoSuchElementException*
 
 3. What is the difference between 'close' and 'quit' methods in WebDriver?
 
@@ -17,7 +17,7 @@
 
 
 5. Which of the below operator is used to allocate memory to array variable in Java?
-	new
+	*new*
 
 6. Where will you use setup() and teardown() methods and make it run once for all the tests in the class?
 
@@ -28,3 +28,6 @@ Use @BeforeTest annotation before all tests and @AfterTest after all tests.
 Use @BeforeClass annotation before all tests and @AfterClass after all tests.
 
 None of the above
+
+7. Which of the following is **NOT** a valid exception that you would come across in Selenium WebDriver?
+	*StaleElementReferenceException*
