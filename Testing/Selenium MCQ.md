@@ -30,8 +30,7 @@ Use @BeforeClass annotation before all tests and @AfterClass after all tests.
 None of the above
 
 7. Which of the following is **NOT** a valid exception that you would come across in Selenium WebDriver?
-	NoSuchElementFoundException
-
+	*NoSuchElementFoundException*
 
 
 8. If in the WebDriver code, you set the implicit wait as 10sec. Then it will be set for:
@@ -46,21 +45,10 @@ Throughout all the test scripts in that test suite
 
 9. The ___ collection object is used to store unique values of strings in a variable
 
-
 ```html
 set<String>
 ```
 
-
-10. When there are 2 identical  link objects on the webpage, which one of them is clicked and returned when link-text or partial text is used to locate them?
-
-Neither of them. Selenium will throw an error as two similar objects are there.
-
-Clicks on the first match as per the HTML source code and ignores the next.
-
-Clicks on both the matching links one after another, in the order they occur in the HTML source code.
-
-Clicks on the final match as per the HTML source code and ignores the next.
 
 11. Which of the following exceptions is not ideal to be handled(ignore) via FluentWait?
 	*TimeoutException*
@@ -69,25 +57,14 @@ Clicks on the final match as per the HTML source code and ignores the next.
 12. In your WebDriver script, If you happen to click on a link that launches a separate window, which of the below statements will help you to work with window of your choice before locating elements within it?
 	driver.getwindowhandles(windowname)
 
-13. Using the given HTML source code, identify all the correct xpath expressions to identify the Radiobutton named 'Business'.
-
-```html
-<form id="fromRegisterPopUP"" name="fromRegisterPopUP"">
-    <div style="text-align:left;">
-    <div style="margin-top:10px;">
-        <label style="float:left;">
-        <div class="register_row">
-            <input class="post_ad_field_r" type="radio" value="Individual"/>
-            <input class="post_ad_field_r" type="radio" checked="checked" value="Business"/>
-```
-
-//form/div[2]/div/input[2]
-
-//form[@id='fromRegisterPopUP']
-
-//form[@value="Business"]
-
-//*[@id='fromRegisterPopUP']/div[2]/div[1]/input[2]
 
 14. The ___ regular expression is used to match any single character except new line character?
 	*Dot (.)*
+15. Which of the following is **NOT** a valid exception that you would come across in Selenium WebDriver?
+	*StaleElementReferenceException*
+
+16. When there are 2 identical  link objects on the webpage, which one of them is clicked and returned when link-text or partial text is used to locate them?
+	*Clicks on the first match as per the HTML source code and ignores the next.*
+
+17. Which statement is the correct way to maximize the browser in a WebDriver test script?
+	*driver.manage().window().maximize();*
