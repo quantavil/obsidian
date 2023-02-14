@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "15190edca26a1c8b",
+    "id": "69777ba4fde149c0",
     "type": "split",
     "children": [
       {
-        "id": "f0446961d2b0d701",
+        "id": "627da6e746e2f2e1",
         "type": "tabs",
         "children": [
           {
-            "id": "97d268910fd55804",
+            "id": "963f8353a28ff1ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Testing/Selenium Basic/CheatSheet.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d769609a76841d04",
+    "id": "d7d56b9dc595cbf5",
     "type": "split",
     "children": [
       {
-        "id": "f2f325acdf20a56e",
+        "id": "5e21eea10081e153",
         "type": "tabs",
         "children": [
           {
-            "id": "71797450e7203770",
+            "id": "ba8567b4ead4f7e7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,41 +39,48 @@
             }
           },
           {
-            "id": "7a0d0b1c24d0b4a4",
+            "id": "f5f0d4f0f12d3c67",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "anime",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "0f71870640de7b0d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 300
   },
   "right": {
-    "id": "bb12994458b6a9be",
+    "id": "be66e08100d00f30",
     "type": "split",
     "children": [
       {
-        "id": "37721faee2c052d1",
+        "id": "c4da1221d22fcc60",
         "type": "tabs",
         "children": [
           {
-            "id": "56b974171027f51c",
+            "id": "f367781f3f1bafee",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Selenium Basic/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,31 +92,36 @@
             }
           },
           {
-            "id": "0321b89bb441bbed",
+            "id": "a1b33937c51fe066",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           },
           {
-            "id": "c4c3e737d44c8b25",
+            "id": "c0c0f94cf7eb6010",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           },
           {
-            "id": "0ccc99db29e7a9b8",
+            "id": "a35db99279da0252",
             "type": "leaf",
             "state": {
-              "type": "Saved Queries View",
+              "type": "outline",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -125,22 +133,11 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "71797450e7203770",
-  "lastOpenFiles": [
-    "Testing/Selenium Basic/Assertion.md",
-    "Testing/Selenium Advanced/TestNG.md",
-    "Testing/Testing Basics And Test Management.md",
-    "Testing/Introduction to BDD using Cucumber/1 - Introduction.md",
-    "Testing/Developing Persistent Tier Using Java Hibernate and Maven/Untitled.md",
-    "Testing/Agile Methodology/Untitled 1.md",
-    "Testing/Agile Methodology/Introduction to Agile.md",
-    "Testing/Agile Methodology/Untitled.md",
-    "Testing/Untitled.md",
-    "Testing/pom.md"
-  ]
+  "active": "963f8353a28ff1ca",
+  "lastOpenFiles": []
 }
