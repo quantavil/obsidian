@@ -5,15 +5,10 @@
 	*NoSuchElementException*
 
 3. What is the difference between 'close' and 'quit' methods in WebDriver?
-
-'Close' method clears the browser memory while the 'quit' method closes the browser window.
-
-'Close' method closes the browser but the 'quit' method additionally removes the connection to the server.
-
-'Close' method closes the main browser window but the 'quit' method closes all the browser windows including popups.
+	*'Close' method closes the main browser window but the 'quit' method closes all the browser windows including popups.*
 
 4. Which of the following selenium component enables simultaneous running of tests in multiple browsers and environments?
-	GRID
+	*GRID*
 
 
 5. Which of the below operator is used to allocate memory to array variable in Java?
@@ -35,13 +30,8 @@ None of the above
 
 8. If in the WebDriver code, you set the implicit wait as 10sec. Then it will be set for:
 
-For all the objects in the test script
+	*For the life of the WebDriver object instance*
 
-For the life of the WebDriver object instance
-
-Only the current class
-
-Throughout all the test scripts in that test suite
 
 9. The ___ collection object is used to store unique values of strings in a variable
 
@@ -55,7 +45,7 @@ set<String>
 
 
 12. In your WebDriver script, If you happen to click on a link that launches a separate window, which of the below statements will help you to work with window of your choice before locating elements within it?
-	driver.getwindowhandles(windowname)
+	*driver.getwindowhandles(windowname)*
 
 
 14. The ___ regular expression is used to match any single character except new line character?
@@ -68,3 +58,6 @@ set<String>
 
 17. Which statement is the correct way to maximize the browser in a WebDriver test script?
 	*driver.manage().window().maximize();*
+
+18. Which type of 'Wait' is active as long as the WebDriver object is active?
+	*Implicit wait*
