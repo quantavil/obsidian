@@ -14,16 +14,6 @@
 5. Which of the below operator is used to allocate memory to array variable in Java?
 	*new*
 
-6. Where will you use setup() and teardown() methods and make it run once for all the tests in the class?
-
-Use @Before annotation before all tests and @After after all tests.
-
-Use @BeforeTest annotation before all tests and @AfterTest after all tests.
-
-Use @BeforeClass annotation before all tests and @AfterClass after all tests.
-
-None of the above
-
 7. Which of the following is **NOT** a valid exception that you would come across in Selenium WebDriver?
 	*NoSuchElementFoundException*
 
@@ -61,4 +51,15 @@ set<String>
 
 18. Which type of 'Wait' is active as long as the WebDriver object is active?
 	*Implicit wait*
+
+19. In an application, suppose you have the dynamically generated Identifier for an element. The next time when page is loaded and you are performing click operation on that element, what will happen?
+	*The click operation will fail with an “element not found” error*
+20. Which of the following is **NOT** a valid WebElement method to select an option from drop-down list?
+	*SelectByID*
+
+21. Where will you use setup() and teardown() methods and make it run once for all the tests in the class?
+	*Use @BeforeClass annotation before all tests and @AfterClass after all tests.*
+
+22. Which method should you use when you want to verify whether a certain check box is selected in Web driver Selenium?
+	*isSelected()*
 
