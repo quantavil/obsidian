@@ -30,7 +30,9 @@ Use @BeforeClass annotation before all tests and @AfterClass after all tests.
 None of the above
 
 7. Which of the following is **NOT** a valid exception that you would come across in Selenium WebDriver?
-	*StaleElementReferenceException*
+	NoSuchElementFoundException
+
+
 
 8. If in the WebDriver code, you set the implicit wait as 10sec. Then it will be set for:
 
@@ -86,3 +88,6 @@ Clicks on the final match as per the HTML source code and ignores the next.
 //form[@value="Business"]
 
 //*[@id='fromRegisterPopUP']/div[2]/div[1]/input[2]
+
+14. The ___ regular expression is used to match any single character except new line character?
+	*Dot (.)*
