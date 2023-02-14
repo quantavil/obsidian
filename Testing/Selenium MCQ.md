@@ -63,3 +63,6 @@ set<String>
 22. Which method should you use when you want to verify whether a certain check box is selected in Web driver Selenium?
 	*isSelected()*
 
+23. Which of the following WebDriver commands will you use to check the presence of a web element?
+	*verifyElementPresent*
+
