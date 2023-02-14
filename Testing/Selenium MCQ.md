@@ -1,5 +1,5 @@
 1. Which of the below annotations will be run once after all methods in the class?
-@AfterTest
+	*@AfterClass*
 
 2. Rina used findElements method to identify the elements,what type of the exception will be thrown when the element is not found ?
 	*NoSuchElementException*
@@ -61,3 +61,4 @@ set<String>
 
 18. Which type of 'Wait' is active as long as the WebDriver object is active?
 	*Implicit wait*
+
