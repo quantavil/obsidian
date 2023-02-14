@@ -13,9 +13,18 @@
 'Close' method closes the main browser window but the 'quit' method closes all the browser windows including popups.
 
 4. Which of the following selenium component enables simultaneous running of tests in multiple browsers and environments?
+	GRID
 
-GRID
 
-RC
+5. Which of the below operator is used to allocate memory to array variable in Java?
+	new
 
-WebDriver
+6. Where will you use setup() and teardown() methods and make it run once for all the tests in the class?
+
+Use @Before annotation before all tests and @After after all tests.
+
+Use @BeforeTest annotation before all tests and @AfterTest after all tests.
+
+Use @BeforeClass annotation before all tests and @AfterClass after all tests.
+
+None of the above
