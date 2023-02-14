@@ -10,7 +10,6 @@
 4. Which of the following selenium component enables simultaneous running of tests in multiple browsers and environments?
 	*GRID*
 
-
 5. Which of the below operator is used to allocate memory to array variable in Java?
 	*new*
 
@@ -32,7 +31,6 @@ set<String>
 
 11. Which of the following exceptions is not ideal to be handled(ignore) via FluentWait?
 	*TimeoutException*
-
 
 12. In your WebDriver script, If you happen to click on a link that launches a separate window, which of the below statements will help you to work with window of your choice before locating elements within it?
 	*driver.switchTo().window(windowname)*
@@ -66,3 +64,32 @@ set<String>
 23. Which of the following WebDriver commands will you use to check the presence of a web element?
 	*verifyElementPresent*
 
+
+---
+
+1. Arrange the following scrum events as per the chronological sequence (first to last) in which they are conducted.
+
+  
+1. Sprint plan  
+2. Daily scrum meeting  
+3. Sprint review meeting   
+4. Sprint retrospective   
+5. Sprint
+
+1, 3, 2, 4, 5
+
+1, 5, 2, 4, 3
+
+1, 2, 5, 4, 3
+
+1, 5, 2, 3, 4
+
+2. In an agile project, what would you call a chart that contains the progress of stories done over time and is used to track the project progress?
+
+Burn-up Chart
+
+Burn-down chart
+
+Burn-progress chart
+
+Burn-stories chart
