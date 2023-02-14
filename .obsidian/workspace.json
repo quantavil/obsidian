@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Testing/Selenium Basic/CheatSheet.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -130,7 +130,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "71797450e7203770",
+  "active": "97d268910fd55804",
   "lastOpenFiles": [
     "Testing/Selenium Basic/Assertion.md",
     "Testing/Selenium Advanced/TestNG.md",
