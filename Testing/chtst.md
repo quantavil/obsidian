@@ -409,6 +409,70 @@ public class Test1 {
 }
 ```
 
+
+```java
+package Plasma;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.List;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Prob1 {
+
+    WebDriver driver;
+
+    @Before
+    public void before() throws Exception {
+        System.setProperty("webdriver.chrome.driver",
+                "C:\\Users\\karan.rawat01\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.get("https://kworb.net/spotify/artists.html");
+        driver.manage().window().maximize();
+    }
+
+    @Test
+    public void test() throws Exception {
+
+        FileInputStream fis = new FileInputStream("C:\\Users\\karan.rawat01\\Documents\\Java\\Plasma\\music.xlsx");
+
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        XSSFSheet sheet = workbook.getSheet("Sheet1");
+
+        WebElement table = driver.findElement(By.id("spotifyartistindex"));
+        List<WebElement> rows = table.findElements(By.tagName("tr"));
+
+        for (int i = 1; i < 2001; i++) {
+            List<WebElement> cols = rows.get(i).findElements(By.tagName("td"));
+            // for (int j = 0; j < cols.size(); j++) {
+            //     System.out.print(cols.get(j).getText() + " , ");
+            // }
+            List<WebElement> cell = cols.get(1).findElements(By.tagName("a"));
+            System.out.print(cols.get(1).getText());
+            // System.out.println(cell.get(0).getAttribute("href"));
+            
+            sheet.createRow(i).createCell(0).setCellValue(cols.get(1).getText());
+            sheet.getRow(i).createCell(1).setCellValue(cell.get(0).getAttribute("href"));
+
+        }
+
+        
+        FileOutputStream fos = new FileOutputStream("C:\\Users\\karan.rawat01\\Documents\\Java\\Plasma\\music.xlsx");
+        workbook.write(fos);
+        workbook.close();
+        fos.close();
+    }
+}
+
+```
 ---
 ---
 
@@ -685,3 +749,119 @@ public class Demo3 {
 
 ## Cucumber
 
+```Gherkin
+Feature: Test the background feature in AUT
+  
+ Background: 
+  Given User is on EDU Teller Login Page 
+  Scenario: 
+    When User checks for Add Money
+    Then Enter Account number details and Search
+    And Closes 
+  Scenario: User checks for My Customers
+    When The user checks for My Customers link 
+    Then All Customer details displayed
+    And Closes The Browser
+```
+
+```Gherkin
+Feature: INEssence Bank Test
+
+  Background: To Test the SignUp/Forgot password Functionality
+    Given Open In Essence Bank Site
+
+  Scenario: To check signup functionality in IEB application
+    When click on signup in IEB application
+    Then Inspect the signup page of IEB application
+    And close the browser
+
+  Scenario: To check forgot password IEB application
+    When click on forgot password in IEB application
+    Then Inspect the forgot password page of IEB application
+    And close the browser
+
+```
+
+```Gherkin
+# 1. Parameterization using simple data values
+# In this technique, you type the data value directly in the scenario. 
+# In the below test case, 'ABCD' is considered as a direct data value.
+Feature: Testing simple parameterization
+Scenario: Login functionality
+Given open the browser and url for parameterization
+When enter username "donhere" and password "don@123"
+Then click on login
+```
+
+```Gherkin
+Feature: Login Action
+
+  Scenario: Successful Login with valid credentials
+    Given user is on homepage
+    When user navigate to login page Enter
+    And user enter the login credentials
+      | Username  | Password  |
+      | pgAlmacho | freezeray |
+      | pgGru     | freezeray |
+    Then Message displayed DASHBOARD
+
+```
+
+```java
+
+	@When("^user enter the login credentials$")
+	public void user_enter_the_login_credentials(DataTable arg1) throws Throwable {
+		for (Map<String, String> data : arg1.asMaps(String.class, String.class)) {
+
+}
+
+```
+
+```Gherkin
+Feature: Testing Scenario Outline
+
+  Scenario Outline: Testing login behaviour
+    Given open the browser enter the url so
+    When enter user "<username>" and pass "<password>"
+    Then click on login in
+  
+    Examples: 
+      | username | password |
+      | donhere  | don@123  |
+      | user1    | pass1    |
+      | user2    | pass2    |
+
+```
+
+```Gherkin
+
+Feature: Tags in Feature FIle
+  @EDUBankCustomer
+  Scenario: Open AUT and Print Title
+    Given The Customer is on Edu login Page
+    When Inspect web page
+    Then quit browser
+    
+  @EDUBankTeller
+  Scenario: Open AUT and Print Title
+    Given EDU Bank Teller Home Page
+    When Inspect web page
+    Then quit browser
+   
+
+```
+
+```Gherkin
+Feature: Login Action, Search for buses
+	@sanity
+	Scenario: Successful Login with Valid Credentials
+		Given User is on Travel Home Page
+
+	@regression
+	Scenario: Search for the buses
+		When user selects the from and to City
+
+	@sanity @regression
+	Scenario: Successful LogOut
+		Then user click on logout
+```
