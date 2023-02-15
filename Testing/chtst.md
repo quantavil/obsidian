@@ -542,6 +542,39 @@ public class Demo2 {
 ```
 
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+		<groups>
+			<run>
+				<include name="sanity" />
+				<exclude name="regression" />
+
+			</run>
+		</groups>
+		<classes>
+			<class name="ab_testng.Demo1">
+				<methods>
+					<include name="beforeSuite" />
+				</methods>
+			</class>
+
+			<class name="ab_testng.Demo2">
+				<methods>
+					<exclude name="test2" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+```
+
+---
+
 ```java
 
 package ab_testng;
