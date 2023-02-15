@@ -263,6 +263,10 @@ wait.until(x -> {
 
 ```
 
+---
+---
+
+
 ```java
 
 // Selenium
@@ -405,6 +409,8 @@ public class Test1 {
 }
 ```
 
+---
+---
 
 ## TestNG
 ```java
@@ -646,3 +652,36 @@ public class Demo3 {
 }
 
 ```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" 
+		value="http://10.82.180.36/Common/Login.aspx" />
+	<test name="Test1">
+		<classes>
+			<class name="ab_testng.Demo3" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<parameter name="browser" value="firefox" />
+	<parameter name="url"
+		value="http://10.82.180.36/Common/Login.aspx" />
+	<test name="Test2">
+		<classes>
+			<class name="ab_testng.Demo3" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+```
+
+
+---
+---
+
+## Cucumber
+
