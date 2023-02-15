@@ -265,7 +265,7 @@ wait.until(x -> {
 
 ```java
 
-// 
+// Selenium
 package Plasma;
 
 import static org.junit.Assert.assertEquals;
@@ -403,4 +403,213 @@ public class Test1 {
     }
 
 }
+```
+
+
+## TestNG
+```java
+
+// testng
+package ab_testng;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class Demo1 {
+	@BeforeMethod
+	public void beforeMethod() {
+		System.out.println("Demo1-BeforeMethod");
+	}
+
+	@Test (groups = {"sanity", "regression"})
+	public void test1() {
+		System.out.println("Demo1-Test case 1");
+	}
+
+	@BeforeTest
+	public void beforeTest() { // run before any test method - xml<test> before
+		System.out.println("Demo1-Before Test");
+	}
+
+	@AfterTest
+	public void afterTest() { // run after any test method - xml<test> after
+		System.out.println("Demo1-After Test");
+	}
+
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("Demo1 - Before Class");
+	}
+
+	@AfterClass
+	public void afterClass() {
+		System.out.println("Demo 1 - After Class");
+	}
+
+	@Test(priority = 1, groups = {"sanity"})
+	public void test2() {
+		System.out.println("Demo 1 ##- Test Case 2");
+	}
+	@Test(priority = 3, dependsOnMethods = {"test4","test1"},alwaysRun = true)
+	public void test3() {
+		System.out.println("Demo 1 ###- Test Case 3");
+	}
+	@Test(priority = 2, enabled = true, groups = {"regression"})
+	public void test4() {
+		System.out.println("Demo 1 ####- Test Case 4");
+	}
+
+	@BeforeSuite // method run before all tests in this suite
+	public void beforeSuite() {
+		System.out.println("Demo1- Before Suite");
+	}
+
+	@AfterSuite // method run after all tests in this suite
+	public void afterSuite() {
+		System.out.println("Demo1 - After Suite");
+	}
+
+	@AfterMethod
+	public void afterMethod() {
+		System.out.println("Demo1 - After Method");
+	}
+}
+
+```
+
+```java
+// testng
+package ab_testng;
+
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class Demo2 {
+	WebDriver driver;
+	String expected = "http://10.82.180.36/Accounts/Customer/CustomerAccountHome.aspx";
+
+	@BeforeClass
+	public void beforeClass() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\karan.rawat01\\Documents\\chromedriver110\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.get("http://10.82.180.36/Common/Login.aspx");
+	}
+
+	@Test
+	public void test1() throws Exception {
+		driver.findElement(By.id("body_txtUserID")).sendKeys("donhere");
+		driver.findElement(By.id("body_txtPassword")).sendKeys("don@123");
+		driver.findElement(By.id("body_btnLogin")).click();
+		
+		String actual = driver.getCurrentUrl();
+		
+		Assert.assertEquals(expected, actual );
+		Assert.assertTrue(driver.findElement(By.id("body_cph_MyAccount_header_divHeader")).isDisplayed());
+		driver.findElement(By.linkText("Add Payee")).click();
+		Thread.sleep(4000);
+	}
+	
+	@Test
+	public void test2() throws Exception {
+		System.out.println("out2");
+	}
+	
+	@AfterClass
+	public void afterClass() {
+//		driver.quit();
+	}
+
+}
+
+```
+
+
+```java
+
+package ab_testng;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Demo3 {
+	WebDriver driver;
+	String expected = "http://10.82.180.36/Accounts/Customer/CustomerAccountHome.aspx";
+
+	@BeforeMethod
+	@Parameters({ "browser", "url" })
+	public void beforeMethod(@Optional("chrome") String browser, String url) {
+		if (browser.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver",
+					"C:\\Users\\karan.rawat01\\Documents\\chromedriver110\\chromedriver.exe");
+			driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			driver.get(url);
+
+		} else {
+
+			System.setProperty("webdriver.gecko.driver",
+					"C:\\Users\\karan.rawat01\\Documents\\geckodriver32\\geckodriver.exe");
+			driver = new FirefoxDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			driver.get(url);
+
+		}
+	}
+
+	@Test(dataProvider = "login_cred")
+	public void test(String arg1 , String arg2) {
+		driver.findElement(By.id("body_txtUserID")).sendKeys(arg1);
+		driver.findElement(By.id("body_txtPassword")).sendKeys(arg2);
+		driver.findElement(By.id("body_btnLogin")).click();
+		String actual = driver.getCurrentUrl();
+		Assert.assertEquals(expected, actual);
+	}
+	
+    @DataProvider(name = "login_cred")
+    public static Object[][] getData() {
+//    	Object[][] data = {{"donhere","don123"},{"donhere","don@123"}};
+        Object[][] data = new Object[1][2];
+        data[0][0] = "donhere";
+        data[0][1] = "don@123";
+        return data;
+    }
+
+	@AfterMethod
+	public void afterMethod() {
+		driver.quit();
+	}
+
+}
+
 ```
