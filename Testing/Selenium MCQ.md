@@ -103,4 +103,13 @@ Defects are fixed and working as expected
 2. In Test Planning and Design Phase, which technique is called as ' Branch Testing or Control Flow Testing '.
  
  *Decision Coverage*
- 
+
+3. Which of the following works as a single team structure in Agile?
+
+Development Team
+
+Testing Team
+
+Scrum
+
+None of the above
