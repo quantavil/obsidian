@@ -86,3 +86,21 @@ set<String>
 
 2. In an agile project, what would you call a chart that contains the progress of stories done over time and is used to track the project progress?
 	*Burn-up Chart*
+
+
+---
+
+1. When can a scrum team mark a project done?
+
+Development is done 
+
+Testing is done
+
+Defects are fixed and working as expected 
+
+*All the above*
+
+2. In Test Planning and Design Phase, which technique is called as ' Branch Testing or Control Flow Testing '.
+ 
+ *Decision Coverage*
+ 
