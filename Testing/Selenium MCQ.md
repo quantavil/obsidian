@@ -153,3 +153,5 @@ Defects are fixed and working as expected
 	*Poor resource planning and documentation
 	 Level  collaboration is difficult
 	Time-to-Market*
+
+13. 
