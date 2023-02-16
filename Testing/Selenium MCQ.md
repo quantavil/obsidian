@@ -148,9 +148,8 @@ Defects are fixed and working as expected
 11. Which notation describes the specific context/initial conditions of the acceptance test? '
 	*Given* 
 
-12. Which of the following is/are the disadvantages of Agile methodolgy?
-
- Trai'isperancy between the team members
-Poor resource planning and documentation
-Q Level 01 collaboration is difficult
-©Time-to—Mai'ket '
+12. Which of the following is/are the disadvantages of Agile methodology?
+	
+	*Poor resource planning and documentation
+	 Level  collaboration is difficult
+	Time-to-Market*
