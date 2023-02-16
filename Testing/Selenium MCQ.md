@@ -122,4 +122,9 @@ Defects are fixed and working as expected
 	4. close() closes only the currently active browser window while quit() closes all browser Windows
 	*2 abd 3*
 
-7. 
+7. In a web application if any element is without class, name, or id attributm, then how i ould it be located?
+
+0 By Tag
+© By Xi'ath
+0 By css Selector
+Q By DOM locators
