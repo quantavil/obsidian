@@ -106,10 +106,5 @@ Defects are fixed and working as expected
 
 3. Which of the following works as a single team structure in Agile?
 
-Development Team
+*Scrum*
 
-Testing Team
-
-Scrum
-
-None of the above
