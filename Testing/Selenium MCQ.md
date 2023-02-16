@@ -108,3 +108,10 @@ Defects are fixed and working as expected
 
 *Scrum*
 
+4. *Sanity testing* is a kind of Software Testing performed after receiving a software build, with minor changes in code, or functionality, to ascertain that the bugs have been fixed and no further issues are introduced due to these changes
+
+5. At a UI review meeting of PetFit - The Pet Lovers App! — the SRS document was required to add the following comment on Typography; these elements need to be defined in one central place and then used across the system you're designing." Which of the following the above comment satisfy?
+
+ *Unambiguity*
+
+6. 
