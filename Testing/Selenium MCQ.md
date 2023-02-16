@@ -133,12 +133,24 @@ Defects are fixed and working as expected
 	*1,3,4*
 
 9. In Jenkins terminology, which of the following combination gives an accurate information.
-A. Master
+	A. Master
+	B. Slave ;
 
-B. Slave ;
+	i. System in which testing tools are available and no Jenkins instance is running
+	ii. System in which no Jenkins instance is running and no testing tool is installed
+	iii. System in which Jenkins instance is installed
 
-i. System in which testing tools are available and noJenkins instance is running
+	*A->iii , B->ii*
 
-ii. System in which noJenkins instance is running and no testing tool is installed
+10. Whenever any step is required to perform in each scenario then those steps needs to be placed in
+	*Background*
 
-iii. System in whichJenkins instance is installed
+11. Which notation describes the specific context/initial conditions of the acceptance test? '
+	*Given* 
+
+12. Which of the following is/are the disadvantages of Agile methodolgy?
+
+ Trai'isperancy between the team members
+Poor resource planning and documentation
+Q Level 01 collaboration is difficult
+©Time-to—Mai'ket '
