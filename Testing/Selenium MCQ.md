@@ -114,4 +114,10 @@ Defects are fixed and working as expected
 
  *Unambiguity*
 
-6. 
+6. Which of the lollowrng statements are false?
+
+	1. Selenium WebDriver supports browser compatibility testing
+	2. getPageSourcet()) method of org.openqa.selenium.WebDriver returns a list of strings `(List<String>)`
+	3. quit() closes only the currently active browser window while close() closes all browser Windows
+	4. close() closes only the currently active browser window while quit() closes all browser Windows
+	*2 abd 3*
