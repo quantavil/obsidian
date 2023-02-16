@@ -122,9 +122,23 @@ Defects are fixed and working as expected
 	4. close() closes only the currently active browser window while quit() closes all browser Windows
 	*2 abd 3*
 
-7. In a web application if any element is without class, name, or id attributm, then how i ould it be located?
+7. In a web application if any element is without class, name, or id attribute, then how could it be located?
+	*By Xpath*
 
-0 By Tag
-© By Xi'ath
-0 By css Selector
-Q By DOM locators
+8. Which of the following activities are a part of the Test Execution and Implementation?
+	1.Creating test suits from the test cases
+	2.Writing a test summary report
+	3.Designing the tests 
+	4.Executing test cases either manually or by using test execution tools
+	*1,3,4*
+
+9. In Jenkins terminology, which of the following combination gives an accurate information.
+A. Master
+
+B. Slave ;
+
+i. System in which testing tools are available and noJenkins instance is running
+
+ii. System in which noJenkins instance is running and no testing tool is installed
+
+iii. System in whichJenkins instance is installed
