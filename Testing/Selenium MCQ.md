@@ -121,3 +121,5 @@ Defects are fixed and working as expected
 	3. quit() closes only the currently active browser window while close() closes all browser Windows
 	4. close() closes only the currently active browser window while quit() closes all browser Windows
 	*2 abd 3*
+
+7. 
