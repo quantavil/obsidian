@@ -154,7 +154,12 @@ Defects are fixed and working as expected
 	 Level  collaboration is difficult
 	Time-to-Market*
 
+13. Choose the challenges of the Selenium
 
+ Selenium supports only web based applications and mobile applications
+ Cross browser testing Is not possible in Selenium
+ Customisation of results is not possible
+ Selenium supports only windows based applications .
 
 
 ---
