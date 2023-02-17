@@ -334,4 +334,30 @@ Consider the following testng.xml.
 
 What will be the output getting displayed in the console ?
 
-f
+*f*
+
+9. Identify the number of files, which would be created, and the maximum size of files , if the below mentioned tags are written in **Log4j.xml** file.
+
+```
+
+<appender name="file" class="org.apache.log4j.RollingFileAppender">
+	    <param name="append" value="false" />
+	    <param name="maxFileSize" value="1KB" />
+	    <param name="maxBackupIndex" value="2" />
+	    <param name="file" value=".\\Logs\\AppLogs.log" />
+	    <layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value%d{ISO8601} %5p %F [%t] %c{1}:%L - %m%n />
+	    </layout>
+	</appender>
+```
+
+
+no of files: 3, maximum File size: 1 KB
+
+10. Which of the following statements are true about  log4j.properties file?
+
+*The log4j.properties file is a log4j configuration file which keeps properties in key-value pairs.*
+
+*By default, the LogManager looks for a file named log4j.properties in the CLASSPATH.*
+
+11. 
