@@ -592,4 +592,38 @@ Then message displayed as login successfully.
 
 *This will indicate, which selenium jar files are to be downloaded from the central repository to local repository.*
 
-5. 
+5. In a feature file, there are three scenarios defined. Then two hooks are added @Before and @After. How many times the hooks will get executed if you run the feature file?
+
+*Both for three times*
+
+6. John has created a feature file for an application, registration page. How he should run the feature file to generate the snippet?
+
+*Run as- Cucumber feature*
+
+7. If you have not mentioned below line in the runner class, what will happened at the time of execution?
+
+@RunWith(Cucumber.**class**)
+
+*You will not able to run since there is no option available to run as “Junit test”*
+
+8. If there is any compilations errors in feature file or step definition file, you will see which option?
+
+*Cucumber features –dry-run*
+
+9. Which of the below will generate a HTML report at the location mentioned in the formatter itself?
+
+*format = {“html:Folder_Name”}*
+
+10. When will the below hook run?
+
+@Before(“@Smoke”)
+
+Public void beforetest(){
+
+System.out.prinyln(“This is before loop.”);
+
+}
+
+*This will run only before the Smoke scenario in feature file*
+
+11. 
