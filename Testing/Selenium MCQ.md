@@ -530,10 +530,26 @@ Due to Invalid credentials, **login** @Test method fails.
 
 Assuming that the login method has **priority** "**1**" assigned to it, how can you skip the execution of **buyProducts** method when **login** fails (Since **buyProducts** can only be executed after **Login**)?
 
-@Test(priority=1,enabled=false) public void buyProduct(){ //code to buyProduct }
+*@Test((priority=2,dependsOnMethods={"Login"})) public void buyProduct(){ //code to buyProduct }*
 
-@Test(priority=2,enabled=false) public void buyProduct(){ //code to buyProduct }
+20. Set the correct hierarchy of log levels order in Log4JLogging 
 
-@Test((priority=1,dependsOnMethods={"Login"})) public void buyProduct(){ //code to buyProduct }
+*TRACE < DEBUG < INFO < WARN < ERROR < FATAL*
 
-@Test((priority=2,dependsOnMethods={"Login"})) public void buyProduct(){ //code to buyProduct }
+21. You are working with JDBC drivers to fetch results from a My SQL database. You have the following code which is throwing a compilation error. Identify the error in the code . (Assume that connection is successfully established with the database)
+
+```
+
+ResultSet resset=stmt.executeQuery("select * from Test");
+while(resset.previous())
+{
+	System.out.println("Username: "+resset.getString(1));
+	System.out.println("password : "+resset.getString(2));
+}
+```
+
+*next() method should be used instead of previous()*
+
+---
+---
+
