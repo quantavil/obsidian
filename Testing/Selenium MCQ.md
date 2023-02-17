@@ -740,3 +740,29 @@ endif
 
 *SOAP Ui*
 
+3. What kind of a tool is Jenkins?
+
+*Continuous Deployment tool*
+
+4. In Jenkins, manual gating criteria is set for which type of testing?
+
+*SOA testing*
+
+5. In an agile project, who is responsible for:
+
+-   Managing the sprint
+    
+-   Removing any impediments
+    
+-   Keeping track of the project progress
+    
+
+Project manager
+
+Team lead
+
+Scrum master
+
+Product owner
+
+
