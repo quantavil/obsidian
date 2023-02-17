@@ -159,9 +159,18 @@ Defects are fixed and working as expected
 14. Which one of the following cannot be used as an element Iocator in Selenium Web Driver?
 	*Style*
 
-15. Mary wants to locate a checkbox "Emailupdates" from a certain website. She wants to verify wheather the checkbox is visible 
+15. Mary wants to locate a checkbox "Emailupdates" from a certain website. She wants to verify whether the checkbox is visible or not 
 	*if (emailUpdates.isEnabled() && emaiIUpdates.isDisp|ayed())*
-	
+
+16. 
+*Chrome: webdriver.chrome.driver
+Internet explorer: webdriver.ie.driver
+Firefox: webdriver.gecko.driver*
+
+17. In Test Planning and Design Phase, which technique is called as ' Branch Testing or Control Flow Testing '.
+	*Decision Coverage*
+
+
 ---
 
 ## Selenium Advanced
