@@ -238,7 +238,100 @@ count(following::*)
 
 	*7*
 
-4. 
+4. The following code has been written to handle expired SSL certificates in firefox. The Firefox profile created for this is " Selenium" . The code is not able to handle the expired SSL certificate. Identify the error in the code. 
 
+```
 
+ProfilesIni prof = new ProfilesIni();
+FirefoxProfile ffProfile = prof.getProfile("Selenium");
 
+ffProfile.setAcceptUntrustedCertificates(false);
+ffProfile.setAssumeUntrustedCertificateIssuer(true);
+driver = new FirefoxDriver();
+driver.manage().window().maximize();
+		
+```
+
+*setAssumeUntrustedCertificateIssuer should be set as False*
+*setAcceptUntrustedCertificates needs to be set as True*
+
+5. Select the correct sequence in which maven searches for the dependency specified in pom.xml.
+
+a) search in http://repo1.maven.org/maven2/  
+b) search in remote repository   
+c) search in ~/m2./repository  
+d) throws error unable to find dependency 
+
+*c-a-b-d*
+
+6. Which axis method selects all the parent, grandparent till the root node of an element?
+
+*Ancestor*
+
+7. The following code is written in the **BasePage** class of a test following POM design pattern, to invoke internet explorer in the node machine.
+
+```
+
+DesiredCapabilities cap = DesiredCapabilities.internetExplorer();
+cap.setBrowserName("ie");
+String Node ="http://<<ip of node>>:<<port no>>/wd/hub";
+driver = new RemoteWebDriver(new URL(Node), cap);
+```
+
+While executing the code in the node, the following error is popping up: 
+
+```
+
+Caused by: org.openqa.selenium.WebDriverException: The best matching driver provider org.openqa.selenium.edge.EdgeDriver can't create a new driver instance for Capabilities
+```
+
+Choose the change to be made in the code snippet above.
+
+*cap.setBrowserName("internet explorer");*
+
+8. Consider the following class:
+
+```
+
+public class NewTest 
+{
+  @Test(groups={"action1"})
+  public void f()
+  {System.out.println("f");
+  }
+  @Test(groups={"action2"})
+  public void f1()
+  {System.out.println("f1");
+  }
+  @BeforeSuite
+  public void beforeSuite()
+  {System.out.println("b4 suite");
+  }
+  @AfterSuite
+  public void afterSuite() {
+System.out.println("after suite");
+  }
+}
+```
+
+Consider the following testng.xml.
+
+```
+
+<suite name="Suite">
+  <test name="Test">
+   <groups>
+<run>
+ 	<include name="action1"/>
+</run>
+</groups> 
+<classes>
+   <class name="test.NewTest" /> 
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+```
+
+What will be the output getting displayed in the console ?
+
+f
