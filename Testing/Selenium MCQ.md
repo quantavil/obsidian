@@ -1,7 +1,7 @@
 
 - [[#Selenium Basic|Selenium Basic]]
 - [[#Selenium Advanced|Selenium Advanced]]
-- [[#Java|Java]]
+
 
 ## Selenium Basic
 
