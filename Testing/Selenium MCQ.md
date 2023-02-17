@@ -757,12 +757,9 @@ endif
 -   Keeping track of the project progress
     
 
-Project manager
+*Scrum master*
 
-Team lead
+6. 
 
-Scrum master
-
-Product owner
 
 
