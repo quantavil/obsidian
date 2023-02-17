@@ -649,4 +649,75 @@ Decision coverage
 
 *Equivalence partitioning*
 
-3. 
+3. A minimum of how many test cases are needed for the below program to ensure 100% statement coverage?
+
+```
+Read a,b
+
+if a>b
+
+print "welcome"
+
+endif
+
+if a=10
+
+print"bye"
+
+end if
+
+if b=6
+
+print "welcome"
+
+endif
+```
+
+*1*
+
+4. Which among the statements is true?
+
+Retest is done after regression test
+*Regression test is done after retest*
+Smoke test is done after retest
+
+5. Carol raised a defect which is currently checked by the developer.What will be the bug status?
+
+*Open*
+
+6. John raised a defect and the defect is currently being worked on by the developer. What will be the current status of the bug?
+
+*Open*
+
+7. A minimum of how many test cases are needed for the below program to ensure 100% branch/decision coverage?
+
+```
+Read a,b
+
+if a>b
+
+print "welcome"
+
+endif
+
+if a=10
+
+print"bye"
+
+end if
+
+if b=6
+
+print "welcome"
+
+endif
+```
+
+
+*2*
+
+8. 'Alpha Testing' is done on
+
+*Developers' environments*
+
+9. 
