@@ -580,3 +580,16 @@ Then message displayed as login successfully.
 
 `Examples: |username|password| |testuser1|test@123| |testuser2|test@345|`
 
+2. In an application there are two functionalities, “My Finance” and “My Dashboard”. There is common requirement of “Login” as a first action for both the functionalities. You have to generate the scenarios for both of these. What is the best option to use, which will reduce the code redundancy in this case?
+
+	*Cucumber hooks*
+
+3. Suppose, we need to make sure that the login functionality is working for all types of subscription holders. That requires execution of login multiple times. Which structure it is, from Gherkin language?
+
+*Scenario Outline*
+
+4. In a Maven test project if you are adding dependency for selenium, in ‘pom.xml’ file, what does it means?
+
+*This will indicate, which selenium jar files are to be downloaded from the central repository to local repository.*
+
+5. 
