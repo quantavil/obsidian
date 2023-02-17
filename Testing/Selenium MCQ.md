@@ -492,3 +492,48 @@ public void test2()
 
 *pass*
 
+16. Arrange the below testng.xml tags from parent to child?
+
+```
+ <test>  
+ <suite>  
+ <class>  
+ <methods>  
+ <classes>
+```
+
+
+`<suite> <test> <classes> <class> <methods>`
+
+17. The following code has been written to handle expired SSL certificates in InternetExplorer. The code is not able to handle the expired certificate.  Identify the error in the code.
+
+```
+
+DesiredCapabilities capabilities = new DesiredCapabilities();
+capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+System.setProperty("webdriver.ie.driver","IEDriverServer.exe");
+WebDriver driver = new InternetExplorerDriver();
+```
+
+*Desired capabilities object is not used while initializing webdriver instance.*
+
+18. In a maven project, you have to configure **log4j.properties** files in such a way that the logs get generated according to the specified pattern layout. Identify the set of tags you need to include in the **pom.xml** file. 
+
+`<resources> <resource> <directory>src/main/resources</directory> <includes> <include>log4j.properties</include> </includes> </resource> </resources>`
+
+
+19. Consider a scenario where you have two @Test methods in your class  
+a)**login**  
+b)**buyProducts**
+
+Due to Invalid credentials, **login** @Test method fails.
+
+Assuming that the login method has **priority** "**1**" assigned to it, how can you skip the execution of **buyProducts** method when **login** fails (Since **buyProducts** can only be executed after **Login**)?
+
+@Test(priority=1,enabled=false) public void buyProduct(){ //code to buyProduct }
+
+@Test(priority=2,enabled=false) public void buyProduct(){ //code to buyProduct }
+
+@Test((priority=1,dependsOnMethods={"Login"})) public void buyProduct(){ //code to buyProduct }
+
+@Test((priority=2,dependsOnMethods={"Login"})) public void buyProduct(){ //code to buyProduct }
