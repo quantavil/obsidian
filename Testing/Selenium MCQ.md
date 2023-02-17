@@ -720,4 +720,11 @@ endif
 
 *Developers' environments*
 
-9. 
+9. Rachel identified a bug and the management decide to fix the bug in the next version.What will be the bug status?
+
+*Deferred*
+
+10. John is testing an age field which accepts age from 20 to 30, both inclusive.Which among the options suits the best set of test cases using equivalence partitioning concept?
+
+*18,21,33*
+
