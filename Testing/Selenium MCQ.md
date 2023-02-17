@@ -360,4 +360,135 @@ no of files: 3, maximum File size: 1 KB
 
 *By default, the LogManager looks for a file named log4j.properties in the CLASSPATH.*
 
-11. 
+11. Which of the following log4j objects are responsible for publishing logging information to various preferred destinations?
+
+*appenders*
+
+12. Identify the console output after executing the below methods through the testng.xml file. 
+
+Consider the following  testmethods in the TestNG file: 
+
+```
+
+@Test(groups = {"Light"})
+public void color1 () {
+        System.out.println("white");
+}
+
+@Test(groups = {"Dark" })
+public void color2() {
+	System.out.println("Red");
+}
+
+@Test(groups = {"Medium"})
+public void color3() {
+	System.out.println("Orange");
+}
+```
+
+The TestNG Xml file is defined as below: 
+
+```
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+   <groups> 
+  <define name="Colours">
+  <include name="Light"/>
+  <include name="Dark"/>  
+   <include name="Medium"/>  
+  </define>  
+  <run>
+  <include name="Colours"/> 
+<exclude name="Medium"></exclude>
+  </run> 
+  </groups>
+    <classes>
+      <class name="Demo.Demo06_TestNG_Grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+```
+
+
+*white,Red*
+
+13. Choose the correct xpath expressions to identify the Radiobutton named "Business".(Choose two)
+
+```
+
+<form id="fromRegisterPopUP"" name="fromRegisterPopUP"">
+    <div style="text-align:left;">
+    <div style="margin-top:10px;">
+        <label style="float:left;">
+        <div class="register_row">
+            <input class="post_ad_field_r" type="radio" value="Individual"/>
+            <input class="post_ad_field_r" type="radio" checked="checked" value="Business"/>
+```
+
+`//form/div[2]/div/input[2]`
+
+`//*[@id='fromRegisterPopUP']/div[2]/div[1]/input[2]`
+
+14. Consider the XML file given below.
+
+```
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Transportation>
+	<Water>
+		<Inland />
+		<Coastal>
+			<Yacht />
+			<Cruise />
+			<Cargo />
+		</Coastal>
+	</Water>
+	<Air>
+		<Domestic />
+		<International />
+	</Air>
+
+	<Land>
+		<Highway />
+		<Railway />
+	</Land>
+
+</Transportation>
+```
+
+Assuming that  **Coastal** is the context node, identify the output of the XPath given below.
+
+```
+
+count(ancestor::*)
+```
+
+
+*2*
+
+15. What will be the  execution status of the method **test2** in the TestNG dashboard, once you execute the below mentioned code?
+
+```
+
+String assertionString="demoforHardAssertion";
+@Test
+public void test2()
+ {
+    //Soft assert Object
+	
+    SoftAssert softAssert=new SoftAssert();
+	softAssert.assertEquals("demoforHardAssertions", assertionString);
+	
+    System.out.println("After Assert equals");
+	
+    softAssert.assertTrue(assertionString.equals("demoforHardAssertions"));
+    System.out.println("After Assert true");
+	
+    }
+```
+
+*pass*
+
