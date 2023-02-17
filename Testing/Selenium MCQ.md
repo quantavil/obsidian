@@ -149,19 +149,19 @@ Defects are fixed and working as expected
 	*Given* 
 
 12. Which of the following is/are the disadvantages of Agile methodology?
-	
 	*Poor resource planning and documentation
 	 Level  collaboration is difficult
 	Time-to-Market*
 
 13. Choose the challenges of the Selenium
+	 *Selenium supports only windows based applications .*
 
- Selenium supports only web based applications and mobile applications
- Cross browser testing Is not possible in Selenium
- Customisation of results is not possible
- Selenium supports only windows based applications .
+14. Which one of the following cannot be used as an element Iocator in Selenium Web Driver?
+	*Style*
 
-
+15. Mary wants to locate a checkbox "Emailupdates" from a certain website. She wants to verify wheather the checkbox is visible 
+	*if (emailUpdates.isEnabled() && emaiIUpdates.isDisp|ayed())*
+	
 ---
 
 ## Selenium Advanced
