@@ -626,4 +626,27 @@ System.out.prinyln(“This is before loop.”);
 
 *This will run only before the Smoke scenario in feature file*
 
-11. 
+11. In a feature file you have 3 different tags, ‘AdminLogin’, ‘UserLogin’ and ‘Register’. Suppose you want to run only AdminLogin tag. Then how you can give that option, in Cucumber a runner class?
+
+*@CucumberOptions ( tags={"@AdminLogin"} )*
+
+---
+---
+
+## TBDM
+
+1. Simon, a developer closed a raised bug and the tester is testing the existence of the bug.What will be the current status of the bug 
+
+*Retest*
+
+2. Find the odd one out.
+
+Statement coverage
+
+Branch coverage
+
+Decision coverage
+
+*Equivalence partitioning*
+
+3. 
