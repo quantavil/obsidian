@@ -187,7 +187,7 @@ Firefox: webdriver.gecko.driver*
 ```
 
 
-3. 
+2. 
 Choose the correct xpath expressions to identify the Radiobutton named "Business".(Choose two)
 ```html
 <form id="fromRegisterPopUP"" name="fromRegisterPopUP"">
@@ -205,7 +205,7 @@ Choose the correct xpath expressions to identify the Radiobutton named "Busines
 `//*[@id='fromRegisterPopUP']/div[2]/div[1]/input[2]`
 
 
-2. Consider the XML file given below.
+3. Consider the XML file given below.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -238,12 +238,7 @@ count(following::*)
 
 	*7*
 
-3. In a maven project, you have to configure **log4j.properties** files in such a way that the logs get generated according to the specified pattern layout. Identify the set of tags you need to include in the **pom.xml** file. 
+4. 
 
-<resources> <resource> <directory>src/main/resources</directory> <includes> <include>log4j.properties</include> </includes> </resource> </resources>
 
-<resources> <resource> <directory>src/main/resources</directory> <includes> <include>log4j.xml</include> </includes> </resource> </resources>
 
-resources> <resource> <directory>src/main/resources</directory> <excludes> <include>log4j.properties</include> </excludes> </resource> </resources>
-
-<resources> <directory>src/main/resources</directory> <includes> <include>log4j.properties</include> </includes> </resources>
