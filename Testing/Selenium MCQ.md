@@ -187,6 +187,24 @@ Firefox: webdriver.gecko.driver*
 ```
 
 
+3. 
+
+```html
+<form id="fromRegisterPopUP"" name="fromRegisterPopUP"">
+    <div style="text-align:left;">
+    <div style="margin-top:10px;">
+        <label style="float:left;">
+        <div class="register_row">
+            <input class="post_ad_field_r" type="radio" value="Individual"/>
+            <input class="post_ad_field_r" type="radio" checked="checked" value="Business"/>
+```
+
+
+`//form/div[2]/div/input[2]`
+
+`//*[@id='fromRegisterPopUP']/div[2]/div[1]/input[2]`
+
+
 2. Consider the XML file given below.
 
 ```
