@@ -208,7 +208,6 @@ Choose the correct xpath expressions to identify the Radiobutton named "Busines
 2. Consider the XML file given below.
 
 ```
-
 <?xml version="1.0" encoding="UTF-8"?>
 <Transportation>
 	<Water>
