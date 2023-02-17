@@ -154,4 +154,65 @@ Defects are fixed and working as expected
 	 Level  collaboration is difficult
 	Time-to-Market*
 
-13. 
+
+
+
+---
+
+## Selenium Advanced
+
+1. After updating the dependency in pom.xml file in a maven project, the JRE used is automatically getting changed to JRE 1.5.  Which configurations needs to be added in the pom.xml to continue using JRE1.8 to build the project ?   
+ 
+```
+<properties> <maven.compiler.source>1.8</maven.compiler.source> <maven.compiler.target>1.8</maven.compiler.target> </properties>
+```
+
+
+```
+<plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> <version>2.12.4</version> <configuration> <!-- Suite testng xml file to consider for test execution --> <suiteXmlFiles> <file>testng.xml</file> </suiteXmlFiles> <source>1.8</source> <target>1.8</target> </configuration> </plugin> </plugins>
+```
+
+
+2. Consider the XML file given below.
+
+```
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Transportation>
+	<Water>
+		<Inland />
+		<Coastal>
+			<Yacht />
+			<Cruise />
+			<Cargo />
+		</Coastal>
+	</Water>
+	<Air>
+		<Domestic />
+		<International />
+	</Air>
+
+	<Land>
+		<Highway />
+		<Railway />
+	</Land>
+
+</Transportation>
+```
+
+Assuming that **water** is the context node, identify the output of the Xpath given below.
+```
+count(following::*)
+```
+
+	*7*
+
+3. In a maven project, you have to configure **log4j.properties** files in such a way that the logs get generated according to the specified pattern layout. Identify the set of tags you need to include in the **pom.xml** file. 
+
+<resources> <resource> <directory>src/main/resources</directory> <includes> <include>log4j.properties</include> </includes> </resource> </resources>
+
+<resources> <resource> <directory>src/main/resources</directory> <includes> <include>log4j.xml</include> </includes> </resource> </resources>
+
+resources> <resource> <directory>src/main/resources</directory> <excludes> <include>log4j.properties</include> </excludes> </resource> </resources>
+
+<resources> <directory>src/main/resources</directory> <includes> <include>log4j.properties</include> </includes> </resources>
