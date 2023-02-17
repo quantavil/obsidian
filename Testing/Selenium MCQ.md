@@ -728,3 +728,15 @@ endif
 
 *18,21,33*
 
+---
+---
+
+1. Which of the following factor is the most important while choosing the correct testing tool for automation?
+
+*Ease of scripting and reporting capabilities*
+
+
+2. Which of the following is NOT a functional testing tool?
+
+*SOAP Ui*
+
