@@ -1,3 +1,10 @@
+
+- [[#Selenium Basic|Selenium Basic]]
+- [[#Selenium Advanced|Selenium Advanced]]
+- [[#Java|Java]]
+
+## Selenium Basic
+
 1. Which of the below annotations will be run once after all methods in the class?
 	*@AfterClass*
 
@@ -552,4 +559,24 @@ while(resset.previous())
 
 ---
 ---
+
+## Cucumber
+
+1. Below is the feature file written by Sam. Complete the file with the correct missing code from below options.
+
+```
+Feature: Login action
+
+Scenario Outline: Successful login with valid credentials
+
+Given User is on home page
+
+When User navigate to login page
+
+And user enters “<username>” and “<password>”
+
+Then message displayed as login successfully.
+```
+
+`Examples: |username|password| |testuser1|test@123| |testuser2|test@345|`
 
