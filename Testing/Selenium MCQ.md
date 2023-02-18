@@ -728,38 +728,6 @@ endif
 
 *18,21,33*
 
----
----
-
-1. Which of the following factor is the most important while choosing the correct testing tool for automation?
-
-*Ease of scripting and reporting capabilities*
-
-
-2. Which of the following is NOT a functional testing tool?
-
-*SOAP Ui*
-
-3. What kind of a tool is Jenkins?
-
-*Continuous Deployment tool*
-
-4. In Jenkins, manual gating criteria is set for which type of testing?
-
-*SOA testing*
-
-5. In an agile project, who is responsible for:
-
--   Managing the sprint
-    
--   Removing any impediments
-    
--   Keeping track of the project progress
-    
-
-*Scrum master*
-
-6. 
 
 
 
