@@ -23,5 +23,5 @@ A tree data structure is a non-linear data structure because it does not store
 | Internal Node | A node that has at least one child is known as an internal node. | All the nodes except E, F, J, K, H, I are internal. |
 | Traversing | Traversing is a process of visiting each node in a specific order in a tree data structure. | There are three types of traversals: inorder, preorder, postorder traversal. |
 | Ancestor node | An ancestor or ancestors to a node are all the predecessor nodes from root until that node. I.e. any parent or grandparent and so on of a specific node are its ancestors. | A, C & G are ancestor to K and J nodes |
-| Descendant | Immediate successor of a node is its descendent. | K is descendent of G |
+| Descendant |  A _descendant_ of a node is either a child of the node or a child of some descendant of the node. | K is descendent of C |
 | Sub tree | Descendants of a node represent subtree. Tree being a recursive data structure can contain many subtrees inside of it. | Nodes B, E, F represent one subtree. |
