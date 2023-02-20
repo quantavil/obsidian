@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA SCALER/Trees/Introduction to Tree.md",
+                "file": "CPP/Functions.md",
                 "mode": "preview",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA SCALER/Trees/Introduction to Tree.md",
+                "file": "CPP/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,15 +157,15 @@
   },
   "active": "0c04677b2f175b1b",
   "lastOpenFiles": [
+    "CPP/CPP STL/Container.md",
+    "CPP/CPP STL/Algorithm.md",
+    "DSA SCALER/Trees/Introduction to Tree.md",
     "Testing/An Introduction to SOA for Testers.md",
     "Testing/Selenium Basic/wdf.md",
     "Testing/Selenium Basic/CheatSheet.md",
     "Testing/Selenium Basic/Assertion.md",
     "Testing/Developing Persistent Tier Using Java Hibernate and Maven/Untitled.md",
     "Testing/Agile Methodology/Untitled 1.md",
-    "Testing/Agile Methodology/Untitled.md",
-    "Testing/Agile Methodology/Introduction to Agile.md",
-    "Testing/Introduction to BDD using Cucumber/1 - Introduction.md",
-    "Testing/Selenium Basic/3 - Test Script Enhancement.md"
+    "Testing/Agile Methodology/Untitled.md"
   ]
 }
