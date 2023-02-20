@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp-cheat-sheet-master/C++ Syntax.md",
+                "file": "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
                 "mode": "preview",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp-cheat-sheet-master/C++ Syntax.md",
+                "file": "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,15 +157,15 @@
   },
   "active": "0c04677b2f175b1b",
   "lastOpenFiles": [
+    "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
+    "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md",
+    "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
+    "cpp-cheat-sheet-master/C++ Syntax.md",
     "cpp-cheat-sheet-master/Data Structures and Algorithms.md",
     "cpp-cheat-sheet-master/README.md",
-    "cpp-cheat-sheet-master/C++ Syntax.md",
     "Java/1 - Introduction to Java.md",
     "CPP/Functions.md",
     "CPP/CPP STL/Container.md",
-    "CPP/CPP STL/Algorithm.md",
-    "DSA SCALER/Trees/Introduction to Tree.md",
-    "Testing/An Introduction to SOA for Testers.md",
-    "Testing/Selenium Basic/wdf.md"
+    "CPP/CPP STL/Algorithm.md"
   ]
 }
