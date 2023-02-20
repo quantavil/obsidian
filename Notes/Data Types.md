@@ -21,3 +21,13 @@ These data types are built-in or predefined data types and can be used directly 
 ```ad-info
 Range refers to the set of values that a variable or data type can hold or represent.
 ```
+
+### Data Modifier
+
+![[Pasted image 20230221000825.png]]
+
+1.  signed and unsigned: These modifiers are used to specify whether a data type should be able to store only positive values (unsigned) or both positive and negative values (signed).
+    
+2.  short and long: These modifiers are used to modify the size of the data type. For example, "short int" is a data type that can store smaller values than a regular "int", while "long int" can store larger values.
+    
+3.  const: This modifier is used to make a variable immutable, meaning its value cannot be changed once it has been assigned.
