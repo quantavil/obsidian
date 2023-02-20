@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0c04677b2f175b1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA SCALER/Trees/Introduction to Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/An Introduction to SOA for Testers.md",
+                "file": "DSA SCALER/Trees/Introduction to Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,8 +155,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0fe2b0192d130517",
+  "active": "0c04677b2f175b1b",
   "lastOpenFiles": [
+    "Testing/An Introduction to SOA for Testers.md",
     "Testing/Selenium Basic/wdf.md",
     "Testing/Selenium Basic/CheatSheet.md",
     "Testing/Selenium Basic/Assertion.md",
@@ -153,7 +166,6 @@
     "Testing/Agile Methodology/Untitled.md",
     "Testing/Agile Methodology/Introduction to Agile.md",
     "Testing/Introduction to BDD using Cucumber/1 - Introduction.md",
-    "Testing/Selenium Basic/3 - Test Script Enhancement.md",
-    "Testing/Selenium Basic/Chs2.md"
+    "Testing/Selenium Basic/3 - Test Script Enhancement.md"
   ]
 }
