@@ -3,7 +3,7 @@ A tree data structure is a non-linear data structure because it does not store
 -   It's a non linear data structure as it does not store data in a sequential manner, but stores in a hierarchical fashion.
 
 
-## Termeinologies
+## Terminologies
 ![[Pasted image 20230220102515.png]]
 
 
@@ -13,7 +13,7 @@ A tree data structure is a non-linear data structure because it does not store
 | Parent Node | An immediate predecessor of any node is its parent node. | B is parent of E & F |
 | Child Node | All immediate successors of a node are its children. The relationship between the parent and child is considered as the parent-child relationship. | F & E are children of B |
 | Leaf | Node which does not have any child is a leaf. Usually the boundary nodes of a tree or last nodes of the tree are the leaf or collectively called leaves of the tree. | E, F, J, K, H, I are the leaf nodes. |
-| Edge | Edge is the connection represented by a line between one node to another.In a tree with n nodes, there will be ‘n-1’ edges in a tree. | Connecting line between A&B OR A&C OR B&F OR any other nodes connecting each other. |
+| Edge | Edge is the connection represented by a line between one node to another. In a tree with n nodes, there will be ‘n-1’ edges in a tree. | Connecting line between A&B OR A&C OR B&F OR any other nodes connecting each other. |
 | Siblings | Siblings in real life means people with the same parents, similarly in the case of trees, nodes with common parents are considered to be siblings. | H&I are siblings |
 | Path | Path is a number of successive edges from source node to destination node. | A ,C, G, K is path from node A to K |
 | Height of Node | Height of a node represents the number of edges on the longest path between that node and a leaf. | A, C, G, K form a height. Height of A is no. of edges between A and K,, which is 3. Similarly the height of G is 1 as it has just one edge until the next leaf node. |
