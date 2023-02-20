@@ -1,4 +1,4 @@
-Selenium is a suite of tools which can automate actions on web browsers. Each tool is developed to support a specific kind of automation approach.
+x`Selenium is a suite of tools which can automate actions on web browsers. Each tool is developed to support a specific kind of automation approach.
 
 ### The three important tools that form the core of selenium ecosystem are
 
