@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
+                "file": "Notes/Data Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
+                "file": "Notes/Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +157,7 @@
   },
   "active": "0c04677b2f175b1b",
   "lastOpenFiles": [
+    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md",
     "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
@@ -165,7 +166,6 @@
     "cpp-cheat-sheet-master/README.md",
     "Java/1 - Introduction to Java.md",
     "CPP/Functions.md",
-    "CPP/CPP STL/Container.md",
-    "CPP/CPP STL/Algorithm.md"
+    "CPP/CPP STL/Container.md"
   ]
 }
