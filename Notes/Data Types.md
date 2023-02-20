@@ -26,6 +26,19 @@ Range refers to the set of values that a variable or data type can hold or repre
 
 ![[Pasted image 20230221000825.png]]
 
+
+| Data Type | Data Modifier | Size (in bytes) | Range                                                           |
+|-----------|---------------|----------------|-----------------------------------------------------------------|
+| int       |               | 4              | -2^31 to (2^31)-1                                              |
+| int       | signed        | 4              | -2^31 to (2^31)-1                                              |
+| int       | unsigned      | 4              | 0 to (2^32)-1                                                   |
+| int       | short         | 2              | -2^15 to (2^15)-1                                               |
+| int       | long          | 4 or 8         | -2^31 to (2^31)-1 (4-byte) or -2^63 to (2^63)-1 (8-byte)          |
+| float     |               | 4              | Approximately ±3.40282347 × 10^38 (6-7 significant digits)      |
+| double    |               | 8              | Approximately ±1.7976931348623157 × 10^308 (15-16 significant digits) |
+| char      |               | 1              | -2^7 to (2^7)-1 or 0 to (2^8)-1, depending on representation     |
+
+
 1.  signed and unsigned: These modifiers are used to specify whether a data type should be able to store only positive values (unsigned) or both positive and negative values (signed).
     
 2.  short and long: These modifiers are used to modify the size of the data type. For example, "short int" is a data type that can store smaller values than a regular "int", while "long int" can store larger values.
