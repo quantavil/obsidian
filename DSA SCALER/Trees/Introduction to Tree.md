@@ -18,7 +18,7 @@ A tree data structure is a non-linear data structure because it does not store
 | Path | Path is a number of successive edges from source node to destination node. | A ,C, G, K is path from node A to K |
 | Height of Node | Height of a node represents the number of edges on the longest path between that node and a leaf. | A, C, G, K form a height. Height of A is no. of edges between A and K,, which is 3. Similarly the height of G is 1 as it has just one edge until the next leaf node. |
 | Levels of node | Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on | Level of H, I & J is 3. Level of D, E, F & G is 2 |
-| Degree of Node | Degree of a node implies the number of child nodes a node has. | Degree of D is 2 and of C is 3 |
+| Degree of Node | Degree of a node implies the number of child nodes a node has. | Degree of D is 2 and of C is 1 |
 | Visiting | When you’ve iterated or traversed to a specific node programmatically, accessing value or checking value of the current node is called visiting. |  |
 | Internal Node | A node that has at least one child is known as an internal node. | All the nodes except E, F, J, K, H, I are internal. |
 | Traversing | Traversing is a process of visiting each node in a specific order in a tree data structure. | There are three types of traversals: inorder, preorder, postorder traversal. |
