@@ -18,57 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0fe2b0192d130517",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Testing/An Introduction to SOA for Testers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c04677b2f175b1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/1 - Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9c4519fbb8ed9d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4494ff743635565",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
+                "file": "Testing/Selenium Basic/wdf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,17 +130,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f4494ff743635565",
+  "active": "97d268910fd55804",
   "lastOpenFiles": [
-    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
-    "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
+    "Testing/An Introduction to SOA for Testers.md",
     "Notes/1 - Data Types.md",
+    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
+    "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
+    "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "Notes/2 - Input Output.md",
     "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md",
     "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
     "cpp-cheat-sheet-master/C++ Syntax.md",
-    "cpp-cheat-sheet-master/Data Structures and Algorithms.md",
-    "cpp-cheat-sheet-master/README.md",
-    "Java/1 - Introduction to Java.md"
+    "cpp-cheat-sheet-master/Data Structures and Algorithms.md"
   ]
 }
