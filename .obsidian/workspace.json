@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f4494ff743635565",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
+                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,12 +179,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c9c4519fbb8ed9d1",
+  "active": "f4494ff743635565",
   "lastOpenFiles": [
+    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "Notes/1 - Data Types.md",
     "Notes/2 - Input Output.md",
-    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
     "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md",
     "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
     "cpp-cheat-sheet-master/C++ Syntax.md",
