@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/1 - Data Types.md",
+                "file": "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/1 - Data Types.md",
+                "file": "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,10 +169,10 @@
   },
   "active": "c9c4519fbb8ed9d1",
   "lastOpenFiles": [
-    "Notes/2 - Input Output.md",
-    "Notes/1 - Data Types.md",
-    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
+    "Notes/1 - Data Types.md",
+    "Notes/2 - Input Output.md",
+    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
     "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md",
     "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
     "cpp-cheat-sheet-master/C++ Syntax.md",
