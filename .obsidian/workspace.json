@@ -27,8 +27,12 @@
             "id": "1b2b81dcbfff1056",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes/2 - Input Output.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/2 - Input Output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,17 +155,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "71797450e7203770",
+  "active": "1b2b81dcbfff1056",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "Notes/1 - Data Types.md",
+    "DBMS Interview.md",
+    "CSS.md",
+    "CPP Interview.md",
+    "Code.md",
     "Untitled 2.md",
+    "Untitled 1.md",
     "Untitled.canvas",
     "Untitled.md",
-    "regex.md",
-    "Python Interview.md",
-    "Non linear DSA.md",
-    "Linear DSA.md",
-    "Java/Untitled.md",
-    "Java/1 - Introduction to Java.md"
+    "regex.md"
   ]
 }
