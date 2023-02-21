@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/2 - Input Output.md",
+                "file": "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/2 - Input Output.md",
+                "file": "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,15 +157,15 @@
   },
   "active": "1b2b81dcbfff1056",
   "lastOpenFiles": [
+    "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md",
+    "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
+    "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
+    "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
+    "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "Notes/1 - Data Types.md",
+    "Notes/2 - Input Output.md",
     "DBMS Interview.md",
     "CSS.md",
-    "CPP Interview.md",
-    "Code.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Untitled.canvas",
-    "Untitled.md",
-    "regex.md"
+    "CPP Interview.md"
   ]
 }
