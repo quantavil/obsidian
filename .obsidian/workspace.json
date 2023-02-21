@@ -18,6 +18,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9cc4ed0fd9860719",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -132,6 +140,7 @@
   },
   "active": "97d268910fd55804",
   "lastOpenFiles": [
+    "Testing/Selenium Basic/wdf.md",
     "Testing/An Introduction to SOA for Testers.md",
     "Notes/1 - Data Types.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
@@ -140,7 +149,6 @@
     "Notes/2 - Input Output.md",
     "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md",
     "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
-    "cpp-cheat-sheet-master/C++ Syntax.md",
-    "cpp-cheat-sheet-master/Data Structures and Algorithms.md"
+    "cpp-cheat-sheet-master/C++ Syntax.md"
   ]
 }
