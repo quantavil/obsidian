@@ -29,7 +29,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
+                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ded5ae6c8e9a5d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LearnCpp/5 - Operators/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
+                "file": "LearnCpp/5 - Operators/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,17 +167,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1b2b81dcbfff1056",
+  "active": "3ded5ae6c8e9a5d7",
   "lastOpenFiles": [
+    "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
+    "LearnCpp/1 - C++ Basics/1.3 - Tokens and basic formatting.md",
+    "LearnCpp/1 - C++ Basics/1.2 - iostream , Uninitialized variables , undefined behavior.md",
+    "LearnCpp/1 - C++ Basics/1.1 - Structure of a program , Comment ,Variable.md",
     "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md",
     "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md",
-    "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "Notes/1 - Data Types.md",
-    "Notes/2 - Input Output.md",
-    "DBMS Interview.md",
-    "CSS.md",
-    "CPP Interview.md"
+    "Notes/2 - Input Output.md"
   ]
 }
