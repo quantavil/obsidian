@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41072a9fc8355ccc",
+        "id": "b931496b1e8013a6",
         "type": "tabs",
         "children": [
           {
-            "id": "8c8a8cf402c4e1ef",
+            "id": "40e2e942c9a015dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -130,17 +130,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8c8a8cf402c4e1ef",
+  "active": "40e2e942c9a015dc",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "LearnCpp/5 - Operators/5.1.md",
     "Attachments/Pasted image 20230208121051.png",
     "Attachments/Pasted image 20230220235313.png",
     "Attachments/Pasted image 20230221000825.png",
     "Attachments/Pasted image 20230221002357.png",
     "Attachments/Pasted image 20230221220736.png",
     "Attachments/Pasted image 20230222112548.png",
-    "Attachments/Pasted image 20230222112613.png",
-    "Attachments/Pasted image 20230222112619.png",
-    "Attachments/Pasted image 20230103204514.png",
-    "LearnCpp/5 - Operators/5.1.md"
+    "Attachments/Pasted image 20230222112613.png"
   ]
 }
