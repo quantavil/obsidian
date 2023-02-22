@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f0446961d2b0d701",
+        "id": "808575cd9f1ddb68",
         "type": "tabs",
         "children": [
           {
-            "id": "97d268910fd55804",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
-              }
-            }
-          },
-          {
-            "id": "1b2b81dcbfff1056",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ded5ae6c8e9a5d7",
+            "id": "9e4a4c94c94fc916",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9cc4ed0fd9860719",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,17 +130,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3ded5ae6c8e9a5d7",
+  "active": "9e4a4c94c94fc916",
   "lastOpenFiles": [
-    "LearnCpp/1 - C++ Basics/1.3 - Tokens and basic formatting.md",
+    "Untitled.canvas",
     "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
+    "CPP/Control Flow.md",
+    "LearnCpp/5 - Operators/5.1.md",
+    "LearnCpp/1 - C++ Basics/1.3 - Tokens and basic formatting.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.2 - Loops.md",
-    "LearnCpp/5 - Operators/5.1.md",
     "CPP/Statements and Operator.md",
     "LearnCpp/1 - C++ Basics/1.2 - iostream , Uninitialized variables , undefined behavior.md",
-    "LearnCpp/1 - C++ Basics/1.1 - Structure of a program , Comment ,Variable.md",
-    "LearnCpp/2 - C++ Basics Functions and Files/Introduction to functions.md",
-    "LearnCpp/2 - C++ Basics Functions and Files/2.1 - Introduction to functions.md"
+    "LearnCpp/1 - C++ Basics/1.1 - Structure of a program , Comment ,Variable.md"
   ]
 }
