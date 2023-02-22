@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neetcode 150/Two Pointers.md",
+                "file": "Neetcode 150/Medium.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38580de3e69ae4cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neetcode 150/Linked List/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neetcode 150/Two Pointers.md",
+                "file": "Neetcode 150/Linked List/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,9 +143,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "40e2e942c9a015dc",
+  "active": "38580de3e69ae4cd",
   "lastOpenFiles": [
     "Neetcode 150/Medium.md",
+    "Neetcode 150/Two Pointers.md",
     "Neetcode 150/Easy Problems.md",
     "Neetcode 150/Array & Hashing.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
@@ -140,7 +154,6 @@
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Attachments/Pasted image 20230208121051.png",
-    "Attachments/Pasted image 20230220235313.png",
-    "Attachments/Pasted image 20230221000825.png"
+    "Attachments/Pasted image 20230220235313.png"
   ]
 }
