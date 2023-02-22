@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "808575cd9f1ddb68",
+        "id": "41072a9fc8355ccc",
         "type": "tabs",
         "children": [
           {
-            "id": "9e4a4c94c94fc916",
+            "id": "8c8a8cf402c4e1ef",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Pasted image 20230208121051.png"
+                "file": "LearnCpp/5 - Operators/5.1.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -75,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Pasted image 20230208121051.png",
+                "file": "LearnCpp/5 - Operators/5.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,8 +130,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9e4a4c94c94fc916",
+  "active": "8c8a8cf402c4e1ef",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20230208121051.png",
     "Attachments/Pasted image 20230220235313.png",
     "Attachments/Pasted image 20230221000825.png",
     "Attachments/Pasted image 20230221002357.png",
@@ -138,7 +141,6 @@
     "Attachments/Pasted image 20230222112613.png",
     "Attachments/Pasted image 20230222112619.png",
     "Attachments/Pasted image 20230103204514.png",
-    "LearnCpp/5 - Operators/5.1.md",
-    "Untitled.canvas"
+    "LearnCpp/5 - Operators/5.1.md"
   ]
 }
