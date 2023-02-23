@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
+                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
+                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,12 +132,12 @@
   },
   "active": "40e2e942c9a015dc",
   "lastOpenFiles": [
+    "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "Neetcode 150/Medium.md",
     "Neetcode 150/Linked List/Untitled.md",
     "Neetcode 150/Two Pointers.md",
     "Neetcode 150/Easy Problems.md",
     "Neetcode 150/Array & Hashing.md",
-    "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "LearnCpp/5 - Operators/5.1 - Operators.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
