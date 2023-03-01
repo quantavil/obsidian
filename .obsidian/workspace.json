@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
+                "file": "Code.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "6bd77f8ee33b0554",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LearnCpp/7 - Control Flow and Error Handling/7.3 - Error Handling.md",
+                "file": "Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,8 +130,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6bd77f8ee33b0554",
+  "active": "40e2e942c9a015dc",
   "lastOpenFiles": [
+    "CPP Interview.md",
+    "CSS.md",
+    "DBMS Interview.md",
+    "HTML.md",
+    "Interview.md",
+    "Interview questions.md",
+    "Python Interview.md",
+    "Untitled.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "Neetcode 150/Medium.md",
     "Neetcode 150/Linked List/Untitled.md",

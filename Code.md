@@ -82,3 +82,11 @@ def isArmstrong(n):
 
 
 ---
+
+- Number Theory
+- Dynamic Programming
+- Combination
+- Backtracking 
+- subsequences problem
+- Graph
+- bit manipulation
