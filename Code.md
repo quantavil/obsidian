@@ -90,3 +90,5 @@ def isArmstrong(n):
 - subsequences problem
 - Graph
 - bit manipulation
+- Greedy
+- Arrays
