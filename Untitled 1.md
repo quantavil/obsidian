@@ -40,6 +40,7 @@
     -1 One file per line
     -m Comma-­sep­arated output
     -Q Quoted output
+    -i To list directory contents along with inode number
     ```
 
 3. **mkdir** The mkdir(make directory) command allows users to create directories or folders.
