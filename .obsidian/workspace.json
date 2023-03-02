@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,12 +145,12 @@
   },
   "active": "92c4c96b10fb92b1",
   "lastOpenFiles": [
+    "CSS.md",
+    "CPP Interview.md",
+    "Code.md",
     "Untitled.md",
     "HTML.md",
     "REST.md",
-    "Code.md",
-    "CPP Interview.md",
-    "CSS.md",
     "DBMS Interview.md",
     "Interview.md",
     "Interview questions.md",
