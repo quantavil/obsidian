@@ -152,3 +152,5 @@
        cat file_name1.txt | more
        cat file_name1.txt | less
        ```
+
+$ cat orange | tr -d "," | tr -s ";" ";" | sort -t ";" -nk2 | cut -d ";" -f1,3 | tail -2
