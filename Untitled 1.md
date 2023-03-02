@@ -32,7 +32,7 @@
 
     ```cmd
     -a Show all (including hidden)
-    -R Recursive list
+    -R To list subdirectories and their files recursively
     -r Reverse order
     -t Sort by last modified
     -S Sort by file size

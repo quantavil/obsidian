@@ -86,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "bb12994458b6a9be",
@@ -155,7 +156,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1f713d9dcab515e2",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
     "Python Interview.md",
     "Untitled 1.md",
