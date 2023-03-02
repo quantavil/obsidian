@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Python Interview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f713d9dcab515e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,18 +155,20 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "92c4c96b10fb92b1",
+  "active": "1f713d9dcab515e2",
   "lastOpenFiles": [
+    "Python Interview.md",
+    "Untitled 1.md",
+    "regex.md",
+    "REST.md",
+    "Untitled.md",
     "CSS.md",
     "CPP Interview.md",
     "Code.md",
-    "Untitled.md",
     "HTML.md",
-    "REST.md",
     "DBMS Interview.md",
     "Interview.md",
     "Interview questions.md",
-    "Python Interview.md",
     "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "Neetcode 150/Medium.md",
     "Neetcode 150/Linked List/Untitled.md",
