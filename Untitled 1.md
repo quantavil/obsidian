@@ -130,10 +130,12 @@
        ```bash
        touch -t 1911010000 file_name
        ```
+
 7. **cat**: The cat command is used to create single or multiple files, view contain of file, concatenate files and redirect output in terminal or files.
      ```bash
      $ cat [OPTION] [FILE]...
      ```
+ 
    1. **Create a file:** Used to create a file with specific name, content and press exit using `CTRL + D`
        ```bash
        cat > file_name1.txt
