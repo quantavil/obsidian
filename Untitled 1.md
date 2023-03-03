@@ -161,6 +161,8 @@ Display the differences between two files, or each corresponding file in two dir
 
 ```
 diff <file 1> <file 2>
+
+diff -c 
 ```
 
 **Example :**
@@ -186,14 +188,21 @@ Uttar pradesh
 
 ```bash
 $ diff a.txt b.txt
-0a1        # 0a1 which means after lines 0 you have to add Tamil Nadu to match the second file line number 1.
+0a1        # 0a1 means after lines 0 you have to add Tamil Nadu  to file 'a' to match the file 'b' line 1.
 > Tamil Nadu
 2,3c3      # from line 2 to 3 in file 'a' changes needed to match line 3 in file 'b'
-< Uttar Pradesh
- Andhra Pradesh
+< Uttar Pradesh # remove from file 'a'
+< Kolkata       # remove from file 'a'
+---
+> Andhra Pradesh      # add to file 'a'
 5c5
- Uttar pradesh
+< Jammu and Kashmir    # remove from file 'a'
+---
+> Uttar pradesh      # add to file 'a'
+
 ```
+
+
 ### Grep
 
 The grep (**g**lobal **r**egular **e**xpression **p**rint) enables searching through text in a file or a standard output. The basic syntax is:
