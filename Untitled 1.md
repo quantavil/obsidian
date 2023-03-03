@@ -115,7 +115,7 @@ mktemp                 # Create a temporary file
 ```
 
 
-
+**7. Cat**
    1. **Create a file:** Used to create a file with specific name, content and press exit using `CTRL + D`
        ```bash
        cat > file_name1.txt
@@ -132,6 +132,31 @@ mktemp                 # Create a temporary file
        cat file_name1.txt | more
        cat file_name1.txt | less
        ```
+
+## Text Processing
+
+### Grep
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```
 $ cat orange | tr -d "," | tr -s ";" ";" | sort -t ";" -nk2 | cut -d ";" -f1,3 | tail -2
