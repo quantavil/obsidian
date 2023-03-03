@@ -100,7 +100,8 @@ chgrp group_name filename
 Example:
 sudo chgrp Administrator test.txt
 ```
-### File and directory commands
+
+## File and directory commands
 
 1. **pwd** The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
    ```bash
@@ -198,20 +199,8 @@ rm -rf <dir>
 # To ignore non-existent files:
 rm -f <dir>
 
-# To remove a file with this inode:
-find /tmp/ -inum 6666 -exec rm -i '{}' \;
-
- tldr:rm 
-# rm
-# Remove files or directories.
-# See also: `rmdir`.
-# More information: <https://www.gnu.org/software/coreutils/rm>.
-
 # Remove specific files:
 rm path/to/file1 path/to/file2 ...
-
-# Remove specific files ignoring nonexistent ones:
-rm -f path/to/file1 path/to/file2 ...
 
 # Remove specific files [i]nteractively prompting before each removal:
 rm -i path/to/file1 path/to/file2 ...
@@ -221,6 +210,9 @@ rm -v path/to/file1 path/to/file2 ...
 
 # Remove specific files and directories [r]ecursively:
 rm -r path/to/file_or_directory1 path/to/file_or_directory2 ...
+
+# To remove all files and subdirs in <dir>:
+rm -rf <dir>
 ```
 
 ### touch
