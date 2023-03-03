@@ -138,21 +138,20 @@ mktemp                 # Create a temporary file
 ### Head 
 Use the **`head`** command to truncate long outputs. The command can truncate files, for example:
 
-```
+```bash
 head <filename>
-```
 
-Alternatively, pipe **`head`** to a command with a long output:
-
-```
-<command> | head
+head -n 5 state.txt  # Prints the first ‘num’ lines
+head -c 5 bar.txt    #  Prints the first ‘num’ bytes , Newline count as a single character
 ```
 
 ### Tail
 The Linux tail command does the opposite of **`head`**. Use the command to show the last ten lines of a file:
 
-```
+```bash
 tail <filename>
+tai -n 5 state.txt  # Prints the first ‘num’ lines
+tai -c 5 bar.txt    #  Prints the first ‘num’ bytes , Newline count as a single character
 ```
 
 Or pipe **`tail`** to a command with a long output:
