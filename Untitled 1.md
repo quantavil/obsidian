@@ -146,21 +146,29 @@ sudo chgrp Administrator test.txt
     -i To list directory contents along with inode number
     ```
 
-3. **mkdir** The mkdir(make directory) command allows users to create directories or folders.
+### mkdir
 
-   ```bash
-   $ mkdir ubuntu
-   $ ls
-   ubuntu
-   ```
+The mkdir(make directory) command allows users to create directories or folders.
 
-   The option '-p' is used to create multiple directories or parent directories at once.
+```bash
+# To create nested directories:
+mkdir -p foo/bar/baz
 
-   ```bash
-   $ mkdir -p dir1/dir2/dir3
-   $ cd dir1/dir2/dir3
-   ~/Desktop/Linux/dir1/dir2/dir3$
-   ```
+# To create foo/bar and foo/baz directories:
+mkdir -p foo/{bar,baz}
+
+# To create the foo/bar, foo/baz, foo/baz/zip and foo/baz/zap directories:
+mkdir -p foo/{bar,baz/{zip,zap}}
+
+# Create specific directories:
+mkdir path/to/directory1 path/to/directory2 ...
+
+# Create specific directories and their [p]arents if needed:
+mkdir -p path/to/directory1 path/to/directory2 ...
+
+# Create directories with specific permissions:
+mkdir -m rwxrw-r-- path/to/directory1 path/to/directory2 ..
+```
 
 4. **rmdir**: The rmdir(remove directories) is used to remove _empty_ directories. Can be used to delete multiple empty directories as well. Safer to use compared to `rm -r FolderName`. This command can also be forced to delete non-empty directories.
 
