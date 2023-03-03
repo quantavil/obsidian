@@ -114,31 +114,8 @@ touch test{a..c}       # Create testa, testb and testc files
 mktemp                 # Create a temporary file
 ```
 
-   3. **Change access time:** The touch command with `a` option is used to change the access time of a file.
-       ```bash
-       touch -a file_name
-       ```
-   4. **Change modification time:** The touch command with `m` option is used to change the modified time.
-       ```bash
-       touch -m file_name
-       ```
-   5. **Use timestamp of other file:** The touch command with `r` option is used to get timestamp of another file.
-       ```bash
-       touch -r file2 file1
-       ```
 
-       In the above example, we get the timestamp of file1 for file2.
 
-   6. **Create file with Specific time:** The touch command with 't' option is used to create a file with specified time.
-       ```bash
-       touch -t 1911010000 file_name
-       ```
-
-7. **cat**: The cat command is used to create single or multiple files, view contain of file, concatenate files and redirect output in terminal or files.
-     ```bash
-     $ cat [OPTION] [FILE]...
-     ```
- 
    1. **Create a file:** Used to create a file with specific name, content and press exit using `CTRL + D`
        ```bash
        cat > file_name1.txt
