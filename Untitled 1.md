@@ -429,8 +429,12 @@ Hemant
 # Print a range of each line with a specific delimiter:
 command | cut -d "," -f 1,2
 
+# Command prints field from first to fourth of each line from the file.
+cut -d " " -f 1-4 foo.txt
+
 # Print a range of each line of the specific file:
-cut -c 1 path/to/file
+cut -c 1 foo.txt
+
 ```
 
 ### Grep
