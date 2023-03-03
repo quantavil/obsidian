@@ -422,6 +422,20 @@ $ cat file1 | comm -12 - file2
 Hemant
 ```
 
+
+### Cut
+
+```bash
+# Print a specific character/field range of each line:
+command | cut --characters|fields=1|1,10|1-10|1-|-10
+
+# Print a range of each line with a specific delimiter:
+command | cut --delimiter="," --fields=1
+
+# Print a range of each line of the specific file:
+cut --characters=1 path/to/file
+```
+
 ### Grep
 
 The grep (**g**lobal **r**egular **e**xpression **p**rint) enables searching through text in a file or a standard output. The basic syntax is:
