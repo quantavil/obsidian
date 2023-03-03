@@ -178,6 +178,10 @@ grep 'foo' bar --colour                    # Add colour to output
 grep 'foo\|bar' baz -R                     # Search for 'foo' or 'bar' in directory 'baz'
 grep --extended-regexp|-E 'foo|bar' /baz -R # Use regular expressions
 grep -E 'foo|bar' /baz -R                   # Use regular expressions
+
+##
+
+grep "^unix" geekfile.txt
 ```
 
 
