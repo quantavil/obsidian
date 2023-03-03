@@ -175,10 +175,6 @@ grep 'foo' bar -v|--invert-match           # Show only lines that don't match
 grep 'foo' bar -c|--count                  # Count the number lines that match
 grep 'foo' bar -n|--line-number            # Add line numbers
 grep 'foo' bar --colour                    # Add colour to output
-grep 'foo\|bar' baz -R                     # Search for 'foo' or 'bar' in directory 'baz'
-grep --extended-regexp|-E 'foo|bar' /baz -R # Use regular expressions
-grep -E 'foo|bar' /baz -R                   # Use regular expressions
-
 ##
 
 grep "^unix" geekfile.txt             # match the lines which start with the given string or pattern.
