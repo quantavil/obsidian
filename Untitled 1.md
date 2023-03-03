@@ -181,7 +181,7 @@ grep -E 'foo|bar' /baz -R                   # Use regular expressions
 
 ##
 
-grep "^unix" geekfile.txt
+grep "^unix" geekfile.txt             # match the lines which start with the given string or pattern.
 ```
 
 
