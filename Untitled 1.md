@@ -240,6 +240,9 @@ $ diff -u a.txt b.txt
 
 ```
 
+### Comm
+
+Compare two sorted files line by line. Output the lines that are common, plus the lines that are unique.
 ### Grep
 
 The grep (**g**lobal **r**egular **e**xpression **p**rint) enables searching through text in a file or a standard output. The basic syntax is:
