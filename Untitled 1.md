@@ -226,14 +226,23 @@ cat file
 # To display multiple file
 cat file1 file2
 
+# display content of all txt file 
+cat *.txt
+
 # To display file contents with line numbers
 cat -n file
 
 # To display file contents with line numbers (blank lines excluded)
 cat -b file
 
-# Supress repeated 
+# Supress repeated empty lines
 cat -s file
+
+# Append to already existing file
+cat >> file
+
+# Write to the file
+
 # Print the contents of a file to the standard output:
 cat path/to/file
 
@@ -242,6 +251,9 @@ cat path/to/file1 path/to/file2 ... > path/to/output_file
 
 # Append several files to an output file:
 cat path/to/file1 path/to/file2 ... >> path/to/output_file
+
+# display content in reverse order
+tac file
 
 # Copy the contents of a file into an output file without buffering:
 cat -u /dev/tty12 > /dev/tty13
