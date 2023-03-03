@@ -474,11 +474,15 @@ grep 'foo' bar -v|--invert-match           # Show only lines that don't match
 grep 'foo' bar -c|--count                  # Count the number lines that match
 grep 'foo' bar -n|--line-number            # Add line numbers
 grep 'foo' bar --colour                    # Add colour to output
-##
+
 
 grep "^unix" geekfile.txt             # match the lines which start with the given string or pattern.
 ```
 
+```bash
+# finding file whose 3rd character is 'e'
+ ls -1 | grep -E '^..[e].*' 
+```
 
 
 
