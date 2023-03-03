@@ -170,7 +170,9 @@ mkdir -p path/to/directory1 path/to/directory2 ...
 mkdir -m rwxrw-r-- path/to/directory1 path/to/directory2 ..
 ```
 
-4. **rmdir**: The rmdir(remove directories) is used to remove _empty_ directories. Can be used to delete multiple empty directories as well. Safer to use compared to `rm -r FolderName`. This command can also be forced to delete non-empty directories.
+### rmdir
+
+The rmdir(remove directories) is used to remove _empty_ directories. Can be used to delete multiple empty directories as well. Safer to use compared to `rm -r FolderName`. This command can also be forced to delete non-empty directories.
 
    1. Remove empty directory:
 
