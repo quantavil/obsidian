@@ -161,6 +161,25 @@ grep <search string> <filename>
 **-B n :** Prints searched line and n line before the result.
 **-C n :** Prints searched line and n lines after before the result.
 
+```bash
+grep -i "unix" geekfile.txt // search lines
+grep 'foo' /bar.txt                         # Search for 'foo' in file 'bar.txt'
+grep 'foo' /bar -r|--recursive              # Search for 'foo' in directory 'bar'
+grep 'foo' /bar -R|--dereference-recursive  # Search for 'foo' in directory 'bar' and follow symbolic links
+grep 'foo' /bar -l|--files-with-matches     # Show only files that match
+grep 'foo' /bar -L|--files-without-match    # Show only files that don't match
+grep 'Foo' /bar -i|--ignore-case            # Case insensitive search
+grep 'foo' /bar -x|--line-regexp            # Match the entire line
+grep 'foo' /bar -C|--context 1              # Add N line of context above and below each search result
+grep 'foo' /bar -v|--invert-match           # Show only lines that don't match
+grep 'foo' /bar -c|--count                  # Count the number lines that match
+grep 'foo' /bar -n|--line-number            # Add line numbers
+grep 'foo' /bar --colour                    # Add colour to output
+grep 'foo\|bar' /baz -R                     # Search for 'foo' or 'bar' in directory 'baz'
+grep --extended-regexp|-E 'foo|bar' /baz -R # Use regular expressions
+grep -E 'foo|bar' /baz -R                   # Use regular expressions
+```
+
 
 
 
