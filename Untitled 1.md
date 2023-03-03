@@ -141,7 +141,7 @@ Use the **`head`** command to truncate long outputs. The command can truncate 
 ```bash
 head <filename>
 
-head -n 5 state.txt  # Prints the first ‘num’ lines
+head -n 5 bar.txt  # Prints the first ‘num’ lines
 head -c 5 bar.txt    #  Prints the first ‘num’ bytes , Newline count as a single character
 ```
 
@@ -150,18 +150,14 @@ The Linux tail command does the opposite of **`head`**. Use the command to sh
 
 ```bash
 tail <filename>
-tai -n 5 state.txt  # Prints the first ‘num’ lines
-tai -c 5 bar.txt    #  Prints the first ‘num’ bytes , Newline count as a single character
+tail -n 5 bar.txt  # Prints the last ‘num’ lines
+tail -c 5 bar.txt    #  Prints the last ‘num’ bytes , Newline count as a single character
 ```
 
-Or pipe **`tail`** to a command with a long output:
-
-```
-<command> | tail
-```
 
 ### Diff
-The **`diff`** (**diff**erence) command compares two files and prints the difference. To use the command, run:
+
+Display the differences between two files, or each corresponding file in two directories.  Each set of differences is called a "diff" or "patch".
 
 ```
 diff <file 1> <file 2>
