@@ -159,10 +159,12 @@ tail -c 5 bar.txt    #  Prints the last ‘num’ bytes , Newline count as a si
 
 Display the differences between two files, or each corresponding file in two directories.  Each set of differences is called a "diff" or "patch".
 
-```
-diff <file 1> <file 2>
+```bash
+diff file1 file2
 
-diff -c 
+diff -c file1 file2         # To view differences in context mode
+diff -u file1 file2         #  To view differences in unified mode
+diff -i file1 file2 # To make this command _case in-sensitive_
 ```
 
 **Example :**
@@ -202,6 +204,41 @@ $ diff a.txt b.txt
 
 ```
 
+```bash
+$ diff -c a.txt b.txt
+*** a.txt       Fri Mar  3 11:50:53 2023
+--- b.txt       Fri Mar  3 11:45:22 2023
+***************
+*** 1,5 ****
+  Gujarat
+! Uttar Pradesh
+! Kolkata
+  Bihar
+! Jammu and Kashmir
+--- 1,5 ----
++ Tamil Nadu
+  Gujarat
+! Andhra Pradesh
+  Bihar
+! Uttar pradesh
+
+```
+
+```bash
+$ diff -u a.txt b.txt
+--- a.txt       2023-03-03 11:50:53.986117400 +0530
++++ b.txt       2023-03-03 11:45:22.256579800 +0530
+@@ -1,5 +1,5 @@
++Tamil Nadu
+ Gujarat
+-Uttar Pradesh
+-Kolkata
++Andhra Pradesh
+ Bihar
+-Jammu and Kashmir
++Uttar pradesh
+
+```
 
 ### Grep
 
