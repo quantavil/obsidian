@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a70405aefd102cbe",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -156,7 +166,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1f713d9dcab515e2",
+  "active": "a70405aefd102cbe",
   "lastOpenFiles": [
     "Python Interview.md",
     "Untitled 1.md",
