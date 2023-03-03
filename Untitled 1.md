@@ -245,9 +245,11 @@ $ diff -u a.txt b.txt
 Compare two sorted files line by line. Output the lines that are common, plus the lines that are unique.
 
 ```bash
+# Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:
+
 comm file1 file2 
 
-# Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:
+# Produce two tab-separated columns , where column 1 is supressed
 comm -l1 file1 file2
 
 # Print only lines common to both files, reading one file from `stdin`:
