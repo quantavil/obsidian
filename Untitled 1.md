@@ -1,3 +1,21 @@
+- [[#File permissions|File permissions]]
+- [[#File and directory commands|File and directory commands]]
+	- [[#File and directory commands#pwd|pwd]]
+	- [[#File and directory commands#ls|ls]]
+	- [[#File and directory commands#mkdir|mkdir]]
+	- [[#File and directory commands#rmdir|rmdir]]
+	- [[#File and directory commands#rm|rm]]
+	- [[#File and directory commands#touch|touch]]
+	- [[#File and directory commands#Cat|Cat]]
+- [[#Text Processing|Text Processing]]
+	- [[#Text Processing#Head|Head]]
+	- [[#Text Processing#Tail|Tail]]
+	- [[#Text Processing#Diff|Diff]]
+	- [[#Text Processing#Comm|Comm]]
+	- [[#Text Processing#Cut|Cut]]
+	- [[#Text Processing#Grep|Grep]]
+
+
 ## File permissions
 
 Since Linux is a multi-user operating system, it is necessary to provide security to prevent people from accessing each other’s confidential files. So Linux divides authorization into 2 levels,
@@ -120,9 +138,6 @@ ls <dir>
 # To display everything in <dir>, including hidden files:
 ls -a <dir>
 
-# To display all files, along with the size (with unit suffixes) and timestamp:
-ls -lh <dir>
-
 # To display files, sorted by size:
 ls -S <dir>
 
@@ -135,23 +150,17 @@ ls -d .*/ */ <dir>
 # To display all files sorted by changed date, most recent first:
 ls -ltc 
 
+# Long format list of all files, sorted by modification date (oldest first):
+ls -ltr
+
 # To display files sorted by create time:
 ls -lt
 
 # To display files in a single column:
 ls -1
 
-# To show ACLs (MacOS):
-# see also `cheat chmod` for `/bin/chmod` options for ACLs
-/bin/ls -le
-
 # To show all the subtree files (Recursive Mode):
 ls -R
-
- tldr:ls 
-# ls
-# List directory contents.
-# More information: <https://www.gnu.org/software/coreutils/ls>.
 
 # List files one per line:
 ls -1
@@ -159,24 +168,8 @@ ls -1
 # List all files, including hidden files:
 ls -a
 
-# List all files, with trailing `/` added to directory names:
-ls -F
-
-# Long format list (permissions, ownership, size, and modification date) of all files:
-ls -la
-
-# Long format list with size displayed using human-readable units (KiB, MiB, GiB):
-ls -lh
-
-# Long format list sorted by size (descending):
-ls -lS
-
-# Long format list of all files, sorted by modification date (oldest first):
-ls -ltr
-
-# Only list directories:
-ls -d */
 ```
+
  Below are the list of possible options for `ls` command,
 
 ```cmd
