@@ -245,13 +245,42 @@ $ diff -u a.txt b.txt
 Compare two sorted files line by line. Output the lines that are common, plus the lines that are unique.
 
 ```bash
-comm 
+comm file1 file2 
+
+# Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:
+comm -l1 file1 file2
+
+# Print only lines common to both files, reading one file from `stdin`:
+cat file1 | comm -12 - file2
+
+# Print lines only found in second file, when the files aren't sorted:
+comm -13 <(sort file1) <(sort file2)
 ```
+
 Options for comm command:
 
 1. -1 :suppress first column(lines unique to first file).
 2. -2 :suppress second column(lines unique to second file).
 3. -3 :suppress third column(lines common to both files).
+
+**Example :**
+
+```bash
+// displaying contents of file1 //
+$cat file1.txt
+Apaar 
+Ayush Rajput
+Deepak
+Hemant
+
+// displaying contents of file2 //
+$cat file2.txt
+Apaar
+Hemant
+Lucky
+Pranjal Thakral
+```
+
 ### Grep
 
 The grep (**g**lobal **r**egular **e**xpression **p**rint) enables searching through text in a file or a standard output. The basic syntax is:
