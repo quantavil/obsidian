@@ -105,37 +105,81 @@ sudo chgrp Administrator test.txt
 
 ### pwd
 
-The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
-   ```bash
-# pwd
+```bash
+$ pwd
 # Print name of current/working directory.
-   ```
+```
 
-2. **ls**: The `ls` command is used to list files or directories. It also accepts some flags or options that changes how files or directories are listed in your terminal.
+### ls
+The `ls` command is used to list files or directories. It also accepts some flags or options that changes how files or directories are listed in your terminal.
 
-    ```bash
-     Syntax:
-     ls [flags] [directory]
+```bash
+# To display everything in <dir>, excluding hidden files:
+ls <dir>
 
-     Example:
-     $ ls
-     bin dev lib libx32 mnt  
+# To display everything in <dir>, including hidden files:
+ls -a <dir>
 
-     //Listing files & directories with time in a rever order
-     $ ls -ltr
-     drwxr-xr-x 2 sj sj 4096 May 14  2020 Videos
-     drwxr-xr-x 2 sj sj 4096 May 14  2020 Templates
-     drwxr-xr-x 2 sj sj 4096 May 14  2020 Public
+# To display all files, along with the size (with unit suffixes) and timestamp:
+ls -lh <dir>
 
-     //Home directory
-     $ ls ~
-     Desktop    Downloads  Pictures  Sudheer    test   test.txt
-     Documents  Music      Public    Templates  test1  Videos
-    ```
+# To display files, sorted by size:
+ls -S <dir>
 
-    Below are the list of possible options for `ls` command,
+# To display directories only:
+ls -d */ <dir>
 
-    ```cmd
+# To display directories only, include hidden:
+ls -d .*/ */ <dir>
+
+# To display all files sorted by changed date, most recent first:
+ls -ltc 
+
+# To display files sorted by create time:
+ls -lt
+
+# To display files in a single column:
+ls -1
+
+# To show ACLs (MacOS):
+# see also `cheat chmod` for `/bin/chmod` options for ACLs
+/bin/ls -le
+
+# To show all the subtree files (Recursive Mode):
+ls -R
+
+ tldr:ls 
+# ls
+# List directory contents.
+# More information: <https://www.gnu.org/software/coreutils/ls>.
+
+# List files one per line:
+ls -1
+
+# List all files, including hidden files:
+ls -a
+
+# List all files, with trailing `/` added to directory names:
+ls -F
+
+# Long format list (permissions, ownership, size, and modification date) of all files:
+ls -la
+
+# Long format list with size displayed using human-readable units (KiB, MiB, GiB):
+ls -lh
+
+# Long format list sorted by size (descending):
+ls -lS
+
+# Long format list of all files, sorted by modification date (oldest first):
+ls -ltr
+
+# Only list directories:
+ls -d */
+```
+ Below are the list of possible options for `ls` command,
+
+```cmd
     -a Show all (including hidden)
     -R To list subdirectories and their files recursively
     -r Reverse order
@@ -146,7 +190,7 @@ The pwd(Present Working Directory) command is used to print the name of the pres
     -m Comma-­sep­arated output
     -Q Quoted output
     -i To list directory contents along with inode number
-    ```
+```
 
 ### mkdir
 
