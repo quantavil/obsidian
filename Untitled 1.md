@@ -174,29 +174,14 @@ mkdir -m rwxrw-r-- path/to/directory1 path/to/directory2 ..
 
 The rmdir(remove directories) is used to remove _empty_ directories. Can be used to delete multiple empty directories as well. Safer to use compared to `rm -r FolderName`. This command can also be forced to delete non-empty directories.
 
-   1. Remove empty directory:
+```bash
+# Outputs a message that the directory is being removed:
+rmdir -v directory_name
 
-   ```bash
-   rmdir FolderName
-   ```
+# adding the -p option deletes the child directory then its parent directory:
+rmdir -p directory_name
 
-   2. Remove multiple directories:
-
-   ```bash
-   rmdir FolderName1 FolderName2 FolderName3
-   ```
-
-   3. Remove non-empty directories:
-
-   ```bash
-   rmdir FolderName1 --ignore-fail-on-non-empty
-   ```
-
-   4. Remove entire directory tree. This command is similar to `rmdir a/b/c a/b a`:
-
-   ```bash
-   rmdir -p a/b/c
-   ```
+```
 
 ### rm
 
@@ -284,6 +269,8 @@ cat file_name1.txt | more
 cat file_name1.txt | less
 ```
 
+
+---
 
 ## Text Processing
 
