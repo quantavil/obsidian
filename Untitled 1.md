@@ -187,24 +187,45 @@ sudo chgrp Administrator test.txt
    rmdir -p a/b/c
    ```
 
-5. **rm**: The rm(remove) command is used to remove objects such as files, directories, symbolic links etc from the file system.
-   1. Remove file: The rm command is used to remove or delete a file
-   ```bash
-   rm file_name
-   ```
-   2. Remove file forcefully: The rm command with -f option is used for removal of file without prompting for confirmation.
-   ```bash
-   rm -f filename
-   ```
-   3. Remove directory: The rm command with -r option is used to remove the directory and its contents recursively.
-   ```bash
-   rm -r myDir
-   ```
-   4. Remove directory forcefully: The rm command with -rf option is used to forcefully remove directory recursively.
-   ```bash
-   rm -rf myDir
-   ```
-6. **touch**: The touch command is is used to create, change and modify timestamps of a file without any content.
+### rm
+
+The rm(remove) command is used to remove objects such as files, directories, symbolic links etc from the file system.
+
+```bash
+# To remove all files and subdirs in <dir>:
+rm -rf <dir>
+
+# To ignore non-existent files:
+rm -f <dir>
+
+# To remove a file with this inode:
+find /tmp/ -inum 6666 -exec rm -i '{}' \;
+
+ tldr:rm 
+# rm
+# Remove files or directories.
+# See also: `rmdir`.
+# More information: <https://www.gnu.org/software/coreutils/rm>.
+
+# Remove specific files:
+rm path/to/file1 path/to/file2 ...
+
+# Remove specific files ignoring nonexistent ones:
+rm -f path/to/file1 path/to/file2 ...
+
+# Remove specific files [i]nteractively prompting before each removal:
+rm -i path/to/file1 path/to/file2 ...
+
+# Remove specific files printing info about each removal:
+rm -v path/to/file1 path/to/file2 ...
+
+# Remove specific files and directories [r]ecursively:
+rm -r path/to/file_or_directory1 path/to/file_or_directory2 ...
+```
+
+### touch
+
+The touch command is is used to create, change and modify timestamps of a file without any content.
 
 ```bash
 touch foo.txt          # Create file or update existing files modified timestamp
@@ -217,7 +238,7 @@ mktemp                 # Create a temporary file
 ```
 
 
-**7. Cat**
+### Cat
 
 ```bash
 # To display the contents of a file:
@@ -242,6 +263,7 @@ cat -s file
 cat >> file
 
 # Write to the file
+cat > file
 
 # Print the contents of a file to the standard output:
 cat path/to/file
@@ -255,28 +277,11 @@ cat path/to/file1 path/to/file2 ... >> path/to/output_file
 # display content in reverse order
 tac file
 
-# Copy the contents of a file into an output file without buffering:
-cat -u /dev/tty12 > /dev/tty13
-
-# Write `stdin` to a file:
-cat - > path/to/file
+# display large content 
+cat file_name1.txt | more
+cat file_name1.txt | less
 ```
-   1. **Create a file:** Used to create a file with specific name, content and press exit using `CTRL + D`
-       ```bash
-       cat > file_name1.txt
-       Hello, How are you?
-       ```
-   2. **View file contents:** You can view contents of a single or more files by mentioning the filenames.
 
-       ```bash
-       cat file_name1 file_name2
-       ```
-   3. **More & Less options:** If a file having a large number of content that won’t fit in the output terminal then `more` & `less` options can be used to indiate additional content.
-
-       ```bash
-       cat file_name1.txt | more
-       cat file_name1.txt | less
-       ```
 
 ## Text Processing
 
