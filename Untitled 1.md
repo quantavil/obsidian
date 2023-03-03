@@ -425,6 +425,14 @@ Hemant
 
 ### Cut
 
+The **`cut`** command is a command-line utility that allows you to cut out sections of a specified file or piped data and print the result to standard output.
+| Option | Description |
+| --- | --- |
+| **`-f (--fields=LIST)`** | Select using a specified field, a field set, or a field range. |
+| **`-b (--bytes=LIST)`** | Select using a specified byte, a byte set, or a byte range. |
+| **`-c (--characters=LIST)`** | Select using a specified character, a character set, or a character range. |
+| **`-d (--delimiter)`** | Used to specify a delimiter to use instead of the default TAB delimiter. |
+
 ```bash
 # Print a range of each line with a specific delimiter:
 command | cut -d "," -f 1,2
