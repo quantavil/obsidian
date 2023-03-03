@@ -281,6 +281,22 @@ Lucky
 Pranjal Thakral
 ```
 
+```bash
+$ comm file1 file2
+        Apaar
+Apaar
+Ayush Rajput
+Deepak
+                Hemant
+        Lucky
+        Pranjal Thakral
+```
+
+```bash
+$ cat file1 | comm -12 - file2
+Hemant
+```
+
 ### Grep
 
 The grep (**g**lobal **r**egular **e**xpression **p**rint) enables searching through text in a file or a standard output. The basic syntax is:
