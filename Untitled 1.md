@@ -220,7 +220,34 @@ mktemp                 # Create a temporary file
 **7. Cat**
 
 ```bash
+# To display the contents of a file:
+cat file
 
+# To display multiple file
+cat file1 file2
+
+# To display file contents with line numbers
+cat -n file
+
+# To display file contents with line numbers (blank lines excluded)
+cat -b file
+
+# Supress repeated 
+cat -s file
+# Print the contents of a file to the standard output:
+cat path/to/file
+
+# Concatenate several files into an output file:
+cat path/to/file1 path/to/file2 ... > path/to/output_file
+
+# Append several files to an output file:
+cat path/to/file1 path/to/file2 ... >> path/to/output_file
+
+# Copy the contents of a file into an output file without buffering:
+cat -u /dev/tty12 > /dev/tty13
+
+# Write `stdin` to a file:
+cat - > path/to/file
 ```
    1. **Create a file:** Used to create a file with specific name, content and press exit using `CTRL + D`
        ```bash
