@@ -135,6 +135,39 @@ mktemp                 # Create a temporary file
 
 ## Text Processing
 
+### Head 
+Use the **`head`** command to truncate long outputs. The command can truncate files, for example:
+
+```
+head <filename>
+```
+
+Alternatively, pipe **`head`** to a command with a long output:
+
+```
+<command> | head
+```
+
+### Tail
+The Linux tail command does the opposite of **`head`**. Use the command to show the last ten lines of a file:
+
+```
+tail <filename>
+```
+
+Or pipe **`tail`** to a command with a long output:
+
+```
+<command> | tail
+```
+
+### Diff
+The **`diff`** (**diff**erence) command compares two files and prints the difference. To use the command, run:
+
+```
+diff <file 1> <file 2>
+```
+
 ### Grep
 
 The grep (**g**lobal **r**egular **e**xpression **p**rint) enables searching through text in a file or a standard output. The basic syntax is:
