@@ -103,10 +103,12 @@ sudo chgrp Administrator test.txt
 
 ## File and directory commands
 
-1. **pwd** The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
+### pwd
+
+The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
    ```bash
-   $ pwd
-   /home/sj/Desktop/Linux
+# pwd
+# Print name of current/working directory.
    ```
 
 2. **ls**: The `ls` command is used to list files or directories. It also accepts some flags or options that changes how files or directories are listed in your terminal.
