@@ -595,7 +595,7 @@ SED command in UNIX stands for stream editor and it can perform lots of function
 # sed
 # A stream editor. Used to perform basic text transformations
 
-# Preview a file edit, via substitution.
+# s` (substitute): This command is used to substitute one string with another string in a line.
 sed 's/unix/linux/' FILE
 
 # Replacing the nth occurrence of a pattern in a line
