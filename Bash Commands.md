@@ -610,8 +610,14 @@ sed '/World/d' FILE
 # i (insert): This command is used to insert text before a line.
 sed 'i\Hello' FILE
 
+# To insert a line before a matching pattern:
+sed '/Once upon a time/i\Chapter 1'
+
 # a (append): This command is used to append text after a line.
 sed 'a\World' FILE
+
+# To add a line after a matching pattern:
+sed '/happily ever after/a\The end.'
 
 # Multiple commands: You can specify multiple `sed` commands separated by semicolons (;).
 echo "The cat chased the bird." | sed 's/cat/dog/ ; a\man'
@@ -641,16 +647,12 @@ sed -i -r 's/^\s+//g' <file>
 # To remove empty lines and print results to stdout:
 sed '/^$/d' <file>
 
+
+```
+
+```bash
 # To replace newlines in multiple lines:
 sed ':a;N;$!ba;s/\n//g' <file>
-
-# To insert a line before a matching pattern:
-sed '/Once upon a time/i\Chapter 1'
-
-# To add a line after a matching pattern:
-sed '/happily ever after/a\The end.'
-
-
 ```
 
 
