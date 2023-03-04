@@ -3,10 +3,12 @@
 	- [[#File and directory commands#pwd|pwd]]
 	- [[#File and directory commands#ls|ls]]
 	- [[#File and directory commands#cd|cd]]
+	- [[#File and directory commands#cp & mv|cp & mv]]
 	- [[#File and directory commands#mkdir|mkdir]]
 	- [[#File and directory commands#rmdir|rmdir]]
 	- [[#File and directory commands#rm|rm]]
 	- [[#File and directory commands#touch|touch]]
+	- [[#File and directory commands#echo|echo]]
 	- [[#File and directory commands#Cat|Cat]]
 	- [[#File and directory commands#Head|Head]]
 	- [[#File and directory commands#Tail|Tail]]
@@ -20,7 +22,6 @@
 	- [[#Text Processing#sort|sort]]
 	- [[#Text Processing#uniq|uniq]]
 	- [[#Text Processing#wc|wc]]
-
 
 ## File permissions
 
@@ -339,6 +340,27 @@ touch test{a..c}       # Create testa, testb and testc files
 mktemp                 # Create a temporary file
 ```
 
+### echo
+
+```bash
+# Print a text message. Note: quotes are optional:
+echo "Hello World"
+
+# Print a message with environment variables:
+echo "My path is $PATH"
+
+# Print a message without the trailing newline:
+echo -n "Hello World"
+
+# Append a message to the file:
+echo "Hello World" >> file.txt
+
+# Enable interpretation of backslash escapes (special characters):
+echo -e "Column 1\tColumn 2"
+
+# Default --> Disable interpretation of backslash escapes (special characters):
+echo -E "Column 1\tColumn 2"
+```
 
 ### Cat
 
