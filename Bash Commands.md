@@ -674,7 +674,7 @@ grep 'foo' bar -v|--invert-match           # Show only lines that don't match
 grep 'foo' bar -c|--count                  # Count the number lines that match
 grep 'foo' bar -n|--line-number            # Add line numbers
 grep 'foo' bar --colour                    # Add colour to output
-
+grep -e "nagpur" -e "chennai" cities       # search for multiple patterns.
 
 grep "^unix" geekfile.txt             # match the lines which start with the given string or pattern.
 
@@ -684,6 +684,7 @@ grep "^[a-c]" cities                # display line starts with a,b,c
 cat cities | grep "i$"              # display line ends with i     
 
 cat cities | grep "ore$"            # display all lines end with ore
+
 
 grep '[dp]' cities           # display line having letters d or p.
 
