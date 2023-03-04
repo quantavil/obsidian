@@ -669,6 +669,44 @@ echo "my ID is 73535" | tr -cd [:digit:]
 tr -cd "[:print:]" < path/to/file
 ```
 
+### sort
+
+```bash
+# To sort a file:
+sort <file>
+
+# To sort a file by keeping only unique:
+sort -u <file>
+
+# To sort a file and reverse the result:
+sort -r <file>
+
+# To sort a file randomly:
+sort -R <file>
+
+# To sort a file and store the output in another file:
+sort <inputFile> -o <outputFile>
+
+# Sort by default uses /var/tmp to store temp files but size of /var/tmp directory is limited. In order to sort huge use a directory with adequate size:
+sort -T <tempDirectory> <file>
+
+ tldr:sort 
+# sort
+# Sort lines of text files.
+# More information: <https://www.gnu.org/software/coreutils/sort>.
+
+# Sort a file in ascending order:
+sort path/to/file
+
+# Sort a file in descending order:
+sort --reverse path/to/file
+
+# Sort a file in case-insensitive way:
+sort --ignore-case path/to/file
+
+
+
+```
 ### uniq
 
 ```bash
