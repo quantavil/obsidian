@@ -201,9 +201,6 @@ cd ..
 # Go to the previously chosen directory:
 cd -
 
-# Go to a physical dir instead of default -L:
-cd -P path/to/dir
-
 ```
 
 ### mkdir
