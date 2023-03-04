@@ -696,6 +696,7 @@ sort <inputFile> -o <outputFile>
 # sorting a table on the basis of any column number by using -k option
 sort -t':' -nk2 file.txt
 ```
+
 ### uniq
 
 ```bash
