@@ -613,6 +613,8 @@ sed 'i\Hello' FILE
 # a (append): This command is used to append text after a line.
 sed 'a\World' FILE
 
+# Multiple commands: You can specify multiple `sed` commands separated by semicolons (;).
+echo "The cat chased the bird." | sed 's/cat/dog/ ; a\man'
 
 # Edit a file (adding -i flag), in-place; changes are made to the file(s).
 sudo sed -i 's/Name=Xfce Session/Name=Xfce_Session/' FILE
@@ -648,20 +650,7 @@ sed '/Once upon a time/i\Chapter 1'
 # To add a line after a matching pattern:
 sed '/happily ever after/a\The end.'
 
- tldr:sed 
-# sed
-# Edit text in a scriptable manner.
-# See also: `awk`, `ed`.
-# More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
-# Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and print the result to `stdout`:
-command | sed 's/apple/mango/g'
-
-# Execute a specific script [f]ile and print the result to `stdout`:
-command | sed -f path/to/script.sed
-
-# Print just a first line to `stdout`:
-command | sed -n '1p'
 ```
 
 
