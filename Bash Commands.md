@@ -598,8 +598,11 @@ SED command in UNIX stands for stream editor and it can perform lots of function
 # Preview a file edit, via substitution.
 sed 's/unix/linux/' FILE
 
+# Replacing the nth occurrence of a pattern in a line
+sed 's/unix/linux/2' FILE
+
 # Replace the same string more than once per line (g flag)
-sudo sed 's/Name=Xfce Session/Name=Xfce_Session/g' FILE
+sudo sed 's/unix/linux/g' FILE
 
 # Edit a file (adding -i flag), in-place; changes are made to the file(s).
 sudo sed -i 's/Name=Xfce Session/Name=Xfce_Session/' FILE
