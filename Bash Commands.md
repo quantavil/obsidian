@@ -2,16 +2,17 @@
 - [[#File and directory commands|File and directory commands]]
 	- [[#File and directory commands#pwd|pwd]]
 	- [[#File and directory commands#ls|ls]]
+	- [[#File and directory commands#cd|cd]]
 	- [[#File and directory commands#mkdir|mkdir]]
 	- [[#File and directory commands#rmdir|rmdir]]
 	- [[#File and directory commands#rm|rm]]
 	- [[#File and directory commands#touch|touch]]
 	- [[#File and directory commands#Cat|Cat]]
+	- [[#File and directory commands#Head|Head]]
+	- [[#File and directory commands#Tail|Tail]]
+	- [[#File and directory commands#Diff|Diff]]
+	- [[#File and directory commands#Comm|Comm]]
 - [[#Text Processing|Text Processing]]
-	- [[#Text Processing#Head|Head]]
-	- [[#Text Processing#Tail|Tail]]
-	- [[#Text Processing#Diff|Diff]]
-	- [[#Text Processing#Comm|Comm]]
 	- [[#Text Processing#Cut|Cut]]
 	- [[#Text Processing#Grep|Grep]]
 
@@ -326,11 +327,6 @@ cat file_name1.txt | more
 cat file_name1.txt | less
 ```
 
-
----
-
-## Text Processing
-
 ### Head 
 Use the **`head`** command to truncate long outputs. The command can truncate files, for example:
 
@@ -517,6 +513,11 @@ Hemant
 ```
 
 
+---
+
+## Text Processing
+
+
 ### Cut
 
 The **`cut`** command is a command-line utility that allows you to cut out sections of a specified file or piped data and print the result to standard output.
@@ -587,7 +588,68 @@ grep "^unix" geekfile.txt             # match the lines which start with the giv
  ls -1 | grep -E '^..[e].*' 
 ```
 
+### sed
 
+A stream editor. Used to perform basic text transformations
+
+```bash
+
+
+# Preview a file edit, via substitution.
+sudo sed 's/Name=Xfce Session/Name=Xfce_Session/' FILE
+
+# Replace the same string more than once per line (g flag)
+sudo sed 's/Name=Xfce Session/Name=Xfce_Session/g' FILE
+
+# Edit a file (adding -i flag), in-place; changes are made to the file(s).
+sudo sed -i 's/Name=Xfce Session/Name=Xfce_Session/' FILE
+
+# It can become necessary to escape special characters in your string.
+sed -i 's/\/path\/to\/somewhere\//\/path\/to\/anotherplace\//' FILE
+
+# Change your sed delimiter to a pipe to avoid escaping slashes.
+sed -i 's|/path/to/somewhere/|/path/to/anotherplace/|' FILE
+
+ cheat:sed 
+# To replace all occurrences of "day" with "night" and write to stdout:
+sed 's/day/night/g' <file>
+
+# To replace all occurrences of "day" with "night" within <file>:
+sed -i 's/day/night/g' <file>
+
+# To replace all occurrences of "day" with "night" on stdin:
+echo 'It is daytime' | sed 's/day/night/g'
+
+# To remove leading spaces:
+sed -i -r 's/^\s+//g' <file>
+
+# To remove empty lines and print results to stdout:
+sed '/^$/d' <file>
+
+# To replace newlines in multiple lines:
+sed ':a;N;$!ba;s/\n//g' <file>
+
+# To insert a line before a matching pattern:
+sed '/Once upon a time/i\Chapter 1'
+
+# To add a line after a matching pattern:
+sed '/happily ever after/a\The end.'
+
+ tldr:sed 
+# sed
+# Edit text in a scriptable manner.
+# See also: `awk`, `ed`.
+# More information: <https://www.gnu.org/software/sed/manual/sed.html>.
+
+# Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and print the result to `stdout`:
+command | sed 's/apple/mango/g'
+
+# Execute a specific script [f]ile and print the result to `stdout`:
+command | sed -f path/to/script.sed
+
+# Print just a first line to `stdout`:
+command | sed -n '1p'
+```
 
 
 
