@@ -742,13 +742,13 @@ echo "The cat chased the bird." | sed 's/cat/dog/ ; a\man'
 ```bash
 
 # To remove leading spaces:
-sed -r 's/^\s+//g' <file>
+sed -i -r 's/^\s+//g' <file>
 
 # To replace newlines in multiple lines:
 sed ':a;N;$!ba;s/\n//g' <file>
 
 # To remove empty lines in a file
-sed '/^$/d' <file>
+sed -i '/^$/d' <file>
 ```
 
 
