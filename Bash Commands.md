@@ -662,6 +662,9 @@ tr -s 'input_characters' < path/to/file
 # Translate the contents of a file to upper-case:
 tr "[:lower:]" "[:upper:]" < path/to/file
 
+#  complement the sets using -c option
+echo "my ID is 73535" | tr -cd [:digit:]
+
 # Strip out non-printable characters from a file:
 tr -cd "[:print:]" < path/to/file
 ```
