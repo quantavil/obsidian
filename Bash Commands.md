@@ -591,6 +591,7 @@ grep "^unix" geekfile.txt             # match the lines which start with the giv
 ### sed
 
 SED command in UNIX stands for stream editor and it can perform lots of functions on file like searching, find and replace, insertion or deletion. By using SED you can edit files even without opening them
+
 ```bash
 # sed
 # A stream editor. Used to perform basic text transformations
@@ -603,6 +604,10 @@ sed 's/unix/linux/2' FILE
 
 # Replace the same string more than once per line (g flag)
 sed 's/unix/linux/g' FILE
+
+# Edit a file (adding -i flag), in-place; changes are made to the file(s).
+# To replace all occurrences of "day" with "night" within <file>:
+sed -i 's/day/night/g' FILE
 
 # d (delete): This command is used to delete a line based on a pattern.
 sed '/World/d' FILE
@@ -622,35 +627,13 @@ sed '/happily ever after/a\The end.'
 # Multiple commands: You can specify multiple `sed` commands separated by semicolons (;).
 echo "The cat chased the bird." | sed 's/cat/dog/ ; a\man'
 
-# Edit a file (adding -i flag), in-place; changes are made to the file(s).
-sudo sed -i 's/Name=Xfce Session/Name=Xfce_Session/' FILE
+```
 
-# It can become necessary to escape special characters in your string.
-sed -i 's/\/path\/to\/somewhere\//\/path\/to\/anotherplace\//' FILE
-
-# Change your sed delimiter to a pipe to avoid escaping slashes.
-sed -i 's|/path/to/somewhere/|/path/to/anotherplace/|' FILE
-
- cheat:sed 
-# To replace all occurrences of "day" with "night" and write to stdout:
-sed 's/day/night/g' <file>
-
-# To replace all occurrences of "day" with "night" within <file>:
-sed -i 's/day/night/g' <file>
-
-# To replace all occurrences of "day" with "night" on stdin:
-echo 'It is daytime' | sed 's/day/night/g'
+```bash
 
 # To remove leading spaces:
 sed -i -r 's/^\s+//g' <file>
 
-# To remove empty lines and print results to stdout:
-sed '/^$/d' <file>
-
-
-```
-
-```bash
 # To replace newlines in multiple lines:
 sed ':a;N;$!ba;s/\n//g' <file>
 ```
