@@ -687,7 +687,7 @@ sort -R <file>
 # To sort a file and store the output in another file:
 sort <inputFile> -o <outputFile>
 
-# Sort lines of a file based on a specific field
+# sorting a table on the basis of any column number by using -k option
 sort -t':' -nk2 file.txt
 ```
 ### uniq
