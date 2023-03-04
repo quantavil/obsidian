@@ -701,6 +701,11 @@ grep -v '^$' filename.txt > newfile.txt
 # Show the employee records of all employees with employee Id between 8 and 19 (emp8 - emp19) including both
 cat FILE | grep -E "^emp1([0-9]):|^emp([89]):"
 
+^  - ends with
+grep "^m" FILE
+
+$ - ends with
+grep -i "a$" FILE
 ```
 
 ### sed
