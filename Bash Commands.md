@@ -191,7 +191,10 @@ ls -a
     -i To list directory contents along with inode number
 ```
 
-
+```bash
+list all files contains 3 chars.
+ls ???
+```
 ### cd
 
 ```bash
