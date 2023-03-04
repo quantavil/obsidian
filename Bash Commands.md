@@ -590,10 +590,10 @@ grep "^unix" geekfile.txt             # match the lines which start with the giv
 
 ### sed
 
-A stream editor. Used to perform basic text transformations
-
+SED command in UNIX stands for stream editor and it can perform lots of functions on file like searching, find and replace, insertion or deletion. By using SED you can edit files even without opening them
 ```bash
-
+# sed
+# A stream editor. Used to perform basic text transformations
 
 # Preview a file edit, via substitution.
 sudo sed 's/Name=Xfce Session/Name=Xfce_Session/' FILE
