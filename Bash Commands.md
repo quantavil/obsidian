@@ -697,6 +697,10 @@ grep '[d-h]' cities          # display line having letters between d and h.
  ls -1 | grep -E '^..[e].*' 
 # To remove empty lines in a file
 grep -v '^$' filename.txt > newfile.txt
+
+# Show the employee records of all employees with employee Id between 8 and 19 (emp8 - emp19) including both
+cat FILE | grep -E "^emp1([0-9]):|^emp([89]):"
+
 ```
 
 ### sed
