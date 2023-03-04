@@ -185,6 +185,27 @@ ls -a
     -i To list directory contents along with inode number
 ```
 
+
+### cd
+
+```bash
+# Go to the given directory:
+cd path/to/directory
+
+# Go to home directory of current user:
+cd
+
+# Go up to the parent of the current directory:
+cd ..
+
+# Go to the previously chosen directory:
+cd -
+
+# Go to a physical dir instead of default -L:
+cd -P path/to/dir
+
+```
+
 ### mkdir
 
 The mkdir(make directory) command allows users to create directories or folders.
