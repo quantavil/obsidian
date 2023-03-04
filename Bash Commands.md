@@ -1,17 +1,16 @@
 - [[#File permissions|File permissions]]
 - [[#File and directory commands|File and directory commands]]
-	- [[#File and directory commands#pwd|pwd]]
+	- [[#File and directory commands#pwd & cd|pwd & cd]]
 	- [[#File and directory commands#ls|ls]]
-	- [[#File and directory commands#cd|cd]]
 	- [[#File and directory commands#cp & mv|cp & mv]]
 	- [[#File and directory commands#mkdir|mkdir]]
 	- [[#File and directory commands#rmdir|rmdir]]
 	- [[#File and directory commands#rm|rm]]
 	- [[#File and directory commands#touch|touch]]
 	- [[#File and directory commands#echo|echo]]
+		- [[#echo#printf|printf]]
 	- [[#File and directory commands#Cat|Cat]]
-	- [[#File and directory commands#Head|Head]]
-	- [[#File and directory commands#Tail|Tail]]
+	- [[#File and directory commands#Head  & tail|Head  & tail]]
 	- [[#File and directory commands#Diff|Diff]]
 	- [[#File and directory commands#Comm|Comm]]
 - [[#Text Processing|Text Processing]]
@@ -22,6 +21,7 @@
 	- [[#Text Processing#sort|sort]]
 	- [[#Text Processing#uniq|uniq]]
 	- [[#Text Processing#wc|wc]]
+
 
 ## File permissions
 
@@ -128,11 +128,29 @@ sudo chgrp Administrator test.txt
 
 ## File and directory commands
 
-### pwd
+### pwd & cd
 
+**pwd**
 ```bash
 $ pwd
 # Print name of current/working directory.
+```
+
+**cd**
+
+```bash
+# Go to the given directory:
+cd path/to/directory
+
+# Go to home directory of current user:
+cd
+
+# Go up to the parent of the current directory:
+cd ..
+
+# Go to the previously chosen directory:
+cd -
+
 ```
 
 ### ls
@@ -225,22 +243,6 @@ ls [0-9][a-z]*
 
 ```
 
-### cd
-
-```bash
-# Go to the given directory:
-cd path/to/directory
-
-# Go to home directory of current user:
-cd
-
-# Go up to the parent of the current directory:
-cd ..
-
-# Go to the previously chosen directory:
-cd -
-
-```
 
 ### cp & mv
 
@@ -611,7 +613,6 @@ Hemant
 ---
 
 ## Text Processing
-
 
 ### Cut
 
