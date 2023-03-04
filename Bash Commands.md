@@ -192,9 +192,26 @@ ls -a
 ```
 
 ```bash
-list all files contains 3 chars.
+# list all files contains 3 chars.
 ls ???
+# list all files contains two chars and first character should be x.
+ls x?
+# To display list of files having atleast 3 chars.
+ls ???*
+# list of all files where filename starts with f or y or c.
+ls [fyc]*
+# list of all files where filename not starts with f or y or c.
+ls [!fyc]*
+# list of all files name starts with lower case alphabates.
+ls [a-z]* /  ls [[:lower:]]*
+# list of all files name starts with Upper case alphabates.
+ls [A-Z]* /  ls [[:upper:]]*
+# list of all the filename starts with digits.
+ls [0-9]* /  ls [[:digit:]]*
+# list of all file starts with special symbols.
+ls [![:alnum:]]*
 ```
+
 ### cd
 
 ```bash
