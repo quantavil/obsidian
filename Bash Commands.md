@@ -210,6 +210,18 @@ ls [A-Z]* /  ls [[:upper:]]*
 ls [0-9]* /  ls [[:digit:]]*
 # list of all file starts with special symbols.
 ls [![:alnum:]]*
+
+----------------------------------------------------------------
+? - single character
+* -zero or more occurence (Multiple character)
+.(dot) represents 1 or more characters.
+\| indicates 'or'.
+clear - to clear screen.
+[a-z]* - search for all the range of values
+ls [f]*
+ls [0-9][a-z]*
+[!a-z]* - other than alphabet
+
 ```
 
 ### cd
