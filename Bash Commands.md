@@ -602,7 +602,13 @@ sed 's/unix/linux/' FILE
 sed 's/unix/linux/2' FILE
 
 # Replace the same string more than once per line (g flag)
-sudo sed 's/unix/linux/g' FILE
+sed 's/unix/linux/g' FILE
+
+# i (insert): This command is used to insert text before a line.
+sed 'i\Hello' FILE
+
+# a (append): This command is used to append text after a line.
+sed 'a\World' FILE
 
 # Edit a file (adding -i flag), in-place; changes are made to the file(s).
 sudo sed -i 's/Name=Xfce Session/Name=Xfce_Session/' FILE
