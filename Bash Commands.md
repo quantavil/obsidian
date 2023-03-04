@@ -694,6 +694,8 @@ grep '[d-h]' cities          # display line having letters between d and h.
 ```bash
 # finding file whose 3rd character is 'e'
  ls -1 | grep -E '^..[e].*' 
+# To remove empty lines in a file
+grep -v '^$' filename.txt > newfile.txt
 ```
 
 ### sed
@@ -740,10 +742,13 @@ echo "The cat chased the bird." | sed 's/cat/dog/ ; a\man'
 ```bash
 
 # To remove leading spaces:
-sed -i -r 's/^\s+//g' <file>
+sed -r 's/^\s+//g' <file>
 
 # To replace newlines in multiple lines:
 sed ':a;N;$!ba;s/\n//g' <file>
+
+# To remove empty lines in a file
+sed '/^$/d' <file>
 ```
 
 
