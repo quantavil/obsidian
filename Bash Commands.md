@@ -362,6 +362,21 @@ echo -e "Column 1\tColumn 2"
 echo -E "Column 1\tColumn 2"
 ```
 
+#### printf
+
+```bash
+printf
+-> %d - int
+-> %s -str
+-> %f -float
+-> %b -escape sequence
+-> %c -Char
+ printf "%d %s %f %b" 100 "ML" 20 "Hi all, \nWelcome to FP Training"
+
+100 ML 20.000000 Hi all,
+Welcome to FP Training
+
+```
 ### Cat
 
 ```bash
@@ -406,7 +421,8 @@ cat file_name1.txt | more
 cat file_name1.txt | less
 ```
 
-### Head 
+### Head  & tail
+**Head**
 Use the **`head`** command to truncate long outputs. The command can truncate files, for example:
 
 ```bash
@@ -416,7 +432,7 @@ head -n 5 bar.txt  # Prints the first ‘num’ lines
 head -c 5 bar.txt    #  Prints the first ‘num’ bytes , Newline count as a single character
 ```
 
-### Tail
+**Tail**
 The Linux tail command does the opposite of **`head`**. Use the command to show the last ten lines of a file:
 
 ```bash
