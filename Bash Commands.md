@@ -241,6 +241,26 @@ cd -
 
 ```
 
+### cp & mv
+
+cp- copy content from one file to another.
+mv- move file from one to destination * data overwrite 
+
+```bash
+# Copy the file file1.txt to file2.txt in the current directory
+cp file1.txt file2.txt
+
+# Copy the directory dir1 and all its contents to dir2 in the current directory
+cp -R dir1 dir2
+
+# Move the file file1.txt to the directory dir1 in the current directory
+mv file1.txt dir1/
+
+# Rename the file file1.txt to file2.txt in the current directory
+mv file1.txt file2.txt
+```
+
+
 ### mkdir
 
 The mkdir(make directory) command allows users to create directories or folders.
