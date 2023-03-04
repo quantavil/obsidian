@@ -694,7 +694,6 @@ sort -t':' -nk2 file.txt
 
 ```bash
 # To show all lines without duplication:
-# (`sort -u` and `uniq` have the same effect.)
 sort <file> | uniq
 
 # To show not duplicated lines:
@@ -714,8 +713,31 @@ sort <file> | uniq -dc
 ```
 
 
+### wc
 
+```bash
+# To count the number of words (file or STDIN):
 
+cat <file> | wc 
+1st value - number of lines
+2nd value - number of words
+3rd value - number of bytes/character
+In wc - space will be the default dilimiter.
+
+wc -w <file>
+cat <file> | wc -w
+
+# To count the number of lines (file or STDIN):
+wc -l <file>
+cat <file> | wc -l
+
+# To count the number of bytes (file or STDIN):
+wc -c <file>
+cat <file> | wc -c
+
+# To count files and directories at a given location:
+ls | wc -l
+```
 
 
 
