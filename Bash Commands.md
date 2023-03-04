@@ -15,6 +15,11 @@
 - [[#Text Processing|Text Processing]]
 	- [[#Text Processing#Cut|Cut]]
 	- [[#Text Processing#Grep|Grep]]
+	- [[#Text Processing#sed|sed]]
+	- [[#Text Processing#tr|tr]]
+	- [[#Text Processing#sort|sort]]
+	- [[#Text Processing#uniq|uniq]]
+	- [[#Text Processing#wc|wc]]
 
 
 ## File permissions
@@ -661,6 +666,7 @@ tr -s 'input_characters' < path/to/file
 
 # Translate the contents of a file to upper-case:
 tr "[:lower:]" "[:upper:]" < path/to/file
+cat <file> | tr "[a-z]" "[A-Z]"
 
 #  complement the sets using -c option
 echo "my ID is 73535" | tr -cd [:digit:]
