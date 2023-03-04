@@ -586,6 +586,18 @@ grep 'foo' bar --colour                    # Add colour to output
 
 
 grep "^unix" geekfile.txt             # match the lines which start with the given string or pattern.
+
+cat cities | grep "^m" :            # display line starts with m
+grep "^[a-c]" cities                # display line starts with a,b,c
+
+cat cities | grep "i$"              # display line ends with i     
+
+cat cities | grep "ore$"            # display all lines end with ore
+
+grep '[dp]' cities           # display line having letters d or p.
+
+grep '[d-h]' cities          # display line having letters between d and h.
+
 ```
 
 ```bash
