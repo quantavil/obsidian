@@ -261,6 +261,23 @@ mv file1.txt dir1/
 
 # Rename the file file1.txt to file2.txt in the current directory
 mv file1.txt file2.txt
+
+cp file1 file2 -> copy contents of file1 to file2
+cp file1 file2 file3 dir1 -> copy multiple files into directory
+cp -r dir1 dir2 -> recursively copy the contents of dir1 to new directory dir2
+cp -i file1 file2 -> interactive copy
+cp -b file1 file2 -> this will create the backup of file1
+cp -a
+cp -s
+cp -n file1 file2 -> it will not overwrite the contents of file2
+
+mv -move
+move the file from one directory to another directory or rename     -mv		- cut paste
+
+-u	- update
+-b	- backup
+-n	-not overwritten and it will not show any prompt message
+-i	-prompt message whether to overwrite or not
 ```
 
 
@@ -902,4 +919,8 @@ $ cat filw | sort | uniq -c | head -1
 
 ```bash
 cat newemp | sed "/CustID/d" | sort -t "," -nk5 | cut -d "," -f 2,4 | head -1 
+```
+
+```bash
+cat file1 2> efile
 ```
