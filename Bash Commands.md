@@ -899,3 +899,7 @@ ls | grep "^[fd].*2$"
 ```bash
 $ cat filw | sort | uniq -c | head -1
 ```
+
+```bash
+cat newemp | sed "/CustID/d" | sort -t "," -nk5 | cut -d "," -f 2,4 | head -1 
+```
