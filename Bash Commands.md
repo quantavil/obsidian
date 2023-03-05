@@ -23,6 +23,7 @@
 	- [[#Text Processing#wc|wc]]
 
 
+
 ## File permissions
 
 Since Linux is a multi-user operating system, it is necessary to provide security to prevent people from accessing each other’s confidential files. So Linux divides authorization into 2 levels,
@@ -106,24 +107,9 @@ and the list of mathematical symbols to modify the file permissions as follows,
 | \= | Assign the permission |
     
 
-**Changing Ownership and Group:** It is possible to change the the ownership and group of a file/directory using `chown` command.
-
-```batchfile
-chown user filename
-chown user:group filename
-
-Example:
-chown John test.txt
-chown John:Admin test.txt
-```
-
-**Change group-owner only:** Sometimes you may need to change group owner only. In this case, chgrp command need to be used
-
-```batchfile
-chgrp group_name filename
-
-Example:
-sudo chgrp Administrator test.txt
+```bash
+chmod u+x,g+x myfile.txt
+chmod u=rw,g=r,o= myfile.txt
 ```
 
 ## File and directory commands
@@ -781,9 +767,7 @@ sed -i '/^$/d' <file>
 
 
 ### tr
-
 ```bash
-
 # Replace all occurrences of a character in a file, and print the result:
 tr find_character replace_character < path/to/file
 
