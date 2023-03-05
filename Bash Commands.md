@@ -895,3 +895,7 @@ $ cat orange | tr -d "," | tr -s ";" ";" | sort -t ";" -k4 | cut -d ";" -f4 | un
 ```bash
 ls | grep "^[fd].*2$"
 ```
+
+```bash
+$ cat filw | sort | uniq -c | head -1
+```
