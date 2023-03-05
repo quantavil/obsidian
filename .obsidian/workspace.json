@@ -20,31 +20,18 @@
             }
           },
           {
-            "id": "92c4c96b10fb92b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python Interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1f713d9dcab515e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash Commands.md",
+                "file": "regex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash Commands.md",
+                "file": "Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,11 +142,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1f713d9dcab515e2",
+  "active": "40e2e942c9a015dc",
   "lastOpenFiles": [
+    "Python Interview.md",
     "regex.md",
     "Bash Commands.md",
-    "Python Interview.md",
     "REST.md",
     "Untitled.md",
     "CSS.md",
