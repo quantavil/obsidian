@@ -891,3 +891,7 @@ $ cat orange | tr -d "," | tr -s ";" ";" | sort -t ";" -k4 | cut -d ";" -f4 | un
 3
 
 ```
+
+```bash
+ls | grep "^[fd].*2$"
+```

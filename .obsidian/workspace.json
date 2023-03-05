@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f713d9dcab515e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "regex.md",
+                "file": "Bash Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code.md",
+                "file": "Bash Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,14 +132,14 @@
   },
   "active": "40e2e942c9a015dc",
   "lastOpenFiles": [
-    "Python Interview.md",
     "regex.md",
     "Bash Commands.md",
     "REST.md",
     "Untitled.md",
+    "Code.md",
+    "Python Interview.md",
     "CSS.md",
     "CPP Interview.md",
-    "Code.md",
     "HTML.md",
     "DBMS Interview.md",
     "Interview.md",
