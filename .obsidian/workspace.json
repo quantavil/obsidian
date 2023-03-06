@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b931496b1e8013a6",
+        "id": "c284177731998f5d",
         "type": "tabs",
         "children": [
           {
-            "id": "40e2e942c9a015dc",
+            "id": "e0877e5a29e206b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash Commands.md",
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash Commands.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,10 +130,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "40e2e942c9a015dc",
+  "active": "e0877e5a29e206b3",
   "lastOpenFiles": [
-    "regex.md",
+    "Untitled 1.md",
+    "CPP/Pointers and References.md",
+    "Attachments/Pasted image 20230103204740.png",
+    "zen/favicon-32x32.png",
     "Bash Commands.md",
+    "regex.md",
     "REST.md",
     "Untitled.md",
     "Code.md",
