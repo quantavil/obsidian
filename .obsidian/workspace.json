@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Path Sum.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Path Sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
   },
   "active": "e0877e5a29e206b3",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "Path Sum.md",
     "CPP/Pointers and References.md",
     "Attachments/Pasted image 20230103204740.png",
     "zen/favicon-32x32.png",
