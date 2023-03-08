@@ -66,7 +66,7 @@ class Solution:
         # If the targetSum is less than the value of the current node, recursively search the left subtree
         if targetSum < root.val:
             return self.hasPathSum(root.left, targetSum)
-        
+	        
         # If the targetSum is greater than the value of the current node, recursively search the right subtree
         if targetSum > root.val:
             return self.hasPathSum(root.right, targetSum)
