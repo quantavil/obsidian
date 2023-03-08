@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "da4c8986dc87b768",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Questions/Medium/78. Subsets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Path Sum.md",
+                "file": "Coding Questions/Medium/78. Subsets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,8 +143,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e0877e5a29e206b3",
+  "active": "da4c8986dc87b768",
   "lastOpenFiles": [
+    "Path Sum.md",
+    "Coding Questions/Medium/78. Subsets.md",
+    "Coding Questions/Medium",
     "Interview questions.md",
     "Interview.md",
     "HTML.md",
@@ -140,7 +156,6 @@
     "CPP Interview.md",
     "Code.md",
     "Bash Commands.md",
-    "Path Sum.md",
     "CPP/Pointers and References.md",
     "Attachments/Pasted image 20230103204740.png",
     "zen/favicon-32x32.png",
