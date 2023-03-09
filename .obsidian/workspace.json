@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e063c649d85ee917",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Questions/Medium/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Medium/78. Subsets.md",
+                "file": "Coding Questions/Medium/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,10 +155,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "da4c8986dc87b768",
+  "active": "e063c649d85ee917",
   "lastOpenFiles": [
-    "Path Sum.md",
     "Coding Questions/Medium/78. Subsets.md",
+    "Coding Questions/Medium/Untitled.md",
+    "Path Sum.md",
     "Coding Questions/Medium",
     "Interview questions.md",
     "Interview.md",
