@@ -53,27 +53,27 @@ return recursive(nums)
 ![image](https://assets.leetcode.com/users/images/ea5e3934-308b-486b-bd9d-ba5d84972c93_1609311308.955607.png)
 
 -   As you can see in the sketch above, by the time we reach node B, the path = \[1,2,3\]. These changes are echoed up to the parent node and even all the way up to the root if we don't backtrack which will ruin subsequent paths (ex: ParentNode -> node C) is missed up. This can be alleviated by popping the path after each recursive call as we did in our code.
-    
-    ```
-    for i in range(len(nums)): # [1,2,3]
-    newNums = nums[:i] + nums[i+1:]
-    perm.append(nums[i])
-    recursive(newNums, perm, res) 
-    perm.pop() # -- BACKTRACK
-    ```
-    
+
+```python
+for i in range(len(nums)): # [1,2,3]
+newNums = nums[:i] + nums[i+1:]
+perm.append(nums[i])
+recursive(newNums, perm, res) 
+perm.pop() # -- BACKTRACK
+```
+
 -   It's also worth-mentioning that backtracking was needed here because of the branching nature of the space-tree. Backtracking won't be required if the recursive algorithm produces a linked-list rather than a space-tree. An example of such algorithm is recursively summing up numbers from 0 -> N
-    
-    ```
-    def sumPosNumLessThanN(N, res=0):
-    if N == 0:
-    return res
-    else:
-    res = 1 + sumPosNumLessThanN(N-1)
-    return res
-    ```
-    
-    The recursive algorithm above produces a chain of nodes (no branching):  
+
+```python
+def sumPosNumLessThanN(N, res=0):
+if N == 0:
+return res
+else:
+res = 1 + sumPosNumLessThanN(N-1)
+return res
+```
+
+The recursive algorithm above produces a chain of nodes (no branching):  
     ![image](https://assets.leetcode.com/users/images/65a431a3-c09d-4926-b431-8df5eb2a4cf3_1609312872.9623408.png)
     
 
@@ -84,7 +84,7 @@ return recursive(nums)
 
 ---
 
-## **Appraoch 2: Recursive without backtracking (implicit stack)**
+## **Approach 2: Recursive without backtracking (implicit stack)**
 
 **Big-O:**
 
