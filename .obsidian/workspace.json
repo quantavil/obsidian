@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Medium/Untitled.md",
+                "file": "Coding Questions/Medium/Permutation.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2b648b53361ddb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Questions/Medium/Permutation.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Medium/Untitled.md",
+                "file": "Coding Questions/Medium/Permutation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,10 +167,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e063c649d85ee917",
+  "active": "e2b648b53361ddb9",
   "lastOpenFiles": [
     "Coding Questions/Medium/78. Subsets.md",
-    "Coding Questions/Medium/Untitled.md",
+    "Coding Questions/Medium/Permutation.md",
+    "Coding Questions/Medium/77. Combinations.md",
     "Path Sum.md",
     "Coding Questions/Medium",
     "Interview questions.md",
