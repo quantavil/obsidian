@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Medium/Permutation.md",
+                "file": "Coding Questions/Medium/46. Permutation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Medium/Permutation.md",
+                "file": "Coding Questions/Medium/77. Combinations.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Medium/Permutation.md",
+                "file": "Coding Questions/Medium/77. Combinations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,8 +170,8 @@
   "active": "e2b648b53361ddb9",
   "lastOpenFiles": [
     "Coding Questions/Medium/78. Subsets.md",
-    "Coding Questions/Medium/Permutation.md",
     "Coding Questions/Medium/77. Combinations.md",
+    "Coding Questions/Medium/46. Permutation.md",
     "Path Sum.md",
     "Coding Questions/Medium",
     "Interview questions.md",
