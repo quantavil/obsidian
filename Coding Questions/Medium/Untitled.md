@@ -1,5 +1,6 @@
 ## **Approach 1: Recursive with backtracking (implicit stack)**
 
+**Code:**
 
 ![image](https://assets.leetcode.com/users/images/ac9c35dc-89b8-4860-b08c-d2f60859e43e_1609289801.6830964.png)
 
@@ -138,11 +139,6 @@ The recursive algorithm above produces a chain of nodes (no branching):
 
 ## **Approach 2: Recursive without backtracking (implicit stack)**
 
-**Big-O:**
-
--   Time: `O(N*N!)`
--   Space: `O(N!)`
-
 **Code:**
 
 ```python
@@ -161,6 +157,11 @@ def recursive(nums, perm=[], res=[]):
         
         return recursive(nums)
 ```
+
+**Big-O:**
+
+-   Time: `O(N*N!)`
+-   Space: `O(N!)`
 
 **How backtracking was avoided? Approach 2 vs. Approach 3**
 
