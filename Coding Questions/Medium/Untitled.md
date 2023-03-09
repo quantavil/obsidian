@@ -1,3 +1,5 @@
+___
+
 ## **Approach 1: Recursive with backtracking (implicit stack)**
 
 ___
@@ -25,7 +27,7 @@ ___
 
 **Code:**
 
-```python
+```
 def permute(self, nums):
 # helper
 def recursive(nums, perm=[], res=[]):
@@ -67,7 +69,7 @@ return recursive(nums)
 
 -   As you can see in the sketch above, by the time we reach node B, the path = \[1,2,3\]. These changes are echoed up to the parent node and even all the way up to the root if we don't backtrack which will ruin subsequent paths (ex: ParentNode -> node C) is missed up. This can be alleviated by popping the path after each recursive call as we did in our code.
     
-    ```python
+    ```
     for i in range(len(nums)): # [1,2,3]
     newNums = nums[:i] + nums[i+1:]
     perm.append(nums[i])
@@ -77,7 +79,7 @@ return recursive(nums)
     
 -   It's also worth-mentioning that backtracking was needed here because of the branching nature of the space-tree. Backtracking won't be required if the recursive algorithm produces a linked-list rather than a space-tree. An example of such algorithm is recursively summing up numbers from 0 -> N
     
-    ```python
+    ```
     def sumPosNumLessThanN(N, res=0):
     if N == 0:
     return res
@@ -94,8 +96,105 @@ return recursive(nums)
 
 -   You probably have guessed it by now. As shown above, due to the constantly changing state of our data/variables, we need to append a copy of the path `res.append(path[::])` at the leaf, instead of appending the path itself. The reason being that lists are mutable and are passed by reference, so even after appending a path to our result list, that path will still be affected by any changes to its aliases (will be afftected by all the poppping and backtracking taking place) and by the time our recursion calls make their way to the top/root, the path will be empty `path = [ ]`
 
-**Backtracking seems like a pain in the a$$. Is there a way around it?**
+## **Appraoch 2: Recursive without backtracking (implicit stack)**
 
--   Glad you asked, yes, there is! We can avoid backtracking all together with a little bit of book-keeping. Instead of having to backtrack to revert to a previous state of the data/variables, we could save snapshots of the data/variables at each step along the way so that we never have to manually backtrack. This can be done either recursively or iteratively by passing a copy of our data. See Approach 2 for recursive without backtracking, and Approach 3 for an itertaive solution without backtracking below.  
-    .  
-    .
+**Big-O:**
+
+-   Time: `O(N*N!)`
+-   Space: `O(N!)`
+
+**Code:**
+
+```python
+def recursive(nums, perm=[], res=[]):
+        
+            if not nums: 
+                res.append(perm) # --- no need to copy as we are not popping/backtracking. Instead we're passing a new variable each time 
+
+            for i in range(len(nums)): 
+                newNums = nums[:i] + nums[i+1:]
+                # perm.append(nums[i]) # --- instead of appending to the same variable
+                newPerm = perm + [nums[i]] # --- new copy of the data/variable
+                recursive(newNums, newPerm, res) 
+                # perm.pop()  # --- no need to backtrack
+            return res
+        
+        return recursive(nums)
+```
+
+**How backtracking was avoided? Approach 2 vs. Approach 3**
+
+-   Below is a comparison between the two approaches. Notice how on the left side, only one `perm/path` variable is maintained throughout as opposed to multiple `perm/path` snapshots at each step on the right hand side.
+
+![image](https://assets.leetcode.com/users/images/0a74e098-5a23-4859-8518-2ffe513ea965_1609340194.1382449.png)
+
+-   Illustartions above are generated using this [Python Tutor tool](http://www.pythontutor.com/visualize.html#mode=edit)
+    -   Approach 2 : Recursive w backtracking : [here](http://www.pythontutor.com/visualize.html#code=def%20recursivePermute%28nums,%20perm%3D%5B%5D,%20res%3D%5B%5D%29%3A%0A%20%20%20%20if%20not%20nums%3A%20%0A%20%20%20%20%20%20%20%20res.append%28perm%29%20%0A%20%20%20%20%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20for%20i%20in%20range%28len%28nums%29%29%3A%20%23%20%5B1,2,3%5D%0A%20%20%20%20%20%20%20%20%20%20%20%20newNums%20%3D%20nums%5B%3Ai%5D%20%2B%20nums%5Bi%2B1%3A%5D%0A%20%20%20%20%20%20%20%20%20%20%20%20perm.append%28nums%5Bi%5D%29%0A%20%20%20%20%20%20%20%20%20%20%20%20recursivePermute%28newNums,%20perm,%20res%29%20%23%20-%20recursive%20call%20will%20make%20sure%20I%20reach%20the%20leaf%0A%20%20%20%20%20%20%20%20%20%20%20%20perm.pop%28%29%20%0A%0A%20%20%20%20return%20res%0A%0Aprint%28recursivePermute%28%5B1,2,3%5D%29%29&cumulative=false&curInstr=25&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
+    -   Approach 3: Recursive w/o backtracking : [here](http://www.pythontutor.com/visualize.html#code=def%20recursivePermute%28nums,%20perm%3D%5B%5D,%20res%3D%5B%5D%29%3A%0A%20%20%20%20if%20not%20nums%3A%20%0A%20%20%20%20%20%20%20%20res.append%28perm%5B%3A%3A%5D%29%20%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20for%20i%20in%20range%28len%28nums%29%29%3A%20%23%20%5B1,2,3%5D%0A%20%20%20%20%20%20%20%20%20%20%20%20newNums%20%3D%20nums%5B%3Ai%5D%20%2B%20nums%5Bi%2B1%3A%5D%0A%20%20%20%20%20%20%20%20%20%20%20%20newPerm%20%3D%20perm%20%2B%20%5Bnums%5Bi%5D%5D%0A%20%20%20%20%20%20%20%20%20%20%20%20recursivePermute%28newNums,%20newPerm,%20res%29%20%23%20-%20recursive%20call%20will%20make%20sure%20I%20reach%20the%20leaf%0A%0A%20%20%20%20return%20res%0A%0Aprint%28recursivePermute%28%5B1,2,3%5D%29%29&cumulative=false&curInstr=23&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)  
+        .  
+        .
+
+___
+
+## **Approach 3 : DFS Iterative with Explicit Stack**
+
+___
+
+**Big-O:**
+
+-   Time: `O(E+V)` which is the same as => `O(N*N!)`
+-   Space: `O(N!)`
+
+**Code:**
+
+```
+def recursive(nums):
+ stack = [(nums, [])]   # -- nums, path (or perms)
+ res = []
+ while stack:
+ nums, path = stack.pop()
+ if not nums:
+ res.append(path)
+ for i in range(len(nums)):   # -- NOTE [4]
+ newNums = nums[:i] + nums[i+1:]
+ stack.append((newNums, path+[nums[i]]))  # --  just like we used to do (path + [node.val]) in tree traversal
+ return res
+
+# NOTE [4]
+# The difference between itertaive tree/graph traversal we did before and this one is that
+# in most tree/graph traversals we are given the DS (tree/graph/edges) whereas here we have to build the nodes before we # traverse them
+# Generating the nodes is very simple, we Each node will be (nums, pathSofar)
+```
+
+## .  
+.
+
+## **Approach 4 : BFS Iterative with a queue**
+
+___
+
+**Big-O:**
+
+-   Time: `O(E+V)` which is the same as => `O(N*N!)`
+-   Space: `O(N!)`
+
+**Code:**
+
+```
+def recursive(nums):
+from collections import deque
+q = deque()
+q.append((nums, []))  # -- nums, path (or perms)
+res = []
+while q:
+nums, path = q.popleft()
+if not nums:
+res.append(path)
+for i in range(len(nums)):
+newNums = nums[:i] + nums[i+1:]
+q.append((newNums, path+[nums[i]]))
+return res
+        
+```
+
+-   **For JAVA implementation of all 4 approaches : checkout this post** => [https://leetcode.com/problems/permutations/discuss/996115/Java-4-Approaches-Visuals-%2B-Time-Complexity-Analysis](https://leetcode.com/problems/permutations/discuss/996115/Java-4-Approaches-Visuals-%2B-Time-Complexity-Analysis)
