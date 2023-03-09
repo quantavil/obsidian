@@ -1,5 +1,8 @@
 ## **Approach 1: Recursive with backtracking (implicit stack)**
 
+
+![image](https://assets.leetcode.com/users/images/ac9c35dc-89b8-4860-b08c-d2f60859e43e_1609289801.6830964.png)
+
 ```python
 def permute(self, nums):
 # helper
@@ -37,8 +40,6 @@ return recursive(nums)
 -   **Time:** `O(N*N!)`
 	we know from set theory that there are N! permutations of a list of size N. We also know that the permutations are going to be the leaves of the tree, which means we will have N! leaves. In order to get to each one of those leaves, we had to go through N calls. That's O(N\*N!). Again a little more than the total number of nodes because some nodes are shared among more than one path.
 -   **Space:** `O(N!)`
-
-![image](https://assets.leetcode.com/users/images/ac9c35dc-89b8-4860-b08c-d2f60859e43e_1609289801.6830964.png)
 
 
 **NOTE \[3\] Explained further : Why do we need to backtrack?**
@@ -79,6 +80,9 @@ return recursive(nums)
 **NOTE \[2\] Explained further : Why do we need to copy?**
 
 -   You probably have guessed it by now. As shown above, due to the constantly changing state of our data/variables, we need to append a copy of the path `res.append(path[::])` at the leaf, instead of appending the path itself. The reason being that lists are mutable and are passed by reference, so even after appending a path to our result list, that path will still be affected by any changes to its aliases (will be afftected by all the poppping and backtracking taking place) and by the time our recursion calls make their way to the top/root, the path will be empty `path = [ ]`
+
+
+---
 
 ## **Appraoch 2: Recursive without backtracking (implicit stack)**
 
