@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Medium/Untitled.md",
-                "mode": "source",
+                "file": "Coding Questions/Medium/198. House Robber.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Medium/Untitled.md",
+                "file": "Coding Questions/Medium/198. House Robber.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
   "active": "072b70792e238660",
   "lastOpenFiles": [
     "Coding Questions/Easy/70. Climbing Stairs.md",
-    "Coding Questions/Medium/Untitled.md",
+    "Coding Questions/Medium/198. House Robber.md",
     "Coding Questions/Easy/509. Fibonacci Number.md",
     "Coding Questions/Easy",
     "Coding Questions/Medium/39. Combination Sum.md",
