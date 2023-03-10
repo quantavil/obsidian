@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "072b70792e238660",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Questions/Medium/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Easy/70. Climbing Stairs.md",
+                "file": "Coding Questions/Medium/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,10 +179,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9b0c401d85b7855c",
+  "active": "072b70792e238660",
   "lastOpenFiles": [
-    "Coding Questions/Easy/509. Fibonacci Number.md",
     "Coding Questions/Easy/70. Climbing Stairs.md",
+    "Coding Questions/Medium/Untitled.md",
+    "Coding Questions/Easy/509. Fibonacci Number.md",
     "Coding Questions/Easy",
     "Coding Questions/Medium/39. Combination Sum.md",
     "Coding Questions/Medium/46. Permutation.md",
@@ -198,7 +211,6 @@
     "Neetcode 150/Medium.md",
     "Neetcode 150/Linked List/Untitled.md",
     "Neetcode 150/Two Pointers.md",
-    "Neetcode 150/Easy Problems.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Attachments/Pasted image 20230208121051.png"
