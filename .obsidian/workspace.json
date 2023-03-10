@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c250b953a2256dd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Questions/Easy/509. Fibonacci Number.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Medium/39. Combination Sum.md",
+                "file": "Coding Questions/Easy/509. Fibonacci Number.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,10 +155,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "42b0729744e961ca",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
-    "Coding Questions/Medium/46. Permutation.md",
+    "Coding Questions/Easy",
     "Coding Questions/Medium/39. Combination Sum.md",
+    "Coding Questions/Easy/509. Fibonacci Number.md",
+    "Coding Questions/Medium/46. Permutation.md",
     "Coding Questions/Medium/77. Combinations.md",
     "Path Sum.md",
     "Coding Questions/Medium/78. Subsets.md",
@@ -172,8 +186,6 @@
     "Neetcode 150/Linked List/Untitled.md",
     "Neetcode 150/Two Pointers.md",
     "Neetcode 150/Easy Problems.md",
-    "Neetcode 150/Array & Hashing.md",
-    "LearnCpp/5 - Operators/5.1 - Operators.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Attachments/Pasted image 20230208121051.png"
