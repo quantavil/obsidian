@@ -1,6 +1,6 @@
 # List
 
-Share
+
 
 ```java
 Compare Types of Lists in Java
@@ -124,7 +124,15 @@ public class Main {
         // Reverse the order of the elements in the list
         Collections.reverse(list); // [spinach, spinach, carrot, broccoli, Tomato]
 
+		// Remove all elements from the list that are in another collection 
+		list.removeAll(olist);
+		
+		// Clear all elements from the list 
+		list.clear();
+
     }
 
 }
 ```
+
+## 
