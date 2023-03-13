@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ziracy/Database.md",
+                "file": "Testing/Selenium Basic/Chs2.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ghostbin",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ziracy/Database.md",
+                "file": "Testing/Selenium Basic/Chs2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +132,12 @@
   },
   "active": "351aef59e189c089",
   "lastOpenFiles": [
+    "Testing/Selenium Basic/CheatSheet.md",
+    "Testing/Selenium Basic/Chs2.md",
+    "Testing/Selenium Basic/Assertion.md",
+    "Testing/Selenium Basic/3 - Test Script Enhancement.md",
+    "Ziracy/Beginners Guide.md",
+    "Ziracy/Database.md",
     "Ziracy/Dev.md",
     "Coding Questions/Medium/77. Combinations.md",
     "Coding Questions/Medium/39. Combination Sum.md",
@@ -157,12 +162,6 @@
     "Attachments/Pasted image 20230103204740.png",
     "zen/favicon-32x32.png",
     "regex.md",
-    "REST.md",
-    "Untitled.md",
-    "Python Interview.md",
-    "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
-    "Neetcode 150/Medium.md",
-    "Neetcode 150/Linked List/Untitled.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Attachments/Pasted image 20230208121051.png"
