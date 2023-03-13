@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e7bce469e855a628",
+        "id": "ff88cb8f06efa485",
         "type": "tabs",
         "children": [
           {
-            "id": "19a62e8cf7334a0e",
+            "id": "351aef59e189c089",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Medium/77. Combinations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42b0729744e961ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding Questions/Medium/39. Combination Sum.md",
+                "file": "Ziracy/Database.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ghostbin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Medium/39. Combination Sum.md",
+                "file": "Ziracy/Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,16 +131,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "42b0729744e961ca",
+  "active": "351aef59e189c089",
   "lastOpenFiles": [
+    "Ziracy/Dev.md",
+    "Coding Questions/Medium/77. Combinations.md",
+    "Coding Questions/Medium/39. Combination Sum.md",
     "Coding Questions/Easy/509. Fibonacci Number.md",
     "Coding Questions/Easy/70. Climbing Stairs.md",
     "Coding Questions/Medium/78. Subsets.md",
     "Coding Questions/Medium/198. House Robber.md",
     "Coding Questions/Easy",
-    "Coding Questions/Medium/39. Combination Sum.md",
     "Coding Questions/Medium/46. Permutation.md",
-    "Coding Questions/Medium/77. Combinations.md",
     "Path Sum.md",
     "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md",
     "Coding Questions/Medium",
@@ -174,7 +163,6 @@
     "LearnCpp/7 - Control Flow and Error Handling/7.1 - Control flow.md",
     "Neetcode 150/Medium.md",
     "Neetcode 150/Linked List/Untitled.md",
-    "Neetcode 150/Two Pointers.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Attachments/Pasted image 20230208121051.png"
