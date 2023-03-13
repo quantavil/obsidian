@@ -135,4 +135,11 @@ public class Main {
 }
 ```
 
-## 
+## Sets
+
+Sets contain elements uniquely. (The same element cannot be in the set more than once.)
+
+-   `HashSet`: does not retain order
+-   `LinkedHashSet`: keeps the order of insertion
+-   `TreeSet`: Sorts in natural order Set operations like intersection, difference are implemented for sets (`retainAll`, `removeAll`).
+
