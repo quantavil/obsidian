@@ -40,8 +40,6 @@ Vector
 ## ArrayList
 
 ```java
-package temp;
-
 import java.util.*;
 
 public class Main {
@@ -145,8 +143,6 @@ Sets contain elements uniquely. (The same element cannot be in the set more than
 
 
 ```java
-package temp;
-
 import java.util.*;
 
 public class Main {
@@ -187,11 +183,12 @@ public class Main {
         boolean isSetEmpty = set.isEmpty(); // check if the HashSet is empty
         boolean isEqual = set.equals(oSet); // False
 
+		//*ALL OF BELOW METHODS ARE INPLACE , Therefore set is taken reference everytime  *//
+		
         // Removing an element from the HashSet if it satisfies a condition
         set.removeIf(fruit -> fruit.startsWith("a")); // [banana, cherry]
 
-        // Retaining only the elements that are in both the HashSet and another
-        // collection
+        // Retaining only the elements that are in both the HashSet and another collection
         set.retainAll(oSet); // {banana, apple}
 
         // Adding all elements of another collection to the HashSet
