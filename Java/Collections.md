@@ -141,6 +141,7 @@ Sets contain elements uniquely. (The same element cannot be in the set more than
 -   `LinkedHashSet`: keeps the order of insertion
 -   `TreeSet`: Sorts in natural order Set operations like intersection, difference are implemented for sets (`retainAll`, `removeAll`).
 
+### HashSet
 
 ```java
 import java.util.*;
@@ -203,3 +204,81 @@ public class Main {
 }
 
 ```
+
+### TreeSet
+
+`TreeSet` is another implementation of the `Set` interface in Java that stores elements in a sorted order. Here are some additional `TreeSet` methods:
+
+```java
+import java.util.*;
+
+public class Main {
+
+    public static void print(Object... objects) {
+        StringBuilder sb = new StringBuilder();
+        for (Object obj : objects) {
+            if (obj instanceof List) {
+                sb.append(((List<?>) obj).toString());
+            } else if (obj instanceof Set) {
+                sb.append(((Set<?>) obj).toString());
+            } else if (obj instanceof Map) {
+                sb.append(((Map<?, ?>) obj).toString());
+            } else {
+                sb.append(obj.toString());
+            }
+            sb.append(" ");
+        }
+        System.out.println(sb.toString().trim());
+    }
+
+    public static void main(String[] args) {
+        TreeSet<Integer> set = new TreeSet<>(); // initialize a new TreeSet
+
+        set.add(10); // add an element to the TreeSet
+        set.add(20);
+        set.add(30); //output: [10, 20, 30]
+
+
+        // Getting the first (lowest) element in the TreeSet
+        int firstElement = set.first(); //10
+
+        // Getting the last (highest) element in the TreeSet
+        int lastElement = set.last(); // 30
+
+        // Getting a view of the TreeSet with elements less than a specified value
+        Set<Integer> lessThanTwenty = set.headSet(20); // [10]
+
+        // Getting a view of the TreeSet with elements greater than or equal to a
+        // specified value
+        Set<Integer> greaterThanOrEqualToTwenty = set.tailSet(20); // [20, 30]
+
+        // Getting a view of the TreeSet with elements within a specified range
+        // (inclusive)
+        Set<Integer> betweenTwentyAndThirty = set.subSet(20, 30); // [20]
+
+
+        // Creating a shallow copy of the TreeSet
+        TreeSet<Integer> setCopy = new TreeSet<>(set);
+
+        // Removing the first (lowest) element in the TreeSet
+        int removedElement = set.pollFirst();
+
+        System.out.println(set); // output: [20, 30]
+        System.out.println(removedElement); // output: 10
+
+        // Removing the last (highest) element in the TreeSet
+        int removedElement2 = set.pollLast();
+
+        System.out.println(set); // output: [20]
+        System.out.println(removedElement2); // output: 30
+
+        // Checking if the TreeSet contains an element greater than or equal to a
+        // specified value
+        boolean containsTwenty = set.ceiling(20) != null; // true
+
+    }
+}
+
+```
+
+## Map
