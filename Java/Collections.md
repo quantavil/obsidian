@@ -143,3 +143,66 @@ Sets contain elements uniquely. (The same element cannot be in the set more than
 -   `LinkedHashSet`: keeps the order of insertion
 -   `TreeSet`: Sorts in natural order Set operations like intersection, difference are implemented for sets (`retainAll`, `removeAll`).
 
+
+```java
+package temp;
+
+import java.util.*;
+
+public class Main {
+
+    public static void print(Object... objects) {
+        StringBuilder sb = new StringBuilder();
+        for (Object obj : objects) {
+            if (obj instanceof List) {
+                sb.append(((List<?>) obj).toString());
+            } else if (obj instanceof Set) {
+                sb.append(((Set<?>) obj).toString());
+            } else if (obj instanceof Map) {
+                sb.append(((Map<?, ?>) obj).toString());
+            } else {
+                sb.append(obj.toString());
+            }
+            sb.append(" ");
+        }
+        System.out.println(sb.toString().trim());
+    }
+
+    public static void main(String[] args) {
+
+        Set<String> set = new HashSet<>();
+        Set<String> oSet = new HashSet<>(Arrays.asList("orange", "banana", "watermelon", "apple"));
+        // Converting the HashSet to a TreeSet (a sorted set)
+        TreeSet<String> sortedSet = new TreeSet<>(set);
+        
+        // Add elements to the set
+        set.add("apple");
+        set.add("banana");
+        set.add("cherry");
+        set.add("banana"); // Adding a duplicate element will be ignored
+
+        boolean containsApple = set.contains("apple"); // check if the HashSet contains an element
+
+        int setSize = set.size(); // get the size of the HashSet
+        boolean isSetEmpty = set.isEmpty(); // check if the HashSet is empty
+        boolean isEqual = set.equals(oSet); // False
+
+        // Removing an element from the HashSet if it satisfies a condition
+        set.removeIf(fruit -> fruit.startsWith("a")); // [banana, cherry]
+
+        // Retaining only the elements that are in both the HashSet and another
+        // collection
+        set.retainAll(oSet); // {banana, apple}
+
+        // Adding all elements of another collection to the HashSet
+        set.addAll(oSet); // {banana, orange, apple, cherry, watermelon}
+
+        // Removing all elements that are in another collection from the HashSet
+        set.removeAll(oSet); // {cherry}
+
+        set.clear(); // remove all elements from the HashSet
+
+    }
+}
+
+```
