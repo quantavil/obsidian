@@ -148,23 +148,6 @@ import java.util.*;
 
 public class Main {
 
-    public static void print(Object... objects) {
-        StringBuilder sb = new StringBuilder();
-        for (Object obj : objects) {
-            if (obj instanceof List) {
-                sb.append(((List<?>) obj).toString());
-            } else if (obj instanceof Set) {
-                sb.append(((Set<?>) obj).toString());
-            } else if (obj instanceof Map) {
-                sb.append(((Map<?, ?>) obj).toString());
-            } else {
-                sb.append(obj.toString());
-            }
-            sb.append(" ");
-        }
-        System.out.println(sb.toString().trim());
-    }
-
     public static void main(String[] args) {
 
         Set<String> set = new HashSet<>();
@@ -213,23 +196,6 @@ public class Main {
 import java.util.*;
 
 public class Main {
-
-    public static void print(Object... objects) {
-        StringBuilder sb = new StringBuilder();
-        for (Object obj : objects) {
-            if (obj instanceof List) {
-                sb.append(((List<?>) obj).toString());
-            } else if (obj instanceof Set) {
-                sb.append(((Set<?>) obj).toString());
-            } else if (obj instanceof Map) {
-                sb.append(((Map<?, ?>) obj).toString());
-            } else {
-                sb.append(obj.toString());
-            }
-            sb.append(" ");
-        }
-        System.out.println(sb.toString().trim());
-    }
 
     public static void main(String[] args) {
         TreeSet<Integer> set = new TreeSet<>(); // initialize a new TreeSet
@@ -296,23 +262,6 @@ import java.util.*;
 
 public class Main {
 
-    public static void print(Object... objects) {
-        StringBuilder sb = new StringBuilder();
-        for (Object obj : objects) {
-            if (obj instanceof List) {
-                sb.append(((List<?>) obj).toString());
-            } else if (obj instanceof Set) {
-                sb.append(((Set<?>) obj).toString());
-            } else if (obj instanceof Map) {
-                sb.append(((Map<?, ?>) obj).toString());
-            } else {
-                sb.append(obj.toString());
-            }
-            sb.append(" ");
-        }
-        System.out.println(sb.toString().trim());
-    }
-
     public static void main(String[] args) {
 
         // Create a new HashMap
@@ -377,3 +326,50 @@ public class Main {
 }
 ```
 
+### TreeMap
+
+```java
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // Create a new TreeMap
+        TreeMap<String, Integer> treeMap = new TreeMap<>();
+
+        // Add some key-value pairs to the TreeMap
+        treeMap.put("apple", 1);
+        treeMap.put("banana", 2);
+        treeMap.put("cherry", 3);
+        treeMap.put("Blueberry", 4);
+        treeMap.put("PineApple", 5); // {Blueberry=4, PineApple=5, apple=1, banana=2, cherry=3}
+
+        // Get the first key and value in the TreeMap
+        String firstKey = treeMap.firstKey(); // Blueberry
+        int firstValue = treeMap.get(firstKey); // 4
+
+        // Get the last key and value in the TreeMap
+        String lastKey = treeMap.lastKey(); // cherry
+        int lastValue = treeMap.get(lastKey); // 3
+
+        // Get a view of the keys in the TreeMap that are less than a given key
+        SortedMap<String, Integer> headMap = treeMap.headMap("banana"); // {Blueberry=4, PineApple=5, apple=1}
+
+        // Get a view of the keys in the TreeMap that are greater than or equal to a given key
+        SortedMap<String, Integer> tailMap = treeMap.tailMap("banana"); // {banana=2, cherry=3}
+
+        // Get a view of the keys in the TreeMap that are within a given range
+        SortedMap<String, Integer> subMap = treeMap.subMap("PineApple", "cherry"); // {PineApple=5, apple=1, banana=2}
+
+        // Get the key that is strictly less than a given key
+        String lowerKey = treeMap.lowerKey("banana"); // "apple"
+
+        // Get the key that is strictly greater than a given key
+        String higherKey = treeMap.higherKey("banana"); // "cherry"
+
+
+    }
+}
+
+```

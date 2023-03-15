@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/SOA.md",
+                "file": "Java/Collections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,12 +142,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7b9f8e33d9acb941",
+  "active": "38e72ff36639b1db",
   "lastOpenFiles": [
+    "Java/SOA.md",
     "Attachments/Pasted image 20230315151010.png",
     "Attachments/Pasted image 20230315150622.png",
     "Java/Collections.md",
-    "Java/SOA.md",
     "Testing/Selenium Basic/Chs2.md",
     "Coding Questions/Medium/78. Subsets.md",
     "Attachments/Pasted image 20230314103326.png",
