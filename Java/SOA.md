@@ -121,3 +121,30 @@ SOAP: Envelope
 Explanation :
 
 Insert User is the interface present in the WSDL. It mentioned the operation which is perform using the SOAP message
+
+---
+Which of the following statements describes a business process in the context of SOA layers? 
+
+It is a business policy
+
+It is a series of tasks connected together check
+
+Items are collected and then processed together
+
+Enables interactions between consumers and providers
+
+Explanation :
+
+Business Process Layer plays a central coordinating role in connecting business-level requirements and IT-level solution components
+
+Q2 of 2outlined_flag
+
+In which of the following techniques is the logic of the business process pushed out to the members participating in the SOA architecture? 
+
+Choreography check
+
+Orchestration
+
+Explanation :
+
+The choreography describes the interactions between multiple services and the interaction is given to each and each service.
