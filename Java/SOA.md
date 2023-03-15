@@ -43,3 +43,81 @@ Explanation :
 A valid reason to use XML. XML has the potential to transfer self-descriptive data, and has a large following
 
 Explanation :
+
+
+---
+
+Q1 of 4outlined_flag
+
+In the below options identify the one which is NOT an information that is provided in a web service's WSDL file?
+
+Interface description
+
+End point
+
+HTTP commands or response codes check
+
+Binding protocol
+
+Explanation :
+
+It is not a part of WSDL Description.
+
+Q2 of 4outlined_flag
+
+In the following statements identify the one which is NOT true about UDDI registries?
+
+UDDI registries are out of use in today's IT ethos
+
+UDDI registries were written in plain english check
+
+Microsoft, SAP and IBM maintained the most used public UDDI registries once
+
+UDDI registries can contain contact details of the web service publisher
+
+Explanation :
+
+UDDI uses WSDL to describe the interfaces of the web services
+
+Q3 of 4outlined_flag
+
+The weather app in your mobile phone can send a current temperature request message to weather.com's web service using:
+
+Any transport protocol like HTTP, FTP or STMP
+
+Only HTTP
+
+Only the transport protocol defined in the WSDL's binding data. check
+
+internet
+
+Explanation :
+
+WSDL binding data gives out the transport protocol which should be used for message transfers
+
+Q4 of 4outlined_flag
+
+Identify the operation/interface being invoked in the below SOAP request message.
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <InsertUser xmlns="http://tempuri.org/">
+      <username>string</username>
+      <password>string</password>
+    </InsertUser>
+  </soap:Body>
+</soap:Envelope>
+ 
+
+username
+
+password
+
+Insert User check
+
+SOAP: Envelope
+
+Explanation :
+
+Insert User is the interface present in the WSDL. It mentioned the operation which is perform using the SOAP message
