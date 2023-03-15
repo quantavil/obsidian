@@ -288,3 +288,93 @@ Maps store key-value pairs. Implement the `Map` interface.
 -   `HashMap`: Does not maintain order.
 -   `LinkedMap`: Behind this there is a doubly linked list. This maintains the order.
 -   `TreeMap`: Will sort the keys in natural order.
+
+### HashMap
+
+```java
+import java.util.*;
+
+public class Main {
+
+    public static void print(Object... objects) {
+        StringBuilder sb = new StringBuilder();
+        for (Object obj : objects) {
+            if (obj instanceof List) {
+                sb.append(((List<?>) obj).toString());
+            } else if (obj instanceof Set) {
+                sb.append(((Set<?>) obj).toString());
+            } else if (obj instanceof Map) {
+                sb.append(((Map<?, ?>) obj).toString());
+            } else {
+                sb.append(obj.toString());
+            }
+            sb.append(" ");
+        }
+        System.out.println(sb.toString().trim());
+    }
+
+    public static void main(String[] args) {
+
+        // Create a new HashMap
+        HashMap<String, Integer> hashMap = new HashMap<>();
+        
+        // Add some key-value pairs to the HashMap
+        hashMap.put("apple", 1);
+        hashMap.put("banana", 2);
+        hashMap.put("cherry", 3);
+
+        // Retrieve the value associated with a key
+        int value = hashMap.get("banana"); // 2
+
+        // Check if a key is present in the HashMap
+        boolean containsKey = hashMap.containsKey("apple"); // true
+
+        // Check if a value is present in the HashMap
+        boolean containsValue = hashMap.containsValue(3); // true
+
+        // Remove a key-value pair from the HashMap
+        hashMap.remove("banana"); // {apple=1, cherry=3}
+
+        // Get a set of all keys in the HashMap
+        Set<String> keySet = hashMap.keySet(); // [apple, cherry]
+
+        // Get a collection of all values in the HashMap
+        Collection<Integer> values = hashMap.values(); // [1, 3]
+
+        // Get the number of key-value pairs in the HashMap
+        int size = hashMap.size(); // 2
+
+        // Remove all key-value pairs from the HashMap
+        hashMap.clear(); // {}
+
+        HashMap<String,Integer> oHashMap = new HashMap<String,Integer>() {{ put("apple", 1); put("banana", 2); put("cherry", 3);}}; // {cherry=3, apple=1, banana=2}
+        
+        // Replace the value associated with a key
+        oHashMap.replace("banana", 4); // {apple=1, banana=4, cherry=3}
+
+        // Replace the value associated with a key only if it matches a given value
+        oHashMap.replace("banana", 4, 5); // {apple=1, banana=5, cherry=3}
+
+        // Add a key-value pair to the HashMap only if the key is not already present
+        oHashMap.putIfAbsent("durian", 6); // {apple=1, banana=5, cherry=3, durian=6}
+
+        // Get the value associated with a key, or a default value if the key is not present
+        int val = hashMap.getOrDefault("elderberry", 7);  // 7
+
+        // Compute a new value for a key using a given function
+        oHashMap.compute("cherry", (k, v) -> v * 3); // {banana=7, apple=1, cherry=9, durian=6}
+
+        // Compute a new value for a key only if it is present using a given function
+        oHashMap.computeIfPresent("durian", (k, v) -> v * 3); // {banana=7, apple=1, cherry=9, durian=18}
+
+        // Compute a new value for a key only if it is not present using a given
+        // function
+        oHashMap.computeIfAbsent("elderberry", k -> k.length()); // {banana=7, apple=1, cherry=9, elderberry=10, durian=18}
+
+        //Merge maps
+        oHashMap.putAll(hashMap);
+    }
+}
+```
+
+###
