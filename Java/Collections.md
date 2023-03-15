@@ -282,3 +282,9 @@ public class Main {
 ```
 
 ## Map
+
+Maps store key-value pairs. Implement the `Map` interface.
+
+-   `HashMap`: Does not maintain order.
+-   `LinkedMap`: Behind this there is a doubly linked list. This maintains the order.
+-   `TreeMap`: Will sort the keys in natural order.
