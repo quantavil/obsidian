@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "38e72ff36639b1db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Collections.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7f69c44857108989",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Java/Collections.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b9f8e33d9acb941",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/SOA.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
