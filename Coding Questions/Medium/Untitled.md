@@ -42,3 +42,25 @@ function remove_duplicates(lists):
 subsets(sort(nums), 0)
 ```
 
+```
+function subsetsWithDup(nums):
+    sort(nums) // Sort the input array to handle duplicates
+
+    result = [] // Initialize an empty list to store the subsets
+
+    backtrack(result, [], nums, 0) // Call the backtracking function
+
+    return result // Return the list of subsets
+
+function backtrack(result, temp, nums, start):
+    add a copy of the current subset 'temp' to 'result'
+
+    for i in range(start, len(nums)):
+        if i > start and nums[i] == nums[i-1]:
+            continue // Skip duplicates to avoid repeated subsets
+
+        add nums[i] to 'temp' // Add the current element to the subset
+        backtrack(result, temp, nums, i+1) // Recursively backtrack with the next element
+        remove the last element from 'temp' // Backtrack to the previous state
+
+```
