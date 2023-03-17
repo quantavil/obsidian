@@ -1,3 +1,17 @@
+SOA (Service-Oriented Architecture) is an architectural pattern that involves building software applications by breaking down the functionality into smaller, interconnected services that can be reused across different systems. These services are grouped into different layers, each of which serves a specific purpose. Here is an explanation of the six layers in the SOA architecture:
+
+1.  Data and Application Layer: This layer is responsible for storing, managing, and accessing data and applications used by the services in the other layers. It includes databases, file systems, and application servers.
+    
+2.  Enterprise Component Layer: This layer provides reusable components that can be used across different services. It includes libraries, frameworks, and middleware that provide functionality such as security, transaction management, and messaging.
+    
+3.  Service Layer: This layer contains the services themselves. Each service is a self-contained unit of functionality that can be accessed and used by other services or applications.
+    
+4.  Business Process Layer: This layer is responsible for defining and managing the business processes that use the services. It includes workflow engines, business rules engines, and other tools for managing and automating business processes.
+    
+5.  Presentation Layer: This layer is responsible for presenting the data and functionality provided by the services to the end-users. It includes user interfaces, web applications, and other tools for presenting data and interacting with the services.
+    
+6.  Integration Layer: This layer is responsible for integrating the different services and systems that make up the SOA architecture. It includes tools for messaging, routing, and transformation of data between the different services and systems.
+
 Monolithic Architecture is **like a big container, wherein all the software components of an app are assembled and tightly coupled, i.e., each component fully depends on each other.**
 •    as a single executable unit (like a single java WAR file)  
 •    using a single development technology/platform (i.e., JEE or .NET).
