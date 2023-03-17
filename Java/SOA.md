@@ -12,6 +12,23 @@ SOA (Service-Oriented Architecture) is an architectural pattern that involves bu
     
 6.  Integration Layer: This layer is responsible for integrating the different services and systems that make up the SOA architecture. It includes tools for messaging, routing, and transformation of data between the different services and systems.
 
+
+SOA stands for Service-Oriented Architecture, which is an architectural approach in which applications make use of services available in the network². SOA defines a way to make software components reusable using interfaces². SOA consists of different layers that interact with each other to provide functionalities and services. Here is a brief explanation of each layer:
+
+- Data & Application layer: This is the lowest layer that contains the data model and the operational systems that store and manipulate data¹⁵.
+- Enterprise component layer: This is the layer that contains the service components, which are used to build the services. Service components are functional and technical libraries that encapsulate business logic and data access¹⁵.
+- Service layer: This is the layer that contains the services, which are whole-enterprise units of functionality that can be reused by different applications. Services are published and discovered through a common mechanism and communicate using standard protocols¹²⁵.
+- Business process layer: This is the layer that contains the business processes, which are sequences of activities that implement business use cases. Business processes can orchestrate multiple services to achieve a specific goal¹²⁵.
+- Presentation layer: This is the highest layer that contains the consumer interfaces, which are GUI-based applications for end users accessing the services. Consumer interfaces can also invoke other consumer interfaces to provide a seamless user experience¹²⁵.
+- Integration layer: This is an optional layer that provides integration capabilities between different systems or platforms. Integration can be achieved through adapters, connectors, brokers or middleware technologies[^4].
+
+I hope this helps you understand SOA layers better.
+
+Source: Conversation with Bing, 3/17/2023(1) Service-Oriented Architecture - GeeksforGeeks. https://www.geeksforgeeks.org/service-oriented-architecture/ Accessed 3/17/2023.
+(2) Service-Oriented Architecture (SOA) - W3schools. https://www.w3schools.in/service-oriented-architecture Accessed 3/17/2023.
+(3) SOA Reference Architecture – Description of Layers - The Open Group. https://www.opengroup.org/soa/source-book/soa_refarch/p7.htm Accessed 3/17/2023.
+(4) Service-Oriented Architecture - DZone. https://dzone.com/articles/service-oriented-architecture-1 Accessed 3/17/2023.
+(5) SOA Architecture | Top 9 Components of SOA architecture - EDUCBA. https://www.educba.com/soa-architecture/ Accessed 3/17/2023.
 Monolithic Architecture is **like a big container, wherein all the software components of an app are assembled and tightly coupled, i.e., each component fully depends on each other.**
 •    as a single executable unit (like a single java WAR file)  
 •    using a single development technology/platform (i.e., JEE or .NET).
