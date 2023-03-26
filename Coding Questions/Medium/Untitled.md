@@ -1,6 +1,6 @@
 According to ¹²⁵, the problem is to find all possible subsets of a given set of integers that may contain duplicates. One possible pseudocode for this problem is:
 
-```
+```python
 # Define a function that takes an array of integers and an index as parameters
 function subsets(nums, index):
   # If index is equal to the length of nums, return an empty set
