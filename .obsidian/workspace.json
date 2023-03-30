@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a0e8032d42c9e3b6",
+        "id": "6196d9d87e0df11c",
         "type": "tabs",
         "children": [
           {
-            "id": "282e35a99f4c8364",
+            "id": "63b34d21e6d2a249",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Medium/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47442c854f3b1f1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding Questions/Medium/90. Subsets II.md",
+                "file": "GK/March 23/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Medium/90. Subsets II.md",
+                "file": "GK/March 23/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,10 +130,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "47442c854f3b1f1a",
+  "active": "63b34d21e6d2a249",
   "lastOpenFiles": [
-    "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/90. Subsets II.md",
+    "GK/March 23/Untitled.md",
+    "GK/March 23",
+    "GK",
+    "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/78. Subsets.md",
     "Java/Collections.md",
     "Java/SOA.md",
@@ -176,7 +166,6 @@
     "HTML.md",
     "DBMS Interview.md",
     "CSS.md",
-    "CPP Interview.md",
     "Attachments/Pasted image 20230103204740.png",
     "zen/favicon-32x32.png",
     "Untitled.canvas",
