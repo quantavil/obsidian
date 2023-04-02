@@ -26,3 +26,4 @@ Word - Part of speech
 		- Meaning
 		- Sentences
 		- Synonyms
+
