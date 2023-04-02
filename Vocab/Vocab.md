@@ -13,3 +13,16 @@ Jargon - Jargon is the specialized terminology associated with a particular fiel
 	- Biology: Anatomy, Biodiversity, Heredity, Ligament
 	- Computer: Bandwidth, Cloud computing, Malware
 	- Economics and Banking and financial awareness: Capital buffer, Credit risk, Elasticity, Exchange rate
+
+## Methods of learning Vocabulary
+
+- Theme Based Approach
+-  Mnemonics
+- Root Words
+
+### Theme Based Approach
+
+Word - Part of speech
+		- Meaning
+		- Sentences
+		- Synonyms
