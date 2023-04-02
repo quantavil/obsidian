@@ -6,6 +6,11 @@ Eg. Sir James Murray , Samuel Johnson
 - Learn Vocabulary from previous 5 year Paper 
 - Learn Frequently used Words
 - Trending Words
+- Jargons
+- Commonly confused words
+- Idioms & Phrases
+- Phrasal Verbs
+- Root words
 
 Jargon - Jargon is the specialized terminology associated with a particular field or area of activity.
 	-  Polity: Prorogation, Enactment, Disbursement, Red Tape
