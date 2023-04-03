@@ -44,7 +44,9 @@ frustration and disappointment.
 
 Learning vocabulary is a gradual process. It requires discipline and consistency.
 
-
+---
+GK : Vision 365,
+Math : Rakesh yadav , 
 
 ## infallible
 
