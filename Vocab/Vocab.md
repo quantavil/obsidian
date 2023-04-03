@@ -39,19 +39,12 @@ Then 3-4 days for monthly revision
 
 I Along with the revision, reading books, newspaper and magazines is the key to boost your word power.
 
-Revise in free time also.If you push too much, you'll probably end up in
+Revise in free time also. If you push too much, you'll probably end up in
 frustration and disappointment.
 
-._.__.__. a
+Learning vocabulary is a gradual process. It requires discipline and consistency.
 
-I Learning vocabulary is a gradual process. It
-requires discipline and consistency.
 
-I e radual, ou'll de 'ni | th results.
-
-é% y f' te y get 6 Exit full screen?
-1:. Wfor details m J. J:
----
 
 ## infallible
 
