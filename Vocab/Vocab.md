@@ -46,7 +46,8 @@ Learning vocabulary is a gradual process. It requires discipline and consistency
 
 ---
 GK : Vision 365,
-Math : Rakesh yadav , 
+Math , Aptitude: Rakesh yadav , Gagan Pratap, abhinav, rahul - wifi study
+English : scc  adda
 
 ## infallible
 
