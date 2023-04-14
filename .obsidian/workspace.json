@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d64dc9fd24e88906",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Questions/Easy/242. Valid Anagram.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Easy/217. Contains Duplicate.md",
+                "file": "Coding Questions/Easy/242. Valid Anagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,10 +155,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "bd0cf3bebed45daf",
+  "active": "d64dc9fd24e88906",
   "lastOpenFiles": [
-    "Coding Questions/Easy/70. Climbing Stairs.md",
     "Coding Questions/Easy/217. Contains Duplicate.md",
+    "Coding Questions/Easy/242. Valid Anagram.md",
+    "Coding Questions/Easy/70. Climbing Stairs.md",
     "Coding Questions/Medium/90. Subsets II.md",
     "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/198. House Robber.md",
@@ -170,7 +183,6 @@
     "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
     "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
     "DSA in Python/Stacks.md",
-    "DSA in Python/Recursion.md",
     "Vocab",
     "GK/March 23",
     "GK",
