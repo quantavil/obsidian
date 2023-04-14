@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "coding-interview-university-main/programming-language-resources.md",
+                "file": "coding-interview-university-main/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding-interview-university-main/programming-language-resources.md",
+                "file": "coding-interview-university-main/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,8 +130,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "71797450e7203770",
+  "active": "7c06f7fa93f0e770",
   "lastOpenFiles": [
+    "coding-interview-university-main/Resources.md",
+    "coding-interview-university-main/Optional.md",
+    "coding-interview-university-main/programming-language-resources.md",
+    "coding-interview-university-main/README.md",
     "DBMS-lex/2 - ER.md",
     "DBMS-lex/Untitled 1.md",
     "DBMS-lex/Untitled.md",
@@ -154,10 +158,6 @@
     "DBMS/RDBMS.md",
     "DBMS/Data Types.md",
     "DBMS/MISC.md",
-    "DBMS/SQL Satements/Data Manipulation Statements.md",
-    "DBMS/DBA Statements/SHOW Statements.md",
-    "Coding Questions/Medium/90. Subsets II.md",
-    "Coding Questions/Medium/46. Permutation.md",
     "Vocab",
     "GK/March 23",
     "GK",
