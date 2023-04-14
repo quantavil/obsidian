@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bd0cf3bebed45daf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Questions/Easy/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Medium/90. Subsets II.md",
+                "file": "Coding Questions/Easy/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,8 +143,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7c06f7fa93f0e770",
+  "active": "bd0cf3bebed45daf",
   "lastOpenFiles": [
+    "Coding Questions/Medium/90. Subsets II.md",
+    "Coding Questions/Easy/Untitled.md",
     "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/198. House Robber.md",
     "coding-interview-university-main/README.md",
@@ -156,8 +171,6 @@
     "DSA in Python/Stacks.md",
     "DSA in Python/Recursion.md",
     "DSA in Python/Complexity of Python Operations.md",
-    "DevOps/Bash Commands.md",
-    "DBMS/RDBMS.md",
     "Vocab",
     "GK/March 23",
     "GK",
