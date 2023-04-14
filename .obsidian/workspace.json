@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Easy/Untitled.md",
+                "file": "Coding Questions/Easy/217. Contains Duplicate.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Easy/Untitled.md",
+                "file": "Coding Questions/Easy/217. Contains Duplicate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,8 +145,9 @@
   },
   "active": "bd0cf3bebed45daf",
   "lastOpenFiles": [
+    "Coding Questions/Easy/70. Climbing Stairs.md",
+    "Coding Questions/Easy/217. Contains Duplicate.md",
     "Coding Questions/Medium/90. Subsets II.md",
-    "Coding Questions/Easy/Untitled.md",
     "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/198. House Robber.md",
     "coding-interview-university-main/README.md",
@@ -170,7 +171,6 @@
     "DSA SCALER/6 -  Sorting/1 - What is  Sorting.md",
     "DSA in Python/Stacks.md",
     "DSA in Python/Recursion.md",
-    "DSA in Python/Complexity of Python Operations.md",
     "Vocab",
     "GK/March 23",
     "GK",
