@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS.md",
+                "file": "coding-interview-university-main/programming-language-resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS.md",
+                "file": "coding-interview-university-main/programming-language-resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,8 +130,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7c06f7fa93f0e770",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
+    "DBMS-lex/2 - ER.md",
+    "DBMS-lex/Untitled 1.md",
+    "DBMS-lex/Untitled.md",
+    "DBMS-lex/Oracle.md",
+    "DBMS-lex/DML Statements.md",
+    "DBMS-lex/DDL Statement.md",
+    "DevOps/Git Cheatsheet.md",
+    "CSS.md",
     "Neetcode 150/Sliding Window/121. Best Time to Buy and Sell Stock -E.md",
     "Neetcode 150/Easy Problems.md",
     "Neetcode 150/Array & Hashing.md",
@@ -142,13 +150,7 @@
     "DSA in Python/Stacks.md",
     "DSA in Python/Recursion.md",
     "DSA in Python/Complexity of Python Operations.md",
-    "DevOps/Git Cheatsheet.md",
     "DevOps/Bash Commands.md",
-    "DBMS-lex/Untitled 1.md",
-    "DBMS-lex/Untitled.md",
-    "DBMS-lex/Oracle.md",
-    "DBMS-lex/DML Statements.md",
-    "DBMS-lex/DDL Statement.md",
     "DBMS/RDBMS.md",
     "DBMS/Data Types.md",
     "DBMS/MISC.md",
@@ -156,8 +158,6 @@
     "DBMS/DBA Statements/SHOW Statements.md",
     "Coding Questions/Medium/90. Subsets II.md",
     "Coding Questions/Medium/46. Permutation.md",
-    "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md",
-    "Coding Questions/Minimum number of swap to sort Binary array.md",
     "Vocab",
     "GK/March 23",
     "GK",
