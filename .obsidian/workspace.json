@@ -141,12 +141,20 @@
             "id": "0ccc99db29e7a9b8",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "179d94df93455155",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -163,7 +171,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d64dc9fd24e88906",
+  "active": "179d94df93455155",
   "lastOpenFiles": [
     "Coding Questions/Easy/217. Contains Duplicate.md",
     "Coding Questions/Easy/242. Valid Anagram.md",
