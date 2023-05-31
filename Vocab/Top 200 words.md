@@ -1,6 +1,6 @@
 #flashcards
 **Panacea** (/pænə'siːə/) :: A solution or remedy for all difficulties or diseases.
-
+?
 Hindi translation: अचूक उपाय (Achuk upāy)
 
 Example sentences:
@@ -11,7 +11,7 @@ Example sentences:
 
 
 **Contemporary** (/kən'tɛmpərɛri/) :: Belonging to or occurring in the present time; modern.
-
+?
 Hindi translation: समकालीन (Samakālīn)
 
 Example sentences:
