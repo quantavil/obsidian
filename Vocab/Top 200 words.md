@@ -10,12 +10,11 @@
 3.  While technology has its benefits, it is not a panacea for all societal problems.
 
 
-**Contemporary** (/kən'tɛmpərɛri/) 
+**Contemporary** (/kən'tɛmpərɛri/)
 ?
 ==Belonging to or occurring in the present time; modern.==
 *Hindi translation:* समकालीन (Samakālīn)
 *Example sentences:*
-1.  The museum showcased contemporary art from various renowned artists.
-2.  The film depicted the struggles of contemporary society through its realistic storyline.
-3.  She is known for her contemporary dance performances, blending traditional and modern movements seamlessly.
-
+1. The museum showcased contemporary art from various renowned artists.
+2. The film depicted the struggles of contemporary society through its realistic storyline.
+3. She is known for her contemporary dance performances, blending traditional and modern movements seamlessly.
