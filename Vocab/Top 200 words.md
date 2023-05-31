@@ -15,6 +15,16 @@
 ==Belonging to or occurring in the present time; modern.==
 *Hindi translation:* समकालीन (Samakālīn)
 *Example sentences:*
-1. The museum showcased contemporary art from various renowned artists.
-2. The film depicted the struggles of contemporary society through its realistic storyline.
-3. She is known for her contemporary dance performances, blending traditional and modern movements seamlessly.
+-  The museum showcased contemporary art from various renowned artists.
+- The film depicted the struggles of contemporary society through its realistic storyline.
+. She is known for her contemporary dance performances, blending traditional and modern movements seamlessly.
+
+
+**Obsolete** (/ɑbsəˈliːt/)
+?
+==No longer in use or outdated.==
+*Hindi translation:* पुराना (Purānā)
+*Example sentences:*
+1. Typewriters are now considered obsolete since the advent of computers.
+2. This software version is obsolete and no longer supported by the company.
+3. The old manual process has become obsolete with the introduction of automation technology.
