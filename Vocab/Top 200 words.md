@@ -1,13 +1,12 @@
 #flashcards
 
-**Panacea** (/pænə'siːə/) 
+**Panacea** (/ˌpænəˈsiːə/)
 ?
-==A solution or remedy for all difficulties or diseases.==
-*Hindi translation:* अचूक उपाय (Achuk upāy)
+==A solution or remedy for all difficulties or diseases; a cure-all.==
+*Hindi translation:* सर्वरोगहर (Sarvaroghara)
 *Example sentences:*
-1.  The new drug was hailed as a panacea for cancer, offering hope to patients worldwide.
-2.  Education is often seen as a panacea for social inequality, providing opportunities for upward mobility.
-3.  While technology has its benefits, it is not a panacea for all societal problems.
+- The new drug was hailed as a panacea for all types of cancer.
+- Some people believe that education is the panacea for societal problems.
 
 
 **Contemporary** (/kən'tɛmpərɛri/)
@@ -27,3 +26,10 @@
 - Typewriters are now considered obsolete since the advent of computers.
 - This software version is obsolete and no longer supported by the company.
 
+**Epitaph** (/ˈɛpɪtæf/)
+??
+==An inscription on a tombstone or monument in memory of the person buried there.==
+*Hindi translation:* स्मृतिचिह्न (Smṛticihna)
+*Example sentences:*
+- The epitaph on her grave read, "She lived a life full of love and kindness."
+- The family decided to add a meaningful epitaph to the memorial stone to honor their loved one's memory.
