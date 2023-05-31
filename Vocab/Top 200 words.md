@@ -27,9 +27,19 @@
 - This software version is obsolete and no longer supported by the company.
 
 **Epitaph** (/ˈɛpɪtæf/)
-??
+?
 ==An inscription on a tombstone or monument in memory of the person buried there.==
 *Hindi translation:* स्मृतिचिह्न (Smṛticihna)
 *Example sentences:*
 - The epitaph on her grave read, "She lived a life full of love and kindness."
 - The family decided to add a meaningful epitaph to the memorial stone to honor their loved one's memory.
+
+
+**Inevitable** (/ɪnˈɛvɪtəbəl/)
+adjective
+?
+==Certain to happen; unavoidable.==
+*Hindi translation:* अपरिहार्य (Aparihārya)
+*Example sentences:*
+- Change is inevitable; we must learn to adapt and embrace it.
+- Despite their best efforts, the team's defeat seemed inevitable due to the superior skills of their opponents.
