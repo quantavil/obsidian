@@ -148,9 +148,17 @@
               "type": "Saved Queries View",
               "state": {}
             }
+          },
+          {
+            "id": "c831ea5854a20667",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -164,10 +172,11 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "16c2087c6de4e124",
+  "active": "c831ea5854a20667",
   "lastOpenFiles": [
     "Vocab/Vocab.md",
     "Vocab/Top 200 words.md",
