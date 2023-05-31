@@ -125,3 +125,64 @@
 - Many philosophers have contemplated the concept of utopia, envisioning a society free from social, economic, and political problems.
 
 
+**Altruist** (/ˈæltruɪst/)  {Noun}
+?
+==A person who has a selfless concern for the well-being and happiness of others; someone who acts for the benefit of others rather than for personal gain.==
+*Hindi translation:* परोपकारी (Paropkari)
+*Example sentences:*
+- The philanthropist's generous donations to various charitable causes reflected their altruistic nature.
+- The altruist spent their weekends volunteering at the local shelter, providing support and care to those in need.
+
+
+**Amateur** (/ˈæmətər/)  {Noun}
+?
+==A person who engages in an activity or pursuit for pleasure rather than as a profession; a non-professional or enthusiast.==
+*Hindi translation:* शौकीन (Shaaukeen)
+*Example sentences:*
+- He is an amateur photographer who enjoys capturing beautiful landscapes in his free time.
+- The local theater group welcomes amateurs to audition for their upcoming production.
+
+
+**Chauffeur** (/ʃoʊˈfər/)  {Noun}
+?
+==A person employed to drive a private or hired vehicle, typically a luxury car, for someone else.==
+*Hindi translation:* चालक (Chaalaak)
+*Example sentences:*
+- The wealthy businessman was chauffeured around in a sleek black limousine.
+- The chauffeur opened the car door for the passengers and assisted them with their belongings.
+
+
+**Chronology** (/krəˈnɒlədʒi/)  {Noun}
+?
+==The arrangement of events in the order of their occurrence in time; the sequential order of past events.==
+*Hindi translation:* कालानुक्रम (Kālānukram)
+*Example sentences:*
+- The historian meticulously studied the chronology of historical events to accurately document the timeline.
+- The book provided a comprehensive chronology of the major milestones in scientific discoveries throughout history.
+
+
+**Claustrophobia** (/klɔːstrəˈfoʊbiə/)  {Noun}
+?
+==An extreme or irrational fear of being in enclosed or confined spaces.==
+*Hindi translation:* संकुचिताभिभूति (Sankuchitābhibhūti)
+*Example sentences:*
+- The person with claustrophobia experiences intense anxiety and panic when inside an elevator or small rooms.
+- She had to avoid crowded places and small cabins due to her claustrophobia.
+
+
+**Iconoclast** (/aɪˈkɒnəˌklæst/)  {Noun
+?
+==A person who challenges or criticizes established beliefs, customs, or traditions; a nonconformist.==
+*Hindi translation:* मूर्तिभंजक (Murtibhankak)
+*Example sentences:*
+- The artist was known as an iconoclast for his unconventional and provocative artwork.
+- The author's controversial ideas and perspectives made him an iconoclast in the literary world.
+
+
+**Inaudible** (/ɪnˈɔːdəbəl/)  {Adjective}
+?
+==Unable to be heard or not loud enough to be heard.==
+*Hindi translation:* अश्रव्य (Ashravya)
+*Example sentences:*
+- The speaker's voice was inaudible in the large auditorium without a microphone.
+- The distant sound of the waterfall was almost inaudible, blending with the peaceful surroundings.
