@@ -186,3 +186,39 @@
 *Example sentences:*
 - The speaker's voice was inaudible in the large auditorium without a microphone.
 - The distant sound of the waterfall was almost inaudible, blending with the peaceful surroundings.
+
+
+**Accomplice** (/əˈkɒmplɪs/)  {Noun}
+?
+==A person who helps another commit a crime or wrongdoing; a partner in crime.==
+*Hindi translation:* सहायक (Sahayak)
+*Example sentences:*
+- The police were able to apprehend the main suspect and his accomplice during the robbery.
+- She was found guilty of being an accomplice in the fraud scheme and received a prison sentence.
+
+
+**Anarchy** (/ˈænərki/)  {Noun}
+?
+==A state of disorder or absence of government or authority; a society without a hierarchical or centralized governing system.==
+*Hindi translation:* अराजकता (Arājaktā)
+*Example sentences:*
+- The country descended into anarchy after the overthrow of the government, leading to widespread chaos and lawlessness.
+- The anarchist advocated for a society based on voluntary cooperation and mutual aid, without the need for oppressive institutions.
+
+
+**Cannibal** (/ˈkænɪbəl/)  {Noun}
+?
+==A person who consumes the flesh of other human beings.==
+*Hindi translation:* मांसाहारी (Maansahari)
+*Example sentences:*
+- The tribe was rumored to practice cannibalism, although it was considered taboo in most societies.
+- The serial killer was known for his gruesome acts of cannibalism, which shocked the entire nation.
+
+
+**Constellation** (/kɑːnstəˈleɪʃən/)  {Noun}
+?
+==A group of stars that form a recognizable pattern or shape when viewed from Earth; a specific area of the celestial sphere.==
+*Hindi translation:* नक्षत्रमंडल (Nakshatramandal)
+*Example sentences:*
+- The constellation Orion is easily recognizable by its distinct belt of three stars.
+- Ancient cultures used constellations as a guide for navigation and to tell stories about gods and heroes.
