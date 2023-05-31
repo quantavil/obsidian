@@ -35,7 +35,7 @@
 - The family decided to add a meaningful epitaph to the memorial stone to honor their loved one's memory.
 
 
-**Inevitable** (/ɪnˈɛvɪtəbəl/)
+**Inevitable** (/ɪnˈɛvɪtəbəl/) 
 adjective
 ?
 ==Certain to happen; unavoidable.==
@@ -43,3 +43,18 @@ adjective
 *Example sentences:*
 - Change is inevitable; we must learn to adapt and embrace it.
 - Despite their best efforts, the team's defeat seemed inevitable due to the superior skills of their opponents.
+
+**Contemporary** (/kən'tɛmpərɛri/) <sub>Noun</sub>
+?[Noun] Belonging to or occurring in the present time; modern.
+*Hindi translation:* समकालीन (Samakālīn)
+*Example sentences:*
+- The museum showcased contemporary art from various renowned artists.
+- The film depicted the struggles of contemporary society through its realistic storyline.
+
+**Contemporary** (/kən'tɛmpərɛri/)  {Noun}
+/səmə'kɔntɛmpərəri/
+==Belonging to or occurring in the present time; modern.==
+*Hindi translation:* समकालीन (Samakālīn)
+*Example sentences:*
+- The museum showcased **contemporary** art from various renowned artists.
+- The film depicted the struggles of **contemporary** society through its realistic storyline.
