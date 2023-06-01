@@ -222,3 +222,4 @@
 *Example sentences:*
 - The constellation Orion is easily recognizable by its distinct belt of three stars.
 - Ancient cultures used constellations as a guide for navigation and to tell stories about gods and heroes.
+
