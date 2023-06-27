@@ -54,9 +54,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ce28dd0b013ddcc7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.4"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -92,6 +102,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "4e2bf291c6cc47bb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -176,7 +194,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c831ea5854a20667",
+  "active": "ce28dd0b013ddcc7",
   "lastOpenFiles": [
     "Vocab/Vocab.md",
     "Vocab/Top 200 words.md",
