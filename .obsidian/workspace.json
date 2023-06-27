@@ -25,48 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Easy/217. Contains Duplicate.md",
-                "mode": "source",
+                "file": "Coding Questions/Medium/Untitled.md",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d64dc9fd24e88906",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vocab/Vocab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16c2087c6de4e124",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vocab/Top 200 words.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce28dd0b013ddcc7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.4"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vocab/Top 200 words.md",
+                "file": "Coding Questions/Medium/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,16 +160,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ce28dd0b013ddcc7",
+  "active": "bd0cf3bebed45daf",
   "lastOpenFiles": [
-    "Vocab/Vocab.md",
-    "Vocab/Top 200 words.md",
+    "Coding Questions/Medium/39. Combination Sum.md",
+    "Coding Questions/Most frequent element in an array.md",
+    "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md",
+    "Coding Questions/Medium/198. House Robber.md",
+    "Coding Questions/Medium/90. Subsets II.md",
+    "Coding Questions/Easy/509. Fibonacci Number.md",
     "Coding Questions/Easy/242. Valid Anagram.md",
     "Coding Questions/Easy/217. Contains Duplicate.md",
+    "Vocab/Vocab.md",
+    "Vocab/Top 200 words.md",
     "Coding Questions/Easy/70. Climbing Stairs.md",
-    "Coding Questions/Medium/90. Subsets II.md",
     "Coding Questions/Medium/Untitled.md",
-    "Coding Questions/Medium/198. House Robber.md",
     "coding-interview-university-main/README.md",
     "coding-interview-university-main/Resources.md",
     "coding-interview-university-main/Optional.md",
@@ -218,10 +188,6 @@
     "CSS.md",
     "Neetcode 150/Sliding Window/121. Best Time to Buy and Sell Stock -E.md",
     "Neetcode 150/Easy Problems.md",
-    "Neetcode 150/Array & Hashing.md",
-    "Neetcode 150/Medium.md",
-    "Extra/C++ Interview.md",
-    "DSA SCALER/6 -  Sorting/2 - Stable Sorting.md",
     "Vocab",
     "GK/March 23",
     "GK",
