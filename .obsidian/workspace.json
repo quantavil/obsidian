@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Medium/Untitled.md",
+                "file": "regex.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c7a2f173b268f36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Medium/Untitled.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,8 +172,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bd0cf3bebed45daf",
+  "active": "6c7a2f173b268f36",
   "lastOpenFiles": [
+    "regex.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/39. Combination Sum.md",
     "Coding Questions/Most frequent element in an array.md",
     "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md",
@@ -173,7 +189,6 @@
     "Vocab/Vocab.md",
     "Vocab/Top 200 words.md",
     "Coding Questions/Easy/70. Climbing Stairs.md",
-    "Coding Questions/Medium/Untitled.md",
     "coding-interview-university-main/README.md",
     "coding-interview-university-main/Resources.md",
     "coding-interview-university-main/Optional.md",
@@ -185,9 +200,6 @@
     "DBMS-lex/DML Statements.md",
     "DBMS-lex/DDL Statement.md",
     "DevOps/Git Cheatsheet.md",
-    "CSS.md",
-    "Neetcode 150/Sliding Window/121. Best Time to Buy and Sell Stock -E.md",
-    "Neetcode 150/Easy Problems.md",
     "Vocab",
     "GK/March 23",
     "GK",
