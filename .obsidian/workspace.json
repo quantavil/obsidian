@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ARRAY",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,7 +197,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "36ed25c7929134c6",
+  "active": "7a0d0b1c24d0b4a4",
   "lastOpenFiles": [
     "Bash Command.md",
     "Prompt.md",
