@@ -37,14 +37,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Bash Command.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "124ce855f9a7b6a4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Bash Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,10 +182,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6c7a2f173b268f36",
+  "active": "124ce855f9a7b6a4",
   "lastOpenFiles": [
     "regex.md",
-    "Untitled 1.md",
+    "Bash Command.md",
     "Untitled.md",
     "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/39. Combination Sum.md",
