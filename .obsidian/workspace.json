@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "36ed25c7929134c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prompt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash Command.md",
+                "file": "Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,13 +196,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "124ce855f9a7b6a4",
+  "active": "36ed25c7929134c6",
   "lastOpenFiles": [
+    "Bash Command.md",
+    "Prompt.md",
     "Bash Commands.md",
     "Untitled.md",
     "REST.md",
     "regex.md",
-    "Bash Command.md",
     "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/39. Combination Sum.md",
     "Coding Questions/Most frequent element in an array.md",
@@ -211,7 +224,6 @@
     "DBMS-lex/Untitled 1.md",
     "DBMS-lex/Untitled.md",
     "DBMS-lex/Oracle.md",
-    "DBMS-lex/DML Statements.md",
     "Vocab",
     "GK/March 23",
     "GK",
