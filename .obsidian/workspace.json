@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prompt.md",
+                "file": "Coding Questions/Easy/217. Contains Duplicate.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prompt.md",
+                "file": "Coding Questions/Easy/217. Contains Duplicate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,12 +149,12 @@
   },
   "active": "4742a268c5eb699a",
   "lastOpenFiles": [
+    "Prompt.md",
     "Attachments/Pasted image 20230807171514.png",
     "Coding Questions/Medium/90. Subsets II.md",
     "regex.md",
     "Bash Command.md",
     "Java/Collections.md",
-    "Prompt.md",
     "Bash Commands.md",
     "Untitled.md",
     "REST.md",
