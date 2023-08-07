@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6196d9d87e0df11c",
+        "id": "be0837b3be545ba5",
         "type": "tabs",
         "children": [
           {
-            "id": "7c06f7fa93f0e770",
+            "id": "4742a268c5eb699a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Medium/90. Subsets II.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd0cf3bebed45daf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "regex.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c7a2f173b268f36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bash Command.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "124ce855f9a7b6a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bash Command.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36ed25c7929134c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Collections.md",
+                "file": "Prompt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ARRAYLIS",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Collections.md",
+                "file": "Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,20 +147,22 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "36ed25c7929134c6",
+  "active": "4742a268c5eb699a",
   "lastOpenFiles": [
-    "Prompt.md",
+    "Attachments/Pasted image 20230807171514.png",
+    "Coding Questions/Medium/90. Subsets II.md",
+    "regex.md",
     "Bash Command.md",
+    "Java/Collections.md",
+    "Prompt.md",
     "Bash Commands.md",
     "Untitled.md",
     "REST.md",
-    "regex.md",
     "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/39. Combination Sum.md",
     "Coding Questions/Most frequent element in an array.md",
     "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md",
     "Coding Questions/Medium/198. House Robber.md",
-    "Coding Questions/Medium/90. Subsets II.md",
     "Coding Questions/Easy/509. Fibonacci Number.md",
     "Coding Questions/Easy/242. Valid Anagram.md",
     "Coding Questions/Easy/217. Contains Duplicate.md",
@@ -223,8 +175,6 @@
     "coding-interview-university-main/programming-language-resources.md",
     "DBMS-lex/2 - ER.md",
     "DBMS-lex/Untitled 1.md",
-    "DBMS-lex/Untitled.md",
-    "DBMS-lex/Oracle.md",
     "Vocab",
     "GK/March 23",
     "GK",
