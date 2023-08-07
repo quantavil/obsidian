@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Easy/217. Contains Duplicate.md",
+                "file": "Coding Questions/Easy/242. Valid Anagram.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Easy/217. Contains Duplicate.md",
+                "file": "Coding Questions/Easy/242. Valid Anagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,6 +149,8 @@
   },
   "active": "4742a268c5eb699a",
   "lastOpenFiles": [
+    "Coding Questions/Easy/217. Contains Duplicate.md",
+    "Coding Questions/Easy/242. Valid Anagram.md",
     "Prompt.md",
     "Attachments/Pasted image 20230807171514.png",
     "Coding Questions/Medium/90. Subsets II.md",
@@ -164,8 +166,6 @@
     "Coding Questions/Minimize number of boxes by putting small box inside bigger one.md",
     "Coding Questions/Medium/198. House Robber.md",
     "Coding Questions/Easy/509. Fibonacci Number.md",
-    "Coding Questions/Easy/242. Valid Anagram.md",
-    "Coding Questions/Easy/217. Contains Duplicate.md",
     "Vocab/Vocab.md",
     "Vocab/Top 200 words.md",
     "Coding Questions/Easy/70. Climbing Stairs.md",
