@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vocab/Top 200 words.md",
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14e5d7b65bdc7694",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vocab/Top 200 words.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,10 +160,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4742a268c5eb699a",
+  "active": "14e5d7b65bdc7694",
   "lastOpenFiles": [
-    "Vocab/Vocab.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "Vocab/Top 200 words.md",
+    "Vocab/Vocab.md",
     "Coding Questions/Easy/242. Valid Anagram.md",
     "Coding Questions/Easy/217. Contains Duplicate.md",
     "Prompt.md",
@@ -160,7 +175,6 @@
     "Bash Command.md",
     "Java/Collections.md",
     "Bash Commands.md",
-    "Untitled.md",
     "REST.md",
     "Coding Questions/Medium/Untitled.md",
     "Coding Questions/Medium/39. Combination Sum.md",
