@@ -30,18 +30,18 @@
 
 ---
 
-**Obsolete** (/ˌɒbsəˈliːt/) {Adjective} : No longer in use or outdated.
+**Obsolete** (/ˌɒbsəˈliːt/) {Adjective} : No longer in use or valid; outdated.
 
 _Hindi translation:_ पुराना (Purana)
 
 _Example sentences:_
 
-1. Floppy disks are now considered obsolete, as modern computers don't have disk drives.
-2. The manual typewriter became obsolete with the advent of computers.
+1. Floppy disks are now obsolete in the age of cloud storage and USB drives.
+2. The company's decision to continue using obsolete technology hindered its competitiveness in the market.
 
-_Synonyms:_ outdated, old-fashioned, antiquated _Antonyms:_ current, modern, up-to-date
+_Synonyms:_ outdated, antiquated, archaic _Antonyms:_ current, modern, up-to-date
 
-_Mnemonic:_ Think of "obsolete" as "obso-let" – something that was once "let" (allowed) but is now no longer allowed because it's outdated.
+_Mnemonic:_ Think of "obsolete" as "ob-so-least," indicating that something is the least in use or relevant.
 
 ---
 

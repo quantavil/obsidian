@@ -37,6 +37,8 @@ Word - Part of speech
 		- Synonyms
 
 
+### How to Learn
+
 Learn 20 - 25 words per day (Mon - Fri)
 Revision  (Sat - Sun)
 Then 3-4 days for monthly revision
@@ -53,12 +55,3 @@ GK : Vision 365,
 Math , Aptitude: Rakesh yadav , Gagan Pratap, abhinav, rahul - wifi study
 English : scc  adda
 
-## infallible
-
-If a person or thing is infallible, they are [never](https://www.collinsdictionary.com/dictionary/english/never "Definition of never") [wrong](https://www.collinsdictionary.com/dictionary/english/wrong "Definition of wrong").
-
-Although he was experienced, he was not infallible. 
-
-She had an infallible eye for style. 
-
-**Synonyms:** 
