@@ -254,3 +254,20 @@ Using this format, go ahead and provide a thoughtful and in-depth critical analy
 
 
 ![[Pasted image 20230807171514.png]]
+
+
+```
+I will give you the word and you have to : Give the word in bold , its pronunciation and meaning of word  all in same line , translation of word in hindi in next line  with the  2 example sentences in English and on next line write their synonyms and antonyms if they exists .
+
+**Contemporary** (/kən'tɛmpərɛri/) {Noun} : ==Belonging to or occurring in the present time; modern.==
+
+*Hindi translation:* समकालीन (Samakālīn)
+
+*Example sentences:*
+- The museum showcased contemporary art from various renowned artists.
+- The film depicted the struggles of contemporary society through its realistic storyline.
+
+*Synonyms:* modern, current, present-day 
+*Antonyms:* ancient, historical, outdated
+
+```
