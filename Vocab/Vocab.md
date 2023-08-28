@@ -12,7 +12,7 @@ Eg. Sir James Murray , Samuel Johnson
 - Phrasal Verbs
 - Root words
 
-Jargon - Jargon is the specialized terminology associated with a particular field or area of activity.
+**Jargon** - Jargon is the specialized terminology associated with a particular field or area of activity.
 	-  Polity: Prorogation, Enactment, Disbursement, Red Tape
 	- History: Absolute Monarchy, Colonialism, Feudalism
 	- Biology: Anatomy, Biodiversity, Heredity, Ligament

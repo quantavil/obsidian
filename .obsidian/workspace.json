@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vocab/Top 200 words.md",
+                "file": "Vocab/Vocab.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vocab/Top 200 words.md",
+                "file": "Vocab/Vocab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,14 +160,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "71797450e7203770",
+  "active": "14e5d7b65bdc7694",
   "lastOpenFiles": [
+    "Vocab/Top 200 words.md",
     "Bash Command.md",
     "Bash Commands.md",
     "Prompt.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Vocab/Top 200 words.md",
     "Vocab/Vocab.md",
     "Coding Questions/Easy/242. Valid Anagram.md",
     "Coding Questions/Easy/217. Contains Duplicate.md",
