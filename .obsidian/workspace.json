@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4742a268c5eb699a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "14e5d7b65bdc7694",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vocab/Top 200 words.md",
+                "file": "Vocab/Vocab.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vocab/Top 200 words.md",
+                "file": "Vocab/Vocab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,14 +147,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "71797450e7203770",
+  "active": "14e5d7b65bdc7694",
   "lastOpenFiles": [
-    "Prompt.md",
     "Vocab/Top 200 words.md",
+    "Prompt.md",
+    "Untitled.md",
     "Vocab/Vocab.md",
     "Bash Command.md",
     "Bash Commands.md",
-    "Untitled.md",
     "Untitled 1.md",
     "Coding Questions/Easy/242. Valid Anagram.md",
     "Coding Questions/Easy/217. Contains Duplicate.md",

@@ -264,8 +264,8 @@ I will give you the word and you have to : Give the word in bold , its pronuncia
 *Hindi translation:* समकालीन (Samakālīn)
 
 *Example sentences:*
-- The museum showcased contemporary art from various renowned artists.
-- The film depicted the struggles of contemporary society through its realistic storyline.
+1. The museum showcased contemporary art from various renowned artists.
+2. The film depicted the struggles of contemporary society through its realistic storyline.
 
 *Synonyms:* modern, current, present-day 
 *Antonyms:* ancient, historical, outdated

@@ -1,39 +1,49 @@
 #flashcards
 
-**Panacea** (/ˌpænəˈsiːə/) {Noun} : A solution or remedy for all problems or difficulties; a cure-all.
+**Panacea** (/ˌpænəˈsiːə/) {Noun} : A solution or remedy that is believed to solve all problems or cure all illnesses.
 
-*Hindi translation:* सर्वचिकित्सा (Sarvchikitsa)
+*Hindi translation:* सर्वचिकित्सक (Sarvachikitsak)
 
 *Example sentences:*
-- The new drug was hailed as a panacea for a wide range of ailments, but its effectiveness was still under investigation.
-- While exercise is beneficial, it's not a panacea for all health issues.
+1. The new drug was hailed as a panacea for various medical conditions, although its effects were yet to be fully understood.
+2. While technology has improved our lives significantly, it is not a panacea for all societal issues.
 
-*Synonyms:* cure-all, universal remedy, magic bullet
-*Antonyms:* problem, ailment, difficulty
+*Synonyms:* cure-all, remedy, solution, elixir
+*Antonyms:* problem, ailment, issue
+
+*Mnemonic:* Think of "panacea" as a "pan of sea" – a magical pan that can heal all ailments found in the sea of troubles.
 
 ---
 
 **Contemporary** (/kən'tɛmpərɛri/) {Noun} : Belonging to or occurring in the present time; modern.
 
-_Hindi translation:_ समकालीन (Samakālīn)
+*Hindi translation:* समकालीन (Samakālīn)
 
-_Example sentences:_
-
-- The museum showcased contemporary art from various renowned artists.
-- The film depicted the struggles of contemporary society through its realistic storyline.
+*Example sentences:*
+1. The museum showcased contemporary art from various renowned artists.
+2. The film depicted the struggles of contemporary society through its realistic storyline.
 
 *Synonyms:* modern, current, present-day 
 *Antonyms:* ancient, historical, outdated
 
+*Mnemonic:* Imagine two people standing side by side - one in old-fashioned attire and the other in modern clothing. The modern person represents "contemporary."
+
 ---
 
-**Obsolete** (/ɑbsəˈliːt/) {Noun}
-?
-==No longer in use or outdated.==
-*Hindi translation:* पुराना (Purānā)
-*Example sentences:*
-- Typewriters are now considered obsolete since the advent of computers.
-- This software version is obsolete and no longer supported by the company.
+**Obsolete** (/ˌɒbsəˈliːt/) {Adjective} : No longer in use or outdated.
+
+_Hindi translation:_ पुराना (Purana)
+
+_Example sentences:_
+
+1. Floppy disks are now considered obsolete, as modern computers don't have disk drives.
+2. The manual typewriter became obsolete with the advent of computers.
+
+_Synonyms:_ outdated, old-fashioned, antiquated _Antonyms:_ current, modern, up-to-date
+
+_Mnemonic:_ Think of "obsolete" as "obso-let" – something that was once "let" (allowed) but is now no longer allowed because it's outdated.
+
+---
 
 
 **Epitaph** (/ˈɛpɪtæf/)
