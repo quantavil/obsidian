@@ -270,4 +270,6 @@ I will give you the word and you have to : Give the word in bold , its pronuncia
 *Synonyms:* modern, current, present-day 
 *Antonyms:* ancient, historical, outdated
 
+*Mnemonic:* Imagine two people standing side by side - one in old-fashioned attire and the other in modern clothing. The modern person represents "contemporary."
+
 ```
