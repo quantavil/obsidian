@@ -16,7 +16,7 @@
 *Example sentences:*
 - The museum showcased contemporary art from various renowned artists.
 - The film depicted the struggles of contemporary society through its realistic storyline.
-
+Synonyms: modern, current, present-day Antonyms: ancient, historical, outdated
 
 **Obsolete** (/ɑbsəˈliːt/) {Noun}
 ?
