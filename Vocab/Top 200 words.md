@@ -1,22 +1,31 @@
 #flashcards
 
-**Panacea** (/ˌpænəˈsiːə/) {Noun}
-?
-==A solution or remedy for all difficulties or diseases; a cure-all.==
-*Hindi translation:* सर्वरोगहर (Sarvaroghara)
-*Example sentences:*
-- The new drug was hailed as a panacea for all types of cancer.
-- Some people believe that education is the panacea for societal problems.
+**Panacea** (/ˌpænəˈsiːə/) {Noun} : A solution or remedy for all problems or difficulties; a cure-all.
 
+*Hindi translation:* सर्वचिकित्सा (Sarvchikitsa)
 
-**Contemporary** (/kən'tɛmpərɛri/) {Noun}
-?
-==Belonging to or occurring in the present time; modern.==
-*Hindi translation:* समकालीन (Samakālīn)
 *Example sentences:*
+- The new drug was hailed as a panacea for a wide range of ailments, but its effectiveness was still under investigation.
+- While exercise is beneficial, it's not a panacea for all health issues.
+
+*Synonyms:* cure-all, universal remedy, magic bullet
+*Antonyms:* problem, ailment, difficulty
+
+---
+
+**Contemporary** (/kən'tɛmpərɛri/) {Noun} : Belonging to or occurring in the present time; modern.
+
+_Hindi translation:_ समकालीन (Samakālīn)
+
+_Example sentences:_
+
 - The museum showcased contemporary art from various renowned artists.
 - The film depicted the struggles of contemporary society through its realistic storyline.
-Synonyms: modern, current, present-day Antonyms: ancient, historical, outdated
+
+*Synonyms:* modern, current, present-day 
+*Antonyms:* ancient, historical, outdated
+
+---
 
 **Obsolete** (/ɑbsəˈliːt/) {Noun}
 ?
