@@ -1,4 +1,4 @@
-## File rename
+## File Extension Rename
 
 This Bash command renames files from `.ext1` to `.ext2` with sequential numbering in the filename.
 
@@ -45,13 +45,6 @@ for %%F in (*) do (
 endlocal
 
 ```
-
-Certainly, here's the title, description, and an explanation of the provided batch script:
-
-**Title:** 
-
-**Description:**
-This batch script is designed to search for and remove specific strings from the names of files in the current directory. It uses a nested loop structure to iterate through each file and search for a list of specified strings, removing them from the file names if found.
 
 **Code Explanation (Bullet Points):**
 
