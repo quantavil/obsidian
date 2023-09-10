@@ -46,25 +46,3 @@ endlocal
 
 ```
 
-```bash
-@echo off
-setlocal enabledelayedexpansion
-
-set "searchStrings=@ImTgLoki @TgLokii"
-
-for %%F in (*) do (
-    set "filename=%%~nF%%~xF"
-    set "newFilename=!filename!"
-    
-    for %%S in (%searchStrings%) do (
-        set "newFilename=!newFilename:%%S=!"
-    )
-    
-    if not "!filename!"=="!newFilename!" (
-        ren "%%F" "!newFilename!"
-    )
-)
-
-endlocal
-
-```
