@@ -12,5 +12,36 @@ done
 ```
 
 
-```ba
+## Batch File Renamer Script
+
+Description: This Windows batch script is designed to rename files in a specified directory by removing specific search strings from their filenames.
+
+```bash
+@echo on
+setlocal enabledelayedexpansion
+
+set "searchStrings=@ImTgLoki @TgLokii"
+
+rem Loop through all files in the current directory
+for %%F in (*) do (
+    set "filename=%%~nF%%~xF"
+    
+    rem Initialize the new filename with the original filename
+    set "newFilename=!filename!"
+    
+    rem Loop through each search string and remove it from the new filename
+    for %%S in (%searchStrings%) do (
+        set "newFilename=!newFilename:%%S=!"
+    )
+    
+    rem Check if the filename has changed
+    if not "!filename!"=="!newFilename!" (
+        rem Rename the file
+        ren "%%F" "!newFilename!"
+        echo Renamed "%%F" to "!newFilename!"
+    )
+)
+
+endlocal
+
 ```
