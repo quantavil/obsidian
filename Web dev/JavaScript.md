@@ -108,3 +108,56 @@ var z = 30; var z = 40; // This does not produce an error console.log(z); // Out
 ```
 
 Unlike `let` and `const`, which do not allow re-declaration of variables in the same scope, `var` permits it.
+
+## Function
+
+```js
+// Define a function named 'multiply' that takes two parameters 'a' and 'b'
+function multiply(a, b) {
+  return a * b; // Return the product of 'a' and 'b'
+}
+
+// Define a function expression named 'divide' using the arrow function syntax
+const divide = (a, b) => {
+  return a / b; // Return the division of 'a' by 'b'
+};
+
+// Define a higher-order function called 'calculate' that takes three parameters:
+// - 'num1' and 'num2' are numbers
+// - 'operation' is a function that takes two numbers and performs an operation
+function calculate(num1, num2, operation) {
+  // Define a closure function that uses 'num1' and 'num2' from the outer scope
+  const result = operation(num1, num2);
+  
+  // Return an object with 'result' and a nested function 'getResult'
+  return {
+    result,
+    getResult: function () {
+      return result; // Return the 'result' using a closure
+    }
+  };
+}
+
+// Example usage of the 'calculate' function with the 'multiply' function
+const multiplyOperation = calculate(5, 3, multiply); // Pass 'multiply' function as the 'operation' parameter
+console.log("Result of multiplication:", multiplyOperation.result); // Output: Result of multiplication: 15
+console.log("Using closure to get the result:", multiplyOperation.getResult()); // Output: Using closure to get the result: 15
+
+// Example usage of the 'calculate' function with the 'divide' function expression
+const divideOperation = calculate(8, 2, divide); // Pass 'divide' function expression as the 'operation' parameter
+console.log("Result of division:", divideOperation.result); // Output: Result of division: 4
+console.log("Using closure to get the result:", divideOperation.getResult()); // Output: Using closure to get the result: 4
+
+```
+
+In this code:
+
+- We define a function named `multiply` that takes two parameters, `a` and `b`, and returns their product.
+    
+- We define a function expression `divide` using the arrow function syntax, which takes two parameters, `a` and `b`, and returns the result of dividing `a` by `b`.
+    
+- We create a higher-order function called `calculate` that takes three parameters: `num1`, `num2`, and `operation`. The `operation` parameter is expected to be a function that takes two numbers and performs an operation.
+    
+- Inside the `calculate` function, we define a closure function that uses `num1` and `num2` from the outer scope to calculate the `result`. We return an object with the `result` and a nested function `getResult`, which uses a closure to return the `result`.
+    
+- We demonstrate the use of the `calculate` function with both the `multiply` function and the `divide` function expression, passing them as the `operation` parameter to perform multiplication and division operations, respectively. We also use closures to access and retrieve the results.
