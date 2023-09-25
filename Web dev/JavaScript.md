@@ -106,4 +106,5 @@ console.log(y); // Outputs: 20 (even though 'y' was declared inside the 'if' blo
 var z = 30; var z = 40; // This does not produce an error console.log(z); // Outputs: 40
 
 ```
+
 Unlike `let` and `const`, which do not allow re-declaration of variables in the same scope, `var` permits it.
