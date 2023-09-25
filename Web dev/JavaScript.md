@@ -330,3 +330,4 @@ In this code:
   - It shows an example of accessing a property (`innerWidth`) of the global object (`window`).
 
 This code demonstrates how `this` behaves in different contexts, how arrow functions capture `this`, and how `bind` can be used to set `this` explicitly. It also mentions that in a browser, the global object is typically referred to as `window`.
+
