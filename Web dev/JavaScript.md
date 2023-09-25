@@ -230,5 +230,36 @@ person = null; // 'person' no longer references the object in the heap
 
 // 9. Memory Leaks: Happen when memory is not released properly.
 // Properly managing references and using garbage collection helps prevent memory leaks.
-
 ```
+
+In this code:
+
+- **Call Stack:**
+    
+    - The call stack is a data structure that keeps track of function calls.
+    - When a function is called, it's pushed onto the stack, and when it returns, it's popped off the stack.
+    - The call stack ensures the order of execution in JavaScript.
+- **Heap Memory:**
+    
+    - Heap memory is a region for dynamically allocated memory.
+    - Objects and data that have a longer lifespan are stored in the heap.
+    - Variables in JavaScript store references to objects in the heap.
+- **Reference:**
+    
+    - References are pointers to the memory location of an object in the heap.
+    - Multiple variables can reference the same object in the heap.
+- **Garbage Collection:**
+    
+    - Garbage collection is an automatic process that reclaims memory from objects that are no longer reachable.
+    - When all references to an object are removed, it becomes eligible for garbage collection.
+- **Stack vs. Heap:**
+    
+    - The stack stores function call information and primitive data types.
+    - The heap stores dynamically allocated data like objects and arrays.
+- **Stack Overflow:**
+    
+    - A stack overflow occurs when the call stack becomes too deep, often due to recursive function calls.
+- **Memory Leaks:**
+    
+    - Memory leaks happen when memory is not released properly, typically due to retaining references to objects that are no longer needed.
+    - Properly managing references and using garbage collection helps prevent memory leaks.
