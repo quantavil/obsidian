@@ -23,9 +23,11 @@
             "id": "e4f463d340d54065",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.5"
+                "file": "Web dev/JavaScript.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vocab/Vocab.md",
+                "file": "Web dev/JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,6 +162,7 @@
   },
   "active": "e4f463d340d54065",
   "lastOpenFiles": [
+    "Web dev/JavaScript.md",
     "Bash Command.md",
     "Untitled 1.md",
     "Untitled.md",
@@ -186,7 +189,6 @@
     "coding-interview-university-main/Optional.md",
     "coding-interview-university-main/programming-language-resources.md",
     "DBMS-lex/2 - ER.md",
-    "DBMS-lex/Untitled 1.md",
     "Vocab",
     "GK/March 23",
     "GK",
