@@ -62,14 +62,30 @@ console.log(localVar); // This will result in an error because localVar is not d
 
 ```
 
-In this example, `localVar` is declared within the `bar` function, so it is only accessible within that function. Attempting to access it outside of the function will result in an error.
-
+3.  **Block-level scope.**
 It's important to note that JavaScript also supports block-level scope with the introduction of `let` and `const` in ES6. Variables declared with `let` and `const` have block scope, meaning they are confined to the block (e.g., a loop or an `if` statement) where they are declared.
 
-Example of block scope:
+```js
+if (true) {
+  let blockVar = "I'm inside a block";
+  console.log(blockVar);
+}
 
-javascriptCopy code
+console.log(blockVar); // This will result in an error because blockVar is not defined in this scope
 
-`if (true) {   let blockVar = "I'm inside a block";   console.log(blockVar); }  console.log(blockVar); // This will result in an error because blockVar is not defined in this scope`
-
+```
 In this example, `blockVar` is declared within the `if` block and is not accessible outside of that block due to block-level scope.
+
+The `var` keyword in JavaScript behaves in a way that can sometimes lead to unexpected or "weird" behavior due to its function-level scope and hoisting
+
+**Hoisting:** Variables declared with `var` are hoisted to the top of their containing function or global scope. This means that the variable declarations are moved to the top of the scope during the compilation phase, but their assignments remain where they are in the code. This can lead to situations where a variable is accessible before it's declared.
+
+```js
+function hoistingExample() {
+  console.log(x); // Outputs: undefined
+  var x = 10;
+}
+
+hoistingExample();
+
+```
