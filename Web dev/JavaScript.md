@@ -78,7 +78,7 @@ In this example, `blockVar` is declared within the `if` block and is not accessi
 
 The `var` keyword in JavaScript behaves in a way that can sometimes lead to unexpected or "weird" behavior due to its function-level scope and hoisting
 
-**Hoisting:** Variables declared with `var` are hoisted to the top of their containing function or global scope. This means that the variable declarations are moved to the top of the scope during the compilation phase, but their assignments remain where they are in the code. This can lead to situations where a variable is accessible before it's declared.
+1. **Hoisting:** Variables declared with `var` are hoisted to the top of their containing function or global scope. This means that the variable declarations are moved to the top of the scope during the compilation phase, but their assignments remain where they are in the code. This can lead to situations where a variable is accessible before it's declared.
 
 ```js
 function hoistingExample() {
@@ -89,3 +89,21 @@ function hoistingExample() {
 hoistingExample();
 
 ```
+
+2. **Function-Level Scope:** Variables declared with `var` have function-level scope, which means they are not block-scoped. This can lead to unexpected behavior when using `var` inside blocks like `if` statements or loops.
+```js
+if (true) {
+  var y = 20;
+}
+
+console.log(y); // Outputs: 20 (even though 'y' was declared inside the 'if' block)
+
+```
+
+**Variable Re-declaration:** Variables declared with `var` can be re-declared within the same scope without generating an error.
+
+```js
+var z = 30; var z = 40; // This does not produce an error console.log(z); // Outputs: 40
+
+```
+Unlike `let` and `const`, which do not allow re-declaration of variables in the same scope, `var` permits it.
