@@ -266,58 +266,40 @@ In this code:
 
 ## Pass by Value & Pass by Reference
 
+
 ```javascript
 // Pass by Value
 
-// 1. Primitive Data Types
-let num = 10; // 'num' is a primitive number
-let name = "Alice"; // 'name' is a primitive string
+let a = 10; // 'a' stores a primitive value (number)
+let b = a;  // 'b' receives a copy of the value stored in 'a'
 
-function modifyValue(value) {
-  value = 20; // Modify the local copy of 'value'
-}
+a = 20;     // Changing 'a' doesn't affect 'b'
 
-modifyValue(num); // 'num' is passed by value
-console.log(num); // Output: 10 (unchanged)
+console.log(a); // Output: 20
+console.log(b); // Output: 10 (unchanged)
 
 // Pass by Reference
 
-// 2. Objects (including arrays and functions)
-let person = { name: "Bob", age: 30 }; // 'person' is an object
+let obj1 = { name: "Alice" }; // 'obj1' stores a reference to an object
+let obj2 = obj1;              // 'obj2' now references the same object as 'obj1'
 
-function modifyObject(obj) {
-  obj.age = 40; // Modify the properties of the object
-}
+obj1.name = "Bob";            // Changing 'obj1' also changes 'obj2'
 
-modifyObject(person); // 'person' is passed by reference
-console.log(person.age); // Output: 40 (changed)
-
-// 3. Arrays
-let numbers = [1, 2, 3, 4]; // 'numbers' is an array
-
-function modifyArray(arr) {
-  arr.push(5); // Modify the array by adding an element
-}
-
-modifyArray(numbers); // 'numbers' is passed by reference
-console.log(numbers); // Output: [1, 2, 3, 4, 5] (changed)
-
-// Summary:
-// - Primitive types (numbers, strings, booleans) are passed by value.
-// - Objects (including arrays and functions) are passed by reference.
-// - When you modify an object or array inside a function, you're modifying the original object or array.
-// - When you modify a primitive inside a function, it doesn't affect the original variable.
+console.log(obj1.name); // Output: "Bob"
+console.log(obj2.name); // Output: "Bob" (both are references to the same object)
 ```
 
 In this code:
 
 - **Pass by Value:**
-  - Primitive data types like numbers and strings are passed by value.
-  - When you pass a primitive to a function and modify it inside the function, it doesn't affect the original variable outside the function.
+  - When you assign a primitive value (e.g., number, string) to another variable, a copy of the value is made.
+  - Changes to one variable do not affect the other.
 
 - **Pass by Reference:**
-  - Objects (including arrays and functions) are passed by reference.
-  - When you pass an object to a function and modify it inside the function, you're modifying the original object, and the changes are reflected outside the function.
+  - When you assign an object (or an array) to another variable, you are actually copying a reference to the same object.
+  - Changes made to the object through one variable are reflected when accessed through the other variable because both reference the same underlying object.
+
+
 
 ## This
 
