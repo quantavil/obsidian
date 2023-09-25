@@ -159,3 +159,76 @@ console.log(counter()); // Output: 2
 console.log(counter()); // Output: 3
 
 ```
+
+
+- **Function**
+  - A reusable block of code that performs a specific task.
+
+- **Parameters**
+  - Variables that a function accepts as input (placeholders).
+  - In this case, 'name' is a parameter of the 'greet' function.
+
+- **Return Value**
+  - The value a function gives back after its execution.
+  - 'greet' returns a greeting message.
+
+- **Function Expression**
+  - Assigning a function to a variable or constant.
+  - 'greetExpression' is a function expression.
+
+- **Higher-Order Function**
+  - A function that takes other functions as arguments or returns them.
+  - 'repeat' is a higher-order function.
+
+- **Closure**
+  - A function that "remembers" its lexical scope even when executed outside it.
+  - 'createCounter' returns a closure function that maintains a 'count' variable.
+
+- **Example Usage of Concepts**
+  - `console.log(greet("Alice"));` outputs "Hello, Alice!"
+  - `console.log(greetExpression("Bob"));` outputs "Hello, Bob!"
+  - `repeat(sayHi, 3);` repeats the 'sayHi' function three times with different indices.
+  - `const counter = createCounter();` creates a counter using a closure.
+  - `console.log(counter());` outputs 1, `console.log(counter());` outputs 2, and so on, maintaining state between calls.
+
+## Memory
+
+```js
+// Call Stack
+
+// 1. Function: A reusable block of code.
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+// 2. Call Stack: A data structure that keeps track of function calls.
+console.log(greet("Alice")); // Push 'greet' onto the call stack
+// 'greet' execution finishes, so it's popped off the stack
+
+// Heap Memory
+
+// 3. Heap Memory: A region for dynamically allocated memory.
+const person = { name: "Bob", age: 30 }; // Create an object in the heap
+
+// 4. Reference: A pointer to the memory location of an object.
+const reference = person; // 'reference' points to the same object in the heap
+
+// 5. Variables: Store references to objects.
+const age = person.age; // 'age' stores the age value from the object
+
+// 6. Garbage Collection: Automatic memory management to reclaim unused memory.
+person = null; // 'person' no longer references the object in the heap
+// The object may be eligible for garbage collection if no references exist
+
+// 7. Stack vs. Heap: Stack stores function call information and primitives,
+// while the heap stores dynamically allocated data like objects.
+
+// 8. Stack Overflow: Occurs when the call stack becomes too deep due to recursive function calls.
+// Example: Uncomment the line below to trigger a stack overflow.
+// function infiniteLoop() { infiniteLoop(); }
+// infiniteLoop(); // This would result in a stack overflow error
+
+// 9. Memory Leaks: Happen when memory is not released properly.
+// Properly managing references and using garbage collection helps prevent memory leaks.
+
+```
