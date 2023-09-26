@@ -26,23 +26,13 @@
               "type": "markdown",
               "state": {
                 "file": "Web dev/JavaScript.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0a8afc063a7c25b6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.13"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +170,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0a8afc063a7c25b6",
+  "active": "e4f463d340d54065",
   "lastOpenFiles": [
     "Web dev/JavaScript.md",
     "Bash Command.md",
