@@ -368,4 +368,45 @@ In this code:
 
 This code demonstrates how `this` behaves in different contexts, how arrow functions capture `this`, and how `bind` can be used to set `this` explicitly. It also mentions that in a browser, the global object is typically referred to as `window`.
 
-##\
+## Object
+
+```javascript
+// Object Literal
+
+// 1. Object Literal: Creating an object using curly braces.
+const personLiteral = {
+  name: "Alice",
+  age: 25,
+};
+
+// 2. Properties: Key-value pairs in an object.
+console.log(personLiteral.name); // Accessing the 'name' property
+
+// Object Constructor
+
+// 3. Object Constructor: Creating an object using a constructor function.
+function PersonConstructor(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+// 4. Creating an instance using the constructor.
+const personConstructor = new PersonConstructor("Bob", 30);
+
+// 5. Properties: Properties are defined using 'this' inside the constructor.
+console.log(personConstructor.age); // Accessing the 'age' property
+```
+
+In this code:
+
+- **Object Literal** is created using curly braces `{}` to define key-value pairs (properties).
+
+- **Properties** are the key-value pairs inside an object, and they can be accessed using dot notation (e.g., `personLiteral.name`).
+
+- **Object Constructor** is created using a constructor function. Properties are defined inside the constructor using `this`.
+
+- An instance of an object is created using the `new` keyword followed by the constructor function (e.g., `const personConstructor = new PersonConstructor("Bob", 30)`).
+
+- Properties in the constructor are accessed in the same way as in the object literal (e.g., `personConstructor.age`).
+
+## OOPs

@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a8afc063a7c25b6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,6 +150,16 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "e7a6857e507746ec",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -160,7 +180,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e4f463d340d54065",
+  "active": "0a8afc063a7c25b6",
   "lastOpenFiles": [
     "Web dev/JavaScript.md",
     "Bash Command.md",
