@@ -522,7 +522,34 @@ console.log(myCar.make); // Output: Honda
 
 ```
 
-## Destructuring
+
+### Object.getPrototypeOf()
+
+Certainly! `Object.getPrototypeOf()` is a method in JavaScript used to get the prototype (i.e., the internal prototype) of an object. 
+
+```javascript
+// Create an object 'person' with a 'name' property
+const person = {
+  name: 'John'
+};
+
+// Create another object 'student' with a 'studentId' property
+const student = {
+  studentId: '123456'
+};
+
+// Set the prototype of 'student' to be 'person', so 'student' inherits properties from 'person'
+Object.setPrototypeOf(student, person);
+
+// Retrieve the prototype (internal prototype) of 'student' using 'Object.getPrototypeOf()'
+const studentPrototype = Object.getPrototypeOf(student);
+
+// Log the prototype of 'student' to see the inherited properties
+console.log(studentPrototype); // Output: { name: 'John' }
+```
+
+
+### Destructuring
 
 Certainly! Destructuring in JavaScript allows you to extract values from objects or arrays into distinct variables. Here's an example with comments:
 
