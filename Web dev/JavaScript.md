@@ -665,5 +665,60 @@ const weakRef = new WeakRef(someObject);
 ```
 
 
-## 
+## Sync  
+**Synchronous:**
+In synchronous code, statements are executed one after the other in a sequential order, blocking the execution until each statement completes.
 
+```javascript
+console.log("Step 1");
+console.log("Step 2");
+console.log("Step 3");
+```
+
+**Asynchronous:**
+In asynchronous code, some operations are non-blocking, allowing other code to run while waiting for an operation to complete. Common asynchronous operations include timers and network requests.
+
+```javascript
+console.log("Step 1");
+
+setTimeout(() => {
+  console.log("Step 2 (after 1 second)");
+}, 1000);
+
+console.log("Step 3");
+```
+
+**Callback Function:**
+A callback function is a function passed as an argument to another function. It's executed after the completion of an asynchronous operation or at a specified time.
+
+```javascript
+function doSomethingAsync(callback) {
+  setTimeout(() => {
+    console.log("Async operation completed");
+    callback();
+  }, 1000);
+}
+
+console.log("Step 1");
+
+doSomethingAsync(() => {
+  console.log("Step 2 (after async operation)");
+});
+
+console.log("Step 3");
+```
+
+**Callback Hell (Callback Pyramid):**
+Callback hell occurs when you nest multiple callback functions inside each other, making the code hard to read and maintain. This is common in deeply nested asynchronous code.
+
+```javascript
+asyncFunc1(() => {
+  asyncFunc2(() => {
+    asyncFunc3(() => {
+      // More nested callbacks...
+    });
+  });
+});
+```
+
+To avoid callback hell, you can use techniques like Promises, async/await, or libraries like async.js. These techniques provide better readability and maintainability for asynchronous code.
