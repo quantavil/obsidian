@@ -411,7 +411,6 @@ In this code:
 
 ## OOPs
 
-Certainly! Here's a concise explanation of JavaScript Object-Oriented Programming (OOP) concepts with inline comments:
 
 ```javascript
 // 1. Class: A blueprint for creating objects
