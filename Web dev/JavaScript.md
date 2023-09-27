@@ -542,7 +542,23 @@ const person = {
 // Destructuring an object
 const { firstName, lastName, age:RealAge } = person;
 
-// Destructuring an array
+
+// Given an array 'arr' with three elements: 'foo', 'bar', and 'baz'
+const arr = ['foo', 'bar', 'baz'];
+
+// Example 1: Skipping the first two elements and assigning 'c' to the third element
+const [,, c] = arr;
+
+// 'c' now contains the value 'baz'
+console.log(c); // Output: 'baz'
+
+// Example 2: Assigning 'a' to the first element, 'b' to the second element, and 'c' to the third element
+const [a, b, c] = arr;
+
+// 'a' contains 'foo', 'b' contains 'bar', and 'c' contains 'baz'
+console.log(a); // Output: 'foo'
+console.log(b); // Output: 'bar'
+console.log(c); // Output: 'baz'
 
 
 // Now, firstName, lastName, and age hold the corresponding values
