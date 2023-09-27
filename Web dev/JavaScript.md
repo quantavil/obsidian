@@ -499,7 +499,7 @@ startCar(myElectricCar);    // Also works with an ElectricCar
 //   - Abstract classes and methods are not directly instantiable
 
 // 11. Getter/Setter: Methods used to access and modify object properties with controlled behavior
-class Car {
+class Car2 {
   constructor(make, model) {
     this._make = make; // Private property
     this._model = model; // Private property
@@ -516,7 +516,7 @@ class Car {
   }
 }
 
-const myCar = new Car("Toyota", "Camry");
+const myCar = new Car2("Toyota", "Camry");
 console.log(myCar.make); // Output: Toyota
 myCar.make = "Honda";    // Setter called
 console.log(myCar.make); // Output: Honda
