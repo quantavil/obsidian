@@ -1059,3 +1059,29 @@ Certainly! Below, I'll provide JavaScript code examples with inline comments for
    }
    ```
 
+## Imperative Vs declarative
+
+Imperative and declarative are two programming paradigms that describe different approaches to writing code:
+
+1. **Imperative Code:**
+   - **How to Do It:** Imperative code focuses on describing step-by-step instructions to achieve a desired outcome.
+   - **Example (Imperative):** In JavaScript, a for loop that iterates through an array and performs specific actions on each element is imperative.
+
+   ```javascript
+   const numbers = [1, 2, 3, 4, 5];
+   const doubledNumbers = [];
+   
+   for (let i = 0; i < numbers.length; i++) {
+     doubledNumbers.push(numbers[i] * 2);
+   }
+   ```
+
+2. **Declarative Code:**
+   - **What to Do:** Declarative code emphasizes expressing the desired outcome without specifying the step-by-step process.
+   - **Example (Declarative):** In JavaScript, using the `map` function to transform elements of an array is declarative.
+
+   ```javascript
+   const numbers = [1, 2, 3, 4, 5];
+   const doubledNumbers = numbers.map(number => number * 2);
+   ```
+
