@@ -416,7 +416,7 @@ Certainly! Here's a concise explanation of JavaScript Object-Oriented Programmin
 ```javascript
 // 1. Class: A blueprint for creating objects
 class Car {
-  constructor(make, model) {
+  constructor(make, model) { // 4. Constructor: A special method to initialize object properties
     this.make = make;
     this.model = model;
   }
@@ -432,8 +432,6 @@ Car.prototype.start = function() {
 
 myCar.start(); // Outputs: "Toyota Camry is starting."
 
-// 4. Constructor: A special method to initialize object properties
-// (Constructor function is the same as the class name)
 
 // 5. Instance Method: Functions defined within a class, operate on instance properties
 Car.prototype.drive = function() {
@@ -453,6 +451,26 @@ const result = MathUtils.square(5); // Call static method directly
 
 // 7. Encapsulation: Bundling data (properties) and methods (functions) into a single unit (class)
 //   - Private properties and methods can be simulated using closures
+// Encapsulation: Data hiding by making variables private
+function Book(title, author) {
+  // Private variables
+  let _title = title;
+  let _author = author;
+
+  // Public method to get the book title
+  this.getTitle = function() {
+    return _title;
+  };
+
+  // Public method to set the book title
+  this.setTitle = function(newTitle) {
+    _title = newTitle;
+  };
+}
+
+const myBook = new Book("The Great Gatsby", "F. Scott Fitzgerald");
+console.log(myBook.getTitle()); // Output: The Great Gatsby
+
 
 // 8. Inheritance: A mechanism where a class can inherit properties and methods from another class
 class ElectricCar extends Car {
