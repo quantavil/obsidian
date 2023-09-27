@@ -522,6 +522,41 @@ console.log(myCar.make); // Output: Honda
 
 ```
 
+## Destructuring
+
+Certainly! Destructuring in JavaScript allows you to extract values from objects or arrays into distinct variables. Here's an example with comments:
+
+```javascript
+// Example object with properties
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+};
+
+// const firstName = person.firstName
+// const lastName = person.lastName
+// const age = person.age
+
+// The below code is equivalent to above 3 line
+// Destructuring an object
+const { firstName, lastName, age:RealAge } = person;
+
+// Destructuring an array
+
+
+// Now, firstName, lastName, and age hold the corresponding values
+console.log(firstName); // Output: "John"
+console.log(lastName);  // Output: "Doe"
+console.log(age);       // Output: 30
+```
+
+In this code:
+
+1. We have an object called `person` with properties `firstName`, `lastName`, and `age`.
+2. We use destructuring to create new variables (`firstName`, `lastName`, and `age`) with the same names as the object's properties.
+3. As a result, we can access these values directly using the new variables.
+
 ## Data Structure 
 
 ```js
