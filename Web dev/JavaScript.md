@@ -416,16 +416,18 @@ Certainly! Here's a concise explanation of JavaScript Object-Oriented Programmin
 ```javascript
 // 1. Class: A blueprint for creating objects
 class Car {
-  constructor(make, model) { // 4. Constructor: A special method to initialize object properties
+// 2. Constructor: A special method to initialize object properties
+  constructor(make, model) { 
+  // Instance variables
     this.make = make;
     this.model = model;
   }
 }
 
-// 2. Object: Instances created from a class
+// 3. Object: Instances created from a class
 const myCar = new Car("Toyota", "Camry");
 
-// 3. Prototype Chaining: Objects inherit properties and methods from their prototype
+// 4. Prototype Chaining: Objects inherit properties and methods from their prototype
 Car.prototype.start = function() {
   console.log(`${this.make} ${this.model} is starting.`);
 };
@@ -450,7 +452,6 @@ class MathUtils {
 const result = MathUtils.square(5); // Call static method directly
 
 // 7. Encapsulation: Bundling data (properties) and methods (functions) into a single unit (class)
-//   - Private properties and methods can be simulated using closures
 // Encapsulation: Data hiding by making variables private
 function Book(title, author) {
   // Private variables
@@ -498,24 +499,28 @@ startCar(myElectricCar);    // Also works with an ElectricCar
 //   - Abstract classes and methods are not directly instantiable
 
 // 11. Getter/Setter: Methods used to access and modify object properties with controlled behavior
-class Temperature {
-  constructor(celsius) {
-    this.celsius = celsius;
+class Car {
+  constructor(make, model) {
+    this._make = make; // Private property
+    this._model = model; // Private property
   }
 
-  get fahrenheit() {
-    return (this.celsius * 9/5) + 32;
+  // Getter method
+  get make() {
+    return this._make;
   }
 
-  set fahrenheit(value) {
-    this.celsius = (value - 32) * 5/9;
+  // Setter method
+  set make(newMake) {
+    this._make = newMake;
   }
 }
 
-const temp = new Temperature(25);
-console.log(temp.fahrenheit); // Accessing the getter
-temp.fahrenheit = 68;         // Using the setter to update Celsius
-console.log(temp.celsius);    // Checking the Celsius value
+const myCar = new Car("Toyota", "Camry");
+console.log(myCar.make); // Output: Toyota
+myCar.make = "Honda";    // Setter called
+console.log(myCar.make); // Output: Honda
+
 ```
 
 These are fundamental OOP concepts in JavaScript that help organize code and create reusable, structured, and maintainable programs.
