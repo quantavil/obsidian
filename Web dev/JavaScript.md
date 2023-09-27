@@ -411,3 +411,93 @@ In this code:
 
 ## OOPs
 
+Certainly! Here's a concise explanation of JavaScript Object-Oriented Programming (OOP) concepts with inline comments:
+
+```javascript
+// 1. Class: A blueprint for creating objects
+class Car {
+  constructor(make, model) {
+    this.make = make;
+    this.model = model;
+  }
+}
+
+// 2. Object: Instances created from a class
+const myCar = new Car("Toyota", "Camry");
+
+// 3. Prototype Chaining: Objects inherit properties and methods from their prototype
+Car.prototype.start = function() {
+  console.log(`${this.make} ${this.model} is starting.`);
+};
+
+myCar.start(); // Outputs: "Toyota Camry is starting."
+
+// 4. Constructor: A special method to initialize object properties
+// (Constructor function is the same as the class name)
+
+// 5. Instance Method: Functions defined within a class, operate on instance properties
+Car.prototype.drive = function() {
+  console.log(`${this.make} ${this.model} is driving.`);
+};
+
+myCar.drive(); // Outputs: "Toyota Camry is driving."
+
+// 6. Static Method: A method called on the class itself, not on instances
+class MathUtils {
+  static square(x) {
+    return x * x;
+  }
+}
+
+const result = MathUtils.square(5); // Call static method directly
+
+// 7. Encapsulation: Bundling data (properties) and methods (functions) into a single unit (class)
+//   - Private properties and methods can be simulated using closures
+
+// 8. Inheritance: A mechanism where a class can inherit properties and methods from another class
+class ElectricCar extends Car {
+  constructor(make, model, batteryCapacity) {
+    super(make, model); // Call the parent class constructor
+    this.batteryCapacity = batteryCapacity;
+  }
+
+  charge() {
+    console.log(`Charging ${this.make} ${this.model}'s ${this.batteryCapacity} kWh battery.`);
+  }
+}
+
+const myElectricCar = new ElectricCar("Tesla", "Model 3", 75);
+
+// 9. Polymorphism: Objects of different classes can be treated as objects of a common parent class
+function startCar(car) {
+  car.start();
+}
+
+startCar(myCar);           // Works with a regular Car
+startCar(myElectricCar);    // Also works with an ElectricCar
+
+// 10. Abstraction: Hiding complex implementation details and showing only essential features
+//   - Abstract classes and methods are not directly instantiable
+
+// 11. Getter/Setter: Methods used to access and modify object properties with controlled behavior
+class Temperature {
+  constructor(celsius) {
+    this.celsius = celsius;
+  }
+
+  get fahrenheit() {
+    return (this.celsius * 9/5) + 32;
+  }
+
+  set fahrenheit(value) {
+    this.celsius = (value - 32) * 5/9;
+  }
+}
+
+const temp = new Temperature(25);
+console.log(temp.fahrenheit); // Accessing the getter
+temp.fahrenheit = 68;         // Using the setter to update Celsius
+console.log(temp.celsius);    // Checking the Celsius value
+```
+
+These are fundamental OOP concepts in JavaScript that help organize code and create reusable, structured, and maintainable programs.
