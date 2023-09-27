@@ -410,3 +410,4 @@ In this code:
 - Properties in the constructor are accessed in the same way as in the object literal (e.g., `personConstructor.age`).
 
 ## OOPs
+
