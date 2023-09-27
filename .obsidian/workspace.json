@@ -30,19 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b9fdd293ff0017bc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +170,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b9fdd293ff0017bc",
+  "active": "e4f463d340d54065",
   "lastOpenFiles": [
     "Web dev/Internet.md",
     "Web dev/JavaScript.md",
