@@ -409,6 +409,46 @@ In this code:
 
 - Properties in the constructor are accessed in the same way as in the object literal (e.g., `personConstructor.age`).
 
+## Spread
+
+```javascript
+// Example object
+const sourceObject = { a: 1, b: 2 };
+
+// Example 1: Using Object.assign to combine objects
+const targetObject1 = { c: 3 };
+const combinedObject1 = Object.assign(targetObject1, sourceObject);
+
+console.log(combinedObject1);
+// Output: { c: 3, a: 1, b: 2 }
+
+// Note: Object.assign modifies the targetObject1 in place and returns the modified object.
+
+
+// Example 2: Using the spread operator (...) to combine objects
+const targetObject2 = { c: 3 };
+const combinedObject2 = { ...targetObject2, ...sourceObject };
+
+console.log(combinedObject2);
+// Output: { c: 3, a: 1, b: 2 }
+
+// Note: The spread operator (...) creates a new object with the combined properties of targetObject2 and sourceObject.
+
+
+// Additional Note: Using spread operator for array concatenation
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+const concatenatedArray = [...arr1, ...arr2];
+console.log(concatenatedArray);
+// Output: [1, 2, 3, 4, 5, 6]
+```
+
+In this code:
+
+1. `Object.assign`: It combines objects by modifying the target object in place. It takes a target object and one or more source objects, copies the properties from the source objects to the target object, and returns the modified target object.
+
+2. Spread operator (`...`): It creates a new object or array by spreading the properties or elements of one or more source objects or arrays. It does not modify the source objects or arrays. When used with objects, it combines properties into a new object. When used with arrays, it concatenates the arrays.
 ## OOPs
 
 
