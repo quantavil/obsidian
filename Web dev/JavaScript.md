@@ -522,4 +522,144 @@ console.log(myCar.make); // Output: Honda
 
 ```
 
-These are fundamental OOP concepts in JavaScript that help organize code and create reusable, structured, and maintainable programs.
+## Data Structure 
+
+```js
+// 1. Arrays: Ordered list of values, indexed by number.
+const myArray = [1, 2, 3, 4, 5];
+
+// 2. Objects: Unordered collection of key-value pairs.
+const myObject = { name: 'John', age: 30 };
+
+// 3. Strings: Sequence of characters.
+const myString = 'Hello, World!';
+
+// 4. Numbers: Numeric data type.
+const myNumber = 42;
+
+// 5. Booleans: Represents true or false values.
+const isTrue = true;
+
+// 6. Undefined: Represents the absence of a value or uninitialized variable.
+let undefinedValue;
+
+// 7. Null: Represents an intentional absence of any object or value.
+const nullValue = null;
+
+// 8. Maps: Collection of key-value pairs with unique keys.
+const myMap = new Map();
+myMap.set('key1', 'value1');
+myMap.set('key2', 'value2');
+
+// 9. Sets: Collection of unique values.
+const mySet = new Set([1, 2, 3, 4, 5, 5]);
+
+// 10. WeakMaps: Similar to Maps but with weak references, enabling garbage collection.
+const myWeakMap = new WeakMap();
+const key = {};
+myWeakMap.set(key, 'value');
+
+// 11. WeakSets: Similar to Sets but with weak references, enabling garbage collection.
+const myWeakSet = new WeakSet();
+const weakSetValue = { key: 'value' };
+myWeakSet.add(weakSetValue);
+
+// 12. Symbols: Unique and immutable data type, often used as object property keys.
+const mySymbol = Symbol('description');
+
+// 13. Promises: Represents a value that might not be available yet but will be in the future.
+const myPromise = new Promise((resolve, reject) => {
+  // Asynchronous operation
+  if (/* condition */) {
+    resolve('Success');
+  } else {
+    reject('Error');
+  }
+});
+
+// 14. Functions: Reusable blocks of code.
+function myFunction(param1, param2) {
+  return param1 + param2;
+}
+
+// 15. Garbage Collected Data Structures:
+//    - Arrays, Objects, Strings, Numbers, Booleans, Maps, Sets, WeakMaps, WeakSets, and Symbols are garbage collected.
+//    - Garbage collection is automatic and managed by the JavaScript engine.
+
+```
+
+In addition to the commonly used data structures mentioned earlier, JavaScript also provides some specialized data structures and libraries that you can use:
+
+1. **Typed Arrays**: Typed arrays provide a way to work with binary data directly and efficiently. They include types like `Int8Array`, `Uint8Array`, `Float32Array`, and more for handling specific data formats.
+
+```javascript
+const intArray = new Int8Array([1, 2, 3, 4, 5]);
+```
+
+2. **Date**: The `Date` object is used for working with dates and times.
+
+```javascript
+const currentDate = new Date();
+```
+
+3. **RegExp**: The `RegExp` object is used for working with regular expressions, which are powerful for pattern matching in strings.
+
+```javascript
+const regex = /pattern/;
+```
+
+4. **JSON**: Although not a native JavaScript data structure, JSON (JavaScript Object Notation) is used for data interchange and can be converted to/from JavaScript objects using `JSON.parse()` and `JSON.stringify()`.
+
+```javascript
+const jsonData = '{"name": "John", "age": 30}';
+const parsedData = JSON.parse(jsonData);
+```
+
+5. **Queue and Stack Implementations**: JavaScript doesn't have built-in queue and stack data structures, but you can implement them using arrays or linked lists.
+
+```javascript
+// Queue implementation using an array
+const queue = [];
+queue.push(1);
+queue.push(2);
+const front = queue.shift();
+
+// Stack implementation using an array
+const stack = [];
+stack.push(1);
+stack.push(2);
+const top = stack.pop();
+```
+
+6. **Doubly Linked Lists**: You can implement linked lists for more advanced data structures like doubly linked lists when needed.
+
+```javascript
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.next = null;
+    this.prev = null;
+  }
+}
+
+class DoublyLinkedList {
+  constructor() {
+    this.head = null;
+    this.tail = null;
+  }
+
+  // Implement methods for adding, removing, and manipulating nodes.
+}
+```
+
+7. **BigInt**: JavaScript introduced BigInts for handling arbitrarily large integers.
+
+```javascript
+const bigNumber = BigInt("1234567890123456789012345678901234567890");
+```
+
+8. **WeakRef**: JavaScript introduced `WeakRef` for creating weak references to objects, which can be useful for implementing cache or resource management.
+
+```javascript
+const weakRef = new WeakRef(someObject);
+```
