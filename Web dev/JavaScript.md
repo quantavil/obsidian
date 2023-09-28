@@ -5,7 +5,6 @@ let luckyNum;
 console.log(luckyNum); //undefined
 
   
-
 luckyNum = null; //Expliclity represent empty value using null
 
 luckyNum = 'Tweety-Swee';//string
