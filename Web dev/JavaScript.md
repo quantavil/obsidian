@@ -349,23 +349,6 @@ greetFunction(); // 'this' inside 'greet' now refers to 'person3'
 console.log(window.innerWidth); // Accessing 'innerWidth' property of 'window' object
 ```
 
-In this code:
-
-- `'this' in JavaScript`:
-  - `this` can refer to the global object, which is `window` in a browser.
-  - Inside a regular function, `this` refers to the object that calls the function.
-  - Inside an arrow function, `this` retains the context of the surrounding code.
-
-- `'bind' method to set 'this'`:
-  - The `bind` method allows you to explicitly set the value of `this` for a function. It creates a new function with the specified `this` value.
-
-- `Summary`:
-  - The code summarizes the behavior of `this`, arrow functions, and `bind`.
-
-- `Accessing 'window' object properties`:
-  - It shows an example of accessing a property (`innerWidth`) of the global object (`window`).
-
-This code demonstrates how `this` behaves in different contexts, how arrow functions capture `this`, and how `bind` can be used to set `this` explicitly. It also mentions that in a browser, the global object is typically referred to as `window`.
 
 ## Object
 
@@ -448,6 +431,7 @@ In this code:
 1. `Object.assign`: It combines objects by modifying the target object in place. It takes a target object and one or more source objects, copies the properties from the source objects to the target object, and returns the modified target object.
 
 2. Spread operator (`...`): It creates a new object or array by spreading the properties or elements of one or more source objects or arrays. It does not modify the source objects or arrays. When used with objects, it combines properties into a new object. When used with arrays, it concatenates the arrays.
+
 ## OOPs
 
 
