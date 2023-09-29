@@ -522,7 +522,16 @@ for (const value of falsyValues) {
 ### Nullish coalescing operator
 The nullish coalescing operator (`??`) is used to address a specific issue related to falsy values, specifically `null` and `undefined`.
 
-```
+The important difference between them is that:
+
+- `||` returns the first _truthy_ value.
+- `??` returns the first _defined_ value.
+
+```js
+let height = 0;
+
+alert(height || 100); // 100
+alert(height ?? 100); // 0
 ```
 ## OOPs
 
