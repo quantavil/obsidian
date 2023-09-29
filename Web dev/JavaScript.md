@@ -129,6 +129,20 @@ const greetExpression = function(name) {
   return `Hello, ${name}!`;
 };
 
+//Arrow functions in JavaScript are a concise way to write anonymous functions.
+
+// Regular anonymous function
+let regularFunction = function(x, y) {
+  return x + y;
+};
+
+// Arrow function equivalent
+let arrowFunction = (x, y) => x + y;
+
+// Usage examples
+console.log(regularFunction(2, 3)); // Output: 5
+console.log(arrowFunction(2, 3));  // Output: 5
+
 // 5. Higher-Order Function: A function that takes other functions as arguments or returns them.
 function repeat(func, n) {
   for (let i = 0; i < n; i++) {
