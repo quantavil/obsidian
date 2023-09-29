@@ -196,15 +196,12 @@ console.log(counter()); // Output: 3
   - 'repeat' is a higher-order function.
 
 - **Closure**
+
+![[Pasted image 20230929231604.png]]
+
   - A function that "remembers" its lexical scope even when executed outside it.
   - 'createCounter' returns a closure function that maintains a 'count' variable.
 
-- **Example Usage of Concepts**
-  - `console.log(greet("Alice"));` outputs "Hello, Alice!"
-  - `console.log(greetExpression("Bob"));` outputs "Hello, Bob!"
-  - `repeat(sayHi, 3);` repeats the 'sayHi' function three times with different indices.
-  - `const counter = createCounter();` creates a counter using a closure.
-  - `console.log(counter());` outputs 1, `console.log(counter());` outputs 2, and so on, maintaining state between calls.
 
 ## Memory
 
