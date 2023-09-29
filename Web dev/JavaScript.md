@@ -486,6 +486,8 @@ const truthyValues = [
   new Date(),          // An instance of Date
   Symbol('foo'),       // A Symbol (added in ES6)
   /regex/,             // A non-empty regular expression
+  infinity,
+  -infinity
 ];
 
 // Falsy values (evaluate to false in a boolean context)
@@ -517,7 +519,11 @@ for (const value of falsyValues) {
 }
 ```
 
-This code lists common truthy and falsy values in JavaScript and demonstrates their behavior in a boolean context. It's important to note that objects, including arrays and functions, are generally truthy because they are considered to have a value when used in a boolean expression.
+### Nullish coalescing operator
+The nullish coalescing operator (`??`) is used to address a specific issue related to falsy values, specifically `null` and `undefined`.
+
+```
+```
 ## OOPs
 
 
