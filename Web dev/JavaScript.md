@@ -129,7 +129,7 @@ const greetExpression = function(name) {
   return `Hello, ${name}!`;
 };
 
-//Arrow functions in JavaScript are a concise way to write anonymous functions.
+// 5. Arrow functions in JavaScript are a concise way to write anonymous functions.
 
 // Regular anonymous function
 let regularFunction = function(x, y) {
@@ -143,19 +143,11 @@ let arrowFunction = (x, y) => x + y;
 console.log(regularFunction(2, 3)); // Output: 5
 console.log(arrowFunction(2, 3));  // Output: 5
 
-// 5. Higher-Order Function: A function that takes other functions as arguments or returns them.
+// 6. Higher-Order Function: A function that takes other functions as arguments or returns them.
 function repeat(func, n) {
   for (let i = 0; i < n; i++) {
     console.log(func(i));
   }
-}
-
-// 6. Closure: A function that "remembers" its lexical scope even when executed outside it.
-function createCounter() {
-  let count = 0;
-  return function() {
-    return ++count;
-  };
 }
 
 // Example usage of concepts:
@@ -167,6 +159,15 @@ function sayHi(index) {
 }
 
 repeat(sayHi, 3); // Output: Hi number 0, Hi number 1, Hi number 2
+
+// 7. Closure: A function that "remembers" its lexical scope even when executed outside it.
+function createCounter() {
+  let count = 0;
+  return function() {
+    return ++count;
+  };
+}
+
 
 const counter = createCounter();
 console.log(counter()); // Output: 1
