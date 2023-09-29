@@ -432,6 +432,43 @@ In this code:
 
 2. Spread operator (`...`): It creates a new object or array by spreading the properties or elements of one or more source objects or arrays. It does not modify the source objects or arrays. When used with objects, it combines properties into a new object. When used with arrays, it concatenates the arrays.
 
+## Optional Chaining
+
+```javascript
+// Optional chaining in JavaScript allows us to safely access nested properties or methods
+// without causing errors if any intermediate value is null or undefined.
+
+const person = {
+  name: 'John',
+  address: {
+    city: 'New York',
+    zipcode: '10001'
+  }
+};
+
+// Using optional chaining to access nested properties:
+const zipcode = person?.address?.zipcode; // If any part is null or undefined, zipcode will be undefined
+
+console.log(zipcode); // Output: '10001' if all properties exist, otherwise undefined
+
+// Without optional chaining, accessing nested properties could lead to errors:
+// const zipcodeWithoutOptionalChaining = person.address.zipcode; // This may throw an error if address is undefined.
+
+// We can also use optional chaining with methods:
+const greeting = person?.sayHello?.(); // If sayHello is a function, it will be called; otherwise, greeting will be undefined
+
+console.log(greeting); // Output: Result of the function if it exists, otherwise undefined
+
+const arr = [1,2,3];
+arr?.[0]; 
+
+function foo (a,b) { }
+foo?.(1,2)
+
+```
+
+Optional chaining (`?.`) helps prevent "TypeError" exceptions when you try to access properties or call methods on potentially undefined or null values. If any part of the chain is undefined or null, the result is automatically set to undefined, making your code safer and more resilient.
+
 ## OOPs
 
 
