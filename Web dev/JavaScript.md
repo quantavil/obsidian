@@ -111,7 +111,8 @@ Unlike `let` and `const`, which do not allow re-declaration of variables in the 
 ## Function
 
 ```js
-// 1. Function: A reusable block of code that performs a specific task.
+// 1. Function: A reusable block of code that performs a specific task.It will always Hoisted up to the top of the file i.e. 'use anywhere in the file'
+// Use it for Declaration for Global code 
 function greet(name) {
   return `Hello, ${name}!`;
 }
@@ -122,7 +123,8 @@ function greet(name) {
 // 3. Return Value: The value a function gives back after its execution.
 // 'greet' returns a greeting message.
 
-// 4. Function Expression: Assigning a function to a variable or constant.
+// 4. Function Expression: Assigning a function to a variable or constant.It will not be created until it encounter in the code, so any code above it cannot reference this function
+// Use it for Expression for  Local code 
 const greetExpression = function(name) {
   return `Hello, ${name}!`;
 };
