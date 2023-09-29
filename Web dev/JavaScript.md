@@ -435,8 +435,7 @@ In this code:
 ## Optional Chaining
 
 ```javascript
-// Optional chaining in JavaScript allows us to safely access nested properties or methods
-// without causing errors if any intermediate value is null or undefined.
+// optional chaining (`?.`) is used to safely access properties or call methods when the preceding object is potentially undefined or null
 
 const person = {
   name: 'John',
@@ -459,11 +458,12 @@ const greeting = person?.sayHello?.(); // If sayHello is a function, it will be 
 
 console.log(greeting); // Output: Result of the function if it exists, otherwise undefined
 
+// Examples:
 const arr = [1,2,3];
 arr?.[0]; 
 
 function foo (a,b) { }
-foo?.(1,2)
+foo?.(1,2);
 
 ```
 
