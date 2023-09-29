@@ -469,6 +469,55 @@ foo?.(1,2);
 
 Optional chaining (`?.`) helps prevent "TypeError" exceptions when you try to access properties or call methods on potentially undefined or null values. If any part of the chain is undefined or null, the result is automatically set to undefined, making your code safer and more resilient.
 
+## Truthy and Falsy values in JavaScript 
+
+```javascript
+// Truthy values (evaluate to true in a boolean context)
+const truthyValues = [
+  true,                // The boolean value true
+  42,                  // A non-zero number
+  -42,                 // A non-zero negative number
+  3.14,                // A non-zero float
+  'Hello',             // A non-empty string
+  '0',                 // A string with content, even if it's '0'
+  [],                  // An empty array (arrays are objects)
+  {},                  // An empty object (object literals are objects)
+  function() {},       // A non-empty function (functions are objects)
+  new Date(),          // An instance of Date
+  Symbol('foo'),       // A Symbol (added in ES6)
+  /regex/,             // A non-empty regular expression
+];
+
+// Falsy values (evaluate to false in a boolean context)
+const falsyValues = [
+  false,               // The boolean value false
+  0,                   // The number zero
+  -0,                  // Negative zero
+  0n,                  // BigInt zero
+  NaN,                 // Not-a-Number
+  '',                  // An empty string
+  null,                // The special value null
+  undefined,           // The special value undefined
+];
+
+// Test truthy values in a loop
+console.log("Truthy values:");
+for (const value of truthyValues) {
+  if (value) {
+    console.log(value);
+  }
+}
+
+// Test falsy values in a loop
+console.log("\nFalsy values:");
+for (const value of falsyValues) {
+  if (!value) {
+    console.log(value);
+  }
+}
+```
+
+This code lists common truthy and falsy values in JavaScript and demonstrates their behavior in a boolean context. It's important to note that objects, including arrays and functions, are generally truthy because they are considered to have a value when used in a boolean expression.
 ## OOPs
 
 
