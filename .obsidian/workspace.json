@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vocab/Vocab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4f463d340d54065",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Bash Command.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,8 +157,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e4f463d340d54065",
+  "active": "14e5d7b65bdc7694",
   "lastOpenFiles": [
+    "Bash Commands.md",
+    "Vocab/Vocab.md",
+    "Bash Command.md",
     "JAVASCRIPT/07-events-docs/images/formdata.png",
     "JAVASCRIPT/07-events-docs/10-window-events.md",
     "JAVASCRIPT/07-events-docs/03-event-object.md",
@@ -196,7 +186,6 @@
     "JAVASCRIPT/22-randomideas-front-end/images/workflow.png",
     "JAVASCRIPT/16-tracalorie-oop-project-docs/images/screen.png",
     "JAVASCRIPT/19-unit-testing-algorithms/images/algorithm.png",
-    "JAVASCRIPT/16-tracalorie-oop-project-docs/images/project-diagram.png",
     "JAVASCRIPT/21-randomideas-rest-api/09-database-queries.md",
     "JAVASCRIPT/21-randomideas-rest-api/08-mongoose-data-model.md",
     "JAVASCRIPT/21-randomideas-rest-api/07-connecting-to-mongodb.md",
@@ -208,8 +197,6 @@
     "JAVASCRIPT/21-randomideas-rest-api/02-nodemon-routes-folder.md",
     "JAVASCRIPT/22-randomideas-front-end/images",
     "JAVASCRIPT/22-randomideas-front-end/11-deploy-to-render.md",
-    "JAVASCRIPT/22-randomideas-front-end/10-delete-functionality.md",
-    "JAVASCRIPT/22-randomideas-front-end/09-add-username-to-server.md",
     "JAVASCRIPT/19-unit-testing-algorithms/images",
     "JAVASCRIPT/16-tracalorie-oop-project-docs/images",
     "JAVASCRIPT/14-oop-constructors-prototypes/images",
