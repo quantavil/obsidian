@@ -23,9 +23,11 @@
             "id": "e4f463d340d54065",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "JAVASCRIPT/07-events-docs/images/formdata.png"
+                "file": "Bash Command.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVASCRIPT/07-events-docs/images/formdata.png",
+                "file": "Bash Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,6 +172,7 @@
   },
   "active": "e4f463d340d54065",
   "lastOpenFiles": [
+    "JAVASCRIPT/07-events-docs/images/formdata.png",
     "JAVASCRIPT/07-events-docs/10-window-events.md",
     "JAVASCRIPT/07-events-docs/03-event-object.md",
     "JAVASCRIPT/07-events-docs/02-mouse-events.md",
@@ -207,7 +210,6 @@
     "JAVASCRIPT/22-randomideas-front-end/11-deploy-to-render.md",
     "JAVASCRIPT/22-randomideas-front-end/10-delete-functionality.md",
     "JAVASCRIPT/22-randomideas-front-end/09-add-username-to-server.md",
-    "JAVASCRIPT/22-randomideas-front-end/06-api-service.md",
     "JAVASCRIPT/19-unit-testing-algorithms/images",
     "JAVASCRIPT/16-tracalorie-oop-project-docs/images",
     "JAVASCRIPT/14-oop-constructors-prototypes/images",
