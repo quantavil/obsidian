@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Questions/Easy/70. Climbing Stairs.md",
+                "file": "Coding Questions/Easy/242. Valid Anagram.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Questions/Easy/70. Climbing Stairs.md",
+                "file": "Coding Questions/Easy/242. Valid Anagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +159,8 @@
   },
   "active": "14e5d7b65bdc7694",
   "lastOpenFiles": [
+    "Coding Questions/Easy/217. Contains Duplicate.md",
+    "Coding Questions/Easy/70. Climbing Stairs.md",
     "Bash Command.md",
     "Bash Commands.md",
     "Vocab/Vocab.md",
@@ -194,9 +196,7 @@
     "JAVASCRIPT/21-randomideas-rest-api/05-what-is-mongodb.md",
     "JAVASCRIPT/21-randomideas-rest-api/04-handle-put-delete-requests.md",
     "JAVASCRIPT/21-randomideas-rest-api/01-express-api-setup.md",
-    "JAVASCRIPT/21-randomideas-rest-api/02-nodemon-routes-folder.md",
     "JAVASCRIPT/22-randomideas-front-end/images",
-    "JAVASCRIPT/22-randomideas-front-end/11-deploy-to-render.md",
     "JAVASCRIPT/19-unit-testing-algorithms/images",
     "JAVASCRIPT/16-tracalorie-oop-project-docs/images",
     "JAVASCRIPT/14-oop-constructors-prototypes/images",
