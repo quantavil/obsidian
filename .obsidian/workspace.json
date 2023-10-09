@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVASCRIPT/01-variables-data-types-docs/02-comments-shortcuts.md",
+                "file": "JAVASCRIPT/01-variables-data-types-docs/03-variables.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVASCRIPT/01-variables-data-types-docs/02-comments-shortcuts.md",
+                "file": "JAVASCRIPT/01-variables-data-types-docs/03-variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +159,7 @@
   },
   "active": "039350cd785d0e78",
   "lastOpenFiles": [
+    "JAVASCRIPT/01-variables-data-types-docs/02-comments-shortcuts.md",
     "JAVASCRIPT/01-variables-data-types-docs/01-console.md",
     "Coding Questions/Easy/242. Valid Anagram.md",
     "Coding Questions/Easy/217. Contains Duplicate.md",
@@ -179,7 +180,6 @@
     "JAVASCRIPT/12-flixx-app-project-docs/06-movie-details-page.md",
     "JAVASCRIPT/12-flixx-app-project-docs/02-api-overview-and-key.md",
     "JAVASCRIPT/04-logic-control-scope-docs/02-else-if-and-nesting.md",
-    "JAVASCRIPT/01-variables-data-types-docs/02-comments-shortcuts.md",
     "NP-complete/knapsack.md",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/async-1.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/single-thread.png",
