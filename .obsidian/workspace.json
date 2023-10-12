@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVASCRIPT/01-variables-data-types-docs/06-type-conversion.md",
+                "file": "Neetcode 150/Sliding Window/424. Longest Repeating Character Replacement.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVASCRIPT/01-variables-data-types-docs/06-type-conversion.md",
+                "file": "Neetcode 150/Sliding Window/424. Longest Repeating Character Replacement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +159,9 @@
   },
   "active": "039350cd785d0e78",
   "lastOpenFiles": [
+    "Neetcode 150/Sliding Window/3. Longest Substring Without Repeating Characters.md",
+    "Neetcode 150/Sliding Window/121. Best Time to Buy and Sell Stock -E.md",
+    "JAVASCRIPT/01-variables-data-types-docs/06-type-conversion.md",
     "JAVASCRIPT/01-variables-data-types-docs/04-data-types.md",
     "JAVASCRIPT/01-variables-data-types-docs/03-variables.md",
     "JAVASCRIPT/01-variables-data-types-docs/02-comments-shortcuts.md",
@@ -192,9 +195,6 @@
     "JAVASCRIPT/16-tracalorie-oop-project-docs/images/screen.png",
     "JAVASCRIPT/19-unit-testing-algorithms/images/algorithm.png",
     "JAVASCRIPT/21-randomideas-rest-api/09-database-queries.md",
-    "JAVASCRIPT/21-randomideas-rest-api/08-mongoose-data-model.md",
-    "JAVASCRIPT/21-randomideas-rest-api/07-connecting-to-mongodb.md",
-    "JAVASCRIPT/21-randomideas-rest-api/06-atlas-setup.md",
     "JAVASCRIPT/18-iterators-data-structures/images",
     "JAVASCRIPT/22-randomideas-front-end/images",
     "JAVASCRIPT/19-unit-testing-algorithms/images",
