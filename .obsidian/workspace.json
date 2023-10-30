@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash Commands.md",
-                "mode": "preview",
+                "file": "Vocab/Tense.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash Commands.md",
+                "file": "Vocab/Tense.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +159,8 @@
   },
   "active": "039350cd785d0e78",
   "lastOpenFiles": [
+    "Bash Commands.md",
+    "Vocab/Tense.md",
     "Bash Command.md",
     "Neetcode 150/Sliding Window/424. Longest Repeating Character Replacement.md",
     "Neetcode 150/Array & Hashing.md",
@@ -174,7 +176,6 @@
     "Coding Questions/Easy/242. Valid Anagram.md",
     "Coding Questions/Easy/217. Contains Duplicate.md",
     "Coding Questions/Easy/70. Climbing Stairs.md",
-    "Bash Commands.md",
     "Vocab/Vocab.md",
     "JAVASCRIPT/07-events-docs/images/formdata.png",
     "JAVASCRIPT/07-events-docs/10-window-events.md",
@@ -186,7 +187,6 @@
     "JAVASCRIPT/07-events-docs/images/event-bubbling.png",
     "JAVASCRIPT/21-randomideas-rest-api/03-handle-post-requests.md",
     "JAVASCRIPT/18-iterators-data-structures/02-iterators.md",
-    "JAVASCRIPT/12-flixx-app-project-docs/06-movie-details-page.md",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/async-1.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/single-thread.png",
     "JAVASCRIPT/18-iterators-data-structures/images/stack.png",
