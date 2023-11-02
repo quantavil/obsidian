@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3f7a801dfabe54e1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "039350cd785d0e78",
+  "active": "3f7a801dfabe54e1",
   "lastOpenFiles": [
     "Bash Commands.md",
     "Vocab/Tense.md",
