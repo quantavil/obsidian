@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview.md",
+                "file": "Testing/Selenium Basic/3 - Test Script Enhancement.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview.md",
+                "file": "Testing/Selenium Basic/3 - Test Script Enhancement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,6 +172,12 @@
   },
   "active": "3f7a801dfabe54e1",
   "lastOpenFiles": [
+    "Testing/Selenium Basic/wdf.md",
+    "Testing/Selenium Basic/Chs2.md",
+    "Testing/Selenium Basic/CheatSheet.md",
+    "Testing/Selenium Basic/Assertion.md",
+    "Testing/Selenium Basic/3 - Test Script Enhancement.md",
+    "Interview.md",
     "DBMS Interview.md",
     "CSS.md",
     "CPP Interview.md",
@@ -192,13 +198,7 @@
     "JAVASCRIPT/01-variables-data-types-docs/03-variables.md",
     "JAVASCRIPT/01-variables-data-types-docs/02-comments-shortcuts.md",
     "JAVASCRIPT/01-variables-data-types-docs/01-console.md",
-    "Coding Questions/Easy/242. Valid Anagram.md",
-    "Coding Questions/Easy/217. Contains Duplicate.md",
-    "Coding Questions/Easy/70. Climbing Stairs.md",
-    "Vocab/Vocab.md",
     "JAVASCRIPT/07-events-docs/images/formdata.png",
-    "JAVASCRIPT/07-events-docs/10-window-events.md",
-    "JAVASCRIPT/07-events-docs/03-event-object.md",
     "JAVASCRIPT/07-events-docs/images/event-bubbling.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/async-1.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/single-thread.png",
