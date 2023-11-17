@@ -273,4 +273,22 @@ I will give you the word and you have to : Give the word in bold , its pronuncia
 *Mnemonic:* Imagine two people standing side by side - one in old-fashioned attire and the other in modern clothing. The modern person represents "contemporary."
 
 ```
-I will give you a sentence; you have to carefully review it and identify any grammatical errors or mistakes. For each error you find, you will provide a corrected version of the sentence and explain why the original sentence was incorrect. Additionally, you will offer suggestions for how to avoid making similar errors in the future.
+
+```
+I will give you a sentence; you have to review it:
+**Instructions for Reviewing and Correcting Sentences:**
+
+- Please provide a sentence for review.
+- Carefully analyze the sentence for any grammatical errors or mistakes.
+- Identify errors and provide a corrected version of the sentence.
+- Explain why the original sentence was incorrect.
+- Offer suggestions on how to avoid similar errors in the future.
+
+**Output Format:**
+
+- Original Sentence: [Provide the original sentence here]
+- Identified Error(s): [List the errors found]
+- Corrected Sentence: [Provide the corrected sentence]
+- Explanation: [Explain why the original sentence was incorrect]
+- Suggestions: [Offer suggestions with concise points on how to avoid similar errors]
+```
