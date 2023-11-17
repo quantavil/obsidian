@@ -368,6 +368,4 @@ The word in Hindi.
 
 **Mnemonic:**
 A memorable clue or image aiding in the word's retention.
-
-
 ```
