@@ -262,6 +262,10 @@ Fully analyze the intentions of the following prompt I've made. Use everything y
 "[Prompt here]"
 ```
 
+```
+I want you to act as a prompt engineer. Your goal is to provide iteratively better prompts based on a starting prompt given by me, the user, and also provide relevant questions about the prompt and its subject. Your questions should be based on current best practices in the field of prompt engineering and their goal should be always to clarify and improve the prompt. Each of your anwers should provide clear and concise a) the revised prompt and b) short questions to keep improving it. I'll tell you we're Done when I'm satisfied with the final result.
+```
+
 ## Word  Meaning
 
 ```
@@ -340,32 +344,4 @@ Let's review and correct the sentence:
   - Check the correctness of singular/plural forms of nouns and verbs to maintain coherence in the sentence structure.
 ```
 
-
-```
-**Word:**
-- **Pronunciation:** [Pronunciation here]
-- **Part of Speech:** {Part of speech}
-
-**Definition:**
-The definition of the word goes here.
-
-*Hindi Translation:*
-The word in Hindi.
-
-**Example Sentences:**
-1. First sentence using the word.
-2. Second sentence demonstrating the word's usage.
-
-**Synonyms:**
-- Synonym 1
-- Synonym 2
-- ...
-
-**Antonyms:**
-- Antonym 1
-- Antonym 2
-- ...
-
-**Mnemonic:**
-A memorable clue or image aiding in the word's retention.
-```
+---
