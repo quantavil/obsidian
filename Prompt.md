@@ -339,3 +339,35 @@ Let's review and correct the sentence:
   - Be mindful of articles ("a," "an," "the") and use them appropriately based on the noun's sound.
   - Check the correctness of singular/plural forms of nouns and verbs to maintain coherence in the sentence structure.
 ```
+
+
+```
+**Word:**
+- **Pronunciation:** [Pronunciation here]
+- **Part of Speech:** {Part of speech}
+
+**Definition:**
+The definition of the word goes here.
+
+*Hindi Translation:*
+The word in Hindi.
+
+**Example Sentences:**
+1. First sentence using the word.
+2. Second sentence demonstrating the word's usage.
+
+**Synonyms:**
+- Synonym 1
+- Synonym 2
+- ...
+
+**Antonyms:**
+- Antonym 1
+- Antonym 2
+- ...
+
+**Mnemonic:**
+A memorable clue or image aiding in the word's retention.
+
+
+```
