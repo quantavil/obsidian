@@ -276,8 +276,7 @@ I will give you the word and you have to : Give the word in bold , its pronuncia
 
 ```
 I will give you the word and you have to:
-Give the word in bold, its pronunciation and part of speech in curly braces:
-==The definition of the word within double equals==
+Give the word in bold, its pronunciation in bracket  and part of speech in curly braces: The definition of word highlighted
 
 *Hindi translation:* The word in Hindi
 
