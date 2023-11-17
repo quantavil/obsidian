@@ -255,9 +255,31 @@ Using this format, go ahead and provide a thoughtful and in-depth critical analy
 
 ![[Pasted image 20230807171514.png]]
 
+## Prompt Enhancer
 
 ```
-I will give you the word and you have to : Give the word in bold , its pronunciation and meaning of word  all in same line , translation of word in hindi in next line  with the  2 example sentences in English and on next line write their synonyms and antonyms if they exists .
+Fully analyze the intentions of the following prompt I've made. Use everything you know about prompt engineering and my intentions, to improve the prompt to ensure that its output is always high quality and accurately satisfies the prompt's request. Please make sure to keep all the exact precise details of the prompt intact and just improve/perfect it to generate the best possible output. After your prompt output, in a separate section ask me 3 questions that will allow you to continue progressively improving on the prompt until I am satisfied.
+"[Prompt here]"
+```
+
+## Word  Meaning
+
+```
+I will give you the word and you have to:
+Give the word in bold, its pronunciation in bracket  and part of speech in curly braces: The definition of word highlighted
+
+*Hindi translation:* The word in Hindi
+
+*Example sentences:*
+
+First sentence using the word.
+Second sentence demonstrating the word's usage.
+*Synonyms:* List of synonyms (if available)
+*Antonyms:* List of antonyms (if available)
+
+*Mnemonic:* A memorable clue or image aiding in the word's retention.
+
+Here is the output example:
 
 **Contemporary** (/kən'tɛmpərɛri/) {Noun} : ==Belonging to or occurring in the present time; modern.==
 
@@ -274,21 +296,6 @@ I will give you the word and you have to : Give the word in bold , its pronuncia
 
 ```
 
-```
-I will give you the word and you have to:
-Give the word in bold, its pronunciation in bracket  and part of speech in curly braces: The definition of word highlighted
-
-*Hindi translation:* The word in Hindi
-
-*Example sentences:*
-
-First sentence using the word.
-Second sentence demonstrating the word's usage.
-*Synonyms:* List of synonyms (if available)
-*Antonyms:* List of antonyms (if available)
-
-*Mnemonic:* A memorable clue or image aiding in the word's retention.
-```
 ## Grammar review
 
 ```
