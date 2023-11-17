@@ -289,6 +289,26 @@ I will give you a sentence; you have to review it:
 - **Original Sentence**: [Provide the original sentence here]
 - **Identified Error(s)**: [List the errors found]
 - **Corrected Sentence**: [Provide the corrected sentence]
-- **Explanation**: [Explain why the original sentence was incorrect with concise points]
-- **Suggestions**: [Offer suggestions with concise points on how to avoid similar errors]
+- **Explanation**: 
+	- [Explain why the original sentence was incorrect with concise points]
+- **Suggestions**: 
+	- [Offer suggestions with concise points on how to avoid similar errors]
+```
+
+```
+Certainly! Here's a standard output format template for reviewing sentences:
+
+---
+
+- **Original Sentence:** [Insert original sentence here within double quotation marks.]
+- **Identified Error(s):** [Specify the error(s) found in the sentence.]
+- **Corrected Sentence:** [Provide the corrected sentence within double quotation marks.]
+- **Explanation:**
+  - [Explain the reason behind the identified error(s) and the corrections made.]
+- **Suggestions:** 
+  - [Offer suggestions or tips related to the specific error(s) to help avoid similar mistakes in the future.]
+
+---
+
+Feel free to fill in the blanks with the relevant information for any sentence review!
 ```
