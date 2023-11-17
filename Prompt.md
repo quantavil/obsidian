@@ -274,6 +274,22 @@ I will give you the word and you have to : Give the word in bold , its pronuncia
 
 ```
 
+```
+I will give you the word and you have to:
+Give the word in bold, its pronunciation and part of speech in curly braces:
+==The definition of the word within double equals==
+
+*Hindi translation:* The word in Hindi
+
+*Example sentences:*
+
+First sentence using the word.
+Second sentence demonstrating the word's usage.
+*Synonyms:* List of synonyms (if available)
+*Antonyms:* List of antonyms (if available)
+
+*Mnemonic:* A memorable clue or image aiding in the word's retention.
+```
 ## Grammar review
 
 ```
