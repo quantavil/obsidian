@@ -286,9 +286,9 @@ I will give you a sentence; you have to review it:
 
 **Output Format:**
 
-- Original Sentence: [Provide the original sentence here]
-- Identified Error(s): [List the errors found]
-- Corrected Sentence: [Provide the corrected sentence]
-- Explanation: [Explain why the original sentence was incorrect]
-- Suggestions: [Offer suggestions with concise points on how to avoid similar errors]
+- **Original Sentence**: [Provide the original sentence here]
+- **Identified Error(s)**: [List the errors found]
+- **Corrected Sentence**: [Provide the corrected sentence]
+- **Explanation**: [Explain why the original sentence was incorrect with concise points]
+- **Suggestions**: [Offer suggestions with concise points on how to avoid similar errors]
 ```
