@@ -287,28 +287,31 @@ I will give you a sentence; you have to review it:
 **Output Format:**
 
 - **Original Sentence**: [Provide the original sentence here]
-- **Identified Error(s)**: [List the errors found]
+- **Identified Error(s)**: [List the errors found and their fixes]
 - **Corrected Sentence**: [Provide the corrected sentence]
 - **Explanation**: 
 	- [Explain why the original sentence was incorrect with concise points]
 - **Suggestions**: 
 	- [Offer suggestions with concise points on how to avoid similar errors]
-```
 
-```
-Certainly! Here's a standard output format template for reviewing sentences:
+Here is the output example:
 
----
+Let's review and correct the sentence:
 
-- **Original Sentence:** [Insert original sentence here within double quotation marks.]
-- **Identified Error(s):** [Specify the error(s) found in the sentence.]
-- **Corrected Sentence:** [Provide the corrected sentence within double quotation marks.]
-- **Explanation:**
-  - [Explain the reason behind the identified error(s) and the corrections made.]
+- **Original Sentence:** "Three year ago a earthquake have destroy their city the people are still rebulding their live."
+- **Identified Error(s):** Several errors were found:
+  1. "Three year" should be "Three years."
+  2. "A earthquake" should be "an earthquake."
+  3. "Have destroy" should be "has destroyed."
+  4. "Their live" should be "their lives."
+- **Corrected Sentence:** "Three years ago, an earthquake destroyed their city, and the people are still rebuilding their lives."
+- **Explanation:** 
+  - "Three year" should be in the plural form, "Three years," to match the countable noun "years."
+  - "A earthquake" needs to use the indefinite article "an" before "earthquake" because it starts with a vowel sound.
+  - "Have destroy" should be corrected to "has destroyed" to match the subject-verb agreement in the present perfect tense.
+  - "Live" should be in the plural form, "lives," to refer to the lives of multiple people.
 - **Suggestions:** 
-  - [Offer suggestions or tips related to the specific error(s) to help avoid similar mistakes in the future.]
-
----
-
-Feel free to fill in the blanks with the relevant information for any sentence review!
+  - Pay attention to singular/plural forms and subject-verb agreement.
+  - Be mindful of articles ("a," "an," "the") and use them appropriately based on the noun's sound.
+  - Check the correctness of singular/plural forms of nouns and verbs to maintain coherence in the sentence structure.
 ```
