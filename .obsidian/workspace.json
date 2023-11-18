@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash Commands.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash Commands.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,6 +172,10 @@
   },
   "active": "3f7a801dfabe54e1",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "Code.md",
+    "Bash Commands.md",
+    "Bash Command.md",
     "Prompt.md",
     "Testing/Selenium Basic/3 - Test Script Enhancement.md",
     "Testing/Selenium Basic/Assertion.md",
@@ -182,11 +186,8 @@
     "DBMS Interview.md",
     "CSS.md",
     "CPP Interview.md",
-    "Bash Commands.md",
-    "Bash Command.md",
     "REST.md",
     "Untitled.md",
-    "Untitled 1.md",
     "Vocab/Tense.md",
     "Neetcode 150/Sliding Window/424. Longest Repeating Character Replacement.md",
     "Neetcode 150/Array & Hashing.md",
@@ -197,7 +198,6 @@
     "JAVASCRIPT/01-variables-data-types-docs/06-type-conversion.md",
     "JAVASCRIPT/01-variables-data-types-docs/04-data-types.md",
     "JAVASCRIPT/01-variables-data-types-docs/03-variables.md",
-    "JAVASCRIPT/01-variables-data-types-docs/02-comments-shortcuts.md",
     "JAVASCRIPT/07-events-docs/images/formdata.png",
     "JAVASCRIPT/07-events-docs/images/event-bubbling.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/async-1.png",
