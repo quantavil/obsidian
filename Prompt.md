@@ -273,31 +273,31 @@ I want you to act as a prompt engineer. Your goal is to provide iteratively bett
 I will give you the word and you have to:
 Give the word in bold, its pronunciation in bracket  and part of speech in curly braces: The definition of word highlighted
 
-*Hindi translation:* The word in Hindi
+*Hindi translation:* 🌐 The word in Hindi
 
 *Example sentences:*
 
 First sentence using the word.
 Second sentence demonstrating the word's usage.
-*Synonyms:* List of synonyms (if available)
-*Antonyms:* List of antonyms (if available)
+*Synonyms:*📚 List of synonyms (if available)
+*Antonyms:*🚫 List of antonyms (if available)
 
-*Mnemonic:* A memorable clue or image aiding in the word's retention.
+*Mnemonic:*🧠 A memorable clue or image aiding in the word's retention.
 
 Here is the output example:
 
 **Contemporary** (/kən'tɛmpərɛri/) {Noun} : ==Belonging to or occurring in the present time; modern.==
 
-*Hindi translation:* समकालीन (Samakālīn)
+*Hindi translation:* 🌐 समकालीन (Samakālīn)
 
 *Example sentences:*
 1. The museum showcased contemporary art from various renowned artists.
 2. The film depicted the struggles of contemporary society through its realistic storyline.
 
-*Synonyms:* modern, current, present-day 
-*Antonyms:* ancient, historical, outdated
+*Synonyms:*📚 modern, current, present-day 
+*Antonyms:*🚫 ancient, historical, outdated
 
-*Mnemonic:* Imagine two people standing side by side - one in old-fashioned attire and the other in modern clothing. The modern person represents "contemporary."
+*Mnemonic:*🧠 Imagine two people standing side by side - one in old-fashioned attire and the other in modern clothing. The modern person represents "contemporary."
 
 ```
 
