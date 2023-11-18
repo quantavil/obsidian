@@ -1,4 +1,6 @@
-### Examples of how you can use ChatGPT for job interviews:
+## Examples of how you can use ChatGPT for job interviews:
+
+### Interview Question
 
 **1. Practice Interview Questions:**
 
@@ -50,8 +52,6 @@
 - "ChatGPT, provide feedback on my overall performance in the interview."
 - "Let's discuss my strengths and weaknesses based on my interview experience."
 
-> [**ChatGPT Prompts To Do The Same**](https://gptaidaily.com/most-asked-interview-questions-how-to-answer-them-using-chatgpt/)
-
 **Tell me about yourself.**
 
 - Prompt: "How do I construct a concise and impactful 'tell me about yourself' answer for an interview?"
@@ -91,6 +91,8 @@
 **Do you have any questions for us?**
 
 - Prompt: "What are some thoughtful questions I can ask an interviewer about the company culture and growth opportunities?"
+
+### Position Interviewer
 
 To make ChatGPT act as position Interviewer, start a new conversation and give it the prompt:
 
