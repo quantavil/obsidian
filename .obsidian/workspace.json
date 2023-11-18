@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Bash Command.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Bash Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,9 +172,10 @@
   },
   "active": "3f7a801dfabe54e1",
   "lastOpenFiles": [
+    "Bash Commands.md",
+    "Untitled.md",
     "Untitled 1.md",
     "Code.md",
-    "Bash Commands.md",
     "Bash Command.md",
     "Prompt.md",
     "Testing/Selenium Basic/3 - Test Script Enhancement.md",
@@ -187,7 +188,6 @@
     "CSS.md",
     "CPP Interview.md",
     "REST.md",
-    "Untitled.md",
     "Vocab/Tense.md",
     "Neetcode 150/Sliding Window/424. Longest Repeating Character Replacement.md",
     "Neetcode 150/Array & Hashing.md",
