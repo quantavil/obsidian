@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prompt.md",
+                "file": "Bash Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prompt.md",
+                "file": "Bash Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,6 +172,7 @@
   },
   "active": "3f7a801dfabe54e1",
   "lastOpenFiles": [
+    "Prompt.md",
     "Testing/Selenium Basic/3 - Test Script Enhancement.md",
     "Testing/Selenium Basic/Assertion.md",
     "Testing/Selenium Basic/CheatSheet.md",
@@ -197,7 +198,6 @@
     "JAVASCRIPT/01-variables-data-types-docs/04-data-types.md",
     "JAVASCRIPT/01-variables-data-types-docs/03-variables.md",
     "JAVASCRIPT/01-variables-data-types-docs/02-comments-shortcuts.md",
-    "JAVASCRIPT/01-variables-data-types-docs/01-console.md",
     "JAVASCRIPT/07-events-docs/images/formdata.png",
     "JAVASCRIPT/07-events-docs/images/event-bubbling.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/async-1.png",
