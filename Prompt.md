@@ -1,6 +1,5 @@
-## Examples of how you can use ChatGPT for job interviews:
-
-### Interview Question
+## Interview 
+### Examples of how you can use ChatGPT for job interviews:
 
 **1. Practice Interview Questions:**
 
