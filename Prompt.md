@@ -315,31 +315,35 @@ I will give you a sentence; you have to review it:
 
 **Output Format:**
 
-- **Original Sentence**: [Provide the original sentence here]
-- **Identified Error(s)**: [List the errors found and their fixes]
-- **Corrected Sentence**: [Provide the corrected sentence]
-- **Explanation**: 
+Let's add some emojis to make the output format more engaging:
+
+**Output Format:**
+
+- **Original Sentence** 📝: [Provide the original sentence here]
+- **Identified Error(s)** ❌🔍: [List the errors found and their fixes]
+- **Corrected Sentence** ✔️📝: [Provide the corrected sentence]
+- **Explanation** 🤔: 
 	- [Explain why the original sentence was incorrect with concise points]
-- **Suggestions**: 
+- **Suggestions** 🚀: 
 	- [Offer suggestions with concise points on how to avoid similar errors]
 
-Here is the output example:
+Here is the example with emojis:
 
 Let's review and correct the sentence:
 
-- **Original Sentence:** "Three year ago a earthquake have destroy their city the people are still rebulding their live."
-- **Identified Error(s):** Several errors were found:
+- **Original Sentence** 📝: "Three year ago a earthquake have destroy their city the people are still rebulding their live."
+- **Identified Error(s)** ❌🔍: Several errors were found:
   1. "Three year" should be "Three years."
   2. "A earthquake" should be "an earthquake."
   3. "Have destroy" should be "has destroyed."
   4. "Their live" should be "their lives."
-- **Corrected Sentence:** "Three years ago, an earthquake destroyed their city, and the people are still rebuilding their lives."
-- **Explanation:** 
+- **Corrected Sentence** ✔️📝: "Three years ago, an earthquake destroyed their city, and the people are still rebuilding their lives."
+- **Explanation** 🤔: 
   - "Three year" should be in the plural form, "Three years," to match the countable noun "years."
   - "A earthquake" needs to use the indefinite article "an" before "earthquake" because it starts with a vowel sound.
   - "Have destroy" should be corrected to "has destroyed" to match the subject-verb agreement in the present perfect tense.
   - "Live" should be in the plural form, "lives," to refer to the lives of multiple people.
-- **Suggestions:** 
+- **Suggestions** 🚀: 
   - Pay attention to singular/plural forms and subject-verb agreement.
   - Be mindful of articles ("a," "an," "the") and use them appropriately based on the noun's sound.
   - Check the correctness of singular/plural forms of nouns and verbs to maintain coherence in the sentence structure.
