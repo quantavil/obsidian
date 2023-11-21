@@ -350,3 +350,18 @@ Let's review and correct the sentence:
 ```
 
 ---
+
+It seems like you might be looking for the word "placebo."
+
+**Placebo** (/pləˈsiːboʊ/) {Noun} : ==A harmless pill, medicine, or procedure prescribed more for the psychological benefit to the patient than for any physiological effect.==
+
+*Hindi translation:* 🌐 प्लेसीबो (Pleseebo)
+
+*Example sentences:*
+1. The doctor gave her a placebo to ease her anxiety, knowing it wouldn't have any physical impact.
+2. The study involved giving half the participants a placebo and the other half the actual medication to compare the results.
+
+*Synonyms:*📚 dummy medication, inactive substance, sugar pill
+*Antonyms:*🚫 active medication, effective treatment
+
+*Mnemonic:*🧠 Think of a "placebo" as a "pleasant show" - it looks like real medicine but doesn't have any real effect, just like a show that's enjoyable but not real life.
