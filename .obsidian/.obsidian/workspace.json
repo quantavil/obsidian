@@ -11,11 +11,24 @@
             "id": "963f8353a28ff1ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          },
+          {
+            "id": "5c43a606ff5514b0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,12 +73,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "41f41ee5b4d082c0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "be66e08100d00f30",
@@ -138,6 +160,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "963f8353a28ff1ca",
+  "active": "5c43a606ff5514b0",
   "lastOpenFiles": []
 }
