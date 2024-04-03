@@ -170,3 +170,20 @@ Constructors are **generally used for instantiating an object**, It is a method
 **why you want to join company**
 With my existing skill sets in web development, I believe the work criteria for this career are a fantastic fit for me. I could see myself in that capacity because it matched my career goals, talents, and knowledge.
 
+_adjusts in seat, maintaining a confident yet personable demeanor_
+
+At BYJU'S, my core responsibility revolves around seamlessly integrating third-party APIs, plugins, and services into our cutting-edge e-learning platform. This involves a deep understanding of RESTful API architectures, authentication protocols like OAuth, and data interchange formats such as JSON and XML.
+
+I leverage tools like Postman and Insomnia for API testing and debugging, while Docker and Kubernetes streamline containerization and deployment processes. Git serves as our version control system, enabling collaborative development across teams. Additionally, I work closely with product managers, designers, and QA to ensure these integrations align with our platform's functionality and user experience goals.
+
+Certainly, in my role at BYJU'S, I've had the opportunity to integrate various third-party APIs to enhance our e-learning platform's capabilities. Some of the key APIs I've worked with include:
+
+1. Payment Gateways: Razorpay, PayU, Stripe
+2. Video Streaming: Wowza, Azure Media Services
+3. Push Notifications: Firebase Cloud Messaging, Amazon SNS
+4. Analytics: Google Analytics, Amplitude
+5. Social Media: Facebook, Twitter, LinkedIn
+6. Cloud Storage: Amazon S3, Google Cloud Storage
+7. Maps and Geolocation: Google Maps, MapBox
+8. Identity Management: Auth0, Firebase Authentication
+9. Chatbots and Virtual Assistants: Dialogflow, Amazon Lex
