@@ -1,306 +1,306 @@
-What is Selenium ?
-Selenium is an open-source framework to automate and perform software testing such as smoke tests, integration tests, etc. on web applications. It provides a playback/recording tool and domain-specific language.
+What ###s Selen###um ?
+Selen###um ###s an open-source framework to automate and perform software test###ng such as smoke tests, ###ntegrat###on tests, etc. on web appl###cat###ons. ###t prov###des a playback/record###ng tool and doma###n-spec###f###c language.
 
   
-Driver Initialization Basics:  
-⦁ Chrome WebDriver driver = new ChromeDriver();  
+Dr###ver ###n###t###al###zat###on Bas###cs:  
+⦁ Chrome WebDr###ver dr###ver = new ChromeDr###ver();  
 
-Driver Initialization Advanced:  
-⦁ System.setProperty(“webdriver.chrome.bin”,“path/to/chrome/binary”);  
-              ChromeProfilefp= new ChromeProfile();
+Dr###ver ###n###t###al###zat###on Advanced:  
+⦁ System.setProperty(“webdr###ver.chrome.b###n”,“path/to/chrome/b###nary”);  
+              ChromeProf###lefp= new ChromeProf###le();
 
-⦁ File file=new File(“path/to/extension.xpi”);  
-       fp.addextension(file)
+⦁ F###le f###le=new F###le(“path/to/extens###on.xp###”);  
+       fp.addextens###on(f###le)
 
-Selenium Locators:  Selenium locators are used to find and match the webpage elements   
-i. Locating by ID:  
-       driver.findElement(By.id("q")).sendKeys("Se lenium 3");  
-ii. Locating by Name:  
-          driver.findElement(By.name("q")).sendKeys ("Selenium 3");  
-iii. Locating by Xpath:  
-           driver.findElement(By.xpath("//input[@id='q'])).sendKeys("Selenium 3");  
-iv. Locating Hyperlinksby Link Text:  
-driver.FindElement(By.LinkText("edit this page")).Click();  
-v. Locating by DOM:  
-dom =document.getElementById('signinForm')  
-vi. Locating by CSS:  
-      driver.FindElement(By.CssSelector("#rightbar> .menu >li:nth-of-type(2) > h4"));  
-vii. Locating by ClassName:  
- driver.findElement(By.className("profileheader"));  
-viii. Locating by TagName:  
-driver.findElement(By.tagName("select")).C lick();   
-ix. Locating by LinkText:  
-driver.findElement(By.linkText("NextP age")).click();  
-x. Locating by PartialLinkText:  
- driver.findElement(By.partialLinkText(" NextP")).click();
+Selen###um Locators:  Selen###um locators are used to f###nd and match the webpage elements   
+###. Locat###ng by ###D:  
+       dr###ver.f###ndElement(By.###d("q")).sendKeys("Se len###um 3");  
+######. Locat###ng by Name:  
+          dr###ver.f###ndElement(By.name("q")).sendKeys ("Selen###um 3");  
+#########. Locat###ng by Xpath:  
+           dr###ver.f###ndElement(By.xpath("//###nput[@###d='q'])).sendKeys("Selen###um 3");  
+###v. Locat###ng Hyperl###nksby L###nk Text:  
+dr###ver.F###ndElement(By.L###nkText("ed###t th###s page")).Cl###ck();  
+v. Locat###ng by DOM:  
+dom =document.getElementBy###d('s###gn###nForm')  
+v###. Locat###ng by CSS:  
+      dr###ver.F###ndElement(By.CssSelector("#r###ghtbar> .menu >l###:nth-of-type(2) > h4"));  
+v######. Locat###ng by ClassName:  
+ dr###ver.f###ndElement(By.className("prof###leheader"));  
+v#########. Locat###ng by TagName:  
+dr###ver.f###ndElement(By.tagName("select")).C l###ck();   
+###x. Locat###ng by L###nkText:  
+dr###ver.f###ndElement(By.l###nkText("NextP age")).cl###ck();  
+x. Locat###ng by Part###alL###nkText:  
+ dr###ver.f###ndElement(By.part###alL###nkText(" NextP")).cl###ck();
 
-Selenium Navigators:  The navigator interface in selenium helps in moving backward and forwards in the browser’s history
+Selen###um Nav###gators:  The nav###gator ###nterface ###n selen###um helps ###n mov###ng backward and forwards ###n the browser’s h###story
 
-a. Navigate to URL:  
-driver.get(“http://newexample.com”)  
-driver.navigate().to(“http://newexample.com”)
+a. Nav###gate to URL:  
+dr###ver.get(“http://newexample.com”)  
+dr###ver.nav###gate().to(“http://newexample.com”)
 
 b. Refresh page:  
-driver.navigate().refresh()
+dr###ver.nav###gate().refresh()
 
-c. Navigate forwards in browser history:  
- driver.navigate().forward()
+c. Nav###gate forwards ###n browser h###story:  
+ dr###ver.nav###gate().forward()
 
-d. Navigate backward in browser history:   
-      driver.navigate().back()
+d. Nav###gate backward ###n browser h###story:   
+      dr###ver.nav###gate().back()
 
   
-JUNIT: JUNIT (Java Unit Testing Tool) is a framework used to perform unit-level testing.   
-⦁ @Test: test method to run with public void return type  
+JUN###T: JUN###T (Java Un###t Test###ng Tool) ###s a framework used to perform un###t-level test###ng.   
+⦁ @Test: test method to run w###th publ###c vo###d return type  
 ⦁ @After: method to run after the test method  
 ⦁ @AfterClass: method to run before the test method  
 ⦁ @Before: method to run before the test method  
-⦁ @BeforeClass: method to run once before any of the test methods in the class have been executed  
-⦁ @Ignore: This annotation is used to ignore a method
+⦁ @BeforeClass: method to run once before any of the test methods ###n the class have been executed  
+⦁ @###gnore: Th###s annotat###on ###s used to ###gnore a method
 
   
-TestNG: TestNG is an open-source framework for automated testing. The NG in TestNG stands for Next Generation. It is similar to Junit but with more functionality to offer.
+TestNG: TestNG ###s an open-source framework for automated test###ng. The NG ###n TestNG stands for Next Generat###on. ###t ###s s###m###lar to Jun###t but w###th more funct###onal###ty to offer.
 
-⦁ @test: This annotation marks a class or method as a part of a test  
-⦁ @BeforeSuite: This annotation makes sure that the method only run once before all the tests have run  
-⦁ @AfterSuite: This annotation makes sure that the method runs once after the execution of all the tests  
-⦁ @BeforeTest: This annotation will make sure that the method marked with this annotation runs before the first method annotated with @test  
-⦁ @AfterTest: This annotation will make sure that the method marked with this annotation runs after all the methods annotated with @test execute all the classes inside <test> tag in the testng.xml file.  
-⦁ @BeforeGroups : A method annotated with this annotation will run before all the first test methods run in that specific group  
-⦁ @AfterGroups: A method annotated with this annotation will run after all the test methods run in that specific group  
-⦁ @BeforeClass: A method annotated with this annotation will run only once per class and before all the first test methods run  
-⦁ @AfterClass: A method annotated with this annotation will run only once per class and after all the test methods run  
-⦁ @BeforeMethod: A method annotated with this annotation will run before every @test annotated method  
-⦁ @AfterMethod: A method annotated with this annotation will run after every @test annotated method
+⦁ @test: Th###s annotat###on marks a class or method as a part of a test  
+⦁ @BeforeSu###te: Th###s annotat###on makes sure that the method only run once before all the tests have run  
+⦁ @AfterSu###te: Th###s annotat###on makes sure that the method runs once after the execut###on of all the tests  
+⦁ @BeforeTest: Th###s annotat###on w###ll make sure that the method marked w###th th###s annotat###on runs before the f###rst method annotated w###th @test  
+⦁ @AfterTest: Th###s annotat###on w###ll make sure that the method marked w###th th###s annotat###on runs after all the methods annotated w###th @test execute all the classes ###ns###de <test> tag ###n the testng.xml f###le.  
+⦁ @BeforeGroups : A method annotated w###th th###s annotat###on w###ll run before all the f###rst test methods run ###n that spec###f###c group  
+⦁ @AfterGroups: A method annotated w###th th###s annotat###on w###ll run after all the test methods run ###n that spec###f###c group  
+⦁ @BeforeClass: A method annotated w###th th###s annotat###on w###ll run only once per class and before all the f###rst test methods run  
+⦁ @AfterClass: A method annotated w###th th###s annotat###on w###ll run only once per class and after all the test methods run  
+⦁ @BeforeMethod: A method annotated w###th th###s annotat###on w###ll run before every @test annotated method  
+⦁ @AfterMethod: A method annotated w###th th###s annotat###on w###ll run after every @test annotated method
 
   
-Windows: Sometimes the web applications may have multiple frames or windows. Selenium assigns each window a unique alphanumeric id which is called window handle. Selenium then uses the id to switch control among windows.
+W###ndows: Somet###mes the web appl###cat###ons may have mult###ple frames or w###ndows. Selen###um ass###gns each w###ndow a un###que alphanumer###c ###d wh###ch ###s called w###ndow handle. Selen###um then uses the ###d to sw###tch control among w###ndows.
 
-⦁ String handle=driver.getWindowHandle();  
-Set<String> handles = getWindowHandles();  
-driver.switchTo().window(handle);
+⦁ Str###ng handle=dr###ver.getW###ndowHandle();  
+Set<Str###ng> handles = getW###ndowHandles();  
+dr###ver.sw###tchTo().w###ndow(handle);
 
-⦁ How to switch to a newly created window:  
- String curWindow=driver.getWindowHandle();
+⦁ How to sw###tch to a newly created w###ndow:  
+ Str###ng curW###ndow=dr###ver.getW###ndowHandle();
 
-⦁ Get all window handles:  
- Set<String> handles = getWindowHandles();  
- For(string handle: handles){  
- If (!handle.equals(curWindow))  
- {driver.switchTo().window(handle);  
+⦁ Get all w###ndow handles:  
+ Set<Str###ng> handles = getW###ndowHandles();  
+ For(str###ng handle: handles){  
+ ###f (!handle.equals(curW###ndow))  
+ {dr###ver.sw###tchTo().w###ndow(handle);  
  }  
  }  
    
 Frames:  
-⦁ Using Frame Index:  
- driver.switchTO().frame(1);  
-⦁ Using Name of Frame:  
- driver.switchTo().frame(“name”)  
-⦁ Using web Element Object:  
- driver.switchTO().frame(element);  
-⦁ Get back to main document:  
- Select Parent Window  
- driver.switchTO().defaultContent();
+⦁ Us###ng Frame ###ndex:  
+ dr###ver.sw###tchTO().frame(1);  
+⦁ Us###ng Name of Frame:  
+ dr###ver.sw###tchTo().frame(“name”)  
+⦁ Us###ng web Element Object:  
+ dr###ver.sw###tchTO().frame(element);  
+⦁ Get back to ma###n document:  
+ Select Parent W###ndow  
+ dr###ver.sw###tchTO().defaultContent();
 
   
-Operations:  
+Operat###ons:  
 ⦁ Launch Webpage:  
- get("www.webdriverinselenium.com");  
-⦁ Click Button:   
- findElement(By.id("submit")).click();  
+ get("www.webdr###ver###nselen###um.com");  
+⦁ Cl###ck Button:   
+ f###ndElement(By.###d("subm###t")).cl###ck();  
 ⦁ Handle Alert:  
- AlertAlertpopup = driver.switchTo().alert();  
-⦁ Disable a Field:  
- getElementsByName('') [0].setAttribute('disabled', '')  
-⦁ Enable a Field :  
- getElementsByName('') [0].removeAttribute('disabled');  
+ AlertAlertpopup = dr###ver.sw###tchTo().alert();  
+⦁ D###sable a F###eld:  
+ getElementsByName('') [0].setAttr###bute('d###sabled', '')  
+⦁ Enable a F###eld :  
+ getElementsByName('') [0].removeAttr###bute('d###sabled');  
 ⦁ Screenshot :   
- File snapshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);  
- FileUtils.copyFile(snapshot, new File("C:\\screenshot.jpg"));  
-⦁ Print the Title of the Page:  
- String pagetitle = driver.getTitle();  
- System.out.print(pagetitle);  
-⦁ Implicit Wait:   
- manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  
-⦁ Explicit Wait:  
- WebDriverWait wait = new WebDriverWait(driver, 20);  
+ F###le snapshot = ((TakesScreenshot)dr###ver).getScreenshotAs(OutputType.F###LE);  
+ F###leUt###ls.copyF###le(snapshot, new F###le("C:\\screenshot.jpg"));  
+⦁ Pr###nt the T###tle of the Page:  
+ Str###ng paget###tle = dr###ver.getT###tle();  
+ System.out.pr###nt(paget###tle);  
+⦁ ###mpl###c###t Wa###t:   
+ manage().t###meouts().###mpl###c###tlyWa###t(10, T###meUn###t.SECONDS);  
+⦁ Expl###c###t Wa###t:  
+ WebDr###verWa###t wa###t = new WebDr###verWa###t(dr###ver, 20);  
 ⦁ Sleep :  
  Thread.Sleep(10);
 
-Alerts: Sometimes a message box pops up on the screen to display some kind of notification to the user or maybe an ask for permission or to display a warning etc. These messages are called alerts.  
+Alerts: Somet###mes a message box pops up on the screen to d###splay some k###nd of not###f###cat###on to the user or maybe an ask for perm###ss###on or to d###splay a warn###ng etc. These messages are called alerts.  
 ⦁ Capture the alert message:  
- driver.switchTO().alert.getText();  
-⦁ Click on the ‘OK’ button of the alert:  
- driver.switchTO().alert.accept();  
-⦁ Click on the ‘Cancel’ button of the alert:  
- driver.switchTO().alert.dismiss();  
+ dr###ver.sw###tchTO().alert.getText();  
+⦁ Cl###ck on the ‘OK’ button of the alert:  
+ dr###ver.sw###tchTO().alert.accept();  
+⦁ Cl###ck on the ‘Cancel’ button of the alert:  
+ dr###ver.sw###tchTO().alert.d###sm###ss();  
 ⦁ Send some data to the alert box:  
- driver.switchTO().alert.sendKeys(“Text”);
+ dr###ver.sw###tchTO().alert.sendKeys(“Text”);
 
-close() and quit() methods:  
-a) close(): WebDriver’s close() method closes the web browser window that the user is         currently working on   
-               driver.close();
+close() and qu###t() methods:  
+a) close(): WebDr###ver’s close() method closes the web browser w###ndow that the user ###s         currently work###ng on   
+               dr###ver.close();
 
-b) quit(): Unlike close() method, quit() method closes down all the windows that the        program has opened.  
-  driver.quit();
+b) qu###t(): Unl###ke close() method, qu###t() method closes down all the w###ndows that the        program has opened.  
+  dr###ver.qu###t();
 
   
-#1) get(): Command using get() to open a URL in the current browser.  
-driver.get("https://www.softwaretestinghelp.com");
+#1) get(): Command us###ng get() to open a URL ###n the current browser.  
+dr###ver.get("https://www.softwaretest###nghelp.com");
 
-2) getCurrentUrl(): Command using getCurrentUrl() to check if the URL is correct.  
-driver.getCurrentUrl();  
-Assert.assertEquals(expectedUrl,  driver.getCurrentUrl());
+2) getCurrentUrl(): Command us###ng getCurrentUrl() to check ###f the URL ###s correct.  
+dr###ver.getCurrentUrl();  
+Assert.assertEquals(expectedUrl,  dr###ver.getCurrentUrl());
 
-3) findElement(By, by) and click(): This method is usually used in commands to simulate user                       actions like click, submit, type etc.  
-The element can be located using ID, Name, Class Name, Tag Name, Link Text & Partial Link Text, CSS Selector and X Path.  
-⦁               driver.findElement(By.id("submit1")).click();  
-⦁  WebElement roleDropdown = driver.findElement(By.id("name1");  
-               roleDropdown.click();
+3) f###ndElement(By, by) and cl###ck(): Th###s method ###s usually used ###n commands to s###mulate user                       act###ons l###ke cl###ck, subm###t, type etc.  
+The element can be located us###ng ###D, Name, Class Name, Tag Name, L###nk Text & Part###al L###nk Text, CSS Selector and X Path.  
+⦁               dr###ver.f###ndElement(By.###d("subm###t1")).cl###ck();  
+⦁  WebElement roleDropdown = dr###ver.f###ndElement(By.###d("name1");  
+               roleDropdown.cl###ck();
 
-4) isEnabled(): isEnabled() to Check Whether the Element is Enabled Or Disabled in the         Selenium WebDriver.
+4) ###sEnabled(): ###sEnabled() to Check Whether the Element ###s Enabled Or D###sabled ###n the         Selen###um WebDr###ver.
 
-boolean textBox = driver.findElement(By.xpath("//input[@name='textbox1']")).isEnabled();
+boolean textBox = dr###ver.f###ndElement(By.xpath("//###nput[@name='textbox1']")).###sEnabled();
 
-5) findElement(By, by) with sendKeys():  
- driver.findElement(By.name("name")).sendkeys("Aaron");
+5) f###ndElement(By, by) w###th sendKeys():  
+ dr###ver.f###ndElement(By.name("name")).sendkeys("Aaron");
 
-6) findElement(By, by) with getText():  
- String dropDown = driver.findElement(By.tagName("dropdown1")).getText();  
+6) f###ndElement(By, by) w###th getText():  
+ Str###ng dropDown = dr###ver.f###ndElement(By.tagName("dropdown1")).getText();  
    
-7) Submit():   
-driver.findElement(By.xpath("//input[@name='comments']")).submit();  
+7) Subm###t():   
+dr###ver.f###ndElement(By.xpath("//###nput[@name='comments']")).subm###t();  
    
-8) findElements(By, by):  
-List<WebElement> allChoices = dropDown.findElements(By.xpath(".//fruitoption"));
+8) f###ndElements(By, by):  
+L###st<WebElement> allCho###ces = dropDown.f###ndElements(By.xpath(".//fru###topt###on"));
 
-9) findElements(By, by) with size():  
-Boolean checkIfElementPresent=  
-driver.findElements(By.xpath("//input[@id='checkbox2']")).size()!= 0;
+9) f###ndElements(By, by) w###th s###ze():  
+Boolean check###fElementPresent=  
+dr###ver.f###ndElements(By.xpath("//###nput[@###d='checkbox2']")).s###ze()!= 0;
 
-10) pageLoadTimeout(time,unit):  
-pageLoadTimeout(time,unit) to set the time for a page to load.
+10) pageLoadT###meout(t###me,un###t):  
+pageLoadT###meout(t###me,un###t) to set the t###me for a page to load.
 
-Sometimes due to server issues or network delays, a page might take more than usual time to load. This might throw an error in the program. In order to avoid this, we set a wait time and pageLoadTimeout() is one of such method. This will usually follow a get() command.
+Somet###mes due to server ###ssues or network delays, a page m###ght take more than usual t###me to load. Th###s m###ght throw an error ###n the program. ###n order to avo###d th###s, we set a wa###t t###me and pageLoadT###meout() ###s one of such method. Th###s w###ll usually follow a get() command.
 
-driver.manage().timeouts().pageLoadTimeout(500, SECONDS);
+dr###ver.manage().t###meouts().pageLoadT###meout(500, SECONDS);
 
-11) implicitlyWait():  
-implicitlyWait() to set a wait time before searching and locating a web element.
+11) ###mpl###c###tlyWa###t():  
+###mpl###c###tlyWa###t() to set a wa###t t###me before search###ng and locat###ng a web element.
 
-What happens if the Webdriver tries to locate an element before the webpage loads and the element appears? NoSuchElementExeption will be thrown. In order to avoid this, we can add a command to implicitly wait for a certain amount of time before locating the element.
+What happens ###f the Webdr###ver tr###es to locate an element before the webpage loads and the element appears? NoSuchElementExept###on w###ll be thrown. ###n order to avo###d th###s, we can add a command to ###mpl###c###tly wa###t for a certa###n amount of t###me before locat###ng the element.
 
-driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
+dr###ver.manage().t###meouts().###mpl###c###tlyWa###t(1000, T###meUn###t.SECONDS);
 
-12) untill() and visibilityOfElementLocated():  
-untill() from WebdriverWait and visibilityOfElementLocated() from ExpectedConditions to wait explicitly till an element is visible in the webpage.
+12) unt###ll() and v###s###b###l###tyOfElementLocated():  
+unt###ll() from Webdr###verWa###t and v###s###b###l###tyOfElementLocated() from ExpectedCond###t###ons to wa###t expl###c###tly t###ll an element ###s v###s###ble ###n the webpage.
 
-To handle cases where an element takes too much time to be visible on the software web page applying implicit wait becomes tricky. In this case, we can write a comment to wait until the element appears on the webpage.
+To handle cases where an element takes too much t###me to be v###s###ble on the software web page apply###ng ###mpl###c###t wa###t becomes tr###cky. ###n th###s case, we can wr###te a comment to wa###t unt###l the element appears on the webpage.
 
-WebDriverWait wait = new WebDriverWait(driver, 10);  
-WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated  (By.xpath("//input[@id=’name’]")));
+WebDr###verWa###t wa###t = new WebDr###verWa###t(dr###ver, 10);  
+WebElement element = wa###t.unt###l(ExpectedCond###t###ons.v###s###b###l###tyOfElementLocated  (By.xpath("//###nput[@###d=’name’]")));
 
-13) untill() and alertIsPresent():  
-untill() from WebdriverWait and alertIsPresent() from ExpectedConditions to wait explicitly till an alert appears.  
- WebDriverWait wait = new WebDriverWait(driver, 10);  
- WebElement element = wait.until(ExpectedConditions.alertIsPresent());
+13) unt###ll() and alert###sPresent():  
+unt###ll() from Webdr###verWa###t and alert###sPresent() from ExpectedCond###t###ons to wa###t expl###c###tly t###ll an alert appears.  
+ WebDr###verWa###t wa###t = new WebDr###verWa###t(dr###ver, 10);  
+ WebElement element = wa###t.unt###l(ExpectedCond###t###ons.alert###sPresent());
 
-14) getTitle():  
-String title = driver.getTitle();  
-System.out.println(title);
+14) getT###tle():  
+Str###ng t###tle = dr###ver.getT###tle();  
+System.out.pr###ntln(t###tle);
 
 15) Select:  
-Select class for selecting and deselecting values from the drop-down in Selenium WebDriver.
+Select class for select###ng and deselect###ng values from the drop-down ###n Selen###um WebDr###ver.
 
-We often have dropdown related scenarios. Methods from the Select class is used to handle this. We can use selectByVisibleText(),selectByValue() or selectByIndex() according to the scenario.  
- WebElement mySelectedElement = driver.findElement(By.id("select"));  
+We often have dropdown related scenar###os. Methods from the Select class ###s used to handle th###s. We can use selectByV###s###bleText(),selectByValue() or selectBy###ndex() accord###ng to the scenar###o.  
+ WebElement mySelectedElement = dr###ver.f###ndElement(By.###d("select"));  
  Select dropdown= new Select(mySelectedElement);  
- dropdown.selectByVisibleText("Apple");
+ dropdown.selectByV###s###bleText("Apple");
 
- WebElement mySelectedElement = driver.findElement(By.id("select"));  
+ WebElement mySelectedElement = dr###ver.f###ndElement(By.###d("select"));  
  Select dropdown= new Select(mySelectedElement);  
- listbox.selectByIndex(1);
+ l###stbox.selectBy###ndex(1);
 
- WebElement mySelectedElement = driver.findElement(By.id("select"));  
+ WebElement mySelectedElement = dr###ver.f###ndElement(By.###d("select"));  
  Select dropdown= new Select(mySelectedElement);  
  Dropdown.deselectByValue("Apple");
 
- WebElement mySelectedElement = driver.findElement(By.id("select"));  
+ WebElement mySelectedElement = dr###ver.f###ndElement(By.###d("select"));  
  Select dropdown= new Select(mySelectedElement);  
- dropdown.deselectByVisibleText("Apple");
+ dropdown.deselectByV###s###bleText("Apple");
 
- WebElement mySelectedElement = driver.findElement(By.id("select"));  
+ WebElement mySelectedElement = dr###ver.f###ndElement(By.###d("select"));  
  Select dropdown= new Select(mySelectedElement);  
- listbox.deselectByIndex(1);
+ l###stbox.deselectBy###ndex(1);
 
-16) navigate():  
-driver.navigate().to("https://www.softwaretestinghelp.com");  
-driver.navigate().back();  
-driver.navigate().forward();
+16) nav###gate():  
+dr###ver.nav###gate().to("https://www.softwaretest###nghelp.com");  
+dr###ver.nav###gate().back();  
+dr###ver.nav###gate().forward();
 
 17)  getScreenshotAs():  
-File shot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);  
-FileUtils.copyFile(shot, new File("D:\\ shot1.jpg"));
+F###le shot = ((TakesScreenshot)dr###ver).getScreenshotAs(OutputType.F###LE);  
+F###leUt###ls.copyF###le(shot, new F###le("D:\\ shot1.jpg"));
 
 18) moveToElement():   
-moveToElement() from the Actions class to simulate mouse hover effect.
+moveToElement() from the Act###ons class to s###mulate mouse hover effect.
 
-Actions actions = new Actions(driver);  
-WebElement mouseHover = driver.findElement(By.xpath("//div[@id='mainmenu1']/div"));  
-actions.moveToElement(mouseHover);  
-actions.perform();
+Act###ons act###ons = new Act###ons(dr###ver);  
+WebElement mouseHover = dr###ver.f###ndElement(By.xpath("//d###v[@###d='ma###nmenu1']/d###v"));  
+act###ons.moveToElement(mouseHover);  
+act###ons.perform();
 
 19) dragAndDrop():  
-dragAndDrop() from Actions class to drag an element and drop it on another element.
+dragAndDrop() from Act###ons class to drag an element and drop ###t on another element.
 
-WebElement sourceLocator = driver.findElement(By.xpath("//*[@id='image1']/a"));  
-WebElement destinationLocator = driver.findElement(By.xpath("//*[@id='stage']/li"));  
-Actions actions=new Actions(driver);  
-actions.dragAndDrop(sourceLocator, destinationLocator).build().perform();
+WebElement sourceLocator = dr###ver.f###ndElement(By.xpath("//*[@###d='###mage1']/a"));  
+WebElement dest###nat###onLocator = dr###ver.f###ndElement(By.xpath("//*[@###d='stage']/l###"));  
+Act###ons act###ons=new Act###ons(dr###ver);  
+act###ons.dragAndDrop(sourceLocator, dest###nat###onLocator).bu###ld().perform();
 
   
-20) switchTo() and accept(), dismiss() and sendKeys():  
-switchTo() and accept(), dismiss() and sendKeys() methods from Alert class to switch to popup alerts and handle them.
+20) sw###tchTo() and accept(), d###sm###ss() and sendKeys():  
+sw###tchTo() and accept(), d###sm###ss() and sendKeys() methods from Alert class to sw###tch to popup alerts and handle them.
 
- Alert alert = driver.switchTo().alert();  
- alert.sendKeys("This Is Softwaretestinghelp");  
+ Alert alert = dr###ver.sw###tchTo().alert();  
+ alert.sendKeys("Th###s ###s Softwaretest###nghelp");  
  alert.accept()
 
   
-21) getWindowHandle() and getWindowHandles():  
-getWindowHandle() and getWindowHandles() to handle Multiple Windows in Selenium WebDriver.
+21) getW###ndowHandle() and getW###ndowHandles():  
+getW###ndowHandle() and getW###ndowHandles() to handle Mult###ple W###ndows ###n Selen###um WebDr###ver.
 
- String handle= driver.getWindowHandle();  
- Set<String> handle= driver.getWindowHandles();
+ Str###ng handle= dr###ver.getW###ndowHandle();  
+ Set<Str###ng> handle= dr###ver.getW###ndowHandles();
 
- for (String handle : driver.getWindowHandles()){  
- driver.switchTo().window(handle);}
+ for (Str###ng handle : dr###ver.getW###ndowHandles()){  
+ dr###ver.sw###tchTo().w###ndow(handle);}
 
-22) getConnection(): getConnection() from DriverManager to start Database Connection.
+22) getConnect###on(): getConnect###on() from Dr###verManager to start Database Connect###on.
 
- DriverManager.getConnection(URL, "username", "password" )
+ Dr###verManager.getConnect###on(URL, "username", "password" )
 
-23) POI:POI to read from the excel files.
+23) PO###:PO### to read from the excel f###les.
 
-In data driven testing, we often save inputs in excel file and read it. In order to do this in WebDriver, we import POI package and then use the below command.
+###n data dr###ven test###ng, we often save ###nputs ###n excel f###le and read ###t. ###n order to do th###s ###n WebDr###ver, we ###mport PO### package and then use the below command.
 
- Workbook workbook = WorkbookFactory.create(new FileInputStream(file));  
+ Workbook workbook = WorkbookFactory.create(new F###le###nputStream(f###le));  
  Sheet sheet = workbook.getSheetAt(0);
 
 24) assertEquals(),assertNotEquals(), assertTrue() and assertFalse():  
-Asserts using assertEquals(),assertNotEquals(), assertTrue() and assertFalse() to compare the results.
+Asserts us###ng assertEquals(),assertNotEquals(), assertTrue() and assertFalse() to compare the results.
 
-Assertions are used to compare the expected and actual results. Pass or fail of a test is usually decided from the result of assertions.
+Assert###ons are used to compare the expected and actual results. Pass or fa###l of a test ###s usually dec###ded from the result of assert###ons.
 
-Assert.assertEquals(message, “This text”);  
-Assert.assertNotEquals(message, “This text”);  
+Assert.assertEquals(message, “Th###s text”);  
+Assert.assertNotEquals(message, “Th###s text”);  
 Assert.assertTrue(result<0);  
 Assert.assertFalse(result<0);
 
-25) close() and quit()  
-close() and quit() to close windows and driver instances.
+25) close() and qu###t()  
+close() and qu###t() to close w###ndows and dr###ver ###nstances.
 
-These commands are used at the end of every automation program.
+These commands are used at the end of every automat###on program.
 
- driver.close()  
- driver.quit()
+ dr###ver.close()  
+ dr###ver.qu###t()
