@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ziracy/Android - IOS.md",
+                "file": "Ziracy/old files/ADBLOCK.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"Ziracy/\" chat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ziracy/Android - IOS.md",
+                "file": "Ziracy/old files/ADBLOCK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,14 +188,16 @@
   "active": "4c42fbdb48cd1a49",
   "lastOpenFiles": [
     "Ziracy/Adblock - Privacy - Antivirus.md",
+    "Ziracy/old files/ADBLOCK.md",
+    "Ziracy/Android - IOS.md",
+    "Ziracy/old files/ANDROID.md",
+    "Ziracy/Database.md",
     "Ziracy/Tools.md",
     "Ziracy/Linux - MacOS.md",
     "Ziracy/Awesome Piracy.md",
     "Ziracy/Downloading.md",
     "Ziracy/Books - Comics - Manga.md",
-    "Ziracy/Android - IOS.md",
     "Ziracy/Dev.md",
-    "Ziracy/Database.md",
     "Ziracy/Resources.md",
     "Ziracy/Index.md",
     "Testing/Selenium Basic/Chs2.md",
@@ -210,8 +213,6 @@
     "Prompt.md",
     "Bash Command.md",
     "Bash Commands.md",
-    "Code.md",
-    "Testing/Selenium Basic/Assertion.md",
     "JAVASCRIPT/07-events-docs/images/formdata.png",
     "JAVASCRIPT/07-events-docs/images/event-bubbling.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/async-1.png",
