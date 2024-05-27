@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ziracy/Android - IOS.md",
+                "file": "Ziracy/Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Ziracy/\" chat",
+                "query": "path:\"Ziracy/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ziracy/Android - IOS.md",
+                "file": "Ziracy/Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,12 +185,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4c42fbdb48cd1a49",
+  "active": "7a0d0b1c24d0b4a4",
   "lastOpenFiles": [
+    "Ziracy/Android - IOS.md",
     "Ziracy/old files/ANDROID.md",
     "Ziracy/old files/ADBLOCK.md",
     "Ziracy/Adblock - Privacy - Antivirus.md",
-    "Ziracy/Android - IOS.md",
     "Ziracy/Database.md",
     "Ziracy/Tools.md",
     "Ziracy/Linux - MacOS.md",
