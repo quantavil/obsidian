@@ -1,7 +1,31 @@
-### What is Incremental and Iterative Development?
+- [[#Explain Agile Testing? What are the principles of Agile Testing?|Explain Agile Testing? What are the principles of Agile Testing?]]
+- [[#What are advantages and disadvantages of Agile Process.|What are advantages and disadvantages of Agile Process.]]
+- [[#Agile vs Waterfall|Agile vs Waterfall]]
+- [[#QA Methodologies|QA Methodologies]]
+- [[#SDLC (Software Development Life Cycle)|SDLC (Software Development Life Cycle)]]
+- [[#STLC (Software Testing Life Cycle)|STLC (Software Testing Life Cycle)]]
+- [[#Defect Life Cycle|Defect Life Cycle]]
+- [[#Key Features of SoapUI:|Key Features of SoapUI:]]
+- [[#Steps for API Testing with SoapUI:|Steps for API Testing with SoapUI:]]
+	- [[#Steps for API Testing with SoapUI:#1. Installing SoapUI:|1. Installing SoapUI:]]
+	- [[#Steps for API Testing with SoapUI:#2. Creating a New Project:|2. Creating a New Project:]]
+	- [[#Steps for API Testing with SoapUI:#3. Adding an API Endpoint:|3. Adding an API Endpoint:]]
+	- [[#Steps for API Testing with SoapUI:#4. Creating Test Requests:|4. Creating Test Requests:]]
+	- [[#Steps for API Testing with SoapUI:#5. Configuring Assertions:|5. Configuring Assertions:]]
+	- [[#Steps for API Testing with SoapUI:#6. Running the Test:|6. Running the Test:]]
+	- [[#Steps for API Testing with SoapUI:#Example: Testing a REST API with SoapUI|Example: Testing a REST API with SoapUI]]
+	- [[#Steps for API Testing with SoapUI:#Example Response:|Example Response:]]
+	- [[#Steps for API Testing with SoapUI:#Adding Assertions:|Adding Assertions:]]
+- [[#Functional vs Automation|Functional vs Automation]]
+- [[#Functional vs Automation#Functional Testing|Functional Testing]]
+	- [[#Functional Testing#Key Aspects of Functional Testing:|Key Aspects of Functional Testing:]]
+	- [[#Functional Testing#Example of Functional Testing:|Example of Functional Testing:]]
+- [[#Functional vs Automation#Automation Testing|Automation Testing]]
+	- [[#Automation Testing#Key Aspects of Automation Testing:|Key Aspects of Automation Testing:]]
+	- [[#Automation Testing#Example of Automation Testing:|Example of Automation Testing:]]
+- [[#Functional vs Automation#Summary|Summary]]
 
-**Iterative Development:** It is basically a software development process where software development cycles (sprint and releases) are repeated until the final product is obtained. On the basis of feedback from customers or users, the product is again developed in cycles or releases and sprints i.e., adding new functionality in a repetitive manner.   
-**Incremental Development:** It is basically a software development process where development works are sliced into increments or pieces or portions. In this, the software is developed and delivered in pieces or increments and each piece has a complete set of functionalities. The increment can either be small or large, and each increment is coded and tested fully. After testing each increment, they all are integrated so that they work as a whole
+
 ![[Pasted image 20240530144333.png]]
 ![[Pasted image 20240530144346.png]]### What do you mean by refactoring?
 
@@ -273,3 +297,129 @@ Let's go through an example of testing a REST API using SoapUI.
 
 By following these steps, you can effectively use SoapUI to test REST APIs, ensuring they function correctly and meet the specified requirements. The same principles apply to SOAP API testing, with the primary difference being the use of WSDL for defining the service interface.
 
+## Functional vs Automation
+### Functional Testing
+
+**Functional Testing** is a type of software testing that validates the software system against the functional requirements/specifications. The purpose is to ensure that the software behaves as expected and performs all its intended functions correctly.
+
+#### Key Aspects of Functional Testing:
+1. **Requirements-based Testing:**
+   - Tests are based on the functional requirements specified in the software documentation.
+2. **User-focused:**
+   - Ensures that the application provides the desired functionalities to the end user.
+3. **Black Box Testing:**
+   - Testers do not need to know the internal code structure; they focus on input and output.
+
+#### Example of Functional Testing:
+Let's say you are testing a login feature of a web application.
+
+**Steps:**
+1. **Test Case: Verify the login with valid credentials**
+   - **Input:**
+     - Username: `validUser`
+     - Password: `validPassword`
+   - **Expected Output:**
+     - The user should be redirected to the dashboard page.
+
+2. **Test Case: Verify the login with invalid credentials**
+   - **Input:**
+     - Username: `invalidUser`
+     - Password: `invalidPassword`
+   - **Expected Output:**
+     - An error message should be displayed, stating "Invalid username or password."
+
+3. **Test Case: Verify the login with empty fields**
+   - **Input:**
+     - Username: ``
+     - Password: ``
+   - **Expected Output:**
+     - An error message should be displayed, stating "Username and password are required."
+
+### Automation Testing
+
+**Automation Testing** is a software testing technique that uses automated tools and scripts to perform tests. It aims to reduce the time and effort involved in manual testing by executing repetitive test cases automatically.
+
+#### Key Aspects of Automation Testing:
+1. **Script-based:**
+   - Test cases are written in a programming or scripting language and executed using an automation tool.
+2. **Efficiency:**
+   - Significantly reduces testing time, especially for regression and load testing.
+3. **Repeatability:**
+   - Ensures consistent test execution, reducing the likelihood of human error.
+
+#### Example of Automation Testing:
+Using Selenium WebDriver with Java to automate the login feature of a web application.
+
+**Steps:**
+1. **Setup the Selenium WebDriver environment:**
+   - Install Java, Selenium WebDriver, and a suitable IDE (e.g., Eclipse).
+
+2. **Write the automation script:**
+
+```java
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LoginTest {
+    public static void main(String[] args) {
+        // Set the path to the ChromeDriver executable
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        
+        // Initialize a ChromeDriver instance
+        WebDriver driver = new ChromeDriver();
+        
+        // Navigate to the login page
+        driver.get("https://example.com/login");
+        
+        // Find the username and password fields and the login button
+        WebElement usernameField = driver.findElement(By.id("username"));
+        WebElement passwordField = driver.findElement(By.id("password"));
+        WebElement loginButton = driver.findElement(By.id("loginButton"));
+        
+        // Input valid credentials and click the login button
+        usernameField.sendKeys("validUser");
+        passwordField.sendKeys("validPassword");
+        loginButton.click();
+        
+        // Verify the user is redirected to the dashboard
+        String expectedUrl = "https://example.com/dashboard";
+        String actualUrl = driver.getCurrentUrl();
+        
+        if (actualUrl.equals(expectedUrl)) {
+            System.out.println("Login test passed.");
+        } else {
+            System.out.println("Login test failed.");
+        }
+        
+        // Close the browser
+        driver.quit();
+    }
+}
+```
+
+**Explanation:**
+1. **Setup:**
+   - The script sets the path to the ChromeDriver executable and initializes a ChromeDriver instance to control the browser.
+
+2. **Navigation:**
+   - The script navigates to the login page of the web application.
+
+3. **Interaction:**
+   - The script finds the username and password input fields and the login button using their HTML element IDs.
+   - It inputs valid credentials and clicks the login button.
+
+4. **Verification:**
+   - The script checks the URL of the current page to verify that the user has been redirected to the dashboard.
+
+5. **Cleanup:**
+   - The script closes the browser.
+
+By automating this test case, you can quickly and repeatedly verify the login functionality, ensuring that changes in the application do not break the expected behavior.
+
+### Summary
+- **Functional Testing** ensures that software functions as intended based on requirements, often performed manually.
+- **Automation Testing** uses scripts and tools to automate repetitive tests, enhancing efficiency and accuracy. 
+
+Both types of testing are crucial for delivering high-quality software.
