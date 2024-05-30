@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ziracy/Database.md",
+                "file": "Ziracy/old files/ANDROID.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Ziracy/\" ",
+                "query": "path:\"Ziracy/\" discord",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ziracy/Database.md",
+                "file": "Ziracy/old files/ANDROID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,13 +185,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7a0d0b1c24d0b4a4",
+  "active": "4c42fbdb48cd1a49",
   "lastOpenFiles": [
+    "Ziracy/Adblock - Privacy - Antivirus.md",
+    "Ziracy/old files/ADBLOCK.md",
+    "Ziracy/Database.md",
     "Ziracy/Android - IOS.md",
     "Ziracy/old files/ANDROID.md",
-    "Ziracy/old files/ADBLOCK.md",
-    "Ziracy/Adblock - Privacy - Antivirus.md",
-    "Ziracy/Database.md",
     "Ziracy/Tools.md",
     "Ziracy/Linux - MacOS.md",
     "Ziracy/Awesome Piracy.md",
