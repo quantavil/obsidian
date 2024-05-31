@@ -8,4 +8,4 @@ Furthermore, I have done project SoapUI API Testing, handling various methods su
 
 Previously, I have contributed to projects involving Web Application Testing, conducting comprehensive assessments on platforms including Essence Bank, Food Delivery, and Travel Booking applications. Additionally, my involvement in API Testing 
 
-I am enthusiastic about the prospect of collaborating on this project within our company, leveraging my skills and experiences to drive success. Thank you for considering my candidacy, and I look forward to further discussing how I can contribute to our team's objectives.
+I am enthusiastic leveraging my skills  and I look forward to further discussing how I can contribute to our team's objectives.
