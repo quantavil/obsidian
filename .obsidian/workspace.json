@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AA/Java.md",
+                "file": "AA/DBMS Interview 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AA/Java.md",
+                "file": "AA/DBMS Interview 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,10 +159,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d999e0d9806992b3",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
-    "Interview.md",
+    "DBMS Interview.md",
+    "AA/DBMS Interview 1.md",
     "AA/Java.md",
+    "Interview.md",
     "Testing/Agile Methodology/Introduction to Agile.md",
     "Vocab/Tense.md",
     "Ziracy/Index.md",
@@ -189,8 +191,6 @@
     "Ziracy/Resources.md",
     "Testing/Selenium Basic/Chs2.md",
     "Testing/Selenium Basic/CheatSheet.md",
-    "Testing/Selenium Basic/wdf.md",
-    "Testing/Selenium Basic/3 - Test Script Enhancement.md",
     "JAVASCRIPT/07-events-docs/images/formdata.png",
     "JAVASCRIPT/07-events-docs/images/event-bubbling.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/async-1.png",

@@ -129,23 +129,9 @@ When the method name and parameters are the same in the superclass and the child
 
 ---
 
-## What is Constructor ?
+### What is Constructor ?
 Constructors are **generally used for instantiating an object**, It is a method that is called when an object is created. 
-### OOPs
 
-The Object-Oriented Programming (OOP) concept is based on four main principles:
-
-1. **Encapsulation**: This principle refers to bundling the data (attributes) and methods (functions) that operate on the data into a single unit, known as a class. It also involves restricting direct access to some of the object's components, which is typically done through access modifiers like private, protected, and public. Encapsulation helps in protecting the integrity of the data.
-
-2. **Inheritance**: Inheritance allows a new class (subclass or derived class) to inherit properties and behaviors (methods) from an existing class (superclass or base class). This promotes code reuse and establishes a natural hierarchy between classes. The subclass can also override or extend the behaviors of the superclass.
-
-3. **Polymorphism**: Polymorphism enables a single entity to take multiple forms. In OOP, it typically refers to the ability of different classes to be treated as instances of the same class through inheritance. There are two types of polymorphism:
-   - **Compile-time (or static) polymorphism**: Achieved through method overloading.
-   - **Runtime (or dynamic) polymorphism**: Achieved through method overriding.
-
-4. **Abstraction**: Abstraction involves hiding the complex implementation details and showing only the essential features of the object. It simplifies the interaction with the object by exposing only what is necessary. Abstract classes and interfaces are commonly used to achieve abstraction in OOP.
-
-These principles help in creating modular, reusable, and maintainable code.
 
 ### What are the default values assigned to variables and instances in java?
 
@@ -179,26 +165,84 @@ public Hospital(double salaries) {
 }
 ```
 
-### Comment on method overloading and overriding by citing relevant examples.
+### Method overloading and method overriding 
 
-Method overloading is a feature in Java that allows a class to have multiple methods with the same name but with different parameters. This means that methods within a class can have the same name, as long as their parameter lists (number, type, or order of parameters) are different.
+1. **Method Overloading**:
+   - Method overloading occurs when multiple methods in the same class have the same name but different parameter lists (number, type, or order of parameters).
+   - It allows a class to have several methods with the same name, each providing different functionality based on the parameters they accept.
+   - Method overloading is determined at compile time (static polymorphism).
+   - Example:
+
 ```java
-class OverloadingHelp {
-   public int findarea (int l, int b) {
-           int var1;
-           var1 = l * b;
-           return var1;
-   }
-   public int findarea (int l, int b, int h) {
-           int var2;
-           var2 = l * b * h;
-           return var2;
-   }
+public class Calculator {
+    // Method to add two integers
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    // Method to add three integers (overloaded version)
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
 }
 ```
 
+2. **Method Overriding**:
+   - Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its superclass.
+   - It allows a subclass to provide its own implementation of a method inherited from the superclass, thus modifying or extending its behavior.
+   - Method overriding is determined at runtime (dynamic polymorphism).
+   - Example:
+
+```java
+public class Animal {
+    // Method to make a sound
+    public void makeSound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+public class Dog extends Animal {
+    // Method overriding to provide specific implementation for Dog
+    @Override
+    public void makeSound() {
+        System.out.println("Dog barks");
+    }
+}
+```
+
+In summary, method overloading allows multiple methods with the same name but different parameters within the same class, while method overriding allows a subclass to provide its own implementation of a method inherited from a superclass.
 ### Class, Object, Constructor
 
 class in Java is a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of the class will have.
 **object** is an instance of a class representing a real-world entity, 
-constructor is a special type of method in Java that is automatically called when an object of a class is created. It
+constructor is a special type of method in Java that is automatically called when an object of a class is created. 
+
+### Explain the use of final keyword in variable, method and class.
+
+In Java, the final keyword is used as defining something as constant /final and represents the non-access modifier.
+
+- **final variable:**
+    - When a variable is declared as final in Java, the value can’t be modified once it has been assigned.
+    - If any value has not been assigned to that variable, then it can be assigned only by the constructor of the class.
+- **final method:**
+    - A method declared as final cannot be overridden by its children's classes.
+    - A constructor cannot be marked as final because whenever a class is inherited, the constructors are not inherited. Hence, marking it final doesn't make sense. Java throws compilation error saying - `modifier final not allowed here`
+- **final class:**
+    - No classes can be inherited from the class declared as final. But that final class can extend other classes for its usage
+
+### Super
+
+The `super` keyword in Java is used to refer to the superclass (parent class) of the current class. It can be used in the following ways:
+
+1. **Accessing superclass members**: 
+   - `super.method()` - Calls a method from the superclass.
+   - `super.variable` - Accesses a variable from the superclass.
+
+2. **Constructor chaining**: 
+   - `super()` - Calls the superclass constructor. This must be the first statement in a subclass constructor.
+
+3. **Accessing overridden methods or variables**: 
+   - `super.method()` - Calls the overridden method in the superclass.
+   - `super.variable` - Accesses the overridden variable in the superclass.
+
+Overall, the `super` keyword provides a way to access superclass members and constructors, allowing for code reuse and providing flexibility in class hierarchies.
