@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dbba2a70423cd8d2",
+        "id": "8351576b99e1a1b9",
         "type": "tabs",
         "children": [
           {
-            "id": "d999e0d9806992b3",
+            "id": "a845949828dfdc27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AA/DBMS Interview 1.md",
+                "file": "AA/Automation.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,6 +58,18 @@
             }
           },
           {
+            "id": "d999e0d9806992b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AA/interview Infosys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4e2bf291c6cc47bb",
             "type": "leaf",
             "state": {
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AA/DBMS Interview 1.md",
+                "file": "AA/Automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -159,10 +171,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "71797450e7203770",
+  "active": "a845949828dfdc27",
   "lastOpenFiles": [
-    "DBMS Interview.md",
+    "AA/Automation.md",
+    "AA/interview Infosys.md",
+    "Untitled 4.md",
+    "Untitled 3.md",
     "AA/DBMS Interview 1.md",
+    "Untitled.canvas",
+    "DBMS Interview.md",
     "AA/Java.md",
     "Interview.md",
     "Testing/Agile Methodology/Introduction to Agile.md",
@@ -172,7 +189,6 @@
     "Untitled 2.md",
     "AA",
     "Untitled",
-    "interview Infosys.md",
     "Interview questions.md",
     "Untitled.md",
     "Attachments/Pasted image 20240530144346.png",
@@ -188,9 +204,6 @@
     "Ziracy/Downloading.md",
     "Ziracy/Books - Comics - Manga.md",
     "Ziracy/Dev.md",
-    "Ziracy/Resources.md",
-    "Testing/Selenium Basic/Chs2.md",
-    "Testing/Selenium Basic/CheatSheet.md",
     "JAVASCRIPT/07-events-docs/images/formdata.png",
     "JAVASCRIPT/07-events-docs/images/event-bubbling.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/async-1.png",
@@ -207,7 +220,6 @@
     "JAVASCRIPT/17-modules-and-tooling-docs/images",
     "JAVASCRIPT/12-flixx-app-project-docs/images",
     "JAVASCRIPT/11-fetch-api-async-await-docs/images",
-    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }
