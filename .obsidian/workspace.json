@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AA/Agile.md",
+                "file": "AA/Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AA/Agile.md",
+                "file": "AA/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,8 +173,9 @@
   },
   "active": "a845949828dfdc27",
   "lastOpenFiles": [
-    "AA/Automation.md",
     "AA/Agile.md",
+    "AA/Intro.md",
+    "AA/Automation.md",
     "Untitled 4.md",
     "Untitled 3.md",
     "AA/DBMS Interview 1.md",
@@ -203,7 +204,6 @@
     "Ziracy/Awesome Piracy.md",
     "Ziracy/Downloading.md",
     "Ziracy/Books - Comics - Manga.md",
-    "Ziracy/Dev.md",
     "JAVASCRIPT/07-events-docs/images/formdata.png",
     "JAVASCRIPT/07-events-docs/images/event-bubbling.png",
     "JAVASCRIPT/10-asynchronous-javascript-docs/images/async-1.png",
