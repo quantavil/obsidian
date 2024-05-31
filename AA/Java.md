@@ -34,3 +34,49 @@ These principles help in creating modular, reusable, and maintainable code.
 ### What are the default values assigned to variables and instances in java?
 
 There are no default values assigned to the variables in java. We need to initialize the value before using it. Otherwise, it will throw a compilation error of (**Variable might not be initialized**).
+
+### equals() vs ==
+
+| equals()                                                                                                           | ==                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| This is a method defined in the Object class.                                                                      | It is a binary operator in Java.                                                                                                        |
+| This method is used for checking the equality of contents between two objects as per the specified business logic. | This operator is used for comparing addresses (or references), i.e checks if both the objects are pointing to the same memory location. |
+
+### Briefly explain the concept of constructor overloading
+
+Constructor overloading is the process of creating multiple constructors in the class consisting of the same name with a difference in the constructor parameters. Depending upon the number of parameters and their corresponding types, distinguishing of the different types of constructors is done by the compiler.
+
+```java
+class Hospital {
+int variable1, variable2;
+double variable3;
+public Hospital(int doctors, int nurses) {
+ variable1 = doctors;
+ variable2 = nurses;
+}
+public Hospital(int doctors) {
+ variable1 = doctors;
+}
+public Hospital(double salaries) {
+ variable3 = salaries
+}
+}
+```
+
+### Comment on method overloading and overriding by citing relevant examples.
+
+Method overloading is a feature in Java that allows a class to have multiple methods with the same name but with different parameters. This means that methods within a class can have the same name, as long as their parameter lists (number, type, or order of parameters) are different.
+```java
+class OverloadingHelp {
+   public int findarea (int l, int b) {
+           int var1;
+           var1 = l * b;
+           return var1;
+   }
+   public int findarea (int l, int b, int h) {
+           int var2;
+           var2 = l * b * h;
+           return var2;
+   }
+}
+```
