@@ -36,5 +36,5 @@ Here are some common types of automation testing:
 
 6. **Cross-Browser Testing**: Cross-browser testing involves testing the compatibility of the software application across different web browsers and browser versions. Automation tools like Selenium WebDriver and TestComplete support cross-browser testing by allowing testers to automate test scripts and execute them across multiple browsers simultaneously, ensuring consistent behavior and user experience.
 
-7. **Mobile Testing**: Mobile testing involves testing the functionality, usability, and performance of mobile applications across various devices, operating systems, and screen sizes. Automation tools like Appium, Espresso, and XCTest are used to automate interactions with mobile apps, simulate user actions, and validate their behavior across different mobile platforms.
+7. **Mobile Testing**: Mobile testing involves testing the functionality, usability, and performance of mobile applications across various devices, operating systems, and screen sizes.
 
