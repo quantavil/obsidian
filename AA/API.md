@@ -114,3 +114,5 @@ API security testing is the practice of evaluating the security posture of an AP
 ### 50. How do you prioritize API test cases for regression testing?
 
 Prioritizing API test cases for regression testing can be based on the criticality of APIs, impact on business functionalities, frequency of API usage, and feedback from stakeholders.
+
+difference bet
