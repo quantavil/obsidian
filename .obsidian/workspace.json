@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AA/Agile.md",
+                "file": "AA/Java.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AA/Agile.md",
+                "file": "AA/Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a845949828dfdc27",
+  "active": "71797450e7203770",
   "lastOpenFiles": [
     "AA/Untitled.md",
     "AA/Agile.md",
