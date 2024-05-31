@@ -129,3 +129,4 @@ The Defect Life Cycle, also known as Bug Life Cycle, is the process through whic
 implicit wait vs explicit wait
 types of button
 driver.close vs driver.quit
+
