@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AA/Automation.md",
+                "file": "AA/Agile.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AA/interview Infosys.md",
+                "file": "AA/Agile.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AA/Automation.md",
+                "file": "AA/Agile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
   "active": "a845949828dfdc27",
   "lastOpenFiles": [
     "AA/Automation.md",
-    "AA/interview Infosys.md",
+    "AA/Agile.md",
     "Untitled 4.md",
     "Untitled 3.md",
     "AA/DBMS Interview 1.md",
