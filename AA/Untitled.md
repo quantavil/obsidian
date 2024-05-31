@@ -126,7 +126,3 @@ The Defect Life Cycle, also known as Bug Life Cycle, is the process through whic
 6. **Deferred:**
    - In some cases, a defect may be deferred to a future release if it is not critical for the current release.
 
-implicit wait vs explicit wait
-types of button
-driver.close vs driver.quit
-
