@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AA/Automation.md",
+                "file": "AA/Java.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AA/Automation.md",
+                "file": "AA/Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,12 +173,12 @@
   },
   "active": "a845949828dfdc27",
   "lastOpenFiles": [
+    "AA/Automation.md",
     "AA/Java.md",
     "AA/Intro.md",
     "AA/Untitled 1.md",
     "AA/Untitled.md",
     "AA/DBMS Interview 1.md",
-    "AA/Automation.md",
     "Testing/Selenium Basic/wdf.md",
     "Testing/Selenium Basic/Chs2.md",
     "Testing/Selenium Basic/CheatSheet.md",
